@@ -1,11 +1,11 @@
 """
-PyInstaller build script for Shape of Dreams Build Analyzer.
+PyInstaller build script for Shape of Dreams Build Planner.
 
 Usage:
     python build_exe.py
 
 Output:
-    dist/ARPGBuilds/  - folder with .exe and all dependencies
+    dist/SODBuildPlanner/  - folder with .exe and all dependencies
     Zip this folder for distribution.
 """
 
@@ -20,7 +20,7 @@ def build():
     # PyInstaller args
     args = [
         sys.executable, "-m", "PyInstaller",
-        "--name", "ARPGBuilds",
+        "--name", "SODBuildPlanner",
         "--noconfirm",
         "--clean",
         # Onedir mode (faster startup, fewer AV false positives)
@@ -46,14 +46,14 @@ def build():
         str(project_root / "app.py"),
     ]
 
-    print("Building ARPGBuilds executable...")
+    print("Building SODBuildPlanner executable...")
     print(f"Command: {' '.join(args)}")
     print()
 
     result = subprocess.run(args, cwd=str(project_root))
 
     if result.returncode == 0:
-        dist_path = project_root / "dist" / "ARPGBuilds"
+        dist_path = project_root / "dist" / "SODBuildPlanner"
         print()
         print("=" * 60)
         print("BUILD SUCCESSFUL!")
@@ -62,7 +62,7 @@ def build():
         print("To distribute:")
         print(f"  1. ZIP the folder: {dist_path}")
         print("  2. Share the ZIP file")
-        print("  3. Recipients extract and run ARPGBuilds.exe")
+        print("  3. Recipients extract and run SODBuildPlanner.exe")
         print("  4. User-created builds are saved in custom_builds/ next to the exe")
         print("=" * 60)
     else:

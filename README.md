@@ -8,7 +8,7 @@ A desktop build planner for **Shape of Dreams**, an ARPG game. Browse 94 optimiz
 
 1. Download the ZIP from Releases
 2. Extract the folder
-3. Run `ARPGBuilds.exe`
+3. Run `SODBuildPlanner.exe`
 
 ## Features
 
