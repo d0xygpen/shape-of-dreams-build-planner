@@ -1,0 +1,825 @@
+{
+  "character": "Lacerta",
+  "builds": [
+    {
+      "name": "Maximum Damage Sniper Hunter",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and Crimson + Fangs for aligned 4th-attack burst",
+      "playstyle": "High-damage ranged assassin that scales infinitely with kills while triggering devastating 4th-attack explosions",
+      "memories": [
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks). Domination scales crit damage with each crit (22pt synergy with Faith). Predation increases damage to bosses by 60% and drops Orbs of Power for permanent stat increases"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith). Clemency provides 4% leech from all damage. Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Fangs",
+            "Essence of Voracity"
+          ],
+          "rationale": "Crimson empowers every 4th attack with 100% Dark explosion and 22% healing (aligned with Fangs, ~18pts). Fangs guarantees crits and reduces cooldown (synergy with Domination, 18pts). Voracity restores health"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of the Starry Sky",
+            "Essence of Wind",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Starry Sky increases attack speed up to 40% with dark damage. Wind boosts attack speed by 33% for 5 seconds. Efficiency reduces cooldowns"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - barrier protection and crowd control snowballs"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage (Lacerta-specific)",
+          "Loading Mastery (max level) - +14% Attack Speed (Lacerta-specific)",
+          "Improvised Scope (max level) - +1.5m Attack Range (Lacerta-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed for 1.5s after Dodge (Lacerta-specific)",
+          "Lizard Oil (max level) - Dodge cooldown +0.5s, +1 charge (Lacerta-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Wild Monster Hunter (max level) - +75 Gold per Boss defeat (Lacerta-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles, +50% damage (Lacerta-specific, requires Hand Cannon memory)"
+        ]
+      },
+      "strategy": "Hand Cannon with Divine Faith + Domination is the highest synergy pair (22pts), scaling both kill-based damage/health AND crit damage infinitely. Perfection on Quick Draw adds another 18pt synergy with Faith. Predation gives 60% boss damage plus permanent stat orbs. The key improvement: Laceration now carries Crimson + Fangs for aligned 4th-attack procs. Every 4th basic attack is a guaranteed crit (Fangs) that also triggers a 100% Dark explosion healing 22% per enemy (Crimson). This creates devastating burst every few hits while Domination infinitely scales the crit damage from Fangs (another 18pt synergy). Starry Sky on Incendiary Rounds stacks attack speed up to 40% from dark damage (Crimson explosions are Dark). Focus on eliminating enemies quickly to stack Divine Faith while triggering 4th-attack burst cycles.",
+      "strengths": [
+        "Divine Faith + Domination dual infinite scaling (22pt synergy)",
+        "Perfection + Divine Faith universal scaling (18pt synergy)",
+        "Crimson + Fangs aligned 4th-attack procs (~18pt synergy)",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "60% increased boss damage through Predation",
+        "Multiple healing sources (Crimson explosions, Clemency, Voracity)"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences",
+        "Positioning important for optimal ranged damage"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Sniper Hunter",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects with triple 4th-attack procs for maximum DPS",
+      "playstyle": "Spam basic attacks continuously, triggering triple 4th-attack effects (Fangs crit + Crimson explosion + Shock lightning) with every 4th hit",
+      "memories": [
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack. Fangs makes every 4th attack a crit (reducing cooldown by 0.7s) and launches 2 Fangs dealing 60% damage each. Shock empowers every 4th attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        },
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of Crimson"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting. Wind increases attack speed by 33% for 5 seconds. Crimson empowers every 4th attack with dark explosion (100% dark damage, aligned with Fangs + Shock, ~18pts) and heals 22% per enemy hit"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Composure",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage. Composure increases crit chance by 30% for 5s after casting. Efficiency reduces cooldown by 26% for more frequent casts"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of Domination",
+            "Essence of the Starry Sky",
+            "Essence of Panic"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely (18pt synergy with Fangs). Starry Sky increases attack speed up to 40% with dark damage. Panic provides haste and mobility on damage"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage (Lacerta-specific)",
+          "Lizard's Intellect (max level) - +10 Ability Power (Lacerta-specific)",
+          "Loading Mastery (max level) - +14% Attack Speed (Lacerta-specific)",
+          "Improvised Scope (max level) - +1.5m Attack Range (Lacerta-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed for 1.5s after Dodge (Lacerta-specific)",
+          "Lizard Oil (max level) - Dodge cooldown +0.5s, +1 charge (Lacerta-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Skilled Negotiator (max level) - -25% Merchant item prices (Lacerta-specific)",
+          "Wild Monster Hunter (max level) - +75 Gold per Boss defeat (Lacerta-specific)",
+          "Rewarding Collection (max level) - +12 Gold and Dream Dust from breaking Shards (Lacerta-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles, +50% damage (Lacerta-specific, requires Hand Cannon memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Quick Draw's cooldown by 0.4 seconds through Momentum. Every 4th attack triggers a TRIPLE proc: guaranteed crit (Fangs) that launches 2 Fang projectiles + Shock lightning (40% light damage, bounces) + Crimson explosion (100% dark damage, 22% healing per enemy). This triple 4th-attack synergy is devastating. Domination scales crit damage infinitely with each Fangs-guaranteed crit (18pt synergy). Starry Sky stacks attack speed up to 40% from Crimson's dark damage. Cast Hand Cannon frequently for Voracity healing and Wind attack speed boost. Clemency provides 4% leech. Composure adds 30% crit chance for 5s after casting Laceration. Simply hold down basic attack - every hit heals, reduces cooldowns, and every 4th hit unleashes fangs, lightning, and dark explosion simultaneously.",
+      "strengths": [
+        "Triple 4th-attack proc: Fangs crit + Shock lightning + Crimson explosion",
+        "Domination + Fangs infinite crit scaling (18pt synergy)",
+        "Crimson + Fangs aligned proc synergy (~18pt)",
+        "Multiple healing sources (Crimson explosions, Voracity, Clemency leech)",
+        "Extremely high attack speed (Wind + Starry Sky + Hurricane)",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Positioning important for optimal explosion hits",
+        "Lower single-target burst than ability-focused builds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Execution Sniper",
+      "concept": "Execute-focused build using Essence of Contempt to deal massive damage to low-health targets, combined with Lethality for full-health burst and Finality for off-cooldown stacking",
+      "playstyle": "Burst assassin that excels at both opening engagements (Lethality) and finishing enemies (Contempt), with Finality stacking damage while off cooldown",
+      "memories": [
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Essence of Contempt",
+            "Essence of Lethality",
+            "Essence of Finality"
+          ],
+          "rationale": "Contempt increases damage as target health decreases (up to 50% at low health). Lethality provides 60% increased damage to full-health enemies for opening shots. Finality builds stacks while off cooldown (up to 20 = 100% damage increase)"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Wind"
+          ],
+          "rationale": "Domination + Fangs crit scaling synergy (18pts). Domination increases crit chance by 20% and scales crit damage infinitely. Fangs guarantees 4th-attack crits. Wind boosts attack speed by 33%"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Clemency",
+            "Essence of Composure"
+          ],
+          "rationale": "Momentum reduces cooldowns with basic attacks. Clemency provides 4% leech for sustain. Composure provides 30% crit chance for 5s after casting"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of Predation",
+            "Essence of Voracity",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Predation adds 60% boss damage and drops stat orbs. Voracity provides healing after casting. Efficiency reduces cooldowns by 26%"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stat boosts to amplify both opening burst and execution damage"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage",
+          "Loading Mastery (max level) - +14% Attack Speed",
+          "Improvised Scope (max level) - +1.5m Attack Range for safer execution",
+          "Aggressive Stance (max level) - +8 Attack Damage",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Powerful Blow (max level) - +24% Critical Strike Damage",
+          "Valiant Challenger (max level) - +16% damage to Bosses"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge for repositioning",
+          "Lizard Oil (max level) - Extra dodge charge for escape",
+          "Combat First Aid (max level) - +2.50% Max Health on kill",
+          "Empowered Persistence (max level) - +120 Maximum Health"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Wild Monster Hunter (max level) - +75 Gold per Boss defeat"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles, +50% damage"
+        ]
+      },
+      "strategy": "Open fights with Hand Cannon on full-health targets to proc Lethality's 60% damage bonus. Finality builds up to 20 stacks while Hand Cannon is off cooldown, adding up to 100% bonus damage on the next empowered cast. As enemies drop in health, Contempt kicks in providing up to 50% increased damage. Quick Draw with Domination + Fangs (18pt synergy) ensures crits scale infinitely. Composure on Laceration adds 30% crit chance for 5s after casting for burst windows. Against bosses, Predation provides 60% damage bonus plus Valiant Challenger's 16%. The build excels at bursting priority targets with the Lethality + Finality opener, then snowballing through adds with Contempt execution damage.",
+      "strengths": [
+        "Massive burst: Lethality 60% + Finality up to 100% on opener",
+        "Execution damage: Contempt provides up to 50% at low health",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Excellent boss damage (Predation 60% + Valiant Challenger 16%)",
+        "Good sustain through Clemency leech"
+      ],
+      "weaknesses": [
+        "Requires target switching to maximize Lethality and Contempt",
+        "Less effective against single tanky targets without adds",
+        "Cooldown dependent for Finality stacking",
+        "Positioning critical for safe execution range"
+      ]
+    },
+    {
+      "name": "Inferno Ranger",
+      "concept": "Fire damage specialist using Eternal Flame + Eye of the Sun + Fever for the chain explosion fire loop, with Embertail for ricochet spread",
+      "playstyle": "Apply burn stacks to enemies and watch them chain-detonate as Fever explosions spread more burns that Eye of the Sun amplifies",
+      "memories": [
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Eternal Flame",
+            "Eye of the Sun",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Eternal Flame applies burn curse scaling damage by 2% per stack infinitely. Eye of the Sun rains Solar Light every 20s adding 9 burn stacks to all burning enemies (20pt synergy with Eternal Flame). Sulfur converts all damage to fire and increases DoT by 50%"
+        },
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Embertail",
+            "Essence of Fever",
+            "Essence of Charcoal"
+          ],
+          "rationale": "Embertail adds ricochet fire damage and scales 8% per burning enemy (20pt synergy with Eternal Flame for burn spread). Fever creates chain explosions scaling with burn stacks (~22pt synergy with Eternal Flame). Charcoal fires 100% Fire shards at burning targets"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Wind",
+            "Essence of Fangs"
+          ],
+          "rationale": "Momentum reduces cooldowns with attacks. Wind boosts attack speed for faster burn application. Fangs provides crits and cooldown reduction"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Efficiency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Clemency provides leech from fire damage. Efficiency reduces cooldowns. Voracity provides healing after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify fire damage output"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Barrier protection and crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage",
+          "Crimson Flame (max level) - +45% Burn damage (CRITICAL for this build)",
+          "Hurricane (max level) - +10.5% Attack Speed for faster burn application",
+          "Aggressive Stance (max level) - +8 Attack Damage",
+          "Valiant Challenger (max level) - +16% damage to Bosses"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge",
+          "Lizard Oil (max level) - Extra dodge charge",
+          "Empowered Persistence (max level) - +120 Maximum Health",
+          "Combat First Aid (max level) - +2.50% Max Health on kill"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Skilled Negotiator (max level) - -25% Merchant prices"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles for more burn spread"
+        ]
+      },
+      "strategy": "Use Incendiary Rounds to apply initial burns with Eternal Flame's curse. Each burn application increases damage by 2% per stack, stacking infinitely. Eye of the Sun rains Solar Light every 20 seconds on ALL burning enemies, adding 9 burn stacks each (20pt synergy with Eternal Flame). Hand Cannon with Embertail spreads fire through ricochet (another 20pt synergy with Eternal Flame for burn spread). Fever on Hand Cannon creates the devastating chain explosion loop (~22pt): when Hand Cannon deals fire damage to burning enemies, they get infected and explode after 2 seconds for 130% Fire damage, with radius and damage scaling per burn stack. Sulfur adds 50% Fire DoT stacking with Embertail's 100% for 150% total. Charcoal fires additional fire shards at burning targets. Crimson Flame constellation adds another 45% burn damage. The triple synergy of Eternal Flame + Eye of the Sun + Fever creates escalating chain reactions.",
+      "strengths": [
+        "Triple fire synergy: Eternal Flame + Eye of the Sun + Fever",
+        "Eternal Flame + Eye of the Sun (20pt synergy)",
+        "Eternal Flame + Embertail burn spread (20pt synergy)",
+        "Eternal Flame + Fever chain explosion loop (~22pt synergy)",
+        "150% Fire DoT increase (Embertail 100% + Sulfur 50%)",
+        "Infinite damage scaling through burn stacks"
+      ],
+      "weaknesses": [
+        "Requires ramp-up time for burn stacks",
+        "Less effective against burn-immune enemies",
+        "Fire-focused build lacks elemental diversity",
+        "Requires Embertail and Eternal Flame (legendary/unique)"
+      ]
+    },
+    {
+      "name": "Thunder Sniper",
+      "concept": "Lightning-focused ranged build using Essence of Thunder for massive burst damage through stack consumption, combined with Insight + Flow light damage cooldown loop",
+      "playstyle": "Build Thunder stacks through abilities and dodges, then unleash devastating lightning barrages from range with accelerated cooldowns",
+      "memories": [
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Insight",
+            "Essence of Flow"
+          ],
+          "rationale": "Thunder consumes stacks for powerful lightning strikes. Insight adds 200% Light damage and Memory Haste on light damage. Flow reduces cooldowns when dealing light damage (Insight + Flow = 18pt light damage cooldown loop)"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Shock",
+            "Essence of Stillness",
+            "Essence of Wind"
+          ],
+          "rationale": "Shock empowers every 4th attack with bouncing lightning. Stillness empowers casts after being still and stuns enemies (synergizes with sniper playstyle). Wind boosts attack speed"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Domination + Fangs crit scaling (18pt synergy). Efficiency reduces cooldowns for more Thunder casts"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Momentum",
+            "Essence of Voracity"
+          ],
+          "rationale": "Clemency provides leech from lightning damage. Momentum reduces cooldowns. Voracity provides healing"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats including Ability Power for stronger Thunder strikes"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Lizard's Intellect (max level) - +10 Ability Power for Thunder damage",
+          "Premium Gunpowder (max level) - +10 Attack Damage",
+          "Daylight (max level) - +3% Light damage per stack (Thunder is Light damage)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Night Time (max level) - +8 Ability Power",
+          "Powerful Blow (max level) - +24% Critical Strike Damage"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge (builds Thunder stacks)",
+          "Lizard Oil (max level) - Extra dodge charge for more Thunder stacks",
+          "Empowered Persistence (max level) - +120 Maximum Health"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Wild Monster Hunter (max level) - +75 Gold per Boss defeat"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles"
+        ]
+      },
+      "strategy": "Build Thunder stacks through casting memories (each cast adds a stack) and using Nimble Dodge (adds a stack). Stillness empowers your next cast when stationary, synergizing with sniper playstyle. When you have 7 stacks (maximum), Hand Cannon with Thunder unleashes devastating lightning that strikes random enemies. Insight + Flow on Hand Cannon creates a light damage cooldown loop (18pt synergy): Insight adds 200% bonus Light damage and Memory Haste, Flow reduces cooldowns when dealing light damage, enabling faster Thunder consumption and rebuilding. Domination + Fangs on Incendiary Rounds (18pt synergy) ensures crits scale infinitely. Use Shock on Quick Draw for additional lightning damage between Thunder bursts. Daylight constellation power further amplifies Light damage per stack on enemies.",
+      "strengths": [
+        "Massive burst damage with full Thunder stacks (7 x 117% Light)",
+        "Insight + Flow light damage cooldown loop (18pt synergy)",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Memory Haste acceleration through Insight",
+        "Cooldown reduction loop through Flow",
+        "High crit scaling through Domination"
+      ],
+      "weaknesses": [
+        "Requires stack management for optimal damage",
+        "Lower damage between Thunder bursts",
+        "Stillness requires positioning discipline",
+        "Light damage focused - less effective against light-resistant enemies"
+      ]
+    },
+    {
+      "name": "Projectile Cascade Hunter",
+      "concept": "Projectile-focused build using Essence of Accuracy for additional range projectiles, Ricochet for bouncing damage, and Pain for 40% AoE splash on all projectile damage",
+      "playstyle": "Overwhelm enemies with a storm of bouncing, ricocheting, splashing projectiles that cascade between targets",
+      "memories": [
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Essence of Accuracy",
+            "Essence of Pain",
+            "Essence of the Blade"
+          ],
+          "rationale": "Accuracy fires additional projectiles at range (Lacerta's specialty). Pain adds 40% AoE splash to ALL damage (0 builds use Pain - massively underused on ranged!). Blade summons blades that lacerate targets"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of Shock",
+            "Essence of Crimson",
+            "Essence of Fangs"
+          ],
+          "rationale": "Shock empowers 4th attacks with bouncing lightning. Crimson adds dark explosions every 4th attack with healing (aligned with Fangs, ~18pts). Fangs launches projectile fangs on crits"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Wind",
+            "Essence of Momentum"
+          ],
+          "rationale": "Domination scales crit damage for projectile crits (18pt synergy with Fangs). Wind boosts attack speed for more projectiles. Momentum reduces cooldowns"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides leech from projectile damage. Voracity heals after casting. Efficiency reduces cooldowns"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify all projectile damage"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Fires snowball projectiles passively, adding to projectile count"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Improvised Scope (max level) - +1.5m Attack Range (amplifies Accuracy bonus)",
+          "Premium Gunpowder (max level) - +10 Attack Damage",
+          "Loading Mastery (max level) - +14% Attack Speed for more projectiles",
+          "Hurricane (max level) - +10.5% Attack Speed",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Aggressive Stance (max level) - +8 Attack Damage"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge",
+          "Lizard Oil (max level) - Extra dodge charge",
+          "Empowered Persistence (max level) - +120 Maximum Health",
+          "Wicked Vitality (max level) - Basic Attacks restore health (more attacks = more healing)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Rewarding Collection (max level) - +12 Gold and Dream Dust from breaking Shards"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles (CRITICAL - multiplies with Accuracy and Pain)"
+        ]
+      },
+      "strategy": "Position at maximum range to maximize Accuracy's additional projectiles. Hand Cannon with Barasus's Fury fires 4 total projectiles (3+1), each potentially triggering Accuracy's bonus. The key addition is Essence of Pain: ALL projectile damage now splashes 40% AoE around each target. With multiple projectiles each splashing, the overlapping damage zones are devastating against groups. Blade summons laceration blades that chain between targets. Use Incendiary Rounds for Shock lightning bounces, Crimson explosions (aligned with Fangs, ~18pts), and Fang projectiles - all of which splash 40% AoE from Pain. Domination + Fangs (18pt synergy) scales crit damage infinitely. The screen fills with splashing, bouncing, ricocheting damage that clears rooms efficiently.",
+      "strengths": [
+        "Essence of Pain 40% AoE splash on ALL projectile damage (underused!)",
+        "Accuracy extra projectiles multiplied by Barasus's Fury",
+        "Crimson + Fangs aligned 4th-attack procs (~18pt synergy)",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Multiple projectile types create cascading damage",
+        "Good sustain through Wicked Vitality with high attack count"
+      ],
+      "weaknesses": [
+        "Lower single-target damage than focused builds",
+        "Requires positioning at range for Accuracy bonus",
+        "Many projectiles can cause visual clutter",
+        "Less effective in tight spaces where range is limited"
+      ]
+    },
+    {
+      "name": "Cold Sniper Assassin",
+      "concept": "Cold damage specialist using Glacial Core + Clemency healing-to-damage loop, Frost for cold enhancement, and Bleakness for 50% bonus vs slowed targets",
+      "playstyle": "Apply cold stacks to slow and control enemies while converting healing into devastating cold damage bursts",
+      "memories": [
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Freezing"
+          ],
+          "rationale": "Glacial Core converts 100% of healing received into cold damage to nearby enemies. Frost increases cold damage when enemies have cold stacks. Freezing applies cold stacks that slow enemies"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Rejuvenation"
+          ],
+          "rationale": "Clemency provides 4% leech converted to cold damage via Glacial Core (25pt synergy - highest in game). Voracity provides healing per attack. Rejuvenation provides health regeneration - all converted to damage"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Wind"
+          ],
+          "rationale": "Domination + Fangs crit scaling (18pt synergy). Wind boosts attack speed for more healing triggers"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Momentum",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Bleakness deals 50% increased damage to slowed/stunned enemies (cold-slowed!). Momentum reduces cooldowns. Efficiency further reduces cooldowns (15pt synergy with Momentum)"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Provides barrier that recharges and fires cold snowballs for additional cold application"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify damage output"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage",
+          "Loading Mastery (max level) - +14% Attack Speed",
+          "Improvised Scope (max level) - +1.5m Attack Range",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Aggressive Stance (max level) - +8 Attack Damage",
+          "Powerful Blow (max level) - +24% Critical Strike Damage"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge",
+          "Wicked Vitality (max level) - Basic Attacks restore health (converted to cold damage)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (converted to cold damage)",
+          "Empowered Persistence (max level) - +120 Maximum Health"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles"
+        ]
+      },
+      "strategy": "Apply cold stacks using Freezing and Snow to slow enemies. Frost amplifies cold damage based on cold stacks - more stacks = more damage. The key mechanic is the Glacial Core + Clemency loop (25pt synergy - highest in the game): Clemency heals 4% of all damage dealt, Glacial Core converts 272% of that healing into cold damage shards. Stack multiple healing sources: Clemency leech, Voracity (6 health per attack), Wicked Vitality (0.70% max health per attack), Combat First Aid (2.50% on kill), and Rejuvenation regeneration. Every heal triggers cold damage. Bleakness adds 50% damage to cold-slowed enemies (always active). Domination + Fangs (18pt synergy) scales crits infinitely. Momentum + Efficiency (15pt synergy) minimizes cooldowns. Against bosses, maintain maximum cold stacks while constantly healing for sustained cold damage output.",
+      "strengths": [
+        "Glacial Core + Clemency healing-to-damage loop (25pt synergy - highest in game)",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Momentum + Efficiency cooldown stacking (15pt synergy)",
+        "50% damage bonus to slowed enemies via Bleakness always active",
+        "Multiple healing sources create constant cold explosions"
+      ],
+      "weaknesses": [
+        "Requires building cold stacks for maximum effect",
+        "Healing conversion means less actual sustain",
+        "Complex synergy management",
+        "Less effective against cold-resistant enemies"
+      ]
+    },
+    {
+      "name": "Paranoia Gunslinger",
+      "concept": "Damage-reactive build using Paranoia for auto-cast on damage, Vengeance for retaliation blades, and Pain for 40% AoE splash on all retaliatory damage",
+      "playstyle": "Aggressive gunslinger that becomes more dangerous when hit, auto-casting abilities and firing retaliatory blades with AoE splash",
+      "memories": [
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Vengeance",
+            "Essence of Pain"
+          ],
+          "rationale": "Paranoia auto-casts Hand Cannon when you take damage with 60% cooldown reduction. Vengeance fires 2 blades on damage and increases Memory damage by 34% for 5s (~18pt synergy with Paranoia). Pain adds 40% AoE splash to all Hand Cannon damage including auto-casts"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Momentum"
+          ],
+          "rationale": "Domination + Fangs crit scaling (18pt synergy). Momentum reduces cooldowns with attacks (20pt synergy with Paranoia for near-permanent uptime)"
+        },
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of the Starry Sky",
+            "Essence of Wind"
+          ],
+          "rationale": "Crimson empowers 4th attack with Dark explosion and healing (aligned with Fangs, ~18pts). Starry Sky stacks attack speed with dark damage. Wind boosts attack speed"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech for sustain. Voracity heals after casting. Efficiency reduces cooldowns"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats for baseline power"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Barrier absorbs hits to trigger Paranoia/Vengeance, then fires snowballs"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage (Lacerta-specific)",
+          "Loading Mastery (max level) - +14% Attack Speed (Lacerta-specific)",
+          "Improvised Scope (max level) - +1.5m Attack Range (Lacerta-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge (Lacerta-specific)",
+          "Lizard Oil (max level) - Extra dodge charge (Lacerta-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Wild Monster Hunter (max level) - +75 Gold per Boss defeat (Lacerta-specific)"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles, +50% damage (Lacerta-specific, CRITICAL - auto-cast fires 4 projectiles)"
+        ]
+      },
+      "strategy": "This build turns Lacerta into a damage-reactive gunslinger. Paranoia on Hand Cannon auto-casts it whenever you take damage, with 60% cooldown reduction for near-permanent uptime. With Barasus's Fury, each auto-cast fires 4 projectiles of fire damage. Vengeance synergizes perfectly: on damage taken, fire 2 retaliatory blades AND Hand Cannon auto-casts AND Memory damage increases by 34% for 5 seconds. Pain adds 40% AoE splash to ALL Hand Cannon damage including auto-casts - so those 4 projectiles each splash AoE. Paranoia + Momentum (20pt synergy) ensures near-permanent uptime through attack-based cooldown reduction. Quick Draw with Domination + Fangs (18pt synergy) scales crits infinitely. Crimson + Fangs on Incendiary Rounds adds aligned 4th-attack burst. Just stand and fight - taking damage makes you stronger while auto-cast Hand Cannon fills the screen with splashing projectiles.",
+      "strengths": [
+        "Paranoia + Momentum near-permanent auto-cast (20pt synergy)",
+        "Paranoia + Vengeance damage-reactive loop (~18pt synergy)",
+        "Pain 40% AoE splash on auto-cast Hand Cannon (4 projectiles each)",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Crimson + Fangs aligned 4th-attack procs (~18pt synergy)",
+        "Taking damage triggers massive retaliatory output"
+      ],
+      "weaknesses": [
+        "Requires taking damage to activate reactive synergies",
+        "Health management critical - must survive hits to benefit",
+        "Less effective against enemies that can't reach you",
+        "Auto-cast may consume Hand Cannon when you want to save it"
+      ]
+    },
+    {
+      "name": "Wound Detonation Ranger",
+      "concept": "Mark-and-detonate build using Essence of the Wound for 275% AoE explosions triggered by rapid gunfire, combined with Accuracy for extra projectiles to apply more marks",
+      "playstyle": "Mark enemies with rapid fire then detonate them for massive chain AoE explosions across the battlefield",
+      "memories": [
+        {
+          "name": "Incendiary Rounds",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Accuracy",
+            "Essence of Wind"
+          ],
+          "rationale": "Wound applies Marks on hits; after 3 attacks the Mark explodes for 275% AoE (0 builds use Wound!). Accuracy fires additional projectiles at range, applying more marks faster (great for Lacerta ranged). Wind boosts attack speed for faster detonation"
+        },
+        {
+          "name": "Hand Cannon",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Pain"
+          ],
+          "rationale": "Domination + Fangs crit scaling (18pt synergy). Pain adds 40% AoE splash to Hand Cannon damage AND to Wound explosions (unused essence combo!)"
+        },
+        {
+          "name": "Quick Draw",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Clemency",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Momentum reduces cooldowns with attacks. Clemency provides 4% leech. Efficiency further reduces cooldowns (15pt synergy with Momentum)"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of the Blade",
+            "Essence of Composure"
+          ],
+          "rationale": "Voracity provides healing. Blade adds laceration damage for sustained DPS. Composure adds 30% crit for 5s after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats for baseline power"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Barrier protection and crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Premium Gunpowder (max level) - +10 Attack Damage (Lacerta-specific)",
+          "Improvised Scope (max level) - +1.5m Attack Range (amplifies Accuracy)",
+          "Loading Mastery (max level) - +14% Attack Speed (Lacerta-specific)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Flexible Lizard (max level) - +30% Movement Speed after Dodge (Lacerta-specific)",
+          "Lizard Oil (max level) - Extra dodge charge (Lacerta-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Rewarding Collection (max level) - +12 Gold and Dream Dust from breaking Shards (Lacerta-specific)"
+        ],
+        "flexible": [
+          "Barasus's Fury (max level) - Hand Cannon fires 3 additional projectiles (multiplies mark application)"
+        ]
+      },
+      "strategy": "Essence of the Wound is completely unused but devastating on a rapid-fire gunslinger. Use Incendiary Rounds to fire 4 fast attacks, each applying Wound marks. With Accuracy, extra projectiles at range apply even more marks. After 3 hits on any target, the Mark explodes for 275% AoE damage. With the rapid fire rate of Incendiary Rounds + Wind attack speed + Double Tap firing twice after memory use, marks detonate in under 1 second. Pain on Hand Cannon makes ALL damage (including Wound explosions) splash 40% AoE, creating cascading detonation zones. Hand Cannon with Barasus's Fury fires 4 projectiles that each apply marks too. Domination + Fangs (18pt synergy) ensures crits scale infinitely. Composure adds burst crit windows. The build creates a battlefield of overlapping 275% AoE detonations that chain-clear rooms.",
+      "strengths": [
+        "Essence of the Wound 275% AoE explosions every 3 attacks (unused essence!)",
+        "Accuracy extra projectiles apply marks faster at range",
+        "Pain 40% AoE splash amplifies all Wound explosions",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Momentum + Efficiency cooldown stacking (15pt synergy)",
+        "Rapid fire rate detonates marks in under 1 second"
+      ],
+      "weaknesses": [
+        "Needs 3 hits per target for detonation (brief ramp per target)",
+        "Less effective against spread-out enemies",
+        "No infinite scaling mechanism",
+        "Requires positioning at range for Accuracy bonus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1183 @@
+{
+  "character": "Bismuth",
+  "builds": [
+    {
+      "name": "Eternal Solar Inferno",
+      "concept": "Burn-focused build using Eternal Flame to apply infinite burn scaling combined with Eye of the Sun for automatic Solar Light, with Pain splash spreading fire damage across crowds",
+      "playstyle": "Fire specialist that creates infinite burn stacks and triggers automatic empowered attacks with massive AoE splash",
+      "memories": [
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Eternal Flame",
+            "Eye of the Sun",
+            "Essence of Fever"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales damage with burn stacks (20pt synergy with Eye of the Sun), Eye of the Sun triggers Solar Light on burning enemies, Fever infects with Fever for chain explosions scaling with fire stacks (22pt synergy with Eternal Flame)"
+        },
+        {
+          "name": "Immolation",
+          "essences": [
+            "Embertail",
+            "Essence of Charcoal",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Embertail adds ricochet fire damage and scales 8% per burning enemy (20pt synergy with Eternal Flame, 20pt with Eye of the Sun), Charcoal adds fragments to burning enemies, Sulfur converts damage to fire and increases fire DoT by 50% (20pt synergy with Eternal Flame)"
+        },
+        {
+          "name": "Ignite",
+          "essences": [
+            "Essence of Pain",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Pain adds 40% AoE splash to Ignite's fire damage for massive burn spread across crowds (previously unused essence), Clemency provides 4% leech healing, Momentum reduces cooldown per attack"
+        },
+        {
+          "name": "Tales of Hellfire",
+          "essences": [
+            "Essence of Scorch",
+            "Essence of the Vortex",
+            "Essence of Quicksilver"
+          ],
+          "rationale": "Scorch fires 3 fireballs, Vortex periodically fires fireballs, Quicksilver enhances mobility with 30% MS on fire damage"
+        }
+      ],
+      "strategy": "Pillar of Flame with Eternal Flame+Fever creates the chain explosion loop (22pt synergy): every fire hit applies burn curse, and Fever creates cascading explosions that scale with fire stacks. Eye of the Sun triggers automatic Solar Light every 20 seconds on burning enemies (20pt synergy with Eternal Flame). Immolation with Embertail ricochets fire to spread burns everywhere (20pt synergies with both Eternal Flame and Eye of the Sun), while Sulfur adds 50% fire DoT. Ignite with Pain now splashes 40% AoE on every fire hit, dramatically improving burn spread in dense packs. Tales of Hellfire creates constant fire ring damage. Focus on applying burn stacks to as many enemies as possible - the build creates infinite damage scaling through burn stacks.",
+      "strengths": [
+        "Eternal Flame+Fever chain explosion loop (22pt synergy)",
+        "Embertail+Eye of the Sun mass burn detonation (20pt synergy)",
+        "Embertail+Eternal Flame ricochet fire spread (20pt synergy)",
+        "40% AoE splash via Pain on Ignite for massive burn spread",
+        "Infinite damage scaling with burn stacks",
+        "Automatic empowered attacks through Eye of the Sun"
+      ],
+      "weaknesses": [
+        "Requires burn application for maximum effectiveness",
+        "Less effective against fire-resistant enemies",
+        "Requires multiple legendary/unique fire essences",
+        "Positioning dependent for optimal burn spread"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Fire damage amplification",
+          "Burn stack effectiveness",
+          "Crimson Flame (+45% Burn damage)",
+          "Cooldown reduction"
+        ]
+      }
+    },
+    {
+      "name": "Divine Elemental Storm",
+      "concept": "Multi-elemental build using Divine Faith for infinite scaling combined with elemental diversity and health-scaling cold damage",
+      "playstyle": "Scaling elementalist that becomes exponentially stronger with each kill across multiple elements",
+      "memories": [
+        {
+          "name": "Immolation",
+          "essences": [
+            "Divine Faith",
+            "Essence of Fever",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Divine Faith scales damage and health with kills (feeds Frost scaling), Fever infects with Fever for chain explosions, Sulfur converts to fire and boosts DoT (15pt synergy with Fever)"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Shock",
+            "Essence of Flow"
+          ],
+          "rationale": "Thunder consumes stacks for lightning, Shock empowers attacks with light damage, Flow reduces cooldown on light damage"
+        },
+        {
+          "name": "Glacial Stomp",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of the Giant"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage, Frost scales cold damage with max health, Giant adds 260 max health AND increases damage by 1% per 50 HP - feeds both Frost scaling and provides a massive health pool for Divine Faith synergy"
+        },
+        {
+          "name": "Arrow Storm",
+          "essences": [
+            "Perfection",
+            "Essence of Accuracy",
+            "Essence of Clemency"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Accuracy fires additional projectiles at distant enemies for more damage procs, Clemency provides 4% leech (25pt synergy with Glacial Core - healing feeds cold damage)"
+        }
+      ],
+      "strategy": "Immolation with Divine Faith scales both damage and max health with each kill. Giant on Glacial Stomp adds 260 max health and scales damage with HP, which also feeds Frost's cold damage scaling (10% Max Health as Cold damage). Clemency's 4% leech creates the Glacial Core healing-to-damage loop (25pt synergy). Arrow Storm with Accuracy fires extra projectiles at range for more damage instances. Lightning Strike with Thunder builds stacks for massive lightning barrages. Perfection+Divine Faith (18pt synergy) provides exponential stat growth. Focus on kills to stack Faith while the health pool grows to amplify both Giant and Frost scaling.",
+      "strengths": [
+        "Infinite scaling with Divine Faith (up to 75 stacks)",
+        "Giant+Frost double health-scaling combo",
+        "Clemency+Glacial Core healing-to-damage loop (25pt synergy)",
+        "Perfection+Divine Faith universal scaling (18pt synergy)",
+        "High elemental diversity (Fire, Lightning, Cold)",
+        "Extra projectiles from Accuracy for ranged damage"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Complex resource management across 3 elements",
+        "Positioning dependent",
+        "Weaker early game before Faith stacks and health pool"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Life",
+        "focus": [
+          "Elemental damage amplification",
+          "Fire damage and Burn bonuses",
+          "Cold damage bonuses",
+          "Maximum Health increases for Frost/Giant scaling",
+          "Kill-based scaling bonuses"
+        ]
+      }
+    },
+    {
+      "name": "Responsibility Empowered",
+      "concept": "Build using Essence of Responsibility to create empowered casts every 10 seconds that deal massive delayed damage, with Pain splash amplifying the explosions",
+      "playstyle": "Strategic elementalist that times empowered casts for maximum damage with devastating AoE",
+      "memories": [
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Essence of Responsibility",
+            "Essence of Talc",
+            "Essence of Shatter"
+          ],
+          "rationale": "Responsibility empowers casts every 10 seconds with 400% delayed damage, Talc empowers casts with 400% initial damage, Shatter empowers casts with 72% light damage bonus"
+        },
+        {
+          "name": "Doomsday Meteor",
+          "essences": [
+            "Essence of Fever",
+            "Essence of Charcoal",
+            "Essence of Clemency"
+          ],
+          "rationale": "Fever infects with Fever for chain explosions, Charcoal adds fire fragments, Clemency provides 4% leech healing"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Stillness",
+            "Essence of Momentum"
+          ],
+          "rationale": "Thunder consumes stacks for lightning, Stillness provides empowered casts every 5 seconds with 200% Light damage and stun, Momentum reduces cooldowns per attack"
+        },
+        {
+          "name": "Pyrana's Fireball",
+          "essences": [
+            "Embertail",
+            "Essence of Pain",
+            "Essence of Quicksilver"
+          ],
+          "rationale": "Embertail adds ricochet fire damage, Pain adds 40% AoE splash to Pyrana's fire damage as you roll through enemies, Quicksilver enhances mobility with 30% MS on fire damage"
+        }
+      ],
+      "strategy": "Pillar of Flame with Responsibility+Talc creates devastation every 10 seconds: 400% delayed damage on top of 400% initial empowered damage, plus Shatter adds 72% if it deals Light damage. Doomsday Meteor with Fever creates chain explosions across the area. Lightning Strike with Thunder+Stillness provides both lightning barrages and 200% Light damage stuns every 5 seconds. Pyrana's Fireball with Embertail ricochets fire damage while Pain adds 40% AoE splash to every fire hit during the fireball transformation, creating massive area damage while moving through enemies.",
+      "strengths": [
+        "Massive empowered damage from triple-empowered Pillar of Flame",
+        "40% AoE splash on Pyrana's Fireball for devastating area fire damage",
+        "Embertail ricochet fire spread during fireball transformation",
+        "Multiple empowered cast sources (Responsibility, Talc, Shatter, Stillness)",
+        "Strong area coverage through fire and lightning"
+      ],
+      "weaknesses": [
+        "Requires timing for maximum empowered cast effectiveness",
+        "Lower damage between empowered casts",
+        "Complex ability management",
+        "Positioning dependent for optimal Pyrana's Fireball pathing"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Fire damage amplification",
+          "Empowered cast bonuses",
+          "Cooldown reduction",
+          "Area damage bonuses"
+        ]
+      }
+    },
+    {
+      "name": "Automated Burn Basic Attacker",
+      "concept": "Basic attack focused burn build using Eternal Flame with Momentum to reduce cooldowns through attacks",
+      "playstyle": "Basic attack spammer that auto-applies burns and scales damage infinitely",
+      "memories": [
+        {
+          "name": "Immolation",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Momentum",
+            "Essence of Fangs"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales damage with burn stacks, Momentum reduces cooldown with each basic attack, Fangs provides guaranteed crits that reduce cooldown"
+        },
+        {
+          "name": "Tales of Hellfire",
+          "essences": [
+            "Eye of the Sun",
+            "Essence of Clemency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Eye of the Sun triggers Solar Light on burning enemies (20pt synergy with Eternal Flame), Clemency provides 4% leech from all damage dealt, Voracity restores 6 health per attack for 5 seconds after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of the Vortex",
+          "rationale": "Passive essence - periodically fires fireballs at enemies (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Domination",
+          "rationale": "Passive essence - increases crit chance by 20% and scales crit damage with crits (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (doesn't need to be on a memory)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Arrow of the Mind (max level) - 75% chance for additional arrow on basic attacks (Bismuth-specific)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Crimson Flame (max level) - +45% Burn damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bismuth-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Immolation with Eternal Flame applies burn curse that scales damage infinitely with burn stacks. Momentum reduces its cooldown with every basic attack, while Fangs ensures every 4th attack is a crit that further reduces cooldown. Tales of Hellfire with Clemency provides 4% leech from all damage, and Voracity restores 6 health per attack for 5 seconds after casting. Eye of the Sun triggers automatic Solar Light on burning enemies (20pt synergy with Eternal Flame). Simply spam basic attacks - each attack reduces cooldowns, heals you through leech and Voracity, and burn stacks scale damage infinitely. The build requires minimal active memory usage, focusing on basic attacks while burn stacking happens automatically.",
+      "strengths": [
+        "Infinite damage scaling with burn stacks",
+        "Eternal Flame+Eye of the Sun burn synergy (20pt)",
+        "Basic attacks continuously reduce cooldowns",
+        "Automatic empowered attacks through Eye of the Sun",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires burn application for maximum effectiveness",
+        "Less effective against fire-resistant enemies",
+        "Positioning dependent for optimal burn spread",
+        "Requires Eternal Flame essence (unique)"
+      ]
+    },
+    {
+      "name": "Maximum Damage Elemental Storm",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and Clemency+Glacial Core healing loop",
+      "playstyle": "High-damage elementalist that scales infinitely with kills while maintaining strong survivability through healing-to-damage conversion",
+      "memories": [
+        {
+          "name": "Immolation",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (22pt synergy with Domination), Domination scales crit damage with each crit, Predation increases damage to bosses by 60% and drops Orbs of Power for permanent stat increases"
+        },
+        {
+          "name": "Arrow Storm",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Clemency provides 4% leech from all damage (25pt synergy with Glacial Core), Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Flow",
+            "Essence of Insight"
+          ],
+          "rationale": "Thunder builds stacks for massive lightning barrages, Flow reduces cooldown when dealing light damage (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste"
+        },
+        {
+          "name": "Glacial Stomp",
+          "essences": [
+            "Glacial Core",
+            "Essence of Guidance",
+            "Essence of Frost"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (25pt synergy with Clemency), Guidance converts excess healing to barriers, Frost scales damage with max health and permanently increases HP"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Composure",
+          "rationale": "Passive essence - increases crit chance by 30% for 5 seconds after casting (doesn't need to be on a memory, complements Domination's crit scaling on Immolation)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Aggressive Stance (max level)",
+          "Lucky Clover (max level)",
+          "Night Time (max level)",
+          "Hurricane (max level)",
+          "Bismuth-specific Destruction powers (prioritize damage scaling)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Bismuth-specific Imagination powers",
+          "Additional common Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Immolation with Divine Faith scales damage and health infinitely with kills (22pt synergy with Domination for dual infinite scaling). Predation adds 60% boss damage and permanent stat growth. Arrow Storm with Perfection (18pt synergy with Divine Faith) and Clemency creates the healing-to-damage loop with Glacial Core (25pt synergy). Lightning Strike now has Flow+Insight (18pt synergy) instead of Voracity, creating a powerful CDR loop that keeps all abilities cycling faster. Frost on Glacial Stomp scales cold damage with max health (which grows from Divine Faith kills). Composure as a passive provides 30% crit chance for 5 seconds after casting, feeding Domination's crit scaling. Focus on kills for Faith stacking while the Clemency+Glacial Core loop provides both survivability and damage.",
+      "strengths": [
+        "Divine Faith+Domination dual infinite scaling (22pt synergy)",
+        "Clemency+Glacial Core healing-to-damage loop (25pt synergy)",
+        "Flow+Insight CDR loop (18pt synergy) on Lightning Strike",
+        "Perfection+Divine Faith universal scaling (18pt synergy)",
+        "60% increased boss damage through Predation",
+        "Health-scaling cold damage through Frost",
+        "Composure passive provides 30% crit chance burst for Domination scaling"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences",
+        "Positioning important for optimal elemental damage"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Elemental Storm",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects for maximum DPS with Wound explosions",
+      "playstyle": "Spam basic attacks continuously, triggering empowered attacks, healing, Wound explosions, and cooldown reduction with every hit",
+      "memories": [
+        {
+          "name": "Arrow Storm",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (18pt synergy with Domination) reducing cooldown by 0.7s and launching 2 Fangs, Shock empowers every 4th attack with lightning (40% light damage, bounces)"
+        },
+        {
+          "name": "Immolation",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of the Wound"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Wind increases attack speed by 33% for 5 seconds, Wound marks enemies on hit and after 3 attacks explodes for 275% AoE damage (previously 0 builds used this)"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Flow",
+            "Essence of Insight"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Flow reduces cooldown on Light damage (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste"
+        },
+        {
+          "name": "Glacial Stomp",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Guidance",
+            "Essence of Frost"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely (18pt synergy with Fangs), Guidance converts healing to barriers, Frost scales damage with max health"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Umbra",
+          "rationale": "Passive essence - scales damage by 42% of Crit Chance and heals from dark damage (doesn't need to be on a memory, complements Domination's crit scaling on Glacial Stomp)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Aggressive Stance (max level) - +8 Attack Damage",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Hurricane (max level) - +10.5% Attack Speed",
+          "Bismuth-specific Destruction powers (prioritize attack damage and crit)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Bismuth-specific Imagination powers",
+          "Additional common Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Arrow Storm's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs, 18pt synergy with Domination) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack triggers Shock lightning (40% light damage). Wound on Immolation marks enemies on hit and explodes for 275% AoE damage after 3 attacks - with the high attack speed this detonates constantly across crowds. Flow+Insight (18pt synergy) on Lightning Strike creates the CDR loop. Clemency's 4% leech feeds Guidance barriers. Frost scales cold damage with max health. Domination+Fangs (18pt synergy) scales crit damage infinitely. Umbra as a passive adds 42% of Crit Chance as bonus damage and heals from dark damage. Simply hold down basic attack and watch cascading Wound explosions, lightning procs, and cold bursts.",
+      "strengths": [
+        "275% AoE explosions from Wound detonating constantly with fast attacks",
+        "Domination+Fangs crit scaling loop (18pt synergy)",
+        "Flow+Insight CDR loop (18pt synergy)",
+        "Umbra passive scales damage with crit chance and adds dark healing",
+        "Multiple healing sources (Voracity, Clemency leech, Guidance barriers, Umbra)",
+        "Health-scaling damage through Frost",
+        "Continuous cooldown reduction through basic attacks",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal Wound detonation rate",
+        "Positioning important for optimal explosion hits",
+        "Lower single-target burst than ability-focused builds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Auto-Cast Basic Attack Master",
+      "concept": "Basic attack focused build using Self-Writing Story constellation power to auto-cast abilities while maximizing basic attack damage and empowered attack triggers",
+      "playstyle": "Basic attack spammer with auto-casting abilities that trigger empowered attacks every 4th hit",
+      "memories": [
+        {
+          "name": "Arrow Storm",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Arrow Storm increases Attack Speed by 15% and Movement Speed by 10% for 6 seconds, and each attack fires 3 arrows (35% damage each). Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (reducing cooldown by 0.7s) and launches 2 Fangs dealing 60% damage each, Shock empowers every 4th attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of Flow"
+          ],
+          "rationale": "Frostbite empowers your next 2 attacks - first deals 50% additional Cold damage and grants 110% Barrier, second deals 180% additional Cold damage. Voracity restores 6 health per attack for 5 seconds after casting, Wind increases attack speed by 33% for 5 seconds, Flow reduces cooldown when dealing light damage (triggers from Shock)"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Domination",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Blade Storm summons a storm that rapidly slashes enemies (85% damage every 0.5 seconds) and follows the nearest enemy. Clemency provides 4% leech from all damage, Domination increases crit chance by 20% and scales crit damage infinitely, Efficiency reduces cooldown by 26% for more frequent auto-casts"
+        },
+        {
+          "name": "Immolation",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Guidance",
+            "Essence of Composure"
+          ],
+          "rationale": "Immolation creates a fire aura around you. Crimson empowers every 4th basic attack with dark explosion (100% dark damage) and heals 22% per enemy hit (44% on bosses), Guidance converts 30% excess healing to barriers, Composure increases crit chance by 30% for 5 seconds after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Arrow of the Mind (max level) - 75% chance for additional arrow on basic attacks (Bismuth-specific)",
+          "Self-Writing Story (max level) - +20 Memory Haste and most Memories automatically cast during combat (Bismuth-specific, REQUIRED)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bismuth-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "With Self-Writing Story constellation power, most memories auto-cast during combat. Simply spam basic attacks continuously. Arrow Storm auto-casts to increase attack speed by 15% and make each attack fire 3 arrows (35% damage each). Every attack reduces Arrow Storm's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Shock lightning (40% light damage) and Crimson explosion (100% dark damage) that heals 22% per enemy hit. Frostbite auto-casts to empower your next 2 attacks (50% + 180% additional Cold damage, first grants barrier). Blade Storm auto-casts to create a slashing storm that follows enemies. Immolation creates a fire aura. Auto-casting abilities trigger Voracity healing, Wind attack speed boosts, and Flow cooldown reduction from light damage. Clemency provides 4% leech from all damage. Guidance converts healing to barriers. Domination scales crit damage infinitely. The build requires minimal active memory usage - just hold down basic attack and watch abilities auto-cast while empowered attacks trigger every 4th hit.",
+      "strengths": [
+        "Abilities auto-cast with Self-Writing Story constellation power",
+        "Arrow Storm triples attack output (3 arrows per attack) and increases attack speed by 15%",
+        "Frostbite empowers next 2 attacks with massive damage bonuses (50% + 180% additional Cold damage)",
+        "Extremely high attack speed potential (Arrow Storm + Wind + Hurricane + Speed Reading)",
+        "Multiple healing sources (Crimson explosions, Voracity, Clemency leech, Guidance barriers)",
+        "Blade Storm provides passive area damage that follows enemies",
+        "Continuous cooldown reduction through basic attacks",
+        "Multiple empowered attacks every 4th hit (Fangs crit + Crimson explosion + Shock lightning)",
+        "Infinite crit damage scaling with Domination",
+        "Minimal active memory management required - just spam basic attacks"
+      ],
+      "weaknesses": [
+        "Requires Self-Writing Story constellation power (Bismuth-specific)",
+        "Requires high attack speed for optimal performance",
+        "Positioning important for optimal explosion hits",
+        "Lower single-target burst than ability-focused builds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Auto-Cast Fire Inferno",
+      "concept": "Fire damage focused build using Self-Writing Story constellation power to auto-cast fire abilities while maximizing burn stacking and fire damage scaling",
+      "playstyle": "Fire specialist with auto-casting abilities that create infinite burn stacks and trigger automatic empowered attacks",
+      "memories": [
+        {
+          "name": "Tales of Hellfire",
+          "essences": [
+            "Eternal Flame",
+            "Eye of the Sun",
+            "Essence of Fever"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales damage by 2% per burn stack infinitely (20pt synergy with Eye of the Sun), Eye of the Sun triggers Solar Light every 20 seconds on burning enemies (360% Fire damage + 9 burn stacks), Fever infects with Fever for chain explosions that scale with burn stacks (22pt synergy with Eternal Flame)"
+        },
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Embertail",
+            "Essence of Charcoal",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Embertail adds ricochet fire damage (100% Fire damage to nearby enemies, 20pt synergy with Eternal Flame and Eye of the Sun) and scales damage/healing by 8% per burning enemy, Charcoal fires shards dealing 60% damage (100% Fire damage if target is burning), Sulfur converts all damage to Fire and increases Fire DoT by 50% (20pt synergy with Eternal Flame)"
+        },
+        {
+          "name": "Immolation",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Momentum",
+            "Essence of Quicksilver"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Momentum reduces cooldown with each basic attack, Quicksilver increases movement speed by 30% when dealing Fire damage"
+        },
+        {
+          "name": "Ignite",
+          "essences": [
+            "Essence of Insensitivity",
+            "Essence of Voracity",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Insensitivity drops bombs while moving (140% Fire damage), Voracity restores 6 health per attack for 5 seconds after casting, Efficiency reduces cooldown by 26% for more frequent auto-casts"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of the Vortex",
+          "rationale": "Passive essence - periodically fires fireballs at random nearby enemies (90% Fire damage)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - +20 Memory Haste and most Memories automatically cast during combat (Bismuth-specific, REQUIRED)",
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bismuth-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "With Self-Writing Story constellation power, fire abilities auto-cast during combat. Tales of Hellfire with Eternal Flame+Fever creates the chain explosion loop (22pt synergy): burn stacks scale damage infinitely while Fever explosions cascade. Eye of the Sun triggers Solar Light every 20 seconds on burning enemies (20pt synergy with Eternal Flame). Pillar of Flame with Embertail ricochets fire to spread burns (20pt synergies with Eternal Flame and Eye of the Sun), while Sulfur adds 50% Fire DoT (20pt synergy with Eternal Flame). Immolation creates fire aura while Ignite drops bombs via Insensitivity. Focus on burn stacks - the build creates infinite scaling with minimal management.",
+      "strengths": [
+        "Abilities auto-cast with Self-Writing Story constellation power",
+        "Eternal Flame+Fever chain explosion loop (22pt synergy)",
+        "Eternal Flame+Eye of the Sun burn detonation (20pt synergy)",
+        "Embertail ricochet fire spread (20pt synergies with Eternal Flame and Eye of the Sun)",
+        "Eternal Flame+Sulfur fire DoT amplification (20pt synergy)",
+        "Infinite damage scaling with burn stacks",
+        "150% total Fire DoT increase (Embertail 100% + Sulfur 50%)",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires Self-Writing Story constellation power (Bismuth-specific)",
+        "Requires burn application for maximum effectiveness",
+        "Less effective against fire-resistant enemies",
+        "Requires Eternal Flame and Eye of the Sun (unique/legendary)",
+        "Positioning dependent for optimal burn spread"
+      ]
+    },
+    {
+      "name": "Auto-Cast Frost Storm",
+      "concept": "Cold damage focused build using Self-Writing Story constellation power to auto-cast cold abilities while maximizing health-scaling damage and healing conversion",
+      "playstyle": "Cold specialist with auto-casting abilities that convert healing to cold damage and scale with max health",
+      "memories": [
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Freezing"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (272% of health restored becomes ice shards) and restores 3.6% Max Health every 5 seconds (doubled if Cold damage), Frost scales cold damage with max health (10% Max Health as Cold damage + stun), Freezing releases cold burst on cast (160% Cold damage, AOE scales with quality)"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Guidance",
+            "Essence of Momentum"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage (25pt synergy with Glacial Core - leech feeds cold damage shards), Guidance converts 30% excess healing to barriers, Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Glacial Stomp",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Efficiency",
+            "Essence of Bleakness"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting (feeds Glacial Core), Efficiency reduces cooldown by 26%, Bleakness increases damage by 50% to enemies affected by Cold, slow, root, or stun"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Regeneration",
+            "Essence of Aftershock",
+            "Essence of Flow"
+          ],
+          "rationale": "Regeneration restores 41 health over 7 seconds when cast in combat (feeds Glacial Core), Aftershock provides delayed shockwave with armor gain and stun, Flow reduces cooldown when dealing light damage"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs dealing 80% Cold damage"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - +20 Memory Haste and most Memories automatically cast during combat (Bismuth-specific, REQUIRED)",
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)",
+          "Regenerative Skin (max level) - +18% received Healing and Barrier amounts (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bismuth-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "With Self-Writing Story, cold abilities auto-cast. Flash Freeze with Glacial Core converts all healing to cold damage shards (272% conversion) while Frost scales with max health. Clemency's 4% leech creates the Glacial Core healing loop (25pt synergy) - every cold damage shard that hits creates leech healing, which creates more cold shards. Bleakness adds 50% damage to enemies affected by Cold/stun, which is nearly always active. Regeneration and Voracity provide additional healing sources that all feed Glacial Core. Aftershock provides armor and stuns. The build creates a self-sustaining loop where damage creates healing which creates more cold damage.",
+      "strengths": [
+        "Clemency+Glacial Core healing-to-damage loop (25pt synergy)",
+        "Healing converted to cold damage through Glacial Core (272% conversion)",
+        "Health-scaling damage through Frost (10% Max Health as Cold damage)",
+        "50% increased damage to CC'd enemies (Bleakness)",
+        "Multiple healing sources all feeding Glacial Core",
+        "Self-sustaining damage loop (damage -> healing -> cold damage)",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires Self-Writing Story constellation power (Bismuth-specific)",
+        "Requires Glacial Core (unique essence)",
+        "Cold damage focused (may struggle vs cold-resistant enemies)",
+        "Requires high max health for optimal Frost scaling",
+        "Positioning important for optimal cold burst hits"
+      ]
+    },
+    {
+      "name": "Auto-Cast Light Conduit",
+      "concept": "Light damage focused build using Self-Writing Story constellation power to auto-cast light abilities while maximizing empowered casts and the Flow+Insight CDR engine",
+      "playstyle": "Light specialist with auto-casting abilities that trigger frequent empowered casts and create cooldown reduction loops",
+      "memories": [
+        {
+          "name": "Pure Soul",
+          "essences": [
+            "Pure White",
+            "Essence of Flow",
+            "Essence of Insight"
+          ],
+          "rationale": "Pure White empowers casts every 10 seconds (fires 3+ projectiles scaling with Light stacks), Flow reduces cooldown by 6% on Light damage (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste"
+        },
+        {
+          "name": "Valiant Heart",
+          "essences": [
+            "Last Starlight",
+            "Essence of Stillness",
+            "Essence of Clemency"
+          ],
+          "rationale": "Last Starlight empowers casts every 15 seconds (creates black hole dealing 160% Light damage per second for 5 seconds), Stillness empowers casts every 5 seconds (200% Light damage + stun for 2 seconds), Clemency provides 4% leech"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Shock",
+            "Essence of Pain"
+          ],
+          "rationale": "Thunder builds stacks for massive lightning barrages, Shock empowers every 4th basic attack with lightning (40% light damage, bounces), Pain adds 40% AoE splash to all Lightning Strike damage for massive area coverage"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Voracity",
+            "Essence of Accuracy"
+          ],
+          "rationale": "Efficiency reduces cooldown by 26% for more frequent auto-casts, Voracity restores 6 health per attack for 5 seconds after casting, Accuracy fires additional projectiles at distant enemies for more Light damage procs feeding Flow"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - +20 Memory Haste and most Memories automatically cast during combat (Bismuth-specific, REQUIRED)",
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bismuth-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "With Self-Writing Story, light abilities auto-cast. Pure Soul with Pure White+Flow+Insight is the engine: empowered casts fire 3+ Light projectiles every 10 seconds while Flow+Insight (18pt synergy) creates the CDR loop making empowered casts happen more frequently. Last Starlight creates black holes every 15 seconds, Stillness adds 200% Light damage stuns every 5 seconds. Lightning Strike with Thunder+Pain adds 40% AoE splash to all lightning damage. Chain Lightning with Accuracy fires extra projectiles at range, each dealing Light damage that feeds Flow's CDR for all memories. The build creates a cascade of empowered Light damage with rapid cycling.",
+      "strengths": [
+        "Flow+Insight CDR loop (18pt synergy) accelerates all empowered casts",
+        "40% AoE splash on Lightning Strike via Pain",
+        "Extra projectiles from Accuracy for more Flow CDR procs",
+        "Frequent empowered casts (Pure White every 10s, Last Starlight every 15s, Stillness every 5s)",
+        "Black holes provide persistent area damage",
+        "Strong crowd control through stuns",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires Self-Writing Story constellation power (Bismuth-specific)",
+        "Requires Pure White and Last Starlight (legendary/unique)",
+        "Light damage focused (may struggle vs light-resistant enemies)",
+        "Positioning important for optimal black hole placement"
+      ]
+    },
+    {
+      "name": "Auto-Cast Dark Executioner",
+      "concept": "Dark damage focused build using Self-Writing Story constellation power to auto-cast dark abilities while maximizing empowered attacks and area explosions",
+      "playstyle": "Dark specialist with auto-casting abilities that trigger empowered attacks every 4th hit and create area explosions",
+      "memories": [
+        {
+          "name": "Distorted Mind",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Domination",
+            "Essence of Dusk"
+          ],
+          "rationale": "Crimson empowers every 4th basic attack with dark explosion (100% Dark damage, heals 22% per enemy hit, 44% on bosses), Domination increases crit chance by 20% and scales crit damage infinitely, Dusk fires 2 Dusk shards dealing 30% Dark damage each time you attack for 5 seconds after casting"
+        },
+        {
+          "name": "Annihilation Stance",
+          "essences": [
+            "Essence of Umbra",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Umbra scales damage with crit chance and heals from dark damage (10% of dark damage as healing), Fangs makes every 4th attack a crit (18pt synergy with Domination) reducing cooldown by 0.7s and launching 2 Fangs, Shock empowers every 4th attack with lightning (40% light damage, bounces)"
+        },
+        {
+          "name": "Valiant Heart",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Momentum",
+            "Essence of Composure"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Momentum reduces cooldown with each basic attack, Composure increases crit chance by 30% for 5 seconds after casting"
+        },
+        {
+          "name": "Shadow Volley",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Efficiency",
+            "Essence of Guidance"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Efficiency reduces cooldown by 26% for more frequent auto-casts, Guidance converts 30% excess healing to barriers"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of the Wound",
+          "rationale": "Passive essence - marks enemies on hit, exploding for 275% AoE damage after 3 attacks (doesn't need to be on a memory, synergizes with high attack speed for constant detonations)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - +20 Memory Haste and most Memories automatically cast during combat (Bismuth-specific, REQUIRED)",
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Arrow of the Mind (max level) - 75% chance for additional arrow on basic attacks (Bismuth-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bismuth-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "With Self-Writing Story, dark abilities auto-cast. Spam basic attacks continuously. Every 4th attack triggers Crimson explosion (100% Dark damage) healing 22% per enemy hit. Every 4th attack also triggers Fangs crit (18pt synergy with Domination) and Shock lightning. Dusk fires 2 shards dealing 30% Dark damage each attack for 5 seconds after casting Distorted Mind. Umbra scales damage with crit chance and heals from dark damage. Domination+Fangs (18pt synergy) scale crit damage infinitely. Composure adds 30% crit chance for 5 seconds after Valiant Heart auto-casts. Wound as a passive marks enemies on hit and explodes for 275% AoE after 3 attacks, which triggers constantly with high attack speed.",
+      "strengths": [
+        "Abilities auto-cast with Self-Writing Story constellation power",
+        "Domination+Fangs crit scaling loop (18pt synergy)",
+        "Empowered dark explosions every 4th attack (Crimson)",
+        "275% AoE Wound explosions from passive every 3 attacks",
+        "Multiple healing sources (Crimson explosions, Umbra dark healing, Clemency leech, Guidance barriers)",
+        "Infinite crit damage scaling with Domination",
+        "Strong area coverage through dark explosions and Wound detonations",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires Self-Writing Story constellation power (Bismuth-specific)",
+        "Requires high attack speed and crit chance for optimal performance",
+        "Positioning important for optimal explosion hits",
+        "Dark damage focused (may struggle vs dark-resistant enemies)",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Chaos Wildcard Ranger",
+      "concept": "Build centered on Apple of Discord's random memory transformation (4 free casts per room with no cooldown) combined with Bismuth's Self-Writing Story auto-casting and Wound explosions for room-clearing devastation",
+      "playstyle": "Adaptive ranger who opens every room with 4 free random ability casts, then auto-casts the core engine for sustained damage with cascading Wound detonations",
+      "memories": [
+        {
+          "name": "Arrow Storm",
+          "essences": [
+            "Apple of Discord",
+            "Essence of Pain",
+            "Essence of the Wound"
+          ],
+          "rationale": "Apple of Discord transforms Arrow Storm into a random memory with NO cooldown (4 free casts per room), Pain adds 40% AoE splash to whatever random ability fires, Wound marks enemies for 275% AoE explosions after 3 attacks - the 4 free casts rapidly apply marks across the room"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Flow",
+            "Essence of Insight"
+          ],
+          "rationale": "Thunder builds stacks from all the Apple casts and dodges, Flow reduces cooldown on Light damage (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste"
+        },
+        {
+          "name": "Tales of Hellfire",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Clemency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Momentum reduces cooldown per attack, Clemency provides 4% leech from all damage, Voracity restores 6 health per attack for 5 seconds after casting"
+        },
+        {
+          "name": "Valiant Heart",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Accuracy",
+            "Essence of Wind"
+          ],
+          "rationale": "Efficiency reduces cooldown by 26%, Accuracy fires additional projectiles at distant enemies, Wind increases attack speed by 33% for 5 seconds for faster Wound detonations"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - universal stat boosts to amplify whatever random memory Apple provides"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - +20 Memory Haste and auto-casts remaining memories (Bismuth-specific)",
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Arrow of the Mind (max level) - 75% chance for additional arrow on basic attacks (Bismuth-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories"
+        ]
+      },
+      "strategy": "Apple of Discord is the room-opening powerhouse: each room it transforms into a random memory with NO cooldown and 4 free casts. Each cast benefits from Pain's 40% AoE splash and applies Wound marks. After 3 attacks on any marked enemy, Wound explodes for 275% AoE damage. The 4 free casts rapidly mark the entire room, and subsequent attacks detonate marks in cascading explosions. After Apple's 4 casts are spent, Self-Writing Story auto-casts the remaining 3 memories. Thunder builds stacks from all the casting. Flow+Insight (18pt synergy) keeps Lightning Strike cycling fast. Wind's 33% attack speed boost accelerates Wound detonations. Accuracy fires extra projectiles to hit distant marked enemies. The build creates explosive room openings followed by sustained auto-cast damage.",
+      "strengths": [
+        "4 free no-cooldown casts per room from Apple of Discord",
+        "40% AoE splash on random abilities via Pain",
+        "275% AoE explosions from Wound marks detonating across crowds",
+        "Apple casts build Thunder stacks for free",
+        "Flow+Insight CDR engine (18pt synergy)",
+        "Self-Writing Story auto-casts remaining memories after Apple",
+        "High adaptability - different random memory each room",
+        "Accuracy adds extra projectiles for more Wound mark hits"
+      ],
+      "weaknesses": [
+        "Random memory each room means inconsistent opening damage type",
+        "Apple of Discord limited to 4 casts then reverts",
+        "Requires both Apple of Discord (legendary) and Self-Writing Story constellation",
+        "No infinite scaling mechanic (no Divine Faith/Domination)",
+        "Less effective against single bosses where Wound needs 3 hits to detonate"
+      ]
+    },
+    {
+      "name": "Prismatic Burn Spreader",
+      "concept": "Build exploiting Bismuth's Prismatic Vision auto-attacks to passively spread Eternal Flame burns while fire abilities auto-cast via Self-Writing Story, creating a fully automated burn stacking machine",
+      "playstyle": "Fully automated fire specialist where the Book auto-attacks spread burns while Self-Writing Story auto-casts fire memories, requiring zero active input for maximum burn stacking",
+      "memories": [
+        {
+          "name": "Tales of Hellfire",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Fever",
+            "Essence of Pain"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales 2% per stack (22pt synergy with Fever), Fever creates chain explosions scaling with fire stacks, Pain adds 40% AoE splash to the 350%/sec fire ring for massive burn spread"
+        },
+        {
+          "name": "Immolation",
+          "essences": [
+            "Embertail",
+            "Eye of the Sun",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Embertail ricochets 100% Fire damage spreading burns (20pt synergy with Eye of the Sun AND Eternal Flame), Eye of the Sun rains Solar Light every 20 seconds on burning enemies (20pt synergy with Embertail), Sulfur adds 50% fire DoT (20pt synergy with Eternal Flame)"
+        },
+        {
+          "name": "Ignite",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Momentum",
+            "Essence of the Wound"
+          ],
+          "rationale": "Clemency provides 4% leech from all fire damage, Momentum reduces cooldown per Book auto-attack, Wound marks burning enemies for 275% AoE explosions after 3 Book attacks"
+        },
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Essence of Charcoal",
+            "Essence of Scorch",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Charcoal fires shards (100% Fire damage to burning targets), Scorch fires 3 fireballs on cast, Efficiency reduces cooldown by 26% for frequent auto-casts"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of the Vortex",
+          "rationale": "Passive essence - periodically fires fireballs, adding another automated fire damage source"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - +20 Memory Haste and auto-casts memories (Bismuth-specific, REQUIRED)",
+          "Speed Reading (max level) - +15% Attack Speed for faster Book attacks (Bismuth-specific)",
+          "Arrow of the Mind (max level) - 75% chance for additional arrow on basic attacks (Bismuth-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories"
+        ]
+      },
+      "strategy": "This is the ultimate automation build for Bismuth. Prismatic Vision's Book auto-attacks the nearest enemy, and Self-Writing Story auto-casts all 4 fire memories during combat. The player needs to do almost nothing. Tales of Hellfire auto-casts with Eternal Flame+Fever (22pt synergy) creating chain explosion loops, with Pain splashing 40% AoE on the 350%/sec fire ring. Immolation auto-casts with Embertail ricocheting fire to spread burns (20pt synergies with both Eye of the Sun and Eternal Flame), while Eye of the Sun rains Solar Light every 20 seconds. Ignite auto-casts while Wound marks enemies for 275% explosions as the Book attacks them. Pillar of Flame auto-casts with Charcoal and Scorch for additional fire projectiles. The Vortex passive fires additional fireballs. Every single source of damage spreads burns, and every burn feeds Eternal Flame's infinite scaling.",
+      "strengths": [
+        "Fully automated - Book attacks + Self-Writing Story casts require zero input",
+        "Eternal Flame+Fever chain explosion loop (22pt synergy)",
+        "Embertail+Eye of the Sun mass detonation (20pt synergy)",
+        "Embertail+Eternal Flame burn spread (20pt synergy)",
+        "Eternal Flame+Sulfur fire DoT amp (20pt synergy)",
+        "40% AoE splash on Tales of Hellfire fire ring via Pain",
+        "275% AoE Wound explosions from Book auto-attacks",
+        "Infinite burn stack scaling with zero active management",
+        "Five automated fire sources (Book, Vortex, Embertail, Eye of the Sun, Scorch)"
+      ],
+      "weaknesses": [
+        "Requires both Self-Writing Story and Prismatic Vision",
+        "Fire-resistant enemies severely reduce effectiveness",
+        "Requires 3 legendary/unique fire essences",
+        "No control over targeting - Book attacks nearest enemy",
+        "No infinite stat scaling (no Divine Faith/Domination)"
+      ]
+    },
+    {
+      "name": "Thunder Flow Machine",
+      "concept": "Light damage CDR build exploiting the Thunder+Flow+Insight triple synergy to achieve near-zero cooldowns on Lightning Strike, combined with Pure White projectile scaling for escalating empowered damage",
+      "playstyle": "CDR-focused light damage specialist who casts Lightning Strike as fast as possible, with each cast building Thunder stacks that feed the next, while Pure White fires escalating Light projectiles",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Flow",
+            "Essence of Insight"
+          ],
+          "rationale": "Thunder builds stacks from casts/dodges for lightning barrages, Flow reduces cooldown 6% per Light damage instance (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste - the triple Light CDR engine"
+        },
+        {
+          "name": "Pure Soul",
+          "essences": [
+            "Pure White",
+            "Essence of Shock",
+            "Essence of Accuracy"
+          ],
+          "rationale": "Pure White fires 3+ Light projectiles every 10 seconds scaling with Light stacks (16pt synergy with Shock), Shock empowers every 4th attack with Light lightning, Accuracy adds extra projectiles at range doubling the Light damage procs that feed Flow"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Efficiency",
+            "Essence of Stillness"
+          ],
+          "rationale": "Momentum reduces CD per attack (15pt synergy with Efficiency), Efficiency adds 26% CDR, Stillness empowers casts every 5 seconds with 200% Light damage and 2-second stun"
+        },
+        {
+          "name": "Valiant Heart",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Opportunity"
+          ],
+          "rationale": "Clemency provides 4% leech, Voracity heals 6 per attack for 5 seconds, Opportunity reduces Dodge cooldown by 3 seconds per cast - more dodges = more Thunder stacks"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - universal stat boosts including Memory Haste and Attack Speed"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Self-Writing Story (max level) - auto-casts memories for maximum Thunder stack generation (Bismuth-specific)",
+          "Speed Reading (max level) - +15% Attack Speed (Bismuth-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Crit Chance for more Shock bounces (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Bismuth-specific Life powers",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Bismuth-specific Flexible powers that modify memories"
+        ]
+      },
+      "strategy": "This build achieves near-zero effective cooldowns on Lightning Strike through triple CDR stacking. Flow reduces Lightning Strike's cooldown 6% every time ANY memory deals Light damage. Insight adds 200% Light damage to every memory hit (triggering Flow on every 3-second cycle). Momentum+Efficiency (15pt synergy) on Chain Lightning adds attack-based and flat CDR. Self-Writing Story auto-casts all memories, and each auto-cast builds Thunder stacks AND deals Light damage that feeds Flow. Pure White fires 3+ Light projectiles every 10 seconds (16pt synergy with Shock), and Accuracy doubles projectile output - every projectile deals Light damage that triggers Flow. Opportunity on Valiant Heart reduces Dodge cooldown by 3 seconds per cast, enabling more frequent Distorting Sprint for Thunder stack building. The result: Lightning Strike cycles in under 2 seconds, each cast consuming 5-7 Thunder stacks for devastating lightning barrages.",
+      "strengths": [
+        "Near-zero effective Lightning Strike cooldown through triple CDR",
+        "Thunder+Flow+Insight triple Light synergy engine",
+        "Pure White+Shock Light projectile scaling (16pt synergy)",
+        "Momentum+Efficiency CDR stacking (15pt synergy)",
+        "Opportunity enables frequent dodges for more Thunder stacks",
+        "Accuracy doubles projectile count for more Flow CDR procs",
+        "Every auto-cast builds Thunder stacks AND feeds Flow CDR",
+        "Extremely high sustained DPS through rapid Lightning Strike cycling"
+      ],
+      "weaknesses": [
+        "Heavily Light-focused - vulnerable to Light-resistant enemies",
+        "Requires Self-Writing Story for maximum CDR",
+        "Requires Pure White + Last Starlight (legendary/unique)",
+        "No infinite stat scaling (no Divine Faith/Domination)",
+        "Less burst damage per individual cast than empowered builds"
+      ]
+    }
+  ]
+}

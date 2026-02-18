@@ -1,0 +1,2525 @@
+{
+  "categories": {
+    "Destruction": {
+      "description": "Helps you deal powerful damage and exert force against enemies",
+      "color": "Red",
+      "zodiac_symbol": "Taurus ♉",
+      "common_powers": [
+        {
+          "name": "Night Time",
+          "icon_description": "Four-pointed star within a circle with upward arrow",
+          "max_level": 4,
+          "effect": "Increases Ability Power by 2 / 4 / 6 / 8",
+          "scaling": [2, 4, 6, 8],
+          "stat_affected": "Ability Power"
+        },
+        {
+          "name": "Aggressive Stance",
+          "icon_description": "Sword with feathered wings extending from hilt",
+          "max_level": 4,
+          "effect": "Increases Attack Damage by 2 / 4 / 6 / 8",
+          "scaling": [2, 4, 6, 8],
+          "stat_affected": "Attack Damage"
+        },
+        {
+          "name": "Crimson Flame",
+          "icon_description": "Rising flame or burning ember",
+          "max_level": 4,
+          "effect": "Increase Burn damage by 30% / 35% / 40% / 45%",
+          "scaling": [30, 35, 40, 45],
+          "stat_affected": "Burn damage",
+          "damage_type": "Fire"
+        },
+        {
+          "name": "Hurricane",
+          "icon_description": "Dynamic swirling spiral or vortex",
+          "max_level": 4,
+          "effect": "Increases Attack Speed by 6% / 7.5% / 9% / 10.5%",
+          "scaling": [6, 7.5, 9, 10.5],
+          "stat_affected": "Attack Speed"
+        },
+        {
+          "name": "Lucky Clover",
+          "icon_description": "Classic four-leaf clover symbol",
+          "max_level": 5,
+          "effect": "Increases Critical Strike Chance by 5% / 7% / 9% / 11% / 13%",
+          "scaling": [5, 7, 9, 11, 13],
+          "stat_affected": "Critical Strike Chance"
+        },
+        {
+          "name": "Valiant Challenger",
+          "icon_description": "Two curved swords crossed in X shape",
+          "max_level": 4,
+          "effect": "Increases all damage dealt to Bosses by 10% / 12% / 14% / 16%",
+          "scaling": [10, 12, 14, 16],
+          "stat_affected": "Damage",
+          "target_type": "Bosses"
+        },
+        {
+          "name": "Ultimate Malice",
+          "icon_description": "Stylized human skull",
+          "max_level": 5,
+          "effect": "Increases Ultimate charge speed by 20% / 25% / 30% / 35% / 40%",
+          "scaling": [20, 25, 30, 35, 40],
+          "stat_affected": "Ultimate charge speed"
+        },
+        {
+          "name": "Destructive Nature",
+          "icon_description": "Tightly clenched fist",
+          "max_level": 4,
+          "effect": "Gain 2 / 2.5 / 3 / 3.5 Attack Damage each time you reach levels 5, 10, 15, and 20",
+          "scaling": [2, 2.5, 3, 3.5],
+          "stat_affected": "Attack Damage",
+          "trigger": "Character level milestones (5, 10, 15, 20)"
+        },
+        {
+          "name": "Mature Mind",
+          "icon_description": "Human silhouette within target/compass symbol",
+          "max_level": 4,
+          "effect": "Gain 2 / 2.5 / 3 / 3.5 Ability Power each time you reach levels 5, 10, 15, and 20",
+          "scaling": [2, 2.5, 3, 3.5],
+          "stat_affected": "Ability Power",
+          "trigger": "Character level milestones (5, 10, 15, 20)"
+        },
+        {
+          "name": "Awakened Magic",
+          "icon_description": "Rolled-up scroll or parchment",
+          "max_level": 4,
+          "effect": "Increases Ability Power by 14 / 16 / 18 / 20 while completing the first 3 worlds",
+          "scaling": [14, 16, 18, 20],
+          "stat_affected": "Ability Power",
+          "condition": "Active while completing the first 3 worlds"
+        },
+        {
+          "name": "Daylight",
+          "icon_description": "Stylized sun with radiating rays",
+          "max_level": 4,
+          "effect": "Your Light damage against enemies exposed to Light is increased by an additional 1.5% / 2% / 2.5% / 3% per stack",
+          "scaling": [1.5, 2, 2.5, 3],
+          "stat_affected": "Light damage",
+          "damage_type": "Light",
+          "condition": "Requires enemies to be exposed to Light (stacks)"
+        },
+        {
+          "name": "Gathering Storm",
+          "icon_description": "Swirling tornado or whirlwind",
+          "max_level": 4,
+          "effect": "Attack Speed is reduced by 10%. Attack Speed increases by 1% / 1.2% / 1.4% / 1.6% each time you level up",
+          "scaling": [1, 1.2, 1.4, 1.6],
+          "stat_affected": "Attack Speed",
+          "penalty": "Reduces Attack Speed by 10%",
+          "trigger": "Each character level up"
+        },
+        {
+          "name": "Burning Bloodlust",
+          "icon_description": "Knife with three drops of liquid (blood) dripping",
+          "max_level": 4,
+          "effect": "Increases Attack Damage by 14 / 16 / 18 / 20 until you complete the first 3 worlds",
+          "scaling": [14, 16, 18, 20],
+          "stat_affected": "Attack Damage",
+          "condition": "Active until you complete the first 3 worlds"
+        },
+        {
+          "name": "Corrupted Mind",
+          "icon_description": "Human brain with lightning bolt striking it",
+          "max_level": 4,
+          "effect": "Your Dark damage against enemies exposed to Dark is increased by an additional 1.5% / 2% / 2.5% / 3% per stack",
+          "scaling": [1.5, 2, 2.5, 3],
+          "stat_affected": "Dark damage",
+          "damage_type": "Dark",
+          "condition": "Requires enemies to be exposed to Dark (stacks)"
+        },
+        {
+          "name": "Strength Enhancement",
+          "icon_description": "Flexed bicep or arm muscle",
+          "max_level": 4,
+          "effect": "Reduces Attack Speed by 20%. Increases Attack Damage by 8 / 10 / 12 / 15",
+          "scaling": [8, 10, 12, 15],
+          "stat_affected": "Attack Damage",
+          "penalty": "Reduces Attack Speed by 20%"
+        },
+        {
+          "name": "Elementalist",
+          "icon_description": "Classic Yin-Yang symbol",
+          "max_level": 4,
+          "effect": "All damage you deal to enemies affected by all 4 elements is increased by 18% / 20% / 22% / 24%",
+          "scaling": [18, 20, 22, 24],
+          "stat_affected": "Damage",
+          "condition": "Requires enemies to be affected by all 4 elements"
+        },
+        {
+          "name": "Powerful Blow",
+          "icon_description": "Stylized feathered projectile or burst of energy",
+          "max_level": 4,
+          "effect": "Increases Critical Strike Damage by 15% / 18% / 21% / 24%",
+          "scaling": [15, 18, 21, 24],
+          "stat_affected": "Critical Strike Damage"
+        }
+      ],
+      "character_specific": {
+        "Shell": {
+          "powers": [
+            {
+              "name": "Purpose of My Existence",
+              "icon_description": "Glowing reddish-pink jagged or claw-like symbol",
+              "max_level": 4,
+              "effect": "Increases Attack Damage by 4 / 6 / 8 / 10",
+              "scaling": [4, 6, 8, 10],
+              "stat_affected": "Attack Damage"
+            },
+            {
+              "name": "Dance of Death",
+              "icon_description": "Glowing pinkish-red icon depicting stylized skull",
+              "max_level": 4,
+              "effect": "Increases Critical Strike Damage by 15% / 20% / 25% / 30%",
+              "scaling": [15, 20, 25, 30],
+              "stat_affected": "Critical Strike Damage"
+            },
+            {
+              "name": "Merciless",
+              "icon_description": "Reddish-pink stylized mask or face icon, glowing faintly",
+              "max_level": 4,
+              "effect": "All damage dealt to enemies with Health below 35% is increased by 15% / 18% / 21% / 24%",
+              "scaling": [15, 18, 21, 24],
+              "stat_affected": "Damage",
+              "condition": "Enemies with Health below 35%",
+              "lore": "To one devoid of emotion, showing mercy to enemies is nothing but the height of inefficiency."
+            },
+            {
+              "name": "Soul Oil",
+              "icon_description": "Reddish-pink stylized symbol resembling three drops or flames",
+              "max_level": 3,
+              "effect": "Your Maximum Health is reduced by 15%, but your Attack Speed increases by 8% / 12% / 16% and your basic attacks deal Dark damage",
+              "scaling": [8, 12, 16],
+              "stat_affected": ["Maximum Health", "Attack Speed", "Basic Attack damage type"],
+              "penalty": "Maximum Health reduced by 15%",
+              "bonus": "Attack Speed increased, basic attacks deal Dark damage",
+              "damage_type": "Dark"
+            },
+            {
+              "name": "Soul Acceleration",
+              "icon_description": "Glowing pinkish-red icon resembling stylized flame, wing, or abstract energy swirl",
+              "max_level": 3,
+              "effect": "The Cooldown of all Dash and Teleport Memories is reduced by 10% / 20% / 30%",
+              "scaling": [10, 20, 30],
+              "stat_affected": "Cooldown",
+              "target": "All Dash and Teleport Memories"
+            }
+          ]
+        },
+        "Lacerta": {
+          "powers": [
+            {
+              "name": "Premium Gunpowder",
+              "icon_description": "Stylized brain or cloud icon",
+              "max_level": 3,
+              "effect": "Increases Attack Damage by 4 / 7 / 10",
+              "scaling": [4, 7, 10],
+              "stat_affected": "Attack Damage"
+            },
+            {
+              "name": "Lizard's Intellect",
+              "icon_description": "Stylized lizard or dragon head",
+              "max_level": 3,
+              "effect": "Increases Ability Power by 4 / 7 / 10",
+              "scaling": [4, 7, 10],
+              "stat_affected": "Ability Power"
+            },
+            {
+              "name": "Loading Mastery",
+              "icon_description": "Stylized open hand with five fingers",
+              "max_level": 3,
+              "effect": "Increases Attack Speed by 6% / 10% / 14%",
+              "scaling": [6, 10, 14],
+              "stat_affected": "Attack Speed"
+            },
+            {
+              "name": "Improvised Scope",
+              "icon_description": "Circular icon with target-like symbol (crosshair)",
+              "max_level": 3,
+              "effect": "Increases Attack Range by 0.5 / 1 / 1.5 m",
+              "scaling": [0.5, 1, 1.5],
+              "stat_affected": "Attack Range"
+            }
+          ]
+        },
+        "Mist": {
+          "powers": [
+            {
+              "name": "Astrid's Smithing",
+              "icon_description": "Anvil with hammer resting on it",
+              "max_level": 4,
+              "effect": "Increases Attack Damage by 3 / 6 / 9 / 12",
+              "scaling": [3, 6, 9, 12],
+              "stat_affected": "Attack Damage",
+              "lore": "A younger sister's earnest prayers for her elder sister's safety are infused into the blade along with the sound of tempering."
+            },
+            {
+              "name": "Strike the Weakness!",
+              "icon_description": "Reddish-pink spiky star-like or burst icon",
+              "max_level": 3,
+              "effect": "After dash or teleport, gain 5 / 8 / 11 Attack Damage and 10% / 15% / 20% Critical Strike Chance for 2.5 seconds",
+              "scaling": {
+                "attack_damage": [5, 8, 11],
+                "critical_strike_chance": [10, 15, 20]
+              },
+              "stat_affected": ["Attack Damage", "Critical Strike Chance"],
+              "trigger": "After dash or teleport",
+              "duration": "2.5 seconds"
+            },
+            {
+              "name": "Duelist's Focus",
+              "icon_description": "Stylized red winged spear or dagger",
+              "max_level": 4,
+              "effect": "When your Health is above 90%, all damage dealt to any Boss is increased by 20% / 25% / 30% / 35%",
+              "scaling": [20, 25, 30, 35],
+              "stat_affected": "Damage",
+              "condition": "Health above 90%",
+              "target_type": "Bosses"
+            },
+            {
+              "name": "Dream-Infused Saber",
+              "icon_description": "Sword with glowing pinkish-red hilt and blade",
+              "max_level": 4,
+              "effect": "Gain 2 / 3 / 4 / 5 Attack Damage each time you reach levels 5, 10, 15, and 20",
+              "scaling": [2, 3, 4, 5],
+              "stat_affected": "Attack Damage",
+              "trigger": "Character level milestones (5, 10, 15, 20)"
+            },
+            {
+              "name": "Finally, A Worthy Opponent",
+              "icon_description": "Stylized pink or red shield-like icon",
+              "max_level": 3,
+              "effect": "All damage dealt to Hunters is increased by 20% / 25% / 30%",
+              "scaling": [20, 25, 30],
+              "stat_affected": "Damage",
+              "target_type": "Hunters",
+              "unlock_requirement": "Mastery level 30 with Mist, costs 60 gems",
+              "lore": "She has never lost a single duel, whether secret or official."
+            }
+          ]
+        },
+        "Yubar": {
+          "powers": [
+            {
+              "name": "Starry Sky Tapestry",
+              "icon_description": "Reddish-pink circular icon with white crescent moon and three small white stars",
+              "max_level": 4,
+              "effect": "Increases Ability Power by 5 / 7 / 9 / 11",
+              "scaling": [5, 7, 9, 11],
+              "stat_affected": "Ability Power"
+            },
+            {
+              "name": "Dazzling Meteor",
+              "icon_description": "Glowing pink stylized meteor with tail moving diagonally",
+              "max_level": 4,
+              "effect": "Gain 3 / 4 / 5 / 6 Ability Power each time you reach levels 5, 10, 15, and 20",
+              "scaling": [3, 4, 5, 6],
+              "stat_affected": "Ability Power",
+              "trigger": "Character level milestones (5, 10, 15, 20)"
+            },
+            {
+              "name": "Stellar Flow",
+              "icon_description": "Pinkish-red icon depicting crescent moon with small star inside",
+              "max_level": 4,
+              "effect": "Increases Memory Haste by 5 / 8 / 11 / 15",
+              "scaling": [5, 8, 11, 15],
+              "stat_affected": "Memory Haste"
+            },
+            {
+              "name": "Starlit Gaze",
+              "icon_description": "Light pinkish-red stylized multi-pointed star or flower",
+              "max_level": 4,
+              "effect": "Gain 2 / 2.5 / 3 / 3.5 Ability Power for each Light damage Memory you possess",
+              "scaling": [2, 2.5, 3, 3.5],
+              "stat_affected": "Ability Power",
+              "condition": "Scales with number of Light damage Memories possessed"
+            },
+            {
+              "name": "Singularity Reversal",
+              "icon_description": "Pink stylized circular fan or propeller-like symbol with six blades radiating from central point",
+              "max_level": 3,
+              "effect": "Casting Dodge grants 12% / 14% / 16% Ability Power for 2 seconds",
+              "scaling": [12, 14, 16],
+              "stat_affected": "Ability Power",
+              "trigger": "Casting Dodge",
+              "duration": "2 seconds"
+            },
+            {
+              "name": "Eclipse",
+              "icon_description": "Stylized crescent moon or claw mark glowing with pinkish-orange hue",
+              "max_level": 3,
+              "effect": "Gain Ability Power equal to 25% / 35% / 45% of your Attack Damage",
+              "scaling": [25, 35, 45],
+              "stat_affected": "Ability Power",
+              "scaling_source": "Attack Damage (percentage based)"
+            },
+            {
+              "name": "Starlit Eyes",
+              "icon_description": "Stylized pink icon resembling eye or star",
+              "max_level": 3,
+              "effect": "Increases all damage dealt to enemies with 5 or more stacks of Light by 10% / 15% / 20%",
+              "scaling": [10, 15, 20],
+              "stat_affected": "Damage",
+              "condition": "Requires enemies to have 5 or more stacks of Light",
+              "damage_type": "Light"
+            },
+            {
+              "name": "Glass Cannon",
+              "icon_description": "Pink/red stylized icon resembling atom or starburst",
+              "max_level": 3,
+              "effect": "Gain 5 / 7 / 9 Attack Damage and 7 / 10 / 13 Ability Power, but your Maximum Health is reduced by 15%",
+              "scaling": {
+                "attack_damage": [5, 7, 9],
+                "ability_power": [7, 10, 13]
+              },
+              "stat_affected": ["Attack Damage", "Ability Power", "Maximum Health"],
+              "penalty": "Maximum Health reduced by 15%",
+              "lore": "His body is now nothing more than a fragile vessel. Of course, everyone who thought so has been reduced to a handful of dust."
+            }
+          ]
+        },
+        "Vesper": {
+          "powers": [
+            {
+              "name": "Pulverizer",
+              "icon_description": "Reddish-pink spiky organic or crystalline shape (explosion, star, or weapon impact)",
+              "max_level": 4,
+              "effect": "Increases Attack Speed by 9% / 11% / 13% / 15%",
+              "scaling": [9, 11, 13, 15],
+              "stat_affected": "Attack Speed",
+              "lore": "His sacred hammer is perfectly suited for pounding someone into submission."
+            },
+            {
+              "name": "Solar Praise",
+              "icon_description": "Reddish-pink icon resembling stylized sun or starburst",
+              "max_level": 4,
+              "effect": "Increases Attack Damage by 10% / 13% / 16% / 20% when there are campfires, lava, or burning enemies or allies nearby",
+              "scaling": [10, 13, 16, 20],
+              "stat_affected": "Attack Damage",
+              "condition": "Requires campfires, lava, or burning enemies/allies nearby"
+            },
+            {
+              "name": "Hammer of Divinity",
+              "icon_description": "Reddish-pink icon of stylized hammer",
+              "max_level": 4,
+              "effect": "Gain Attack Damage equal to 25% / 30% / 35% / 40% of your Ability Power",
+              "scaling": [25, 30, 35, 40],
+              "stat_affected": "Attack Damage",
+              "scaling_source": "Ability Power (percentage based)"
+            },
+            {
+              "name": "Reckless Fury",
+              "icon_description": "Red or pink flame or burst of energy icon",
+              "max_level": 3,
+              "effect": "Maximum Health is reduced by 20% but Attack Speed is increased by 10% / 20% / 30%",
+              "scaling": [10, 20, 30],
+              "stat_affected": ["Maximum Health", "Attack Speed"],
+              "penalty": "Maximum Health reduced by 20%",
+              "bonus": "Attack Speed increased"
+            },
+            {
+              "name": "Grand Purpose",
+              "icon_description": "Circular icon with stylized sun or gear design in reddish-pink",
+              "max_level": 3,
+              "effect": "Maximum Health is reduced by 10% but Light damage and Fire damage dealt to Bosses and Hunters is increased by 20% / 25% / 30%",
+              "scaling": [20, 25, 30],
+              "stat_affected": ["Maximum Health", "Light damage", "Fire damage"],
+              "penalty": "Maximum Health reduced by 10%",
+              "bonus": "Light and Fire damage increased to Bosses and Hunters",
+              "target_type": "Bosses and Hunters",
+              "damage_types": ["Light", "Fire"]
+            }
+          ]
+        },
+        "Aurena": {
+          "powers": [
+            {
+              "name": "Hypothesis Formation",
+              "icon_description": "Circular icon with pinkish-red swirl or spiral design",
+              "max_level": 3,
+              "effect": "Increases Attack Speed by 5% / 10% / 15%",
+              "scaling": [5, 10, 15],
+              "stat_affected": "Attack Speed"
+            },
+            {
+              "name": "Experiment and Validation",
+              "icon_description": "Glowing pink icon depicting laboratory flask or beaker with bubbling liquid inside",
+              "max_level": 3,
+              "effect": "Increases Attack Damage by 3 / 6 / 9",
+              "scaling": [3, 6, 9],
+              "stat_affected": "Attack Damage",
+              "lore": "Experiments and validation must always be thorough. The pain or lives of test subjects are merely secondary considerations to her."
+            },
+            {
+              "name": "Drawing a Conclusion",
+              "icon_description": "Stylized pink-red icon resembling brain or complex multi-lobed gear",
+              "max_level": 3,
+              "effect": "Increases Ability Power by 3 / 6 / 9",
+              "scaling": [3, 6, 9],
+              "stat_affected": "Ability Power"
+            },
+            {
+              "name": "Resonance Effect",
+              "icon_description": "Stylized reddish-pink icon resembling gear or atom symbol",
+              "max_level": 4,
+              "effect": "When your Health is below 50%, your Attack Damage and Ability Power increase by 8% / 10% / 12% / 14%",
+              "scaling": [8, 10, 12, 14],
+              "stat_affected": ["Attack Damage", "Ability Power"],
+              "condition": "Health below 50%"
+            }
+          ]
+        },
+        "Bismuth": {
+          "powers": [
+            {
+              "name": "Speed Reading",
+              "icon_description": "Reddish-pink stylized hourglass",
+              "max_level": 4,
+              "effect": "Increases Attack Speed by 9% / 11% / 13% / 15%",
+              "scaling": [9, 11, 13, 15],
+              "stat_affected": "Attack Speed"
+            },
+            {
+              "name": "Mental Attunement",
+              "icon_description": "Stylized brain glowing with pinkish-purple light with medical caduceus symbol (staff with two snakes intertwined) piercing through it",
+              "max_level": 3,
+              "effect": "Gain 1 stack of Attunement with each basic attack, up to 8 stacks. Each stack increases your Attack Damage and Ability Power by 0.5 / 1 / 1.5. All stacks are lost when you take damage from enemies",
+              "scaling": [0.5, 1, 1.5],
+              "stat_affected": ["Attack Damage", "Ability Power"],
+              "trigger": "Each basic attack",
+              "max_stacks": 8,
+              "penalty": "All stacks lost when taking damage from enemies"
+            },
+            {
+              "name": "Enlightenment",
+              "icon_description": "Glowing pinkish-red lightbulb icon",
+              "max_level": 3,
+              "effect": "Each time you dismantle a Memory or Essence, your Attack Speed increases permanently by 3% / 4% / 5%, but Dream Dust gained is reduced by 35%. Attack Speed increase varies by rarity: 70%, 100%, 150%, 300%",
+              "scaling": [3, 4, 5],
+              "stat_affected": ["Attack Speed", "Dream Dust"],
+              "trigger": "Dismantling a Memory or Essence",
+              "penalty": "Dream Dust gained reduced by 35%",
+              "bonus": "Permanent Attack Speed increase",
+              "rarity_multipliers": {
+                "rarity_1": 70,
+                "rarity_2": 100,
+                "rarity_3": 150,
+                "rarity_4": 300
+              }
+            },
+            {
+              "name": "Arrow of the Mind",
+              "icon_description": "Stylized reddish-pink arrow pointing upwards and slightly to the right",
+              "max_level": 3,
+              "effect": "Your Maximum Health is reduced by 15%, but in return, your basic attacks have a 25% / 50% / 75% chance to fire an additional arrow that triggers an attack effect",
+              "scaling": [25, 50, 75],
+              "stat_affected": ["Maximum Health", "Basic attacks", "Attack effects"],
+              "penalty": "Maximum Health reduced by 15%",
+              "bonus": "Chance to fire additional arrow that triggers attack effect"
+            },
+            {
+              "name": "Self-Writing Story",
+              "icon_description": "Reddish-pink icon of open book with quill pen resting on it",
+              "max_level": 4,
+              "effect": "Increases Memory Haste by 8 / 12 / 16 / 20 and most Memories will be automatically cast during combat",
+              "scaling": [8, 12, 16, 20],
+              "stat_affected": "Memory Haste",
+              "bonus": "Most Memories automatically cast during combat",
+              "lore": "Sometimes, the story gets so exciting that it turns to the next page all by itself. The girl simply needs to sit back and watch the wonderful tales the book writes unfold."
+            }
+          ]
+        },
+        "Nachia": {
+          "powers": [
+            {
+              "name": "Dog Lover",
+              "icon_description": "Stylized icon of dog's head facing right, rendered in glowing pinkish-red color",
+              "max_level": 3,
+              "effect": "When a canine monster or summon dies nearby, Nachia becomes enraged for 5 seconds, increasing her Attack Speed by 15% / 25% / 35%. However, Nachia's damage to canine monsters is reduced by 30%",
+              "scaling": [15, 25, 35],
+              "stat_affected": ["Attack Speed", "Damage to canine monsters"],
+              "trigger": "When a canine monster or summon dies nearby",
+              "duration": "5 seconds (enraged state)",
+              "penalty": "Damage to canine monsters reduced by 30%",
+              "bonus": "Attack Speed increased (enraged state)",
+              "unlock_requirement": "Mastery level 20 with Nachia, costs 50 gems",
+              "lore": "She believes there are no bad dogs in this world."
+            },
+            {
+              "name": "Enhanced Ferocity",
+              "icon_description": "Reddish-pink icon depicting stylized devil or demon head with small horns, sharp teeth, and menacing expression",
+              "max_level": 4,
+              "effect": "Increases the Attack Speed of all summons by 9% / 12% / 15% / 18%",
+              "scaling": [9, 12, 15, 18],
+              "stat_affected": "Summon Attack Speed",
+              "target": "All summons",
+              "unlock_requirement": "Mastery level 30 with Nachia, costs 60 gems"
+            }
+          ]
+        }
+      }
+    },
+    "Life": {
+      "description": "Hold the power to aid survival and support allies",
+      "color": "Green/Yellow",
+      "zodiac_symbol": "Aquarius ♒",
+      "common_powers": [
+        {
+          "name": "Empowered Persistence",
+          "icon_description": "Heart with cross symbol inside",
+          "max_level": 4,
+          "effect": "Increases Maximum Health by 60 / 80 / 100 / 120",
+          "scaling": [60, 80, 100, 120],
+          "stat_affected": "Maximum Health"
+        },
+        {
+          "name": "Asclepius",
+          "icon_description": "Caduceus (staff with two snakes entwined and wings at top)",
+          "max_level": 4,
+          "effect": "Increases the chance for a Health Potion to appear by 25% / 50% / 75% / 100%",
+          "scaling": [25, 50, 75, 100],
+          "stat_affected": "Health Potion spawn chance"
+        },
+        {
+          "name": "Unconditional Love",
+          "icon_description": "Two stylized overlapping leaves or wings forming heart-like shape",
+          "max_level": 4,
+          "effect": "Reduces the cost of Shrine of Guidance by 25% / 50% / 75% / 100%",
+          "scaling": [25, 50, 75, 100],
+          "stat_affected": "Shrine of Guidance cost",
+          "target": "Shrine of Guidance"
+        },
+        {
+          "name": "Second Wind",
+          "icon_description": "Heart with pulse line or electrocardiogram (ECG) line through it",
+          "max_level": 4,
+          "effect": "When you take Fatal damage, you ignore that damage and become Invulnerable for 1 / 1.5 / 2 / 2.5 seconds. This can only occur once per game.",
+          "scaling": [1, 1.5, 2, 2.5],
+          "stat_affected": "Invulnerability duration",
+          "trigger": "Fatal damage",
+          "limitation": "Once per game"
+        },
+        {
+          "name": "Suspicious Mixture",
+          "icon_description": "Flask or beaker with liquid inside",
+          "max_level": 4,
+          "effect": "Increases the healing amount of Health Potions by 55% / 65% / 75% / 85%",
+          "scaling": [55, 65, 75, 85],
+          "stat_affected": "Health Potion healing",
+          "target": "Health Potions"
+        },
+        {
+          "name": "Stone Skin",
+          "icon_description": "Faceted gem or crystal",
+          "max_level": 5,
+          "effect": "Increases Armor by 5 / 6.5 / 8 / 9.5 / 11",
+          "scaling": [5, 6.5, 8, 9.5, 11],
+          "stat_affected": "Armor"
+        },
+        {
+          "name": "Combat First Aid",
+          "icon_description": "Hand wearing glove or bandage",
+          "max_level": 4,
+          "effect": "Restore 1.00% / 1.50% / 2.00% / 2.50% of your Max Health whenever you kill an enemy",
+          "scaling": [1.0, 1.5, 2.0, 2.5],
+          "stat_affected": "Max Health (restoration)",
+          "trigger": "Kill an enemy"
+        },
+        {
+          "name": "Steel Refinement",
+          "icon_description": "Rectangular bar or ingot",
+          "max_level": 4,
+          "effect": "Increases Maximum Health by 15 / 18 / 21 / 24 each time you level up",
+          "scaling": [15, 18, 21, 24],
+          "stat_affected": "Maximum Health",
+          "trigger": "Each character level up"
+        },
+        {
+          "name": "Elemental Resistance",
+          "icon_description": "Downward-pointing triangle with stylized wings or protrusions on upper sides",
+          "max_level": 4,
+          "effect": "Reduces the duration of elemental effects on you by 40% / 45% / 50% / 55%. For Burn, damage is reduced instead.",
+          "scaling": [40, 45, 50, 55],
+          "stat_affected": "Elemental effect duration",
+          "special_note": "For Burn, damage is reduced instead of duration"
+        },
+        {
+          "name": "Regenerative Skin",
+          "icon_description": "Circular target or crosshair with plus sign in center",
+          "max_level": 4,
+          "effect": "Increases received Healing and Barrier amounts by 12% / 14% / 16% / 18%",
+          "scaling": [12, 14, 16, 18],
+          "stat_affected": "Healing and Barrier amounts"
+        },
+        {
+          "name": "Cold Affinity",
+          "icon_description": "Snowflake",
+          "max_level": 4,
+          "effect": "Damage taken from enemies afflicted with Chill is reduced by 25% / 30% / 35% / 40%",
+          "scaling": [25, 30, 35, 40],
+          "stat_affected": "Damage taken",
+          "condition": "Requires enemies to be afflicted with Chill"
+        },
+        {
+          "name": "Wicked Vitality",
+          "icon_description": "Two crossed swords or blades with heart in center",
+          "max_level": 4,
+          "effect": "Basic Attacks restore 0.40% / 0.50% / 0.60% / 0.70% of your Max Health on hit. This healing is increased by 150% on a Critical Strike.",
+          "scaling": [0.4, 0.5, 0.6, 0.7],
+          "stat_affected": "Max Health (restoration)",
+          "trigger": "Basic Attacks on hit",
+          "bonus": "Healing increased by 150% on Critical Strike"
+        },
+        {
+          "name": "Threat Detection",
+          "icon_description": "Stylized human figure with radiating lines around head (suggesting communication or aura)",
+          "max_level": 4,
+          "effect": "Reduces Dodge's cooldown by 10% / 14% / 18% / 22%",
+          "scaling": [10, 14, 18, 22],
+          "stat_affected": "Dodge cooldown"
+        },
+        {
+          "name": "Instinctive Movement",
+          "icon_description": "Microscope",
+          "max_level": 4,
+          "effect": "When Health is below 50%, Dodge cooldown is reduced by 20% / 24% / 28% / 32%",
+          "scaling": [20, 24, 28, 32],
+          "stat_affected": "Dodge cooldown",
+          "condition": "Health below 50%"
+        },
+        {
+          "name": "Ragged Armor",
+          "icon_description": "Chest plate or armor piece",
+          "max_level": 4,
+          "effect": "Gain 2.5 / 3 / 3.5 / 4 Armor every time you enter a new world",
+          "scaling": [2.5, 3, 3.5, 4],
+          "stat_affected": "Armor",
+          "trigger": "Enter a new world"
+        },
+        {
+          "name": "Humble Freebie",
+          "icon_description": "Wrapped gift box with plus sign on top",
+          "max_level": 3,
+          "effect": "Gain a Health Potion when you buy or sell an item at the shop. This can trigger up to 1 / 2 / 3 times per merchant.",
+          "scaling": [1, 2, 3],
+          "stat_affected": "Health Potion gain",
+          "trigger": "Buy or sell item at shop",
+          "limitation": "Per merchant"
+        }
+      ],
+      "character_specific": {
+        "Shell": {
+          "powers": [
+            {
+              "name": "Life Neglect",
+              "icon_description": "Pinkish-red stylized icon of shell with small glowing white four-pointed star or sparkle on its upper right side",
+              "max_level": 4,
+              "effect": "Reduces healing received by 30%, but when a Critical Strike lands, it deals additional damage equal to 15% / 20% / 25% / 30% of the damage over 2 seconds",
+              "scaling": [15, 20, 25, 30],
+              "stat_affected": ["Healing received", "Critical Strike damage"],
+              "penalty": "Healing received reduced by 30%",
+              "bonus": "Additional damage on Critical Strike",
+              "trigger": "When a Critical Strike lands",
+              "duration": "2 seconds (additional damage over time)"
+            },
+            {
+              "name": "Emergency Repair",
+              "icon_description": "Glowing yellow-green icon depicting stylized wrench crossed with hammer",
+              "max_level": 3,
+              "effect": "When you take Fatal damage, you ignore that damage and become Invulnerable for 1 / 2 / 3 seconds, but your Maximum Health is reduced by 15%. This can only occur once per game",
+              "scaling": [1, 2, 3],
+              "stat_affected": ["Invulnerability duration", "Maximum Health"],
+              "trigger": "Taking Fatal damage",
+              "penalty": "Maximum Health reduced by 15%",
+              "bonus": "Ignore Fatal damage, become Invulnerable",
+              "limitation": "Can only occur once per game"
+            }
+          ]
+        },
+        "Lacerta": {
+          "powers": [
+            {
+              "name": "Flexible Lizard",
+              "icon_description": "Stylized lizard or gecko icon",
+              "max_level": 3,
+              "effect": "Using Dodge increases your Movement Speed by 20% / 25% / 30% for 1.5 seconds",
+              "scaling": [20, 25, 30],
+              "stat_affected": "Movement Speed",
+              "trigger": "Using Dodge",
+              "duration": "1.5 seconds",
+              "lore": "The Lizardman's remarkably flexible body is a tremendous asset in maintaining effective firing angles in any situation."
+            },
+            {
+              "name": "Lizard Oil",
+              "icon_description": "Light yellow-green droplet icon",
+              "max_level": 3,
+              "effect": "Dodge skill's cooldown increases by 1.5 / 1 / 0.5 seconds, but it gains 1 additional charge",
+              "scaling": [1.5, 1, 0.5],
+              "stat_affected": "Dodge cooldown and charges",
+              "tradeoff": "Cooldown increase but +1 charge"
+            }
+          ]
+        },
+        "Mist": {
+          "powers": [
+            {
+              "name": "Honey-Glazed Fruit",
+              "icon_description": "Glowing yellow cluster of berries or grapes",
+              "max_level": 3,
+              "effect": "Health Potions grant a Barrier equal to 50% / 100% / 150% of the healing provided",
+              "scaling": [50, 100, 150],
+              "stat_affected": "Barrier",
+              "target": "Health Potions",
+              "note": "Barrier scales with healing amount"
+            },
+            {
+              "name": "Plate Pauldrons",
+              "icon_description": "Glowing yellow-green chest plate or pauldrons",
+              "max_level": 4,
+              "effect": "Your Armor is increased by 15 / 25 / 35 / 45, but this effect disappears for 8 seconds when you take damage from enemies",
+              "scaling": [15, 25, 35, 45],
+              "stat_affected": "Armor",
+              "penalty": "Effect disappears for 8 seconds when taking damage from enemies"
+            },
+            {
+              "name": "Light as a Feather",
+              "icon_description": "Light yellow/green feather icon",
+              "max_level": 4,
+              "effect": "Movement Speed is increased by 3% / 6% / 9% / 12%. When your Health is above 90%, this effect is increased by 50%",
+              "scaling": [3, 6, 9, 12],
+              "stat_affected": "Movement Speed",
+              "condition": "Health above 90% increases effect by 50%"
+            },
+            {
+              "name": "Light Armament",
+              "icon_description": "Stylized golden running figure",
+              "max_level": 3,
+              "effect": "Damage taken from enemies is increased by 25% / 15% / 5%, but you gain 1 additional charge for your Dodge",
+              "scaling": [25, 15, 5],
+              "stat_affected": "Damage taken and Dodge charges",
+              "penalty": "Damage taken increased (reduces as level increases)",
+              "bonus": "+1 Dodge charge"
+            },
+            {
+              "name": "Balestra",
+              "icon_description": "Glowing yellow butterfly icon",
+              "max_level": 3,
+              "effect": "Your Dodge has 1 fewer maximum charge, but its cooldown is reduced by 0.8 / 1.4 / 2 seconds",
+              "scaling": [0.8, 1.4, 2],
+              "stat_affected": "Dodge charges and cooldown",
+              "penalty": "1 fewer maximum charge",
+              "bonus": "Cooldown reduction",
+              "unlock_requirement": "Mastery level 30 with Mist, costs 60 gems"
+            }
+          ]
+        },
+        "Yubar": {
+          "powers": [
+            {
+              "name": "Now You See Me",
+              "icon_description": "Glowing light yellow-green icon depicting stylized eye within circular shape",
+              "max_level": 1,
+              "effect": "The travel distance of Dodge is increased by 33%",
+              "stat_affected": "Dodge travel distance",
+              "bonus": "+33% travel distance"
+            },
+            {
+              "name": "Peek-a-boo!",
+              "icon_description": "Bright glowing yellow icon resembling stylized star or sun with multiple rays",
+              "max_level": 3,
+              "effect": "Dodge's cooldown is reduced by 0.8 seconds, but its travel distance is reduced by 40% / 30% / 20%",
+              "scaling": [40, 30, 20],
+              "stat_affected": "Dodge cooldown and travel distance",
+              "bonus": "Cooldown -0.8s",
+              "penalty": "Travel distance reduced (reduces as level increases)"
+            },
+            {
+              "name": "Stellar Trace",
+              "icon_description": "Glowing light green footprint icon",
+              "max_level": 3,
+              "effect": "Gain 1 additional charge for Dodge, but its cooldown is increased by 2 / 1.5 / 1 seconds",
+              "scaling": [2, 1.5, 1],
+              "stat_affected": "Dodge charges and cooldown",
+              "bonus": "+1 Dodge charge",
+              "penalty": "Cooldown increased (reduces as level increases)"
+            }
+          ]
+        },
+        "Vesper": {
+          "powers": [
+            {
+              "name": "Trial Survivor",
+              "icon_description": "Glowing gold icon of stylized helmet (Spartan or warrior's helmet)",
+              "max_level": 4,
+              "effect": "Increases Armor by 6 / 8 / 10 / 12",
+              "scaling": [6, 8, 10, 12],
+              "stat_affected": "Armor",
+              "lore": "The Order made him walk barefoot through blazing fire and scoop up boiling oil with his bare hands."
+            },
+            {
+              "name": "Tough Skin",
+              "icon_description": "Glowing light yellow-green stylized heart icon",
+              "max_level": 4,
+              "effect": "Increases Maximum Health by 80 / 100 / 120 / 140",
+              "scaling": [80, 100, 120, 140],
+              "stat_affected": "Maximum Health"
+            },
+            {
+              "name": "Marvelous Muscles",
+              "icon_description": "Bright yellow-green icon depicting flexing bicep",
+              "max_level": 3,
+              "effect": "Increases Maximum Health by 15 / 20 / 25 each time you level up",
+              "scaling": [15, 20, 25],
+              "stat_affected": "Maximum Health",
+              "trigger": "Each character level up"
+            },
+            {
+              "name": "Rising Faith",
+              "icon_description": "Glowing golden icon depicting figure in kneeling or praying posture",
+              "max_level": 3,
+              "effect": "Gain 2 / 3 / 4 Armor each time you reach level 5, 10, 15, and 20",
+              "scaling": [2, 3, 4],
+              "stat_affected": "Armor",
+              "trigger": "Character level milestones (5, 10, 15, 20)"
+            },
+            {
+              "name": "Heavy Armor Mastery",
+              "icon_description": "Glowing yellow icon depicting chest plate",
+              "max_level": 4,
+              "effect": "Increases the Barrier amount of Heavy Strike by 45% / 55% / 65% / 75% and extends its duration by 75% / 100% / 125% / 150%",
+              "scaling": {
+                "barrier_amount": [45, 55, 65, 75],
+                "duration": [75, 100, 125, 150]
+              },
+              "stat_affected": "Heavy Strike Barrier",
+              "target": "Heavy Strike memory",
+              "modifications": ["Barrier amount increase", "Duration extension"]
+            },
+            {
+              "name": "I Shall Not Waver!",
+              "icon_description": "Glowing yellow-green icon depicting upward-facing hand with fingers spread (protective/shielding gesture)",
+              "max_level": 3,
+              "effect": "When Health is below 35%, gain 10 / 20 / 30 Armor",
+              "scaling": [10, 20, 30],
+              "stat_affected": "Armor",
+              "condition": "Health below 35%"
+            },
+            {
+              "name": "No Armor Is Too Thick",
+              "icon_description": "Glowing light yellow icon depicting stylized chest armor piece",
+              "max_level": 3,
+              "effect": "Reduces Movement Speed by 20%, but increases Maximum Health by 14% / 17% / 20%",
+              "scaling": [14, 17, 20],
+              "stat_affected": ["Movement Speed", "Maximum Health"],
+              "penalty": "Movement Speed reduced by 20%",
+              "bonus": "Maximum Health increased"
+            },
+            {
+              "name": "Heart of the Sun",
+              "icon_description": "Shield-shaped icon with stylized flame inside, glowing with light yellow outline",
+              "max_level": 3,
+              "effect": "Reduces Fire damage taken by 30% / 50% / 70% and Burn damage over time taken by 50% / 75% / 90%",
+              "scaling": {
+                "fire_damage_reduction": [30, 50, 70],
+                "burn_damage_reduction": [50, 75, 90]
+              },
+              "stat_affected": "Damage taken",
+              "damage_types": ["Fire", "Burn"],
+              "note": "Reduces both Fire damage and Burn DoT"
+            }
+          ]
+        },
+        "Aurena": {
+          "powers": [
+            {
+              "name": "Eel-like Agility",
+              "icon_description": "Glowing green stylized icon of eel or snake",
+              "max_level": 4,
+              "effect": "When you take damage, your Movement Speed increases by 10% / 15% / 20% / 25% for 2 seconds",
+              "scaling": [10, 15, 20, 25],
+              "stat_affected": "Movement Speed",
+              "trigger": "Taking damage",
+              "duration": "2 seconds",
+              "lore": "Her graceful and elegant movements, uncharacteristic of a scholar, are one of the physical traits of Anguillians."
+            },
+            {
+              "name": "Autophagy",
+              "icon_description": "Glowing yellow-gold circular icon with thinner concentric circle inside (stylized eye or 'O')",
+              "max_level": 3,
+              "effect": "Increases healing given and received by 15% / 25% / 35% when your Health is below 50%",
+              "scaling": [15, 25, 35],
+              "stat_affected": "Healing given and received",
+              "condition": "Health below 50%"
+            },
+            {
+              "name": "Beautiful Plumage",
+              "icon_description": "Glowing light yellow-green icon depicting stylized feather",
+              "max_level": 4,
+              "effect": "Increases Armor by 3 / 6 / 9 / 12",
+              "scaling": [3, 6, 9, 12],
+              "stat_affected": "Armor"
+            },
+            {
+              "name": "Feather Oil",
+              "icon_description": "Glowing yellow icon depicting stylized flask or vial with single drop falling from its opening",
+              "max_level": 3,
+              "effect": "Increases Armor by 30 / 35 / 40 when your Health is below 40%",
+              "scaling": [30, 35, 40],
+              "stat_affected": "Armor",
+              "condition": "Health below 40%"
+            },
+            {
+              "name": "Circulating Life",
+              "icon_description": "Glowing green icon resembling stylized heart with circular arrow or swirl encompassing it",
+              "max_level": 3,
+              "effect": "When you recover Health, heal a nearby ally other than yourself with the lowest Health for 20% / 30% / 40% of the amount healed",
+              "scaling": [20, 30, 40],
+              "stat_affected": "Healing",
+              "trigger": "When you recover Health",
+              "target": "Nearby ally with lowest Health (excluding self)",
+              "scaling_source": "Percentage of amount healed"
+            },
+            {
+              "name": "Experimental Hypothesis",
+              "icon_description": "Glowing light green icon resembling interconnected nodes or molecules",
+              "max_level": 4,
+              "effect": "Increases damage taken from enemies by 20%, but increases healing given and received by 15% / 20% / 25% / 30%",
+              "scaling": [15, 20, 25, 30],
+              "stat_affected": ["Damage taken", "Healing given", "Healing received"],
+              "penalty": "Damage taken increased by 20%",
+              "bonus": "Healing given and received increased"
+            }
+          ]
+        },
+        "Bismuth": {
+          "powers": [
+            {
+              "name": "Two Souls",
+              "icon_description": "Glowing yellow icon depicting two stylized humanoid figures standing side-by-side",
+              "max_level": 3,
+              "effect": "When you take Fatal damage, you ignore that damage and become Invulnerable for 1 / 2 / 3 seconds. However, a random Memory is destroyed, and Identity Memories may also be destroyed. This can only occur once per game",
+              "scaling": [1, 2, 3],
+              "stat_affected": "Invulnerability duration",
+              "trigger": "Taking Fatal damage",
+              "penalty": "Random Memory destroyed, Identity Memories may also be destroyed",
+              "limitation": "Can only occur once per game"
+            },
+            {
+              "name": "Light Footsteps",
+              "icon_description": "Glowing yellow icon depicting stylized foot or boot with wing-like element attached to heel",
+              "max_level": 4,
+              "effect": "While moving, Movement Speed gradually increases over 5 seconds, up to a maximum of 10% / 15% / 20% / 25%. This bonus disappears when you stop moving",
+              "scaling": [10, 15, 20, 25],
+              "stat_affected": "Movement Speed",
+              "condition": "While moving",
+              "duration": "Gradually increases over 5 seconds",
+              "note": "Bonus disappears when you stop moving",
+              "lore": "Worried about the girl's tiny bare feet? Don't be. She's not walking on rough ground—she's skipping merrily across fluffy clouds on her journey!"
+            }
+          ]
+        },
+        "Nachia": {
+          "powers": [
+            {
+              "name": "Guardian of Order",
+              "icon_description": "Small glowing pinkish-red icon of stylized tree",
+              "max_level": 4,
+              "effect": "Increases Ability Power by 4 / 6 / 8 / 10",
+              "scaling": [4, 6, 8, 10],
+              "stat_affected": "Ability Power",
+              "lore": "The order of the forest is simple and clear: life, death, and the cycle."
+            },
+            {
+              "name": "Steadfast Bond",
+              "icon_description": "Glowing green paw print icon",
+              "max_level": 4,
+              "effect": "When Nachia's summons are nearby, her Armor increases by 6 / 9 / 12 / 15 and the healing and Barrier she gives to her summons increase by 15% / 25% / 35% / 45%",
+              "scaling": {
+                "armor": [6, 9, 12, 15],
+                "healing_barrier": [15, 25, 35, 45]
+              },
+              "stat_affected": ["Armor", "Healing", "Barrier"],
+              "condition": "Nachia's summons are nearby",
+              "bonus": "Armor increased, healing and Barrier to summons increased"
+            },
+            {
+              "name": "Life is Sacred",
+              "icon_description": "Golden-yellow icon resembling stylized plant or small tree with three leaves",
+              "max_level": 3,
+              "effect": "Increases the healing and Barrier you give to yourself by 5% / 10% / 15%, and to allies by 15% / 20% / 25%",
+              "scaling": {
+                "self": [5, 10, 15],
+                "allies": [15, 20, 25]
+              },
+              "stat_affected": ["Healing", "Barrier"],
+              "target": ["Self", "Allies"]
+            }
+          ]
+        }
+      }
+    },
+    "Imagination": {
+      "description": "Supports life and combat in The Rapids through unusual and often creative means",
+      "color": "Cyan/Blue",
+      "zodiac_symbol": "Pisces ♓",
+      "common_powers": [
+        {
+          "name": "Initial Capital",
+          "icon_description": "Money bag with small four-pointed star cursor icon overlaid",
+          "max_level": 4,
+          "effect": "Gain 50 / 70 / 90 / 110 Gold at the start of your adventure",
+          "scaling": [50, 70, 90, 110],
+          "stat_affected": "Gold",
+          "trigger": "Start of adventure"
+        },
+        {
+          "name": "Wealth Accumulation",
+          "icon_description": "Treasure chest",
+          "max_level": 4,
+          "effect": "Increases the amount of Gold gained from defeating enemies by 4% / 6% / 8% / 10%",
+          "scaling": [4, 6, 8, 10],
+          "stat_affected": "Gold gained",
+          "trigger": "Defeating enemies"
+        },
+        {
+          "name": "Efficient Extraction",
+          "icon_description": "Mushroom-like shape with liquid dripping from cap",
+          "max_level": 5,
+          "effect": "Increases the amount of Dream Dust gained from dismantling Memories or Essences by 7% / 9% / 11% / 13% / 15%",
+          "scaling": [7, 9, 11, 13, 15],
+          "stat_affected": "Dream Dust gained",
+          "trigger": "Dismantling Memories or Essences"
+        },
+        {
+          "name": "Sharp Negotiator",
+          "icon_description": "Two open hands, palms up, with small glowing particles or seeds falling into them",
+          "max_level": 5,
+          "effect": "The Gold price of items sold by Merchants is reduced by 10% / 12% / 14% / 16% / 18%",
+          "scaling": [10, 12, 14, 16, 18],
+          "stat_affected": "Merchant item prices",
+          "target": "Merchants"
+        },
+        {
+          "name": "Primordial Chaos",
+          "icon_description": "Target symbol or stylized eye with concentric circles",
+          "max_level": 5,
+          "effect": "When Chaos is obtained as a reward, there is a 12% / 14% / 16% / 18% / 20% chance to gain one additional Chaos",
+          "scaling": [12, 14, 16, 18, 20],
+          "stat_affected": "Chaos gain",
+          "trigger": "When Chaos is obtained as a reward"
+        },
+        {
+          "name": "Intersecting Memories",
+          "icon_description": "Swirling triple-spiral vortex design",
+          "max_level": 4,
+          "effect": "Acquire a random level 1 / 2 / 3 / 4 Memory at the start of your adventure",
+          "scaling": [1, 2, 3, 4],
+          "stat_affected": "Memory acquisition",
+          "trigger": "Start of adventure",
+          "note": "Memory level scales with power level"
+        },
+        {
+          "name": "Monstrous Charm",
+          "icon_description": "Stylized eye with diamond-shaped pupil and small circle in center",
+          "max_level": 3,
+          "effect": "There is a 50% / 75% / 100% chance for Jonas to offer 2 additional items for sale",
+          "scaling": [50, 75, 100],
+          "stat_affected": "Merchant inventory",
+          "target": "Jonas (merchant)"
+        },
+        {
+          "name": "Beginner's Luck",
+          "icon_description": "Diamond shape",
+          "max_level": 4,
+          "effect": "Increases the quality of the first Essence you equip by 40% / 70% / 100% / 130%",
+          "scaling": [40, 70, 100, 130],
+          "stat_affected": "Essence quality",
+          "trigger": "First Essence equipped",
+          "limitation": "Only affects first Essence"
+        },
+        {
+          "name": "Dismantle and Analyze",
+          "icon_description": "Small cloud with three glowing stars rising above it",
+          "max_level": 4,
+          "effect": "Defeating an enemy has a 12% / 14% / 16% / 18% chance to grant 2 Dream Dust",
+          "scaling": [12, 14, 16, 18],
+          "stat_affected": "Dream Dust",
+          "trigger": "Defeating enemies",
+          "reward": "2 Dream Dust per trigger"
+        },
+        {
+          "name": "Black Market",
+          "icon_description": "Diamond shape encircled by two curved arrows",
+          "max_level": 3,
+          "effect": "Gain 1 / 2 / 3 Platinum Coins at the start of an adventure and whenever you move to a new world, up to a maximum of 3. Use these coins to refresh the Merchant's inventory.",
+          "scaling": [1, 2, 3],
+          "stat_affected": "Platinum Coins",
+          "trigger": "Start of adventure and moving to new world",
+          "limitation": "Maximum of 3 coins",
+          "use": "Refresh Merchant's inventory"
+        },
+        {
+          "name": "Pickpocket",
+          "icon_description": "Hand holding glowing orb or sphere",
+          "max_level": 3,
+          "effect": "Gain 0.7 / 1 / 1.3 Gold the first time a Critical Attack hits each enemy",
+          "scaling": [0.7, 1, 1.3],
+          "stat_affected": "Gold",
+          "trigger": "First Critical Attack on each enemy"
+        },
+        {
+          "name": "Trading Fates",
+          "icon_description": "Three interconnected circles forming triangular pattern",
+          "max_level": 3,
+          "effect": "The first time you Dismantle an Essence or Memory, it is replaced with a random item of the same rarity instead of being dismantled. Can trigger up to 1 / 2 / 3 times per world.",
+          "scaling": [1, 2, 3],
+          "stat_affected": "Item replacement",
+          "trigger": "Dismantling Essence or Memory",
+          "limitation": "Per world",
+          "note": "Replaces dismantled item with random item of same rarity"
+        },
+        {
+          "name": "Sparkling Clean Maw",
+          "icon_description": "Stylized monster's mouth with sharp teeth",
+          "max_level": 4,
+          "effect": "Reduces the cost of the Maw of Doom by 20% / 30% / 40% / 50%. The Maw no longer destroys items it consumes, instead resetting their level or quality.",
+          "scaling": [20, 30, 40, 50],
+          "stat_affected": "Maw of Doom cost",
+          "target": "Maw of Doom",
+          "special_note": "Maw no longer destroys items, resets level/quality instead"
+        },
+        {
+          "name": "Bizarre Spoils",
+          "icon_description": "Snowflake or starburst design with multiple points",
+          "max_level": 4,
+          "effect": "Defeating a Mini Boss has a 40% / 60% / 80% / 100% chance to grant a random Essence",
+          "scaling": [40, 60, 80, 100],
+          "stat_affected": "Essence gain",
+          "trigger": "Defeating Mini Boss"
+        }
+      ],
+      "character_specific": {
+        "Shell": {
+          "powers": [
+            {
+              "name": "Bounty",
+              "icon_description": "Glowing light blue icon depicting stylized money bag with coins spilling out",
+              "max_level": 2,
+              "effect": "When you defeat a boss, you have a 30% / 60% chance to obtain a Platinum Coin. This coin can refresh the Merchant's inventory",
+              "scaling": [30, 60],
+              "stat_affected": "Platinum Coin gain",
+              "trigger": "Defeating a boss",
+              "chance": "30% / 60%",
+              "reward": "Platinum Coin (refreshes Merchant's inventory)"
+            },
+            {
+              "name": "Creepy One-Eyed Doll",
+              "icon_description": "Glowing light blue stylized eye icon",
+              "max_level": 3,
+              "effect": "Intimidate Merchants to lower item prices. If you succeed (50% chance), the Gold price is reduced by 50% / 60% / 70%. If you fail, it increases by 50%",
+              "scaling": [50, 60, 70],
+              "stat_affected": "Merchant item prices",
+              "target": "Merchants",
+              "chance": "50% success chance",
+              "bonus": "Gold price reduced on success",
+              "penalty": "Gold price increased by 50% on failure",
+              "lore": "He believes intimidation is the most efficient and convenient method. Of course, it doesn't work on the braver Jonas."
+            }
+          ]
+        },
+        "Lacerta": {
+          "powers": [
+            {
+              "name": "Skilled Negotiator",
+              "icon_description": "Two shaking hands icon",
+              "max_level": 4,
+              "effect": "The Gold price of items sold by Merchants is reduced by 10% / 15% / 20% / 25%",
+              "scaling": [10, 15, 20, 25],
+              "stat_affected": "Merchant item prices",
+              "target": "Merchants"
+            },
+            {
+              "name": "Northern Lizardman Bargaining",
+              "icon_description": "Light blue/cyan eye icon",
+              "max_level": 3,
+              "effect": "The Gold price of items sold by some Merchants is increased by 50% / 40% / 30%, but they offer 2 additional items for sale",
+              "scaling": [50, 40, 30],
+              "stat_affected": "Merchant item prices and inventory",
+              "target": "Some Merchants",
+              "tradeoff": "Higher prices but +2 additional items"
+            },
+            {
+              "name": "Wild Monster Hunter",
+              "icon_description": "Light blue/cyan scroll icon",
+              "max_level": 3,
+              "effect": "Gain an additional 45 / 60 / 75 Gold each time you defeat a Boss",
+              "scaling": [45, 60, 75],
+              "stat_affected": "Gold",
+              "trigger": "Defeating a Boss"
+            },
+            {
+              "name": "Rewarding Collection",
+              "icon_description": "Three crystals or shards icon",
+              "max_level": 4,
+              "effect": "Breaking Gold Shards or Dream Dust Shards grants an additional 6 / 8 / 10 / 12 Gold and Dream Dust",
+              "scaling": [6, 8, 10, 12],
+              "stat_affected": "Gold and Dream Dust",
+              "trigger": "Breaking Gold Shards or Dream Dust Shards",
+              "unlock_requirement": "Mastery level 30 with Lacerta, costs 40 gems"
+            }
+          ]
+        },
+        "Mist": {
+          "powers": [
+            {
+              "name": "Noble Lineage",
+              "icon_description": "Stylized light blue or cyan rose or flower",
+              "max_level": 4,
+              "effect": "You begin your adventure with 150 / 180 / 210 / 240 Gold, but the Gold price of Merchant items is increased by 10%",
+              "scaling": [150, 180, 210, 240],
+              "stat_affected": "Starting Gold and Merchant prices",
+              "penalty": "Merchant item prices increased by 10%",
+              "lore": "Though the Verdesilver family has fallen, her nobility remains untarnished."
+            },
+            {
+              "name": "Cat Lover",
+              "icon_description": "Light blue stylized cat facing right with tail curled upwards",
+              "max_level": 2,
+              "effect": "Gain 800 / 1,200 Gold and 800 / 1,200 Dream Dust when petting a Cat",
+              "scaling": {
+                "gold": [800, 1200],
+                "dream_dust": [800, 1200]
+              },
+              "stat_affected": ["Gold", "Dream Dust"],
+              "trigger": "Petting a Cat"
+            },
+            {
+              "name": "Camilla's Gift",
+              "icon_description": "Light blue wrapped gift box with ribbon",
+              "max_level": 3,
+              "effect": "You begin your adventure with Camilla's Gift. Camilla's Gift sells for 100 / 125 / 150 and increases in value by 200 / 250 / 300 each time you enter a new world. However, if enemy damage drops your health below 50%, the gift is destroyed.",
+              "scaling": {
+                "base_value": [100, 125, 150],
+                "value_increase_per_world": [200, 250, 300]
+              },
+              "stat_affected": "Gold (from selling gift)",
+              "trigger": "Start of adventure and entering new worlds",
+              "penalty": "Gift destroyed if health drops below 50% from enemy damage",
+              "unlock_requirement": "Mastery level 30 with Mist, costs 60 gems",
+              "lore": "The kindness of her patron, Camilla, was never one-sided. Surely, she remains a cherished bond for Mist as well."
+            }
+          ]
+        },
+        "Yubar": {
+          "powers": [
+            {
+              "name": "Dream-born",
+              "icon_description": "Glowing light blue icon resembling inverted pentagram or five-pointed star enclosed in circle",
+              "max_level": 3,
+              "effect": "When using the Shrine of Dismantling, gain additional Dream Dust equal to 50% / 100% / 150% of the Gold received as a reward",
+              "scaling": [50, 100, 150],
+              "stat_affected": "Dream Dust",
+              "trigger": "Using Shrine of Dismantling",
+              "target": "Shrine of Dismantling",
+              "scaling_source": "Gold received as reward (percentage based)",
+              "lore": "Knowing the truth and facing it are different matters. How would it feel to see a fairy tale with your own story written in it?"
+            },
+            {
+              "name": "Cookie Baker",
+              "icon_description": "Light blue glowing star icon",
+              "max_level": 3,
+              "effect": "Defeating enemies has a 0.5% / 0.8% / 1.2% chance to create a Star Cookie. Star Cookies restore a small amount of Yubar's Health and grant a small amount of Gold and Dream Dust",
+              "scaling": [0.5, 0.8, 1.2],
+              "stat_affected": ["Health", "Gold", "Dream Dust"],
+              "trigger": "Defeating enemies",
+              "reward": "Star Cookie (restores Health, grants Gold and Dream Dust)",
+              "lore": "He burned through an astronomical number of stars in pursuit of the perfect star cookie."
+            },
+            {
+              "name": "God in a Fairy Tale",
+              "icon_description": "Light blue glowing icon depicting stylized winged creature (fairy or butterfly)",
+              "max_level": 3,
+              "effect": "Your Maximum Health is reduced by 10%, but you gain 10% / 15% / 20% increased Dream Dust from all sources",
+              "scaling": [10, 15, 20],
+              "stat_affected": ["Maximum Health", "Dream Dust"],
+              "penalty": "Maximum Health reduced by 10%",
+              "bonus": "Dream Dust increased from all sources"
+            }
+          ]
+        },
+        "Vesper": {
+          "powers": [
+            {
+              "name": "War Chest",
+              "icon_description": "Light blue/teal icon depicting stack of three coins, slightly offset from each other",
+              "max_level": 3,
+              "effect": "Gain 100 / 150 / 200 Gold at the start of your adventure",
+              "scaling": [100, 150, 200],
+              "stat_affected": "Gold",
+              "trigger": "Start of adventure"
+            },
+            {
+              "name": "Overwhelming Presence",
+              "icon_description": "Stylized light blue flame-like or ethereal figure with outstretched arms (spirit or energy burst)",
+              "max_level": 4,
+              "effect": "The Gold price of items sold by Merchants is reduced by 10% / 15% / 20% / 25%",
+              "scaling": [10, 15, 20, 25],
+              "stat_affected": "Merchant item prices",
+              "target": "Merchants",
+              "lore": "Everyone has a plan. That is, until they meet him face to face."
+            }
+          ]
+        },
+        "Aurena": {
+          "powers": [
+            {
+              "name": "Equivalent Exchange",
+              "icon_description": "Light blue (cyan) stylized icon of balance scale",
+              "max_level": 3,
+              "effect": "Gain 10 / 15 / 20 Gold each time you acquire a Health Potion",
+              "scaling": [10, 15, 20],
+              "stat_affected": "Gold",
+              "trigger": "Acquiring a Health Potion"
+            },
+            {
+              "name": "Fun Experiment",
+              "icon_description": "Light blue icon depicting two syringes crossed over each other",
+              "max_level": 3,
+              "effect": "Gain 4 Gold each time you damage a Merchant, up to a maximum of 40 / 60 / 80 Gold",
+              "scaling": [40, 60, 80],
+              "stat_affected": "Gold",
+              "trigger": "Damaging a Merchant",
+              "note": "4 Gold per damage instance, capped at maximum",
+              "lore": "Aurena herself doesn't seem to see anything wrong with this."
+            },
+            {
+              "name": "Component Analysis",
+              "icon_description": "Glowing light blue icon depicting stylized ingot or stack of bars",
+              "max_level": 4,
+              "effect": "Increases the resources gained from Gold Shards and Dream Dust Shards by 40% / 50% / 60% / 70%",
+              "scaling": [40, 50, 60, 70],
+              "stat_affected": ["Gold Shards", "Dream Dust Shards"],
+              "target": "Gold Shards and Dream Dust Shards"
+            },
+            {
+              "name": "Anguillian Hypersense",
+              "icon_description": "Light blue stylized icon resembling alien or octopus-like creature with two large eyes and two downward-curving tentacles",
+              "max_level": 3,
+              "effect": "When entering a world, reveal 3 / 4 / 5 random locations",
+              "scaling": [3, 4, 5],
+              "stat_affected": "Revealed locations",
+              "trigger": "Entering a world"
+            },
+            {
+              "name": "Glittering Golden Antlers",
+              "icon_description": "Light blue icon of stylized deer head with antlers",
+              "max_level": 4,
+              "effect": "Gain 60 / 75 / 90 / 105 Gold every time you enter a new world",
+              "scaling": [60, 75, 90, 105],
+              "stat_affected": "Gold",
+              "trigger": "Entering a new world",
+              "lore": "With sandpaper, cloth, and time, you can always acquire a bit of Gold."
+            }
+          ]
+        },
+        "Bismuth": {
+          "powers": [
+            {
+              "name": "I'm Adorable",
+              "icon_description": "Light blue icon featuring heart enclosed within circular arrow",
+              "max_level": 4,
+              "effect": "The Gold price of items sold by Merchants is reduced by 5% / 10% / 15% / 20%",
+              "scaling": [5, 10, 15, 20],
+              "stat_affected": "Merchant item prices",
+              "target": "Merchants"
+            },
+            {
+              "name": "Mind's Eye",
+              "icon_description": "Light blue/cyan icon depicting stylized eye with gear or cog-like iris",
+              "max_level": 3,
+              "effect": "When entering a world, reveal 2 / 3 / 4 random locations",
+              "scaling": [2, 3, 4],
+              "stat_affected": "Revealed locations",
+              "trigger": "Entering a world",
+              "lore": "When the girl looked at the world through her book, gingerbread houses waiting with the next adventure would appear in places that had been empty before."
+            },
+            {
+              "name": "Book of Knowledge",
+              "icon_description": "Glowing light blue icon depicting open book",
+              "max_level": 3,
+              "effect": "Gain 1-4 Books of Knowledge for every boss you defeat. Each book grants a random stat equivalent to a Common-grade Chaos 15% / 20% / 25%",
+              "scaling": [15, 20, 25],
+              "stat_affected": "Random stat (Common-grade Chaos equivalent)",
+              "trigger": "Defeating a boss",
+              "bonus": "Gain 1-4 Books of Knowledge per boss"
+            },
+            {
+              "name": "Good Material",
+              "icon_description": "Light blue glowing icon depicting stylized rectangular block or gem with internal facets",
+              "max_level": 4,
+              "effect": "Increase the amount of Dream Dust obtained when dismantling Memories by 20% / 25% / 30% / 35%",
+              "scaling": [20, 25, 30, 35],
+              "stat_affected": "Dream Dust from dismantling Memories",
+              "target": "Memories"
+            },
+            {
+              "name": "Beautiful Metal",
+              "icon_description": "Light blue/cyan stylized icon resembling crystal or shard",
+              "max_level": 3,
+              "effect": "Start your adventure with the Metallic Crystal Essence. You can sell this Essence to Merchants for 200 / 300 / 400 Gold, or dismantle it for 120 / 160 / 200 Dream Dust. However, losing this shard will reduce your Maximum Health by 15%",
+              "scaling": {
+                "gold": [200, 300, 400],
+                "dream_dust": [120, 160, 200]
+              },
+              "stat_affected": ["Gold", "Dream Dust", "Maximum Health"],
+              "trigger": "Start of adventure",
+              "penalty": "Losing shard reduces Maximum Health by 15%",
+              "note": "Provides Metallic Crystal Essence at adventure start"
+            }
+          ]
+        },
+        "Nachia": {
+          "powers": [
+            {
+              "name": "Refreshing Morning Dew",
+              "icon_description": "Light blue stylized icon resembling water droplet or dewdrop",
+              "max_level": 3,
+              "effect": "Gain 100 / 130 / 160 Dream Dust each time you visit the Forest of Turbulence",
+              "scaling": [100, 130, 160],
+              "stat_affected": "Dream Dust",
+              "trigger": "Visiting the Forest of Turbulence",
+              "target": "Forest of Turbulence"
+            },
+            {
+              "name": "Hunting Training",
+              "icon_description": "Light blue-green stylized icon depicting skull with two crossed bones beneath it",
+              "max_level": 3,
+              "effect": "When a summon kills an enemy with a basic attack, there's a 25% chance to gain 2 / 3 / 4 additional Gold",
+              "scaling": [2, 3, 4],
+              "stat_affected": "Gold",
+              "trigger": "Summon kills enemy with basic attack",
+              "chance": "25%"
+            },
+            {
+              "name": "Long Time No See! Miss Me?",
+              "icon_description": "Light blue four-leaf clover icon",
+              "max_level": 3,
+              "effect": "The Gold price of items sold by merchants in the Forest of Turbulence is reduced by 30% / 40% / 50%",
+              "scaling": [30, 40, 50],
+              "stat_affected": "Merchant item prices",
+              "target": "Merchants in the Forest of Turbulence",
+              "unlock_requirement": "Mastery level 20 with Nachia, costs 40 gems"
+            },
+            {
+              "name": "Reaping Life",
+              "icon_description": "Light blue stylized icon resembling small plant or tree with visible roots and branches",
+              "max_level": 3,
+              "effect": "Increases Movement Speed by 8% / 10% / 12% in the Forest of Turbulence and grants 0.5 / 0.75 / 1 Dream Dust for each enemy killed",
+              "scaling": {
+                "movement_speed": [8, 10, 12],
+                "dream_dust": [0.5, 0.75, 1]
+              },
+              "stat_affected": ["Movement Speed", "Dream Dust"],
+              "condition": "In the Forest of Turbulence",
+              "trigger": "Each enemy killed",
+              "unlock_requirement": "Mastery level 30 with Nachia, costs 60 gems"
+            }
+          ]
+        }
+      }
+    },
+    "Flexible": {
+      "description": "Twists the Traveler's Memories in unique ways",
+      "color": "Yellow/Orange",
+      "zodiac_symbol": "Virgo ♍",
+      "special_property": "Flexible stars can be equipped in any slot without efficiency loss. They can be placed in any tree, and any other tree socketable powers can be placed in Flexible slots.",
+      "common_powers": [
+        {
+          "name": "TBD",
+          "icon_description": "Stylized human figure (bust) within circular outline",
+          "max_level": 1
+        },
+        {
+          "name": "TBD",
+          "icon_description": "Circular symbol with central dot and radiating lines (target or compass)",
+          "max_level": 1
+        },
+        {
+          "name": "TBD",
+          "icon_description": "Crescent moon shape with sharp pointed end (claw or blade)",
+          "max_level": 1
+        },
+        {
+          "name": "TBD",
+          "icon_description": "Hourglass",
+          "max_level": 1
+        },
+        {
+          "name": "TBD",
+          "icon_description": "Swirling abstract shape (vortex or energy)",
+          "max_level": 1
+        },
+        {
+          "name": "TBD",
+          "icon_description": "Stylized pot or vessel with lid (cauldron or lamp)",
+          "max_level": 1
+        }
+      ],
+      "character_specific": {
+        "Shell": {
+          "powers": [
+            {
+              "name": "Perceive, Learn, Adapt",
+              "icon_description": "Reddish-pink target-like symbol with compass rose inside",
+              "max_level": 4,
+              "effect": "Gain 1.5 / 2 / 2.5 / 3 Attack Damage and 3% / 4% / 5% / 6% Attack Speed each time you reach levels 5, 10, 15, and 20",
+              "scaling": {
+                "attack_damage": [1.5, 2, 2.5, 3],
+                "attack_speed": [3, 4, 5, 6]
+              },
+              "stat_affected": ["Attack Damage", "Attack Speed"],
+              "trigger": "Character level milestones (5, 10, 15, 20)"
+            },
+            {
+              "name": "Gunpowder Propelled Leap",
+              "icon_description": "Glowing yellow stylized icon of leaping figure with trailing effect",
+              "max_level": 3,
+              "effect": "Flash Step's cooldown increases by 1 second, but its maximum charges increase by 1 and its travel distance increases by 10% / 20% / 30%",
+              "scaling": [10, 20, 30],
+              "stat_affected": ["Flash Step cooldown", "Flash Step maximum charges", "Flash Step travel distance"],
+              "required_memory": "Flash Step",
+              "penalty": "Cooldown +1s",
+              "bonus": "Maximum charges +1, travel distance increased"
+            },
+            {
+              "name": "Transcendence",
+              "icon_description": "Glowing light yellow-green icon depicting stylized figure in motion with speed lines",
+              "max_level": 2,
+              "effect": "Flash Step cooldown is increased by 1 second. When you have no Flash Step charges and kill an enemy, its current cooldown is reduced by 40% / 70%",
+              "scaling": [40, 70],
+              "stat_affected": ["Flash Step cooldown", "Flash Step charges"],
+              "required_memory": "Flash Step",
+              "penalty": "Cooldown +1s",
+              "trigger": "Killing an enemy when Flash Step has no charges",
+              "bonus": "Cooldown reduced",
+              "lore": "A puppet's body freed from emotional chains, efficient and perfect movements, and the center of a sea of blood."
+            },
+            {
+              "name": "Complete Immersion",
+              "icon_description": "Glowing yellow-green icon depicting two stylized theatrical masks (one smiling, one frowning)",
+              "max_level": 4,
+              "effect": "When you kill an enemy or perform a basic attack on a boss, Flash Step's cooldown is reduced by 10% / 15% / 20% / 25%",
+              "scaling": [10, 15, 20, 25],
+              "stat_affected": "Flash Step cooldown",
+              "required_memory": "Flash Step",
+              "trigger": "Killing an enemy or performing basic attack on boss",
+              "bonus": "Cooldown reduced"
+            },
+            {
+              "name": "Flow of Energy",
+              "icon_description": "Small glowing white icon depicting stylized humanoid figure with aura or energy flowing around it",
+              "max_level": 1,
+              "effect": "Laceration's cooldown increases by 1 second, but casting Red Form resets Flash Step's cooldown",
+              "stat_affected": ["Laceration cooldown", "Flash Step cooldown"],
+              "required_memory": "Laceration",
+              "penalty": "Laceration cooldown +1s",
+              "bonus": "Casting Red Form resets Flash Step cooldown",
+              "lore": "He surrenders to the flow and takes his steps—flawless and detached."
+            },
+            {
+              "name": "Precise Strike",
+              "icon_description": "Glowing white stylized comet or meteor with tail, striking downwards",
+              "max_level": 1,
+              "effect": "If Laceration hits only one target, its cooldown is reduced by 30%",
+              "stat_affected": "Laceration cooldown",
+              "required_memory": "Laceration",
+              "condition": "Hits only one target",
+              "bonus": "Cooldown reduced by 30%"
+            },
+            {
+              "name": "Rapid Draw",
+              "icon_description": "White stylized icon resembling crescent moon or claw",
+              "max_level": 1,
+              "effect": "Laceration's cooldown is reduced by 30% and Blue Form's cast time is reduced by 40%, but it no longer grants Invulnerability",
+              "stat_affected": ["Laceration cooldown", "Blue Form cast time", "Invulnerability"],
+              "required_memory": "Laceration",
+              "bonus": "Laceration cooldown -30%, Blue Form cast time -40%",
+              "penalty": "No longer grants Invulnerability"
+            },
+            {
+              "name": "Chained Bloodlust",
+              "icon_description": "Glowing white icon resembling hourglass with stylized wing or blade extending from its side",
+              "max_level": 1,
+              "effect": "During Annihilation Stance, each time your basic attack or sword energy hits an enemy, the duration increases by 0.2 seconds",
+              "stat_affected": "Annihilation Stance duration",
+              "required_memory": "Annihilation Stance",
+              "condition": "During Annihilation Stance",
+              "trigger": "Basic attack or sword energy hits enemy",
+              "bonus": "Duration +0.2s per hit"
+            },
+            {
+              "name": "Frenzied Blade Dance",
+              "icon_description": "White glowing icon resembling stylized multi-bladed weapon or swirling energy effect",
+              "max_level": 1,
+              "effect": "Annihilation Stance no longer fires sword energy but attacks 100% more frequently",
+              "stat_affected": ["Annihilation Stance sword energy", "Annihilation Stance attack frequency"],
+              "required_memory": "Annihilation Stance",
+              "penalty": "No longer fires sword energy",
+              "bonus": "Attacks 100% more frequently"
+            },
+            {
+              "name": "Controlled Madness",
+              "icon_description": "Glowing white icon depicting stylized abstract figure or symbol, possibly head with horns or crown, or chaotic energy form",
+              "max_level": 1,
+              "effect": "Annihilation Stance becomes a regular ability with a 14 second cooldown. In this form, sword energy damage and attack damage bonuses are reduced by 40%. The stance lasts for 4 seconds and allows you to use other Memories while it is active",
+              "stat_affected": ["Annihilation Stance cooldown", "Sword energy damage", "Attack damage bonuses", "Memory usage"],
+              "required_memory": "Annihilation Stance",
+              "cooldown": "14 seconds",
+              "duration": "4 seconds",
+              "penalty": "Sword energy damage and attack damage bonuses reduced by 40%",
+              "bonus": "Becomes regular ability, allows use of other Memories while active",
+              "lore": "After becoming an empty shell devoid of soul, he was able to control himself even more perfectly."
+            }
+          ]
+        },
+        "Lacerta": {
+          "powers": [
+            {
+              "name": "Barasus's Fury",
+              "icon_description": "White stylized dragon head icon",
+              "max_level": 1,
+              "effect": "Increases the damage dealt by Hand Cannon to nearby enemies by 150%",
+              "stat_affected": "Hand Cannon damage",
+              "required_memory": "Hand Cannon",
+              "target": "Nearby enemies",
+              "lore": "He never forgot that overwhelming power he witnessed from afar. And finally, he recreated it with his own hands."
+            },
+            {
+              "name": "Dirty Gunpowder",
+              "icon_description": "White comet or shooting star icon",
+              "max_level": 1,
+              "effect": "Hand Cannon always knocks enemies back and reduces their Movement Speed by 75% for 4 seconds",
+              "stat_affected": "Hand Cannon effects",
+              "required_memory": "Hand Cannon",
+              "effects": ["Knockback", "Movement Speed reduction"]
+            },
+            {
+              "name": "Explosive Ammunition",
+              "icon_description": "White target or crosshair icon",
+              "max_level": 1,
+              "effect": "Incendiary Rounds explode, damaging nearby enemies",
+              "stat_affected": "Incendiary Rounds damage",
+              "required_memory": "Incendiary Rounds",
+              "target": "Nearby enemies"
+            },
+            {
+              "name": "Cartridge Belt",
+              "icon_description": "Stylized golden emblem icon",
+              "max_level": 1,
+              "effect": "Incendiary Rounds's cooldown increases by 2 seconds, but the number of bullets fired also increases by 2",
+              "stat_affected": "Incendiary Rounds cooldown and bullets",
+              "required_memory": "Incendiary Rounds",
+              "tradeoff": "Cooldown +2s but +2 bullets"
+            },
+            {
+              "name": "Quick Reload",
+              "icon_description": "White stopwatch or timer icon",
+              "max_level": 1,
+              "effect": "Quick Draw's cooldown increases by 3 seconds, but it now recharges all at once",
+              "stat_affected": "Quick Draw cooldown",
+              "required_memory": "Quick Draw",
+              "tradeoff": "Cooldown +3s but recharges all at once"
+            },
+            {
+              "name": "Indiscriminate Barrage",
+              "icon_description": "White multi-pointed star or burst icon",
+              "max_level": 1,
+              "effect": "Quick Draw's charge count is reduced by 1, but it fires 6 shots",
+              "stat_affected": "Quick Draw charges and shots",
+              "required_memory": "Quick Draw",
+              "tradeoff": "Charge count -1 but fires 6 shots"
+            },
+            {
+              "name": "Dream Ammunition",
+              "icon_description": "White stylized projectile or bullet icon",
+              "max_level": 1,
+              "effect": "Quick Draw triggers attack effects",
+              "stat_affected": "Quick Draw effects",
+              "required_memory": "Quick Draw",
+              "bonus": "Triggers attack effects"
+            },
+            {
+              "name": "Seasoned Aim",
+              "icon_description": "White target or compass with four arrows icon",
+              "max_level": 1,
+              "effect": "Precision Shot's charge speed increases by 33%",
+              "stat_affected": "Precision Shot charge speed",
+              "required_memory": "Precision Shot",
+              "bonus": "+33% charge speed"
+            },
+            {
+              "name": "No Such Thing as Overkill",
+              "icon_description": "White comet or shooting star icon",
+              "max_level": 1,
+              "effect": "Precision Shot's charge speed decreases by 40%, but its damage increases by 50% and width by 30%",
+              "stat_affected": "Precision Shot charge speed, damage, and width",
+              "required_memory": "Precision Shot",
+              "tradeoff": "Charge speed -40% but damage +50% and width +30%"
+            },
+            {
+              "name": "Special Operation",
+              "icon_description": "White eye icon with star in pupil",
+              "max_level": 1,
+              "effect": "Precision Shot's width decreases by 60%, but killing an enemy with the shot resets the cooldown",
+              "stat_affected": "Precision Shot width and cooldown",
+              "required_memory": "Precision Shot",
+              "tradeoff": "Width -60% but killing enemy resets cooldown"
+            }
+          ]
+        },
+        "Yubar": {
+          "powers": [
+            {
+              "name": "Flow Reversal",
+              "icon_description": "White icon resembling stylized swirling vortex or fan blade",
+              "max_level": 1,
+              "effect": "Ether's Influence no longer roots enemies but its explosion damage is increased by 50%",
+              "stat_affected": "Ether's Influence effects",
+              "required_memory": "Ether's Influence",
+              "tradeoff": "No root but explosion damage +50%"
+            },
+            {
+              "name": "Explosive Confidence",
+              "icon_description": "White stylized starburst or explosion icon",
+              "max_level": 1,
+              "effect": "Ether's Influence's explosion radius is increased by 25%",
+              "stat_affected": "Ether's Influence explosion radius",
+              "required_memory": "Ether's Influence",
+              "bonus": "+25% explosion radius"
+            },
+            {
+              "name": "Unstable Ether",
+              "icon_description": "White glowing spiral icon resembling stylized vortex or galaxy",
+              "max_level": 1,
+              "effect": "Ether's Influence's explosion damage is reduced by 60% and can no longer be detonated manually, but it now explodes automatically on hit",
+              "stat_affected": "Ether's Influence damage and detonation",
+              "required_memory": "Ether's Influence",
+              "tradeoff": "Damage -60%, no manual detonation, but auto-explodes on hit"
+            },
+            {
+              "name": "Swift Casting",
+              "icon_description": "White stylized icon of bird or winged creature in flight",
+              "max_level": 1,
+              "effect": "Casting Supernova resets the cooldown of Dodge",
+              "stat_affected": "Dodge cooldown",
+              "required_memory": "Supernova",
+              "trigger": "Casting Supernova",
+              "bonus": "Resets Dodge cooldown"
+            },
+            {
+              "name": "Star Herding",
+              "icon_description": "Glowing white icon resembling stylized plant sprout or star with stem",
+              "max_level": 1,
+              "effect": "Supernova can no longer be manually detonated. Channeling is removed and it now automatically explodes when fully charged",
+              "stat_affected": "Supernova detonation and channeling",
+              "required_memory": "Supernova",
+              "modifications": ["No manual detonation", "No channeling", "Auto-explodes when fully charged"],
+              "lore": "Even without his attention, the stars grow fat on cosmic dust."
+            },
+            {
+              "name": "Mortar",
+              "icon_description": "White glowing icon resembling stylized swirling star or vortex",
+              "max_level": 1,
+              "effect": "Increases Supernova's cast range by 40% and explosion radius by 30%",
+              "stat_affected": "Supernova cast range and explosion radius",
+              "required_memory": "Supernova",
+              "bonus": "Cast range +40%, explosion radius +30%"
+            },
+            {
+              "name": "Power Focus",
+              "icon_description": "Glowing white icon depicting stylized human figure with radiating lines above head",
+              "max_level": 1,
+              "effect": "Cataclysm's duration is increased by 50%",
+              "stat_affected": "Cataclysm duration",
+              "required_memory": "Cataclysm",
+              "bonus": "+50% duration"
+            },
+            {
+              "name": "Burning Meteor",
+              "icon_description": "White stylized icon depicting fiery meteor or comet with tail",
+              "max_level": 1,
+              "effect": "The impact site of Cataclysm's meteor burns, dealing 100% of the meteor's damage to enemies over 2 seconds",
+              "stat_affected": "Cataclysm damage over time",
+              "required_memory": "Cataclysm",
+              "bonus": "Burning effect dealing 100% meteor damage over 2 seconds"
+            },
+            {
+              "name": "Choosing Violence",
+              "icon_description": "White icon depicting stylized fist or starburst with fist in center",
+              "max_level": 1,
+              "effect": "Cataclysm increases Yubar's Attack Damage and Attack Speed instead of Ability Power",
+              "stat_affected": "Cataclysm stat bonuses",
+              "required_memory": "Cataclysm",
+              "modification": "Changes stat from Ability Power to Attack Damage and Attack Speed",
+              "lore": "He seems slightly irritated by mortals who keep confusing his gender."
+            },
+            {
+              "name": "Flexible Thinking",
+              "icon_description": "White glowing icon resembling stylized brain or thought bubble with star inside",
+              "max_level": 1,
+              "effect": "Tranquility's cooldown is reduced by 2 seconds, but instead of becoming Invulnerable, you gain a Barrier equal to 100% of your Maximum Health that lasts for the duration of the Invulnerability",
+              "stat_affected": "Tranquility cooldown and defensive effect",
+              "required_memory": "Tranquility",
+              "tradeoff": "Cooldown -2s but Invulnerability replaced with Barrier (100% Max Health)"
+            },
+            {
+              "name": "Song of Stars",
+              "icon_description": "White musical note icon (two eighth notes connected)",
+              "max_level": 1,
+              "effect": "Tranquility's cooldown is increased by 2 seconds, but it also reduces the cooldowns of all essences",
+              "stat_affected": "Tranquility cooldown and essence cooldowns",
+              "required_memory": "Tranquility",
+              "tradeoff": "Cooldown +2s but reduces all essence cooldowns"
+            },
+            {
+              "name": "Light Heart",
+              "icon_description": "Glowing white leaf-like icon",
+              "max_level": 1,
+              "effect": "Tranquility's cooldown is reduced by 4 seconds, but its Invulnerability duration is also reduced by 40%",
+              "stat_affected": "Tranquility cooldown and Invulnerability duration",
+              "required_memory": "Tranquility",
+              "tradeoff": "Cooldown -4s but Invulnerability duration -40%"
+            }
+          ]
+        },
+        "Mist": {
+          "powers": [
+            {
+              "name": "West Wind",
+              "icon_description": "White stylized winged symbol (single wing or pair of small wings)",
+              "max_level": 1,
+              "effect": "Increases the cast range of Lunge by 33%",
+              "stat_affected": "Lunge cast range",
+              "required_memory": "Lunge",
+              "bonus": "+33% cast range"
+            },
+            {
+              "name": "Cutting Through Wind",
+              "icon_description": "Golden stylized swirling wind or blade with two curved pointed shapes rotating around central point",
+              "max_level": 1,
+              "effect": "Lunge deals 50% reduced damage, but you gain 100% increased cooldown reduction when Astrid's Masterpiece triggers",
+              "stat_affected": "Lunge damage and cooldown reduction",
+              "required_memory": "Lunge",
+              "penalty": "50% reduced damage",
+              "bonus": "100% increased cooldown reduction when Astrid's Masterpiece triggers"
+            },
+            {
+              "name": "Focused Strike",
+              "icon_description": "White stylized feather or sharp upward-pointing wing",
+              "max_level": 1,
+              "effect": "Lunge now hits only a single target, but its cooldown is reduced by 1.5 seconds and its damage is increased by 100%. It also knocks back enemies.",
+              "stat_affected": "Lunge target count, cooldown, damage, and effects",
+              "required_memory": "Lunge",
+              "tradeoff": "Single target only but cooldown -1.5s, damage +100%, and knockback",
+              "unlock_requirement": "Mastery level 25 with Mist, costs 120 gems"
+            },
+            {
+              "name": "Lightning Breath",
+              "icon_description": "White stylized lightning bolt",
+              "max_level": 1,
+              "effect": "Flèche's damage is converted to Light damage, and you teleport instead of dashing",
+              "stat_affected": "Flèche damage type and movement",
+              "required_memory": "Flèche",
+              "modifications": ["Damage converted to Light", "Teleport instead of dash"]
+            },
+            {
+              "name": "Blooming Dream",
+              "icon_description": "White stylized lotus flower",
+              "max_level": 1,
+              "effect": "Flèche comes with 2 fewer charges, but its cooldown is reduced by 6 seconds",
+              "stat_affected": "Flèche charges and cooldown",
+              "required_memory": "Flèche",
+              "tradeoff": "2 fewer charges but cooldown -6s"
+            },
+            {
+              "name": "Coup de Grâce",
+              "icon_description": "Glowing white icon resembling stylized lamp or ornate structure with light emanating from top",
+              "max_level": 1,
+              "effect": "When Flèche hits at maximum range, its damage is increased by 80% and it explodes, damaging a wide area",
+              "stat_affected": "Flèche damage and area of effect",
+              "required_memory": "Flèche",
+              "condition": "Hits at maximum range",
+              "bonus": "Damage +80% and explodes damaging wide area",
+              "unlock_requirement": "Mastery level 25 with Mist, costs 120 gems"
+            },
+            {
+              "name": "Two Hearts",
+              "icon_description": "White icon of two overlapping hearts",
+              "max_level": 1,
+              "effect": "Casting Unbreakable Determination restores 35% of missing Health",
+              "stat_affected": "Health restoration",
+              "required_memory": "Unbreakable Determination",
+              "trigger": "Casting Unbreakable Determination",
+              "bonus": "Restores 35% of missing Health"
+            },
+            {
+              "name": "Determined Explosion",
+              "icon_description": "Glowing white swirling vortex-like symbol",
+              "max_level": 1,
+              "effect": "Unbreakable Determination's duration is reduced by 30%, but the initial explosion's damage is increased by 200%",
+              "stat_affected": "Unbreakable Determination duration and damage",
+              "required_memory": "Unbreakable Determination",
+              "tradeoff": "Duration -30% but initial explosion damage +200%"
+            },
+            {
+              "name": "Wide Vision",
+              "icon_description": "White stylized snowflake or starburst with four arrows pointing outwards",
+              "max_level": 1,
+              "effect": "Parry's cooldown is increased by 1.5 seconds, but you can parry attacks from all directions",
+              "stat_affected": "Parry cooldown and direction",
+              "required_memory": "Parry",
+              "tradeoff": "Cooldown +1.5s but can parry from all directions"
+            },
+            {
+              "name": "Charged Saber",
+              "icon_description": "White glowing stylized saber or sword with radiating lines",
+              "max_level": 1,
+              "effect": "After successfully Parrying, your next attack becomes a critical strike, and you gain a shield equal to 250% of the parried damage that decays over 4 seconds. The shield's duration increases by 0.5 seconds each time you enhance Parry.",
+              "stat_affected": "Critical strike chance and shield",
+              "required_memory": "Parry",
+              "trigger": "After successfully Parrying",
+              "bonus": "Next attack becomes critical strike, shield = 250% of parried damage",
+              "scaling": "Shield duration +0.5s per Parry enhancement level"
+            },
+            {
+              "name": "The Best Offense is Defense",
+              "icon_description": "White stylized sword or dagger pointing upwards with horizontal lines across blade",
+              "max_level": 1,
+              "effect": "Parry's cooldown is reduced by 4 seconds, but the effective parry window is reduced by 40%",
+              "stat_affected": "Parry cooldown and parry window",
+              "required_memory": "Parry",
+              "tradeoff": "Cooldown -4s but parry window -40%",
+              "unlock_requirement": "Mastery level 25 with Mist, costs 120 gems",
+              "lore": "She never rushes. The most crucial opportunity comes the moment her opponent strikes."
+            }
+          ]
+        },
+        "Vesper": {
+          "powers": [
+            {
+              "name": "Pride Flare",
+              "icon_description": "White stylized four-pointed star or compass rose icon with central circle in golden circular frame",
+              "max_level": 1,
+              "effect": "Increases Cruel Sun's damage by 25% and allows you to move while channeling, but you no longer gain an Armor bonus",
+              "stat_affected": ["Cruel Sun damage", "Channeling mobility", "Armor bonus"],
+              "required_memory": "Cruel Sun",
+              "bonus": "Damage +25%, can move while channeling",
+              "penalty": "No longer gain Armor bonus",
+              "lore": "He believes himself closer to the divine than most. But to dismiss it as mere arrogance—he is far too powerful for that."
+            },
+            {
+              "name": "Embers",
+              "icon_description": "White icon depicting stylized flame or campfire",
+              "max_level": 1,
+              "effect": "The Unstoppable status and Armor bonus from Cruel Sun persist for 2.5 seconds after channeling ends",
+              "stat_affected": "Cruel Sun Unstoppable status and Armor bonus duration",
+              "required_memory": "Cruel Sun",
+              "bonus": "Unstoppable and Armor persist for 2.5s after channeling"
+            },
+            {
+              "name": "Cold Fury",
+              "icon_description": "White icon resembling stylized snowflake or ice crystal",
+              "max_level": 1,
+              "effect": "Cruel Sun's damage is converted to Cold damage, the stun duration is increased by 2 seconds, and the Armor it grants is increased by 50%",
+              "stat_affected": ["Cruel Sun damage type", "Stun duration", "Armor"],
+              "required_memory": "Cruel Sun",
+              "modifications": ["Damage converted to Cold", "Stun duration +2s", "Armor +50%"]
+            },
+            {
+              "name": "Reckless Leap",
+              "icon_description": "White stylized icon resembling bird or winged creature in flight",
+              "max_level": 1,
+              "effect": "???",
+              "required_memory": "??? (Locked)",
+              "note": "Memory required by this star has not been unlocked (cost: 80 gems)"
+            },
+            {
+              "name": "Face-to-Face Judgment",
+              "icon_description": "White icon of stylized hammer",
+              "max_level": 1,
+              "effect": "???",
+              "required_memory": "??? (Locked)",
+              "note": "Memory required by this star has not been unlocked (cost: 100 gems)"
+            },
+            {
+              "name": "Momentum",
+              "icon_description": "Glowing white stylized claw or lightning bolt icon",
+              "max_level": 1,
+              "effect": "???",
+              "required_memory": "??? (Locked)",
+              "note": "Memory required by this star has not been unlocked (cost: 120 gems)"
+            },
+            {
+              "name": "A Touch of Altruism",
+              "icon_description": "Glowing white icon depicting open hand with several small glowing particles or droplets falling from it",
+              "max_level": 1,
+              "effect": "Summons El's Sanctuary at a target location instead of Vesper's position. The cooldown is reduced by 10% for each ally and 3% for each enemy hit by the initial blast",
+              "stat_affected": "El's Sanctuary summon location and cooldown",
+              "required_memory": "El's Sanctuary",
+              "modifications": ["Summon at target location", "Cooldown reduction based on allies/enemies hit"],
+              "scaling": "10% per ally, 3% per enemy hit",
+              "lore": "Vesper has a surprisingly soft spot for children. Perhaps an echo of his own troubled childhood?"
+            },
+            {
+              "name": "Total Offensive",
+              "icon_description": "Two stylized white swords crossed over each other",
+              "max_level": 1,
+              "effect": "Increases the Attack Speed bonus for allies affected by El's Sanctuary by 50%, and reduces the number of basic attacks needed to trigger the 4th basic attack effect by 1. Does not grant Barrier, Armor, or Unstoppable effects",
+              "stat_affected": ["El's Sanctuary Attack Speed bonus", "Basic attack trigger count"],
+              "required_memory": "El's Sanctuary",
+              "bonus": "Attack Speed bonus +50%, basic attack trigger -1",
+              "limitation": "Does not grant Barrier, Armor, or Unstoppable effects"
+            },
+            {
+              "name": "Sacred Ground",
+              "icon_description": "White shield with cross symbol on it",
+              "max_level": 1,
+              "effect": "Reduces El's Sanctuary's duration by 50%, but grants Invulnerability to allies",
+              "stat_affected": "El's Sanctuary duration and defensive effect",
+              "required_memory": "El's Sanctuary",
+              "tradeoff": "Duration -50% but grants Invulnerability to allies"
+            },
+            {
+              "name": "Endless Hammering",
+              "icon_description": "White icon depicting stylized hammer with motion lines",
+              "max_level": 1,
+              "effect": "???",
+              "required_memory": "??? (Locked)",
+              "note": "Memory required by this star has not been unlocked (cost: 80 gems)"
+            },
+            {
+              "name": "No Pain, No Gain",
+              "icon_description": "White spiky chaotic star or burst symbol with smaller darker circular core",
+              "max_level": 1,
+              "effect": "???",
+              "required_memory": "??? (Locked)",
+              "note": "Memory required by this star has not been unlocked (cost: 100 gems)"
+            },
+            {
+              "name": "Invigorating Heat",
+              "icon_description": "Glowing white icon resembling stylized star or small intricate symbol",
+              "max_level": 1,
+              "effect": "???",
+              "required_memory": "??? (Locked)",
+              "note": "Memory required by this star has not been unlocked (cost: 120 gems)"
+            }
+          ]
+        },
+        "Aurena": {
+          "powers": [
+            {
+              "name": "Strong Bond",
+              "icon_description": "White stylized DNA double helix icon enclosed within golden circular frame",
+              "max_level": 1,
+              "effect": "If you cast Golden Explosion with no Wither stacks, no Health is sacrificed. This only applies in combat.",
+              "stat_affected": "Health sacrifice",
+              "required_memory": "Golden Explosion",
+              "condition": "No Wither stacks",
+              "bonus": "No Health is sacrificed",
+              "note": "Only applies in combat"
+            },
+            {
+              "name": "Loose Dismantle",
+              "icon_description": "White stylized melting or dripping object (candle/blob) with three drips in golden circular frame",
+              "max_level": 1,
+              "effect": "Golden Explosion's damage is reduced by 40%, but the Health sacrificed is also reduced by 30%",
+              "stat_affected": ["Golden Explosion damage", "Health sacrificed"],
+              "required_memory": "Golden Explosion",
+              "penalty": "Damage reduced by 40%",
+              "bonus": "Health sacrificed reduced by 30%"
+            },
+            {
+              "name": "Dismantle, Dissolve, Understanding",
+              "icon_description": "Glowing white stylized triangular or pyramid-like shape",
+              "max_level": 1,
+              "effect": "If you cast Golden Explosion within 3 seconds after using Dodge, no Health is sacrificed. This only applies in combat.",
+              "stat_affected": "Health sacrifice",
+              "required_memory": "Golden Explosion",
+              "condition": "Cast within 3 seconds after using Dodge",
+              "bonus": "No Health is sacrificed",
+              "note": "Only applies in combat"
+            },
+            {
+              "name": "Enhanced Dismantling Force",
+              "icon_description": "Circular white stylized gear or circular saw blade with central dot",
+              "max_level": 1,
+              "effect": "Reduction fires 1 more Gold Shards, but the amount of Health sacrificed increases to 15%",
+              "stat_affected": ["Reduction Gold Shards", "Health sacrificed"],
+              "required_memory": "Reduction",
+              "bonus": "Fires 1 more Gold Shards",
+              "penalty": "Health sacrificed increases to 15%"
+            },
+            {
+              "name": "Sharp Shards",
+              "icon_description": "Glowing white stylized icon resembling sharp shard or pointed feather",
+              "max_level": 1,
+              "effect": "Each Gold Shard from Reduction triggers attack effects on the first enemy hit",
+              "stat_affected": "Reduction Gold Shards",
+              "required_memory": "Reduction",
+              "bonus": "Gold Shards trigger attack effects on first enemy hit"
+            },
+            {
+              "name": "Transmutation",
+              "icon_description": "White stylized circular icon with smaller central circle and two curved arrows forming continuous loop around it",
+              "max_level": 1,
+              "effect": "Reduction no longer restores Health, but its cooldown is reduced by 70%",
+              "stat_affected": ["Reduction Health restoration", "Reduction cooldown"],
+              "required_memory": "Reduction",
+              "penalty": "No longer restores Health",
+              "bonus": "Cooldown reduced by 70%"
+            },
+            {
+              "name": "Follow-up Research",
+              "icon_description": "Glowing white icon of clipboard with pencil",
+              "max_level": 1,
+              "effect": "Dangerous Theory's cooldown increases by 1 second and it can only be used as an empowered cast, but it empowers 2 basic attacks",
+              "stat_affected": ["Dangerous Theory cooldown", "Empowered cast", "Basic attacks"],
+              "required_memory": "Dangerous Theory",
+              "penalty": "Cooldown +1s, can only be used as empowered cast",
+              "bonus": "Empowers 2 basic attacks"
+            },
+            {
+              "name": "Extremely Dangerous Theory",
+              "icon_description": "White stylized icon resembling sharp claw mark or lightning bolt",
+              "max_level": 1,
+              "effect": "The Health threshold for empowered casts of Dangerous Theory is reduced to 40%, but healing is increased by 40%",
+              "stat_affected": ["Dangerous Theory Health threshold", "Healing"],
+              "required_memory": "Dangerous Theory",
+              "modification": "Health threshold reduced to 40%",
+              "bonus": "Healing increased by 40%",
+              "lore": "The ethics committee of the Lunar Society that reviewed her thesis unanimously reached two conclusions. First, she should be immediately expelled. Second, all committee members who participated in this review shall be granted one week of paid leave."
+            },
+            {
+              "name": "Unparalleled Genius",
+              "icon_description": "Glowing white stylized sun or starburst icon",
+              "max_level": 1,
+              "effect": "When you cast Dangerous Theory, become Unstoppable for 1.5 seconds and remove Delusional effects",
+              "stat_affected": ["Unstoppable status", "Delusional effects"],
+              "required_memory": "Dangerous Theory",
+              "trigger": "Casting Dangerous Theory",
+              "duration": "1.5 seconds (for Unstoppable)",
+              "bonus": "Become Unstoppable for 1.5 seconds, remove Delusional effects",
+              "lore": "She now understands delusions completely, from their basic principles to how they work."
+            },
+            {
+              "name": "Golden Mind",
+              "icon_description": "Glowing white-gold stylized brain or head in profile icon",
+              "max_level": 1,
+              "effect": "Chain Reaction applies 70% healing to Travelers even if they are not inside the sigil",
+              "stat_affected": "Chain Reaction healing",
+              "required_memory": "Chain Reaction",
+              "bonus": "70% healing to Travelers outside sigil"
+            },
+            {
+              "name": "Master Alchemist",
+              "icon_description": "White stylized multi-faceted hexagonal gem or star",
+              "max_level": 1,
+              "effect": "Chain Reaction earns 2 Gold per second for each enemy inside the sigil",
+              "stat_affected": "Gold",
+              "required_memory": "Chain Reaction",
+              "bonus": "2 Gold per second per enemy inside sigil",
+              "scaling": "Per enemy inside sigil"
+            },
+            {
+              "name": "Golden Wind",
+              "icon_description": "Golden stylized drop or tear with white glowing core",
+              "max_level": 1,
+              "effect": "Chain Reaction no longer heals, but its cooldown is reduced by 15% each time an enemy dies from the sigil",
+              "stat_affected": ["Chain Reaction healing", "Chain Reaction cooldown"],
+              "required_memory": "Chain Reaction",
+              "penalty": "No longer heals",
+              "bonus": "Cooldown reduced by 15%",
+              "trigger": "Each time an enemy dies from the sigil"
+            }
+          ]
+        },
+        "Bismuth": {
+          "powers": [
+            {
+              "name": "Diverse Topics",
+              "icon_description": "White icon depicting open book with speech bubble above it",
+              "max_level": 1,
+              "effect": "Each soul missile from Pure Soul gains a random elemental effect",
+              "stat_affected": "Pure Soul soul missile effects",
+              "required_memory": "Pure Soul",
+              "bonus": "Soul missiles gain random elemental effect"
+            },
+            {
+              "name": "Undervolting",
+              "icon_description": "White stylized icon resembling comet or shooting star with fiery tail enclosed within circular shape",
+              "max_level": 1,
+              "effect": "Pure Soul's soul missile count is reduced by 2, but its cooldown is reduced by 50%",
+              "stat_affected": ["Pure Soul soul missile count", "Pure Soul cooldown"],
+              "required_memory": "Pure Soul",
+              "penalty": "Soul missile count reduced by 2",
+              "bonus": "Cooldown reduced by 50%"
+            },
+            {
+              "name": "Say Hello to My Little Friends!",
+              "icon_description": "Small glowing white icon composed of three dots arranged in triangle",
+              "max_level": 1,
+              "effect": "Pure Soul's cooldown increases by 1 second, but the number of soul missiles also increases by your attacks per second",
+              "stat_affected": ["Pure Soul cooldown", "Pure Soul soul missile count"],
+              "required_memory": "Pure Soul",
+              "penalty": "Cooldown +1s",
+              "bonus": "Soul missile count increases by attacks per second",
+              "scaling": "Based on attacks per second",
+              "lore": "The girl decided to divide her shining heart into even more pieces to give as gifts. Then everyone regained their kind hearts and quietly fell asleep!"
+            },
+            {
+              "name": "Furnace",
+              "icon_description": "Glowing white icon depicting open book with flames rising from its pages",
+              "max_level": 1,
+              "effect": "Tales of Hellfire's damage is reduced by 40% but now also hits enemies inside the ring",
+              "stat_affected": ["Tales of Hellfire damage", "Tales of Hellfire area of effect"],
+              "required_memory": "Tales of Hellfire",
+              "penalty": "Damage reduced by 40%",
+              "bonus": "Now also hits enemies inside the ring"
+            },
+            {
+              "name": "Extended Agony",
+              "icon_description": "White icon depicting skull with open book, outlined in gold",
+              "max_level": 1,
+              "effect": "Tales of Hellfire's cooldown increases by 1 second, but each time it hits an enemy, its duration increases by 0.2 seconds, up to a maximum of 2 seconds",
+              "stat_affected": ["Tales of Hellfire cooldown", "Tales of Hellfire duration"],
+              "required_memory": "Tales of Hellfire",
+              "penalty": "Cooldown +1s",
+              "bonus": "Duration +0.2s per enemy hit",
+              "max_duration_increase": "2 seconds",
+              "trigger": "Each time it hits an enemy"
+            },
+            {
+              "name": "Close and Personal",
+              "icon_description": "White stylized icon resembling two interlocking or expanding squares",
+              "max_level": 1,
+              "effect": "Tales of Hellfire's ring radius is reduced by 35% but its damage is increased by 35%",
+              "stat_affected": ["Tales of Hellfire ring radius", "Tales of Hellfire damage"],
+              "required_memory": "Tales of Hellfire",
+              "penalty": "Ring radius reduced by 35%",
+              "bonus": "Damage increased by 35%"
+            },
+            {
+              "name": "Steadfast Heart",
+              "icon_description": "White shield-like icon with V-shaped emblem inside, set against golden circular background",
+              "max_level": 1,
+              "effect": "Valiant Heart's cooldown is increased by 1 second, but you gain a Barrier equal to 40% of the damage dealt that lasts for 2.5 seconds",
+              "stat_affected": ["Valiant Heart cooldown", "Barrier"],
+              "required_memory": "Valiant Heart",
+              "penalty": "Cooldown +1s",
+              "bonus": "Barrier equal to 40% of damage dealt",
+              "duration": "2.5 seconds"
+            },
+            {
+              "name": "Quick Decision",
+              "icon_description": "White glowing icon resembling stylized wrench or crescent-shaped blade",
+              "max_level": 1,
+              "effect": "Using Distorting Sprint resets the cooldown of Valiant Heart, but it only hits up to 2 enemies",
+              "stat_affected": ["Valiant Heart cooldown", "Valiant Heart target count"],
+              "required_memory": "Valiant Heart",
+              "trigger": "Using Distorting Sprint",
+              "bonus": "Resets Valiant Heart cooldown",
+              "penalty": "Only hits up to 2 enemies"
+            },
+            {
+              "name": "No Longer Afraid",
+              "icon_description": "Glowing white icon depicting stylized hand holding small glowing four-pointed star or crystal",
+              "max_level": 1,
+              "effect": "Valiant Heart's charges now fully restore all at once",
+              "stat_affected": "Valiant Heart charges",
+              "required_memory": "Valiant Heart",
+              "modification": "Charges fully restore all at once",
+              "lore": "Now, no matter how many villains appear, it's okay. The girl's hands will always be filled with the courage to defeat them!"
+            },
+            {
+              "name": "Overcharge",
+              "icon_description": "Glowing white icon resembling stylized lightning bolt or upward-pointing arrow with horizontal line across its base",
+              "max_level": 1,
+              "effect": "Increases Distorted Mind's cooldown by 1 second, but firing at maximum charge increases the number of arrows by 2",
+              "stat_affected": ["Distorted Mind cooldown", "Distorted Mind arrow count"],
+              "required_memory": "Distorted Mind",
+              "penalty": "Cooldown +1s",
+              "bonus": "Firing at maximum charge increases arrows by 2",
+              "condition": "Firing at maximum charge"
+            },
+            {
+              "name": "Improvisation",
+              "icon_description": "Glowing white double-arrow symbol pointing to the right, enclosed within subtle circular glow",
+              "max_level": 1,
+              "effect": "When you release Distorted Mind without fully charging, its cooldown is reduced by 50%",
+              "stat_affected": "Distorted Mind cooldown",
+              "required_memory": "Distorted Mind",
+              "condition": "Release without fully charging",
+              "bonus": "Cooldown reduced by 50%"
+            },
+            {
+              "name": "Artillery",
+              "icon_description": "White glowing icon depicting three stylized arrows or projectiles flying diagonally upwards and to the right with small starburst effect",
+              "max_level": 1,
+              "effect": "Increases the maximum number of arrows for Distorted Mind by 7, but you cannot move while charging",
+              "stat_affected": ["Distorted Mind maximum arrows", "Movement while charging"],
+              "required_memory": "Distorted Mind",
+              "bonus": "Maximum arrows +7",
+              "penalty": "Cannot move while charging"
+            }
+          ]
+        },
+        "Nachia": {
+          "powers": [
+            {
+              "name": "More Hounds!",
+              "icon_description": "White paw print icon",
+              "max_level": 1,
+              "effect": "The duration of Sylvan Call Leaf Hounds is reduced by 3 seconds, but the maximum charge count increases by 1 and the maximum number of summons also increases by 1",
+              "stat_affected": ["Sylvan Call Leaf Hounds duration", "Sylvan Call charge count", "Sylvan Call maximum summons"],
+              "required_memory": "Sylvan Call",
+              "penalty": "Duration reduced by 3 seconds",
+              "bonus": "Maximum charge count +1, maximum summons +1"
+            },
+            {
+              "name": "Accelerated Life",
+              "icon_description": "White stylized leaf or plant sprout icon in circular outline",
+              "max_level": 1,
+              "effect": "Leaf Hounds from Sylvan Call have a shorter duration by 3 seconds, but their Attack Speed increases by 50% for 5 seconds after being summoned",
+              "stat_affected": ["Leaf Hounds duration", "Leaf Hounds Attack Speed"],
+              "required_memory": "Sylvan Call",
+              "penalty": "Duration reduced by 3 seconds",
+              "bonus": "Attack Speed +50% for 5 seconds after being summoned",
+              "duration": "5 seconds (for Attack Speed increase)",
+              "trigger": "After Leaf Hounds are summoned"
+            },
+            {
+              "name": "Sharp Claws",
+              "icon_description": "Glowing white stylized claw or talon icon",
+              "max_level": 1,
+              "effect": "The Leaf Hounds from Sylvan Call trigger 30% attack effects with their basic attacks",
+              "stat_affected": "Attack effects",
+              "required_memory": "Sylvan Call",
+              "trigger": "Basic attacks of Leaf Hounds",
+              "bonus": "30% attack effects",
+              "unlock_requirement": "Mastery level 25 with Nachia, costs 120 gems",
+              "lore": "Regular nail trimming is essential for any good dog."
+            },
+            {
+              "name": "Death Waltz",
+              "icon_description": "White stylized skull with crown or elaborate headpiece, glowing slightly",
+              "max_level": 1,
+              "effect": "Moonlight Pact's charge count increases by 1, but on cast, Fenrir instantly slashes a wide circular area instead of leaping",
+              "stat_affected": ["Moonlight Pact charge count", "Fenrir's attack behavior"],
+              "required_memory": "Moonlight Pact",
+              "bonus": "Charge count +1",
+              "modification": "Fenrir instantly slashes wide circular area instead of leaping"
+            },
+            {
+              "name": "Pact of Destiny",
+              "icon_description": "White glowing icon depicting crescent moon partially obscured by stylized star or swirl",
+              "max_level": 1,
+              "effect": "Nachia also receives 50% of the healing from Moonlight Pact's cast effect",
+              "stat_affected": "Healing received",
+              "required_memory": "Moonlight Pact",
+              "bonus": "Nachia receives 50% of Moonlight Pact's cast healing",
+              "scaling": "50% of cast healing"
+            },
+            {
+              "name": "Lone Wolf",
+              "icon_description": "White crescent moon icon facing right",
+              "max_level": 1,
+              "effect": "You can no longer cast Moonlight Pact, but Fenrir's Armor increases by 60 and his basic attack damage increases by 30%",
+              "stat_affected": ["Moonlight Pact casting", "Fenrir's Armor", "Fenrir's basic attack damage"],
+              "required_memory": "Moonlight Pact",
+              "penalty": "Cannot cast Moonlight Pact",
+              "bonus": "Fenrir's Armor +60, Fenrir's basic attack damage +30%",
+              "unlock_requirement": "Mastery level 25 with Nachia, costs 120 gems"
+            },
+            {
+              "name": "Fetch!",
+              "icon_description": "Small white stylized icon resembling crossed bones or tools",
+              "max_level": 1,
+              "effect": "Targets also gain Movement Speed equal to 80% of the Attack Speed bonus from Nature's Whisper",
+              "stat_affected": ["Movement Speed", "Attack Speed"],
+              "required_memory": "Nature's Whisper",
+              "bonus": "Movement Speed equal to 80% of Attack Speed bonus",
+              "scaling": "80% of Nature's Whisper Attack Speed bonus"
+            },
+            {
+              "name": "Nature's Command",
+              "icon_description": "White stylized icon resembling bird or wing",
+              "max_level": 1,
+              "effect": "Nature's Whisper instantly teleports summons to the target location",
+              "stat_affected": "Summon teleportation",
+              "required_memory": "Nature's Whisper",
+              "modification": "Instantly teleports summons to target location"
+            },
+            {
+              "name": "Micro-managing",
+              "icon_description": "White stylized four-pointed star or compass rose icon with central circle",
+              "max_level": 1,
+              "effect": "Nature's Whisper's cooldown is reduced by 80%, but the Attack Speed bonus is also reduced by 50%",
+              "stat_affected": ["Nature's Whisper cooldown", "Nature's Whisper Attack Speed bonus"],
+              "required_memory": "Nature's Whisper",
+              "bonus": "Cooldown reduced by 80%",
+              "penalty": "Attack Speed bonus reduced by 50%",
+              "unlock_requirement": "Mastery level 25 with Nachia, costs 120 gems"
+            },
+            {
+              "name": "Merciful Blessing",
+              "icon_description": "Glowing white icon resembling stylized leaf or feather",
+              "max_level": 1,
+              "effect": "Increases the duration of Serpent's Blessing by 4 seconds",
+              "stat_affected": "Serpent's Blessing duration",
+              "required_memory": "Serpent's Blessing",
+              "bonus": "Duration +4 seconds"
+            },
+            {
+              "name": "Serpent's Love",
+              "icon_description": "White stylized icon depicting two intertwined snakes forming heart shape",
+              "max_level": 1,
+              "effect": "Serpent's Blessing's Attack Speed bonus increases by 50%, but it no longer buffs yourself when targeting an ally",
+              "stat_affected": ["Serpent's Blessing Attack Speed bonus", "Serpent's Blessing self-buff"],
+              "required_memory": "Serpent's Blessing",
+              "bonus": "Attack Speed bonus +50%",
+              "penalty": "No longer buffs yourself when targeting an ally"
+            },
+            {
+              "name": "Immortal Protection",
+              "icon_description": "Glowing white stylized icon resembling censer or tripod with smoke or energy rising from it",
+              "max_level": 1,
+              "effect": "When an ally affected by Serpent's Blessing would take lethal damage, the blessing is immediately removed instead and they recover 50% of their Maximum Health",
+              "stat_affected": ["Serpent's Blessing", "Health recovery"],
+              "required_memory": "Serpent's Blessing",
+              "trigger": "Ally affected by Serpent's Blessing would take lethal damage",
+              "bonus": "Recover 50% of Maximum Health",
+              "penalty": "Blessing is immediately removed",
+              "unlock_requirement": "Mastery level 25 with Nachia, costs 120 gems"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "notes": {
+    "reset_cost": {
+      "character_specific": {
+        "Destruction": 15,
+        "Life": 5,
+        "Imagination": 0,
+        "Flexible": 5
+      },
+      "common": 20,
+      "currency": "gems"
+    },
+    "common_powers_note": "Purchased common stars can be used by all travelers",
+    "flexible_special_note": "Flexible stars can be equipped in any slot without efficiency loss. Any socketable power can be placed in Flexible slots, and Flexible powers can be placed in any category slot."
+  }
+}
+

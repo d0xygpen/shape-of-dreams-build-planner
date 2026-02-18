@@ -1,0 +1,57 @@
+{
+  "astrology_tree": {
+    "paths": [
+      {
+        "name": "Destruction",
+        "focus": "Damage output and offensive capabilities",
+        "key_nodes": [
+          "Elemental damage amplification",
+          "Critical strike enhancement",
+          "Attack speed bonuses",
+          "Damage over time effects",
+          "Projectile enhancements"
+        ],
+        "best_for": ["DPS builds", "Glass cannon", "Elemental damage dealers"]
+      },
+      {
+        "name": "Life",
+        "focus": "Survivability, healing, and defensive capabilities",
+        "key_nodes": [
+          "Maximum health increases",
+          "Healing effectiveness",
+          "Health regeneration",
+          "Shield strength",
+          "Damage reduction"
+        ],
+        "best_for": ["Tank builds", "Healers", "Sustain builds", "Health-scaling characters"]
+      },
+      {
+        "name": "Imagination",
+        "focus": "Utility, creativity, and unconventional tactics",
+        "key_nodes": [
+          "Cooldown reduction",
+          "Summon enhancements",
+          "Unique mechanics",
+          "Resource generation",
+          "Movement speed"
+        ],
+        "best_for": ["Summoners", "Utility builds", "Cooldown-focused builds", "Creative strategies"]
+      },
+      {
+        "name": "Flexible",
+        "focus": "Can be equipped in any slot without efficiency loss",
+        "key_nodes": [
+          "Hybrid bonuses",
+          "Adaptive enhancements"
+        ],
+        "best_for": ["Hybrid builds", "Flexible strategies"]
+      }
+    ],
+    "allocation_strategy": {
+      "early_game": "Focus on Life tree for survivability, then Destruction for damage",
+      "mid_game": "Balance between Life and Destruction based on build needs",
+      "late_game": "Specialize in chosen path, add Imagination for unique mechanics"
+    }
+  }
+}
+

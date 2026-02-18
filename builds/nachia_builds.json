@@ -1,0 +1,949 @@
+{
+  "character": "Nachia",
+  "builds": [
+    {
+      "name": "Eternal Pack Leader",
+      "concept": "Summoner build using Eternal Flame to apply burn stacks that scale damage infinitely, combined with Embertail for ricochet fire spread and Eye of the Sun for mass detonation",
+      "playstyle": "Summoner whose hounds apply burns that scale damage exponentially, with periodic solar detonations on burning enemies",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Virtue",
+            "Eye of the Sun"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales damage with burn stacks. Virtue increases charges for more hounds. Eye of the Sun rains Solar Light on burning enemies every 20s, adding 9 burn stacks and dealing 360% Fire damage (massive synergy with Eternal Flame's per-stack scaling)"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Embertail",
+            "Essence of Clemency",
+            "Essence of Fever"
+          ],
+          "rationale": "Embertail adds ricochet fire damage and scales 8% per burning enemy. Clemency heals from hound damage. Fever causes burning enemies to explode after 2s dealing 130% Fire damage, with radius and damage scaling per burn stack (chain explosion loop with Eternal Flame)"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Guidance",
+            "Essence of Momentum"
+          ],
+          "rationale": "Love increases ally attack speed and movement speed. Guidance converts healing to barriers. Momentum reduces cooldowns with basic attacks"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Voracity",
+            "Essence of Wind"
+          ],
+          "rationale": "Efficiency reduces cooldowns. Voracity provides healing. Wind boosts attack speed for faster burn application"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common, CRITICAL for burn build)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons when nearby (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Regenerative Skin (max level) - +18% received Healing and Barrier (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills enemy (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific, requires Sylvan Call)"
+        ]
+      },
+      "strategy": "Sylvan Call with Eternal Flame applies burn curse through hounds, scaling damage infinitely with burn stacks. Eye of the Sun on the same memory triggers every 20 seconds, raining Solar Light on all burning enemies for 360% Fire damage and adding 9 burn stacks each, creating massive burst windows. Embertail on Moonlight Pact makes Fenrir's attacks ricochet fire, and Fever causes burning enemies to chain-explode with damage scaling per burn stack. The Eternal Flame + Eye of the Sun + Fever triple synergy creates a devastating loop: burns apply stacks, Eye of the Sun mass-adds 9 more stacks, and Fever detonates targets for escalating AoE explosions. Focus on maintaining maximum hound count while they spread burns. Each hound attack applies more burn stacks through Eternal Flame, and Embertail ricochets spread fire to additional targets.",
+      "strengths": [
+        "Triple fire synergy: Eternal Flame + Eye of the Sun + Fever creates chain explosion loops",
+        "Infinite damage scaling with burn stacks (2% per stack)",
+        "Eye of the Sun adds 9 burn stacks every 20s to ALL burning enemies",
+        "Fever explosions scale with burn stack count for devastating AoE",
+        "Overwhelming numbers advantage with hound army"
+      ],
+      "weaknesses": [
+        "Requires burn application for maximum effectiveness",
+        "Lower direct damage than DPS builds early on",
+        "Vulnerable to area-of-effect attacks on hounds",
+        "Requires time to build up hound army and burn stacks"
+      ]
+    },
+    {
+      "name": "Divine Pack Leader",
+      "concept": "Summoner build using Divine Faith to scale hound damage and health infinitely, combined with Perfection for universal stat boosts and Domination for crit scaling",
+      "playstyle": "Scaling summoner whose hounds become exponentially stronger with each kill through dual infinite scaling",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Virtue"
+          ],
+          "rationale": "Divine Faith scales damage and health with kills (affects hounds). Domination scales crit damage infinitely with each crit (dual infinite scaling synergy, 22pts). Virtue increases charges for more hounds"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Perfection provides universal stat boosts (synergy with Divine Faith, 18pts). Clemency provides 4% leech from hound damage. Efficiency reduces cooldowns"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Guidance",
+            "Essence of Momentum"
+          ],
+          "rationale": "Love increases hound attack speed and movement speed. Guidance converts healing to barriers. Momentum reduces cooldowns with basic attacks"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of the Blade",
+            "Essence of Voracity",
+            "Essence of Wind"
+          ],
+          "rationale": "Blade summons blades that lacerate targets for 174% bonus damage every 2s per enemy. Voracity provides healing. Wind boosts attack speed for more Faith stacks"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Valiant Challenger (max level) - +16% damage to Bosses (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Refreshing Morning Dew (max level) - +160 Dream Dust when visiting Forest (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific)"
+        ]
+      },
+      "strategy": "Sylvan Call with Divine Faith and Domination creates dual infinite scaling: Faith scales damage/health with kills (up to 75 stacks), Domination scales crit damage with each crit. This is the highest-scoring synergy pair at 22 points. Perfection on Moonlight Pact provides permanent universal stat boosts that synergize with Faith's scaling (18pts). Nature's Whisper with Love significantly amplifies hound effectiveness. Blade Storm with Blade adds laceration damage to targets. Focus on maintaining maximum hound count while eliminating enemies to stack Faith. Each kill makes hounds stronger and increases your health. The dual scaling of Divine Faith + Domination creates the strongest late-game power curve in the game.",
+      "strengths": [
+        "Dual infinite scaling: Divine Faith (kills) + Domination (crits) = 22pt synergy",
+        "Perfection + Divine Faith universal scaling (18pt synergy)",
+        "Permanent universal stat boosts from Perfection",
+        "Exponential hound and player growth",
+        "Strong area coverage through hounds"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Vulnerable to area-of-effect attacks on hounds",
+        "Requires multiple legendary essences"
+      ]
+    },
+    {
+      "name": "Thunder Pack",
+      "concept": "Summoner build using Essence of Thunder to build lightning stacks through hound attacks and memory casts",
+      "playstyle": "Summoner that unleashes massive lightning barrages through Thunder stacks",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Virtue",
+            "Essence of Flow"
+          ],
+          "rationale": "Thunder consumes stacks for lightning strikes, Virtue increases charges, Flow reduces cooldown with light damage"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Guidance",
+            "Essence of Momentum"
+          ],
+          "rationale": "Love increases hound attack speed, Guidance converts healing to barriers, Momentum reduces cooldowns"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Shock",
+            "Essence of Insight",
+            "Essence of Clemency"
+          ],
+          "rationale": "Shock empowers attacks with lightning. Insight adds 200% Light damage and Memory Haste on light damage (synergy with Flow, 18pts). Clemency provides healing"
+        },
+        {
+          "name": "Serpent's Blessing",
+          "essences": [
+            "Glacial Core",
+            "Essence of Efficiency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage, Efficiency reduces cooldowns, Voracity provides healing"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Daylight (max level) - +3% Light damage per stack (common, Thunder is Light damage)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific)"
+        ]
+      },
+      "strategy": "Sylvan Call with Thunder builds stacks through memory casts and dodge usage. Hounds attack rapidly, allowing frequent memory casts to build stacks. Insight + Flow on Lightning Strike creates a light damage cooldown loop (18pt synergy): Insight adds 200% Light damage and Memory Haste, Flow reduces cooldowns when dealing light damage. Nature's Whisper with Love increases hound attack speed, creating more opportunities for casts. Serpent's Blessing buffs hounds significantly. Focus on building Thunder stacks up to 7, then unleashing massive lightning barrages. The combination of hounds and Thunder creates overwhelming area damage.",
+      "strengths": [
+        "Massive lightning damage with full stacks",
+        "Insight + Flow light damage cooldown loop (18pt synergy)",
+        "Strong area coverage through hounds and lightning",
+        "Multiple damage sources",
+        "Self-sustaining through healing conversion"
+      ],
+      "weaknesses": [
+        "Requires frequent casts to build stacks",
+        "Lower damage without Thunder stacks",
+        "Energy management critical",
+        "Complex stack management"
+      ]
+    },
+    {
+      "name": "Automated Summon Basic Attacker",
+      "concept": "Basic attack focused build using Momentum to reduce cooldowns, with Crimson for empowered 4th attacks and Fangs for guaranteed crits creating a devastating attack chain",
+      "playstyle": "Basic attack spammer whose hounds automatically apply effects while attacks reduce cooldowns and trigger empowered explosions",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Momentum",
+            "Essence of Fangs"
+          ],
+          "rationale": "Eternal Flame applies burn curse through hounds. Momentum reduces cooldown with each basic attack. Fangs provides guaranteed crits that reduce cooldown (Domination+Fangs synergy 18pts)"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Clemency",
+            "Essence of Guidance"
+          ],
+          "rationale": "Crimson empowers every 4th attack with 100% Dark explosion and 22% healing per enemy (synergy with Fangs for aligned 4th-attack procs, ~18pts). Clemency provides 4% leech from hound damage. Guidance increases healing by 40% and converts excess to barriers"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Domination",
+          "rationale": "Passive essence - increases crit chance by 20% and scales crit damage with crits (synergy with Fangs, 18pts)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common, CRITICAL)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific)"
+        ]
+      },
+      "strategy": "Sylvan Call with Eternal Flame applies burn curse through hounds, scaling damage infinitely with burn stacks. Momentum reduces its cooldown with every basic attack, while Fangs ensures every 4th attack is a crit that further reduces cooldown. Crimson on Moonlight Pact triggers a 100% Dark explosion every 4th attack, healing 22% per enemy hit. Since Fangs and Crimson both trigger on the 4th attack, they align perfectly for devastating synchronized procs. Clemency provides 4% leech from hound damage, and Guidance increases healing by 40% and converts excess to barriers. Equip Domination as a passive for infinite crit scaling with Fangs. Simply spam basic attacks - each attack reduces cooldowns, heals you, and every 4th attack triggers both a guaranteed crit AND a dark explosion.",
+      "strengths": [
+        "Crimson + Fangs aligned 4th-attack procs (~18pt synergy)",
+        "Infinite damage scaling with burn stacks via Eternal Flame",
+        "Basic attacks continuously reduce cooldowns",
+        "Hounds automatically apply burns",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires burn application for maximum effectiveness",
+        "Lower direct damage than pure DPS builds",
+        "Vulnerable to area-of-effect attacks on hounds",
+        "Only 2 memory slots used (compact build)"
+      ]
+    },
+    {
+      "name": "Maximum Damage Pack Leader",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and Crimson for 4th-attack explosions with healing",
+      "playstyle": "High-damage summoner that scales infinitely with kills while maintaining strong survivability through healing and barriers",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks, affects hounds). Domination scales crit damage with each crit (22pt synergy with Faith). Predation increases damage to bosses by 60% and drops Orbs of Power for permanent stat increases"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith). Clemency provides 4% leech from all damage (including hound damage). Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of the Blade",
+            "Essence of Wind"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting. Blade summons blades that lacerate targets. Wind boosts attack speed for more Faith stacks"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Love",
+            "Essence of Fangs"
+          ],
+          "rationale": "Crimson empowers every 4th attack with 100% Dark explosion and 22% healing. Love increases hound attack speed. Fangs provides guaranteed crits on 4th attack (aligned with Crimson, ~18pts) and reduces cooldowns by 0.7s on crit"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific)"
+        ]
+      },
+      "strategy": "Sylvan Call with Divine Faith + Domination is the highest synergy pair (22pts), scaling both kill-based damage/health AND crit damage infinitely. Perfection on Moonlight Pact adds another 18pt synergy with Faith. Predation gives 60% boss damage plus permanent stat orbs. Nature's Whisper now carries Crimson + Fangs for aligned 4th-attack procs: every 4th attack is a guaranteed crit (Fangs) that also triggers a 100% Dark explosion healing 22% per enemy (Crimson). This creates a powerful basic attack cycle where every 4th hit does massive burst. Blade Storm with Blade adds laceration damage sources. Focus on maintaining maximum hound count while eliminating enemies to stack Divine Faith. The build combines three high-value synergy pairs for maximum theoretical damage.",
+      "strengths": [
+        "Divine Faith + Domination dual infinite scaling (22pt synergy)",
+        "Perfection + Divine Faith universal scaling (18pt synergy)",
+        "Crimson + Fangs aligned 4th-attack procs (~18pt synergy)",
+        "60% increased boss damage through Predation",
+        "Multiple healing sources (Clemency, Voracity, Crimson explosions)"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Vulnerable to area-of-effect attacks on hounds",
+        "Requires multiple legendary essences"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Pack Leader",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects with Crimson + Fangs aligned procs for maximum DPS",
+      "playstyle": "Spam basic attacks continuously, triggering empowered attacks, healing, and cooldown reduction with every hit while hounds provide additional damage",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack. Fangs makes every 4th attack a crit (reducing cooldown by 0.7s) and launches 2 Fangs dealing 60% damage each. Shock empowers every 4th attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Wind",
+            "Essence of Love"
+          ],
+          "rationale": "Crimson empowers every 4th attack with 100% Dark explosion and 22% healing per enemy (aligned with Fangs, ~18pts). Wind increases attack speed by 33% for 5 seconds. Love increases hound attack speed and movement speed"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of the Blade",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage (including hound damage). Blade summons blades that lacerate targets. Efficiency reduces cooldown by 26% for more frequent casts"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Guidance",
+            "Essence of Voracity"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely (synergy with Fangs, 18pts). Guidance converts healing to barriers. Voracity restores 6 health per attack for 5 seconds"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby, -30% damage to canines (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons when summons nearby (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Refreshing Morning Dew (max level) - +160 Dream Dust when visiting Forest of Turbulence (Nachia-specific)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills enemy (Nachia-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific, requires Sylvan Call memory)",
+          "Immortal Protection (max level) - Serpent's Blessing prevents lethal damage, recovers 50% Max Health (Nachia-specific, requires Serpent's Blessing memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Sylvan Call's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Shock lightning (40% light damage, bounces) AND Crimson explosion (100% dark damage with 22% healing per enemy). This triple 4th-attack proc (Fangs + Shock + Crimson) creates devastating burst every few hits. Cast Moonlight Pact frequently for Wind attack speed boost (33% for 5 seconds). Love increases hound attack speed. Clemency provides 4% leech from all damage. Domination scales crit damage infinitely with each crit (18pt synergy with Fangs). Simply hold down basic attack - every hit heals, reduces cooldowns, and every 4th hit unleashes a storm of projectiles, lightning, and explosions.",
+      "strengths": [
+        "Triple 4th-attack proc: Fangs crit + Shock lightning + Crimson explosion",
+        "Domination + Fangs crit scaling synergy (18pts)",
+        "Crimson + Fangs aligned proc synergy (~18pts)",
+        "Multiple healing sources (Crimson explosions, Voracity, Clemency, Guidance barriers)",
+        "Continuous cooldown reduction through basic attacks",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Positioning important for optimal lightning bounces",
+        "Vulnerable to area-of-effect attacks on hounds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Cold Pack Alpha",
+      "concept": "Cold-focused summoner using Glacial Core to convert all healing into cold damage while hounds apply cold stacks for crowd control",
+      "playstyle": "Control-oriented summoner whose pack slows enemies while healing converts to devastating cold damage",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Freezing"
+          ],
+          "rationale": "Glacial Core converts 100% healing to cold damage, Frost adds cold damage scaling with max health, Freezing applies cold stacks that slow enemies through hound attacks"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Rejuvenation"
+          ],
+          "rationale": "Clemency provides 4% leech from hound damage converted to cold via Glacial Core (25pt synergy). Voracity provides healing per attack. Rejuvenation provides health regeneration - all converted to cold damage"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Momentum",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Bleakness adds 50% damage to slowed/frozen enemies (synergy with cold hounds!). Momentum reduces cooldowns. Efficiency further reduces cooldowns (15pt synergy with Momentum)"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Guidance",
+            "Essence of Wind"
+          ],
+          "rationale": "Love increases hound attack speed for faster cold application. Guidance converts excess healing to barriers. Wind boosts attack speed"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Provides barrier and fires cold snowballs for additional cold application"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify healing conversion and hound damage"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common, feeds Glacial Core)",
+          "Regenerative Skin (max level) - +18% received Healing (common, amplifies cold conversion)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific, CRITICAL for cold application)"
+        ]
+      },
+      "strategy": "Summon maximum hounds through Sylvan Call with More Hounds! constellation power. Hounds apply cold stacks through Freezing, slowing all enemies they attack. Every point of healing from Clemency leech (from hound damage), Voracity, Rejuvenation, and Wicked Vitality gets converted to cold damage through Glacial Core (Glacial Core + Clemency is the highest synergy at 25pts). Frost adds additional cold damage scaling with max health. Bleakness provides 50% damage bonus to all cold-slowed enemies - since hounds constantly slow enemies with cold, this is always active. Love increases hound attack speed for faster cold application. Guidance ensures excess healing becomes barriers for hound survivability. The combination creates a swarm of cold-applying hounds while you deal constant cold explosions from healing conversion.",
+      "strengths": [
+        "Glacial Core + Clemency healing-to-damage loop (25pt synergy)",
+        "Built-in crowd control through hound cold slows",
+        "50% damage bonus to slowed enemies always active via Bleakness",
+        "Momentum + Efficiency cooldown stacking (15pt synergy)",
+        "Multiple healing sources create constant cold explosions"
+      ],
+      "weaknesses": [
+        "Complex synergy management",
+        "Hounds vulnerable to AoE damage",
+        "Less effective against cold-resistant enemies",
+        "Requires building cold stacks through hound attacks"
+      ]
+    },
+    {
+      "name": "Execute Alpha Hunter",
+      "concept": "Execute-focused summoner using Essence of Contempt and Lethality for massive burst damage on both full-health and low-health targets",
+      "playstyle": "Burst damage summoner that excels at both opening engagements and finishing enemies with hound swarm",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Essence of Contempt",
+            "Essence of Lethality",
+            "Essence of Finality"
+          ],
+          "rationale": "Contempt increases damage as target health decreases (up to 50%), Lethality provides 60% increased damage to full-health enemies, Finality builds stacks while off cooldown for up to 100% bonus damage"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Predation"
+          ],
+          "rationale": "Domination + Fangs crit scaling synergy (18pts). Predation adds 60% boss damage and drops stat orbs"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Clemency",
+            "Essence of Wind"
+          ],
+          "rationale": "Momentum reduces cooldowns with attacks. Clemency provides leech from hound damage. Wind boosts attack speed"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Efficiency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Love increases hound attack speed for faster kills. Efficiency reduces cooldowns. Voracity provides healing"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify all damage"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Powerful Blow (max level) - +24% Critical Strike Damage (common)",
+          "Valiant Challenger (max level) - +16% damage to Bosses (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific, CRITICAL)"
+        ]
+      },
+      "strategy": "Open fights with hound swarm on full-health targets to proc Lethality's 60% damage bonus. As enemies drop in health, Contempt kicks in providing up to 50% increased damage. Finality builds stacks while Sylvan Call is off cooldown (up to 20 stacks = 100% damage increase), then consumes them on empowered cast. The Domination + Fangs synergy (18pts) on Moonlight Pact ensures Fenrir crits scale infinitely. Against bosses, Predation provides 60% damage bonus plus Orb of Power drops. Love increases hound attack speed for faster kills. The build excels at rapidly eliminating enemy groups through the Lethality -> Contempt chain, snowballing through encounters.",
+      "strengths": [
+        "Massive burst damage at both full and low health",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Finality builds up to 100% bonus damage while off cooldown",
+        "Excellent boss damage through Predation + Valiant Challenger",
+        "Hounds amplify kill-chaining potential"
+      ],
+      "weaknesses": [
+        "Requires target switching to maximize damage phases",
+        "Less effective against single tanky targets without adds",
+        "Cooldown dependent between Finality stacks",
+        "Hounds vulnerable to AoE damage"
+      ]
+    },
+    {
+      "name": "Paranoia Pain Pack",
+      "concept": "Damage-reactive summoner using Paranoia for auto-cast on damage taken, Pain for 40% AoE splash on ALL damage, and Vengeance for damage-reactive blade retaliation",
+      "playstyle": "Tanky summoner that becomes more dangerous as it takes damage, with auto-casting abilities and massive AoE splash",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Essence of Pain",
+            "Essence of Virtue",
+            "Essence of Love"
+          ],
+          "rationale": "Pain adds 40% AoE splash to ALL damage dealt by Sylvan Call (0 builds use Pain - massively underused!). Each hound attack splashes 40% damage to nearby enemies. Virtue increases charges. Love boosts hound speed on heal"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Vengeance",
+            "Essence of Clemency"
+          ],
+          "rationale": "Paranoia auto-casts Moonlight Pact when you take damage with 60% cooldown reduction (~18pt synergy with Vengeance). Vengeance fires 2 blades on damage taken and increases Memory damage by 34% for 5s. Clemency provides 4% leech"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Guidance",
+            "Essence of Wind"
+          ],
+          "rationale": "Momentum reduces cooldowns with attacks (synergy with Paranoia). Guidance converts healing to barriers. Wind boosts attack speed"
+        },
+        {
+          "name": "Serpent's Blessing",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Efficiency",
+            "Essence of the Blade"
+          ],
+          "rationale": "Voracity provides healing. Efficiency reduces cooldown. Blade adds laceration damage (174% every 2s per enemy)"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats for baseline power"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Barrier absorbs hits to trigger Paranoia/Vengeance, then fires snowballs"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Regenerative Skin (max level) - +18% received Healing and Barrier (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific)",
+          "Immortal Protection (max level) - Serpent's Blessing prevents lethal damage, recovers 50% Max Health (Nachia-specific)"
+        ]
+      },
+      "strategy": "This build exploits three severely underused essences. Essence of Pain on Sylvan Call makes every hound attack splash 40% AoE damage to nearby enemies - with 5-7 hounds all splashing, this creates massive area damage. Paranoia on Moonlight Pact auto-casts Fenrir's leap attack whenever you take damage, with 60% cooldown reduction. Vengeance synergizes perfectly: when you take damage, you fire 2 retaliatory blades AND Moonlight Pact auto-casts AND your Memory damage increases by 34% for 5 seconds. This creates a damage-reactive loop where getting hit makes you stronger. Serpent's Blessing keeps hounds alive with its armor and healing buff. The Blade essence adds laceration damage for extra sustained DPS. Stand in the middle of enemies and let the reactive loop do its work while hounds splash AoE everywhere.",
+      "strengths": [
+        "Essence of Pain 40% AoE splash on ALL hound damage (underused gem)",
+        "Paranoia + Vengeance damage-reactive loop (~18pt synergy)",
+        "Auto-casting reduces mechanical complexity",
+        "Taking damage makes you stronger (34% damage increase)",
+        "Massive area coverage from hound splash + Vengeance blades"
+      ],
+      "weaknesses": [
+        "Requires taking damage to activate reactive synergies",
+        "Less effective when enemies can't reach you",
+        "Hounds vulnerable to AoE damage",
+        "Needs careful health management to avoid dying"
+      ]
+    },
+    {
+      "name": "Wound Detonation Pack",
+      "concept": "Mark-and-detonate summoner using Essence of the Wound for 275% AoE explosions triggered by hound attacks, combined with Pain for splash damage",
+      "playstyle": "Strategic summoner that marks enemies with hound attacks then detonates them for devastating chain explosions",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Virtue",
+            "Essence of Pain"
+          ],
+          "rationale": "Wound applies Marks on hound hits; after 3 attacks the Mark explodes for 275% AoE damage (0 builds use Wound!). Pain adds 40% AoE splash to all damage including explosion. Virtue increases charges for more hounds"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Clemency"
+          ],
+          "rationale": "Domination + Fangs crit scaling (18pt synergy). Fenrir's rapid attacks detonate Wound marks quickly. Clemency provides healing"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Momentum",
+            "Essence of Wind"
+          ],
+          "rationale": "Love increases hound attack speed for faster mark detonation. Momentum reduces cooldowns. Wind boosts attack speed"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Efficiency",
+            "Essence of the Blade"
+          ],
+          "rationale": "Voracity provides healing. Efficiency reduces cooldowns (15pt synergy with Momentum). Blade adds laceration damage"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats for baseline power"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Barrier protection and crowd control snowballs"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Life is Sacred (max level) - +15% healing/Barrier to self, +25% to allies (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific, CRITICAL for mark application)"
+        ]
+      },
+      "strategy": "Essence of the Wound is a completely unused essence that is devastating on a summoner. Each hound attack applies a Mark to the target. After 3 attacks on a marked enemy (which happens in about 1 second with multiple hounds), the Mark explodes for 275% AoE damage to all nearby enemies. With 5-7 hounds all attacking different targets, marks detonate constantly across the battlefield. Essence of Pain on the same memory makes all this damage (including explosions) splash an additional 40% AoE. Fenrir from Moonlight Pact detonates marks even faster with his 130% damage attacks. Domination + Fangs on Moonlight Pact adds infinite crit scaling. Love on Nature's Whisper increases hound attack speed, meaning marks detonate faster. The build creates a chain-reaction battlefield where hound attacks trigger 275% explosions that splash for another 40%.",
+      "strengths": [
+        "Essence of the Wound 275% AoE explosions every 3 attacks (completely unused essence!)",
+        "Essence of Pain 40% splash amplifies explosion damage",
+        "Domination + Fangs crit scaling (18pt synergy)",
+        "Hound swarm detonates multiple marks simultaneously",
+        "Exceptional crowd clear through chain explosions"
+      ],
+      "weaknesses": [
+        "Requires hounds to attack for 3 hits before detonation",
+        "Less effective against single targets",
+        "Hounds vulnerable to AoE damage",
+        "No infinite scaling mechanism (relies on raw AoE power)"
+      ]
+    },
+    {
+      "name": "Void Dark Summoner",
+      "concept": "Dark damage summoner using Essence of the Void for 150% Dark AoE after each cast, combined with Twilight for dark stack consumption and Obsidian for empowered dark attacks",
+      "playstyle": "Cast-heavy summoner that unleashes dark explosions after every ability use while hounds build dark stacks on enemies",
+      "memories": [
+        {
+          "name": "Sylvan Call",
+          "essences": [
+            "Essence of the Void",
+            "Essence of Virtue",
+            "Essence of Twilight"
+          ],
+          "rationale": "Void makes next attack after cast explode for 150% Dark AoE (0 builds use Void!). Virtue increases charges. Twilight converts basic attacks to Dark and consumes 3+ dark stacks for 54% damage per stack + 6 healing per stack"
+        },
+        {
+          "name": "Moonlight Pact",
+          "essences": [
+            "Essence of the Abyss",
+            "Essence of Obsidian",
+            "Essence of Clemency"
+          ],
+          "rationale": "Abyss converts all damage to Dark and triggers attack effects at 3+ dark stacks (20pt synergy with Twilight). Obsidian empowers next attack for 250% Dark Damage after casting. Clemency provides healing"
+        },
+        {
+          "name": "Nature's Whisper",
+          "essences": [
+            "Essence of Love",
+            "Essence of Momentum",
+            "Essence of Dusk"
+          ],
+          "rationale": "Love increases hound speed. Momentum reduces cooldowns. Dusk fires 2 Dark shards per attack for 5s after casting, building dark stacks"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Voracity provides healing. Wind boosts attack speed. Efficiency reduces cooldowns"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats for baseline power"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Barrier protection and crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Dog Lover (max level) - +35% Attack Speed for 5s when canine dies nearby (Nachia-specific)",
+          "Enhanced Ferocity (max level) - +18% Attack Speed for all summons (Nachia-specific)",
+          "Night Time (max level) - +8 Ability Power (common, Dark builds scale with AP)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Guardian of Order (max level) - +10 Ability Power (Nachia-specific)",
+          "Steadfast Bond (max level) - +15 Armor and +45% healing/Barrier to summons (Nachia-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Hunting Training (max level) - 25% chance for +4 Gold when summon kills (Nachia-specific)"
+        ],
+        "flexible": [
+          "More Hounds! (max level) - Sylvan Call summons 2 additional hounds (Nachia-specific)"
+        ]
+      },
+      "strategy": "This build exploits three underused dark damage essences. Essence of the Void on Sylvan Call makes every basic attack after casting explode for 150% Dark AoE - since you cast Sylvan Call frequently (Momentum + Efficiency), this triggers constantly. Twilight converts basic attacks to Dark damage and consumes dark stacks (3+) for massive burst (54% per stack + healing). Abyss on Moonlight Pact converts ALL Fenrir damage to Dark and triggers attack effects when hitting targets with 3+ dark stacks (20pt synergy with Twilight). Obsidian empowers your next attack after Moonlight Pact cast for 250% Dark Damage. Dusk fires 2 Dark shards per attack for 5s, rapidly building dark stacks. The gameplay loop: cast a memory -> Void empowers next attack for 150% Dark AoE -> attack to consume dark stacks with Twilight -> Obsidian adds 250% Dark -> repeat. Hounds and Fenrir build dark stacks while you detonate them.",
+      "strengths": [
+        "Twilight + Abyss dark stack synergy (20pt synergy)",
+        "Essence of the Void 150% Dark AoE after every cast (unused essence!)",
+        "Obsidian adds 250% Dark empowered attacks",
+        "Dark stack building + consumption creates burst cycle",
+        "Dusk adds sustained dark shard output"
+      ],
+      "weaknesses": [
+        "Complex cast-attack-consume rotation",
+        "Requires dark stack management",
+        "Less effective against dark-resistant enemies",
+        "Hounds vulnerable to AoE damage"
+      ]
+    }
+  ]
+}

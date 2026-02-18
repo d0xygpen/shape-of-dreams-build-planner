@@ -1,0 +1,128 @@
+{
+  "characters": [
+    {
+      "name": "Mist",
+      "unlock_condition": "Starting character",
+      "playstyle": "Agile melee fighter",
+      "base_stats": {
+        "health": "medium",
+        "damage": "medium-high",
+        "mobility": "high",
+        "defense": "medium"
+      },
+      "unique_abilities": [
+        "Shadow Walk - Dash through enemies dealing damage",
+        "High mobility and evasion",
+        "Critical strike focused"
+      ],
+      "traveler_memory": "Shadow Walk"
+    },
+    {
+      "name": "Yubar",
+      "unlock_condition": "Collect 600 Dream Dust",
+      "playstyle": "Mage with shield generation",
+      "base_stats": {
+        "health": "low",
+        "damage": "medium",
+        "mobility": "medium",
+        "defense": "low (but shield-focused)"
+      },
+      "unique_abilities": [
+        "Frostbite - Cold damage and shield generation",
+        "Cooldown reduction mechanics",
+        "Shield stacking potential"
+      ],
+      "traveler_memory": "Frostbite"
+    },
+    {
+      "name": "Vesper",
+      "unlock_condition": "Reach the Starry Dream",
+      "playstyle": "Tank with health-scaling damage",
+      "base_stats": {
+        "health": "very_high",
+        "damage": "scales_with_health",
+        "mobility": "low",
+        "defense": "very_high"
+      },
+      "unique_abilities": [
+        "Health-scaling damage abilities",
+        "High survivability",
+        "Hysteria - Attack speed and healing boost"
+      ],
+      "traveler_memory": "Hysteria"
+    },
+    {
+      "name": "Aurena",
+      "unlock_condition": "Heal yourself or allies for 25,000 Health",
+      "playstyle": "Support/Healer with offensive capabilities",
+      "base_stats": {
+        "health": "medium",
+        "damage": "medium",
+        "mobility": "medium",
+        "defense": "medium"
+      },
+      "unique_abilities": [
+        "Healing abilities",
+        "Light damage",
+        "Support buffs",
+        "Orb of Light - Heals allies and damages enemies"
+      ],
+      "traveler_memory": "Orb of Light"
+    },
+    {
+      "name": "Bismuth",
+      "unlock_condition": "Maintain movement speed above 900 for 3 seconds",
+      "playstyle": "Ranged elemental damage dealer",
+      "base_stats": {
+        "health": "medium",
+        "damage": "high",
+        "mobility": "very_high",
+        "defense": "low-medium"
+      },
+      "unique_abilities": [
+        "Ranged attacks",
+        "Elemental damage (Fire, Lightning)",
+        "High movement speed",
+        "Immolate - Fire damage over time"
+      ],
+      "traveler_memory": "Immolate"
+    },
+    {
+      "name": "Nachia",
+      "unlock_condition": "Defeat the Demon of the Forest 20 times",
+      "playstyle": "Summoner with Leaf Hounds",
+      "base_stats": {
+        "health": "medium",
+        "damage": "medium (summons deal damage)",
+        "mobility": "medium",
+        "defense": "medium"
+      },
+      "unique_abilities": [
+        "Sylvan Call - Summon Leaf Hounds",
+        "Summon enhancement",
+        "Nature-based abilities",
+        "Healing conversion to damage"
+      ],
+      "traveler_memory": "Sylvan Call"
+    },
+    {
+      "name": "Shell",
+      "unlock_condition": "Breathe life into the wooden doll",
+      "playstyle": "Defensive guardian with retaliation",
+      "base_stats": {
+        "health": "high",
+        "damage": "medium",
+        "mobility": "low",
+        "defense": "very_high"
+      },
+      "unique_abilities": [
+        "Repulsive Shield - Damage reflection",
+        "Defensive buffs",
+        "Retaliation damage",
+        "Protection abilities"
+      ],
+      "traveler_memory": "Repulsive Shield"
+    }
+  ]
+}
+

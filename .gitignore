@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+*.egg
+
+# PyInstaller
+*.manifest
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# User-created builds (not bundled - each user generates their own)
+custom_builds/
+
+# Backup files
+*.bak
+
+# Claude
+.claude/
+
+# Cursor
+.cursor/
+
+# Misc project files not for distribution
+*.html
+PROJECT_CONTEXT.md
+BUILD_SUMMARY.md
+QUICK_START.md
+nul
+schemas/
+docs/
+essences_data.json
+memories_data.json
+memory/

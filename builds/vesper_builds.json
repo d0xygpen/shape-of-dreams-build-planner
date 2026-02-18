@@ -1,0 +1,917 @@
+{
+  "character": "Vesper",
+  "builds": [
+    {
+      "name": "Eternal Flame Juggernaut",
+      "concept": "Health-scaling tank using Eternal Flame to apply burn stacks that scale damage infinitely, combined with health-based damage and AoE splash",
+      "playstyle": "Immobile fortress that scales damage with burn stacks while converting health to damage",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Pain",
+            "Essence of the Giant"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales damage with burn stacks, Pain adds 40% AoE splash to ALL damage (massively amplifies burn/fire hits across groups), Giant increases max health and scales damage with health"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Clemency",
+            "Essence of Predation"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Clemency heals from damage, Predation increases damage to bosses"
+        },
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Eye of the Sun",
+            "Essence of Fever",
+            "Essence of Charcoal"
+          ],
+          "rationale": "Eye of the Sun triggers Solar Light on burning enemies, Fever infects with Fever for explosions, Charcoal adds fragments to burning enemies"
+        },
+        {
+          "name": "Baptism of the Sun",
+          "essences": [
+            "Embertail",
+            "Essence of Insensitivity",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Embertail adds ricochet fire damage and 100% Fire DoT increase, Insensitivity drops bombs while moving, Sulfur converts damage to fire and increases fire DoT by 50%"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Solar Praise (max level) - +20% Attack Damage when burning enemies nearby (Vesper-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common, CRITICAL for burn build)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Indestructible Body (max level) - Hysteria grants Unstoppable and +60% Armor (Vesper-specific, requires Hysteria)"
+        ]
+      },
+      "strategy": "Hysteria with Eternal Flame applies burn curse that scales damage infinitely with burn stacks. Essence of Pain adds 40% AoE splash to ALL damage, making every fire hit splash to nearby enemies for devastating group clear. Giant scales damage with max health. Chomp with Paranoia automatically retaliates when taking damage. Pillar of Flame with Eye of the Sun triggers automatic Solar Light on burning enemies. Baptism of the Sun forces enemies to attack while Embertail adds ricochet damage with 100% Fire DoT increase. Focus on applying burn stacks to enemies, then Eternal Flame scales damage by 2% per stack while Pain splashes it across groups.",
+      "strengths": [
+        "Infinite damage scaling with burn stacks",
+        "40% AoE splash on ALL damage through Pain amplifies group clear",
+        "Automatic empowered attacks through Eye of the Sun",
+        "Health-scaling damage through Giant",
+        "Automatic retaliation through Paranoia"
+      ],
+      "weaknesses": [
+        "Requires burn application for maximum effectiveness",
+        "Very low mobility",
+        "Weaker early game before burn stacks",
+        "Requires multiple fire abilities"
+      ]
+    },
+    {
+      "name": "Divine Juggernaut",
+      "concept": "Health-scaling tank that combines Divine Faith's infinite scaling with Domination's crit scaling and health-based damage for exponential growth",
+      "playstyle": "Immobile fortress that becomes stronger with each kill, scaling both health and damage through dual infinite scaling",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of the Giant"
+          ],
+          "rationale": "Divine Faith scales damage and health with kills, Domination scales crit damage infinitely with crits (22pt synergy pair), Giant increases max health and scales damage with health"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Predation"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Clemency heals from damage, Predation increases damage to bosses by 60%"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Momentum",
+            "Essence of Voracity"
+          ],
+          "rationale": "Paranoia auto-casts on damage (20pt synergy with Momentum), Momentum reduces cooldowns per attack, Voracity provides healing"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Protection",
+            "Essence of Guidance",
+            "Glacial Core"
+          ],
+          "rationale": "Protection adds defense and Unstoppable, Guidance converts healing to barriers, Glacial Core converts healing to cold damage (25pt synergy with Clemency)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Valiant Challenger (max level) - +16% damage to Bosses (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "Rising Faith (max level) - +4 Armor at levels 5/10/15/20 (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "War Chest (max level) - Start with 200 Gold (Vesper-specific)"
+        ],
+        "flexible": [
+          "Indestructible Body (max level) - Hysteria grants Unstoppable and +60% Armor (Vesper-specific, requires Hysteria)"
+        ]
+      },
+      "strategy": "Hysteria with Divine Faith and Domination creates dual infinite scaling - Faith scales damage and health with kills (up to 75 stacks) while Domination scales crit damage with every crit. This is the highest-scoring synergy pair in the game at 22 points. Perfection on Bone Crusher adds an 18pt synergy with Faith. Bone Crusher with Clemency provides 4% leech. Glacial Core on El's Sanctuary converts healing to cold damage, forming a 25pt synergy with Clemency. Chomp with Paranoia and Momentum forms a 20pt synergy for near-permanent auto-casting. Total synergy score: 103 points. Focus on eliminating enemies to stack Divine Faith while crits from Domination scale infinitely.",
+      "strengths": [
+        "Dual infinite scaling with Divine Faith + Domination (22pt synergy)",
+        "103 total synergy points across build",
+        "Permanent universal stat boosts from Perfection",
+        "Healing-to-cold-damage loop via Glacial Core + Clemency (25pt)",
+        "Near-permanent auto-cast via Paranoia + Momentum (20pt)",
+        "60% increased boss damage through Predation"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Very low mobility",
+        "Weaker early game",
+        "Requires multiple legendary essences"
+      ]
+    },
+    {
+      "name": "Dire Retaliation",
+      "concept": "Low-health build using Essence of Direness and Overload to reduce cooldowns and empower casts at low health, with cold retaliation damage",
+      "playstyle": "Tank that becomes more powerful at low health with faster ability casting and automatic cold retaliation",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Essence of Direness",
+            "Essence of the Giant",
+            "Essence of Overload"
+          ],
+          "rationale": "Direness reduces cooldown at low health (16pt synergy with Overload), Giant scales damage with max health, Overload sacrifices health to empower casts by 45%"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Blood Drops",
+            "Essence of Reflex"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Blood Drops restores health at low health, Reflex deals 120% Cold retaliation damage when hit and grants 40 Armor for 1.5s"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Contempt",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Contempt increases damage as target health decreases, Clemency heals from damage, Momentum reduces cooldowns"
+        },
+        {
+          "name": "Justice Guillotine",
+          "essences": [
+            "Essence of Flexibility",
+            "Glacial Core",
+            "Essence of Guidance"
+          ],
+          "rationale": "Flexibility splits 37% damage over 4 seconds while on cooldown (amazing tank passive), Glacial Core converts healing to cold damage (25pt synergy with Clemency), Guidance converts healing to barriers"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Reckless Fury (max level) - -20% Max Health, +30% Attack Speed (Vesper-specific, synergizes with low health)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Powerful Blow (max level) - +24% Critical Strike Damage (common)"
+        ],
+        "life": [
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific, CRITICAL)",
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Second Wind (max level) - Invulnerable for 2.5s on fatal damage once (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Indestructible Body (max level) - Hysteria grants Unstoppable and +60% Armor (Vesper-specific)"
+        ]
+      },
+      "strategy": "Hysteria with Direness reduces cooldown by up to 55% when health is at 30%, while Overload sacrifices health to empower casts by 45% (forming a 16pt low-HP symbiosis). Essence of Reflex on Chomp provides automatic cold retaliation (120% Cold damage + 40 Armor) every time you take damage, perfectly complementing the take-damage playstyle. Flexibility on Justice Guillotine splits 37% of incoming damage over 4 seconds while on cooldown, dramatically smoothing burst damage. Glacial Core converts healing to cold damage for a 25pt synergy with Clemency. Focus on maintaining health around 30% to maximize Direness while Reflex punishes everything that hits you.",
+      "strengths": [
+        "Extremely fast ability casting at low health (up to 55% CDR)",
+        "Automatic cold retaliation through Reflex (120% Cold + 40 Armor)",
+        "37% damage smoothing through Flexibility",
+        "Healing-to-cold-damage loop (25pt synergy)",
+        "Direness + Overload low-HP symbiosis (16pt)"
+      ],
+      "weaknesses": [
+        "Requires maintaining low health",
+        "Vulnerable to burst damage despite mitigation",
+        "High risk playstyle",
+        "Requires careful health management"
+      ]
+    },
+    {
+      "name": "Automated Burn Retaliator",
+      "concept": "Fully automated burn build using Eternal Flame with Paranoia auto-casting, combined with basic attacks to reduce cooldowns and AoE wound explosions",
+      "playstyle": "Passive tank that auto-applies burns on damage while basic attacks trigger wound explosions and keep abilities ready",
+      "memories": [
+        {
+          "name": "Immolation",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Momentum",
+            "Essence of Fangs"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales damage with burn stacks, Momentum reduces cooldown with each basic attack, Fangs provides guaranteed crits that reduce cooldown"
+        },
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Essence of Paranoia",
+            "Eye of the Sun",
+            "Essence of the Wound"
+          ],
+          "rationale": "Paranoia auto-casts Pillar when taking damage, Eye of the Sun triggers Solar Light on burning enemies, Wound applies marks that explode for 275% AoE after 3 attacks"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Clemency",
+            "Essence of Pain"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds, Clemency provides 4% leech from all damage, Pain adds 40% AoE splash to all Chomp damage"
+        },
+        {
+          "name": "Baptism of the Sun",
+          "essences": [
+            "Embertail",
+            "Essence of Sulfur",
+            "Essence of Charcoal"
+          ],
+          "rationale": "Embertail adds ricochet fire and 100% Fire DoT, Sulfur converts to fire and adds 50% Fire DoT, Charcoal fires fragments at burning enemies"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Solar Praise (max level) - +20% Attack Damage when burning enemies nearby (Vesper-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common, CRITICAL)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Divine Flame (max level) - Pillar of Flame applies 100% more burn stacks (Vesper-specific, requires Pillar of Flame)"
+        ]
+      },
+      "strategy": "Immolation with Eternal Flame applies burn curse that scales damage infinitely with burn stacks. Momentum reduces its cooldown with every basic attack, while Fangs ensures every 4th attack is a crit that further reduces cooldown. Pillar of Flame with Paranoia automatically casts whenever you take damage, applying more burns. Essence of the Wound on Pillar marks enemies - after 3 attacks the mark explodes for 275% AoE damage, giving massive burst on auto-cast. Eye of the Sun triggers Solar Light on burning enemies. Chomp with Clemency provides 4% leech while Pain splashes 40% AoE on all Chomp damage. Baptism of the Sun with Embertail ricochets fire while Sulfur amplifies all fire DoT. The build now has 4 full memories instead of 2, dramatically increasing capability.",
+      "strengths": [
+        "Fully automated burn application on damage",
+        "Infinite damage scaling with burn stacks",
+        "275% AoE wound explosions from auto-cast Pillar",
+        "40% AoE splash on Chomp via Pain",
+        "Embertail + Eye of the Sun fire mass detonation combo",
+        "Basic attacks continuously reduce cooldowns"
+      ],
+      "weaknesses": [
+        "Requires taking damage to trigger optimally",
+        "Very low mobility",
+        "Weaker early game before burn stacks",
+        "Requires Eternal Flame and Paranoia essences"
+      ]
+    },
+    {
+      "name": "Maximum Damage Juggernaut",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and healing-to-cold conversion loop",
+      "playstyle": "High-damage tank that scales infinitely with kills while maintaining strong survivability through healing-to-cold-damage conversion",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks), Domination scales crit damage with each crit (22pt synergy), Predation increases damage to bosses by 60% and drops Orbs of Power"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of the Giant"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Clemency provides 4% leech from all damage, Giant increases max health and scales damage with health"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Voracity",
+            "Essence of Momentum"
+          ],
+          "rationale": "Paranoia auto-casts on damage (20pt synergy with Momentum), Voracity restores 6 health per attack for 5 seconds, Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Protection",
+            "Essence of Guidance",
+            "Glacial Core"
+          ],
+          "rationale": "Protection grants 40 Armor and Unstoppable, Guidance converts healing to barriers, Glacial Core converts healing to cold damage (25pt synergy with Clemency)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "Rising Faith (max level) - +4 Armor at levels 5/10/15/20 (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "War Chest (max level) - Start with 200 Gold (Vesper-specific)"
+        ],
+        "flexible": [
+          "Indestructible Body (max level) - Hysteria grants Unstoppable and +60% Armor (Vesper-specific, requires Hysteria)"
+        ]
+      },
+      "strategy": "Hysteria with Divine Faith and Domination creates the strongest infinite scaling combo (22pt synergy). Faith scales damage/health with kills up to 75 stacks while Domination scales crit damage infinitely. Perfection on Bone Crusher adds 18pt synergy with Faith. Clemency provides 4% leech that Glacial Core converts to cold damage (25pt synergy). Paranoia + Momentum on Chomp gives 20pt synergy for near-permanent auto-casting. Total synergy score: 103 points. Focus on eliminating enemies quickly to stack Divine Faith while maintaining survivability through Clemency leech, Voracity healing, Guidance barriers, and Glacial Core cold conversion.",
+      "strengths": [
+        "Infinite damage scaling with Divine Faith (up to 75 stacks)",
+        "Infinite crit damage scaling with Domination (22pt synergy)",
+        "103 total synergy points",
+        "Health-scaling damage through Giant",
+        "Healing-to-cold loop via Glacial Core + Clemency (25pt)",
+        "Near-permanent auto-cast via Paranoia + Momentum (20pt)",
+        "60% increased boss damage through Predation",
+        "Universal stat boosts from Perfection (18pt with Faith)"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Very low mobility",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Juggernaut",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects including wound explosions for maximum DPS",
+      "playstyle": "Spam basic attacks continuously, triggering empowered attacks, wound explosions, healing, and cooldown reduction with every hit",
+      "memories": [
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Crimson"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (reducing cooldown by 0.7s, 18pt synergy with Domination) and launches 2 Fangs, Crimson empowers every 4th attack with dark explosion healing 22% per enemy hit"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of the Giant"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Wind increases attack speed by 33% for 5 seconds, Giant increases max health and scales damage with health"
+        },
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Domination",
+            "Essence of the Wound"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Domination increases crit chance by 20% and scales crit damage infinitely (18pt with Fangs), Wound marks enemies - after 3 attacks explodes for 275% AoE damage"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Protection",
+            "Essence of Guidance",
+            "Essence of Shock"
+          ],
+          "rationale": "Protection grants 40 Armor and Unstoppable, Guidance converts healing to barriers, Shock empowers every 4th basic attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Solar Praise (max level) - +20% Attack Damage when campfires/lava/burning nearby (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Reckless Fury (max level) - -20% Max Health, +30% Attack Speed (Vesper-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Trial Survivor (max level) - +12 Armor (Vesper-specific)",
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "Rising Faith (max level) - +4 Armor at levels 5/10/15/20 (Vesper-specific)",
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Stone Skin (max level) - +11 Armor (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "War Chest (max level) - Start with 200 Gold (Vesper-specific)",
+          "Overwhelming Presence (max level) - -25% Merchant item prices (Vesper-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Pride Flare (max level) - El's Sanctuary grants 50% crit chance and 50% crit damage for 5s (Vesper-specific, requires El's Sanctuary memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Chomp's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Crimson explosion (100% dark damage) healing 22% per enemy hit, and Shock lightning (40% light damage, bounces). Essence of the Wound on Hysteria marks enemies - after just 3 basic attacks the mark explodes for 275% AoE damage, providing massive burst on top of the basic attack spam. Cast Bone Crusher for Voracity healing and Wind attack speed boost. Giant scales damage with max health. Clemency provides 4% leech. Domination scales crit damage infinitely (18pt synergy with Fangs). Simply hold down basic attack - every hit triggers multiple effects.",
+      "strengths": [
+        "Extremely high attack speed potential (Wind + Hurricane)",
+        "275% AoE wound explosions every 3 attacks",
+        "Multiple healing sources (Crimson explosions, Voracity, Clemency leech)",
+        "Health-scaling damage through Giant",
+        "Infinite crit damage scaling with Domination + Fangs (18pt synergy)",
+        "Multiple empowered attacks every 4th hit (Fangs crit + Crimson explosion + Shock lightning)",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Very low mobility",
+        "Positioning important for optimal explosion hits",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Cold Fortress Tank",
+      "concept": "Cold damage tank using Glacial Core to convert all healing into devastating cold damage, with Reflex retaliation and Snow barriers for layered defense",
+      "playstyle": "Immovable cold damage fortress that becomes stronger the more healing it receives, with automatic cold retaliation",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Glacial Core",
+            "Essence of the Giant",
+            "Essence of Frost"
+          ],
+          "rationale": "Glacial Core converts 100% healing to cold damage, Giant scales damage with max health (15pt synergy with Frost for HP scaling), Frost adds cold damage scaling with max health and permanently increases max HP"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Reflex"
+          ],
+          "rationale": "Clemency provides 4% leech converted to cold damage via Glacial Core (25pt synergy), Voracity provides healing per attack, Reflex deals 120% Cold retaliation and grants 40 Armor when hit"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Freezing",
+            "Essence of Momentum"
+          ],
+          "rationale": "Bleakness adds 50% damage to slowed/frozen enemies, Freezing applies cold stacks that slow, Momentum reduces cooldowns with attacks"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Protection",
+            "Essence of Guidance",
+            "Essence of Snow"
+          ],
+          "rationale": "Protection grants 40 Armor and Unstoppable, Guidance converts excess healing to barriers, Snow provides barrier + cold snowballs (synergizes with Glacial Core's cold theme)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific, CRITICAL for scaling)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common, feeds Glacial Core)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common, feeds Glacial Core)",
+          "Regenerative Skin (max level) - +18% received Healing (common, amplifies cold conversion)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Indestructible Body (max level) - Hysteria grants Unstoppable and +60% Armor (Vesper-specific)"
+        ]
+      },
+      "strategy": "Stack maximum health to amplify both Giant's damage scaling and Glacial Core's cold damage output. Frost adds cold damage equal to 10% of max HP and permanently increases max health each trigger, creating an infinite HP scaling loop with Glacial Core (18pt synergy). Every point of healing from Clemency leech, Voracity, Wicked Vitality, and Combat First Aid gets converted to cold damage through Glacial Core (25pt synergy with Clemency). Essence of Reflex on Chomp provides automatic 120% Cold retaliation damage plus 40 Armor every time you take damage. Essence of Snow on El's Sanctuary provides barrier and fires cold snowballs, adding another cold damage source. Bleakness provides 50% damage bonus to all cold-slowed enemies. Against groups, apply cold stacks with Freezing to slow enemies, then burst them with amplified cold damage.",
+      "strengths": [
+        "Unique healing-to-damage conversion mechanic (25pt Glacial Core + Clemency)",
+        "Infinite HP scaling through Glacial Core + Frost loop (18pt)",
+        "Automatic cold retaliation through Reflex (120% Cold + 40 Armor)",
+        "Passive cold damage through Snow barriers",
+        "50% damage bonus to slowed enemies via Bleakness",
+        "Extremely tanky with high health and armor"
+      ],
+      "weaknesses": [
+        "Requires building cold stacks for maximum effect",
+        "Lower burst damage than burn builds",
+        "Complex synergy management",
+        "Less effective against cold-resistant enemies"
+      ]
+    },
+    {
+      "name": "Thunder Hammer Berserker",
+      "concept": "Lightning-focused Vesper build using Thunder stacks and Stillness for massive burst damage, combined with tank durability",
+      "playstyle": "Aggressive tank that builds Thunder stacks through abilities and dodges, then unleashes devastating lightning bursts",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of the Giant",
+            "Essence of Insight"
+          ],
+          "rationale": "Thunder consumes stacks for powerful lightning strikes, Giant scales damage with health, Insight adds 200% Light damage and Memory Haste on light damage"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Shock",
+            "Essence of Flow",
+            "Essence of Stillness"
+          ],
+          "rationale": "Shock empowers every 4th attack with bouncing lightning (16pt synergy with Pure White if paired), Flow reduces cooldowns when dealing light damage (18pt synergy with Insight), Stillness empowers casts with light damage and stun"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of Momentum"
+          ],
+          "rationale": "Domination scales crit damage infinitely (18pt synergy with Fangs), Fangs provides guaranteed crits and cooldown reduction, Momentum reduces cooldowns with attacks"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Protection",
+            "Essence of Voracity"
+          ],
+          "rationale": "Clemency provides leech from lightning damage, Protection grants armor and Unstoppable, Voracity provides healing"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Daylight (max level) - +3% Light damage per stack (common, Thunder is Light damage)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Powerful Blow (max level) - +24% Critical Strike Damage (common)",
+          "Night Time (max level) - +8 Ability Power (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Trial Survivor (max level) - +12 Armor (Vesper-specific)",
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Pride Flare (max level) - El's Sanctuary grants 50% crit chance and 50% crit damage for 5s (Vesper-specific)"
+        ]
+      },
+      "strategy": "Build Thunder stacks through casting memories (each cast adds a stack) and using dodge (adds a stack). Stillness empowers your next cast when stationary - position yourself, stand still briefly, then unleash empowered Thunder bursts with massive light damage. When you have 7 stacks (maximum), Hysteria with Thunder unleashes devastating lightning that strikes random enemies. Insight adds 200% bonus Light damage and Memory Haste when dealing light damage, accelerating your ability rotation (18pt synergy with Flow). Flow reduces cooldowns when dealing light damage, enabling faster Thunder consumption and rebuilding. Use El's Sanctuary to trigger Pride Flare for 50% crit chance/damage boost before Thunder bursts. Shock on basic attacks provides additional lightning between Thunder bursts. Domination + Fangs (18pt synergy) scale crit damage infinitely. Daylight constellation power amplifies Light damage per stack on enemies.",
+      "strengths": [
+        "Massive burst damage with full Thunder stacks",
+        "Strong synergy between light damage effects (Insight + Flow 18pt)",
+        "Infinite crit scaling through Domination + Fangs (18pt)",
+        "Memory Haste acceleration through Insight",
+        "Cooldown reduction loop through Flow",
+        "Tank durability allows aggressive positioning"
+      ],
+      "weaknesses": [
+        "Requires stack management for optimal damage",
+        "Lower damage between Thunder bursts",
+        "Stillness requires brief positioning discipline",
+        "Light damage focused - less effective against light-resistant enemies"
+      ]
+    },
+    {
+      "name": "Inferno Detonator",
+      "concept": "Maximum fire damage build exploiting the Embertail + Eye of the Sun + Eternal Flame triple synergy for mass fire detonation with Pain AoE splash",
+      "playstyle": "Aggressive fire tank that sets everything ablaze and watches chain detonations cascade through enemy groups",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Eternal Flame",
+            "Embertail",
+            "Essence of Pain"
+          ],
+          "rationale": "Eternal Flame applies burn curse scaling 2% per stack, Embertail ricochets 100% Fire damage and increases Fire DoT by 100% (20pt synergy with Eternal Flame), Pain adds 40% AoE splash to ALL fire damage"
+        },
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Eye of the Sun",
+            "Essence of Fever",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Eye of the Sun triggers Solar Light on burning enemies (20pt synergy with Eternal Flame, 20pt with Embertail), Fever creates scaling explosions on fire-damaged enemies, Sulfur converts all damage to fire and adds 50% Fire DoT"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Paranoia auto-casts Chomp on damage (20pt with Momentum), Clemency provides 4% leech, Momentum reduces cooldowns per attack"
+        },
+        {
+          "name": "Baptism of the Sun",
+          "essences": [
+            "Essence of Insensitivity",
+            "Essence of Charcoal",
+            "Essence of the Giant"
+          ],
+          "rationale": "Insensitivity drops fire bombs while moving, Charcoal fires fragments at burning enemies (100% Fire), Giant scales damage with max health"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Solar Praise (max level) - +20% Attack Damage when burning enemies nearby (Vesper-specific)",
+          "Crimson Flame (max level) - +45% Burn damage (common, CRITICAL)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Divine Flame (max level) - Pillar of Flame applies 100% more burn stacks (Vesper-specific, requires Pillar of Flame)"
+        ]
+      },
+      "strategy": "This build maximizes fire synergy pairs for chain detonation gameplay. Hysteria applies Eternal Flame curse while Embertail ricochets 100% Fire damage to nearby enemies and doubles Fire DoT (20pt synergy). Every burning enemy triggers Eye of the Sun's Solar Light for 360% Fire damage and +9 burn stacks (20pt synergy with both Eternal Flame and Embertail). Pain splashes 40% of ALL damage as AoE, turning every fire hit into group damage. Fever creates secondary explosions on fire-damaged enemies that scale with fire stacks. Sulfur converts all Pillar damage to fire and adds 50% Fire DoT on top of Embertail's 100%. Charcoal fires fragments at burning targets. Paranoia + Momentum keeps Chomp auto-casting (20pt synergy). The result is a cascade: apply burn -> Embertail spreads -> Eye of the Sun detonates all burning -> Fever explodes -> Pain splashes everything. Total fire synergy: 80+ points.",
+      "strengths": [
+        "Triple fire synergy: Eternal Flame + Embertail + Eye of the Sun (60pt)",
+        "Chain detonation cascade through enemy groups",
+        "40% AoE splash on ALL damage through Pain",
+        "250% total Fire DoT increase (Embertail 100% + Sulfur 50% + Eye of the Sun 100%)",
+        "Auto-cast Chomp via Paranoia + Momentum (20pt)",
+        "Fever explosions scale with fire stacks"
+      ],
+      "weaknesses": [
+        "Requires burn application to start the chain",
+        "Very low mobility",
+        "Weaker against fire-resistant enemies",
+        "Complex chain reaction management"
+      ]
+    },
+    {
+      "name": "Glacial Retaliation Fortress",
+      "concept": "Pure tank build that deals damage entirely through being hit, using Reflex cold retaliation, Glacial Core healing conversion, and Flexibility damage smoothing",
+      "playstyle": "Stand in the middle of enemies and let them destroy themselves against your cold defenses",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Glacial Core",
+            "Essence of Clemency",
+            "Essence of Frost"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (25pt synergy with Clemency), Clemency provides 4% leech feeding cold explosions, Frost adds cold damage equal to 10% max HP and permanently increases HP (18pt with Glacial Core)"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Reflex",
+            "Essence of Paranoia",
+            "Essence of Voracity"
+          ],
+          "rationale": "Reflex automatically deals 120% Cold damage and grants 40 Armor when hit, Paranoia auto-casts Chomp when hit, Voracity heals per attack after casting"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Flexibility",
+            "Essence of Bleakness",
+            "Essence of the Giant"
+          ],
+          "rationale": "Flexibility splits 37% damage over 4 seconds while on cooldown (amazing tank passive), Bleakness adds 50% damage to cold-slowed enemies, Giant scales damage with max health (15pt with Frost)"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Protection",
+            "Essence of Guidance",
+            "Essence of Snow"
+          ],
+          "rationale": "Protection grants 40 Armor and Unstoppable, Guidance converts excess healing to barriers, Snow provides passive barrier and cold snowballs"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific, CRITICAL)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "I Shall Not Waver! (max level) - +30 Armor when Health <35% (Vesper-specific)",
+          "Trial Survivor (max level) - +12 Armor (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common, feeds Glacial Core)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common, feeds Glacial Core)",
+          "Regenerative Skin (max level) - +18% received Healing (common, amplifies cold conversion)",
+          "Stone Skin (max level) - +11 Armor (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Indestructible Body (max level) - Hysteria grants Unstoppable and +60% Armor (Vesper-specific)"
+        ]
+      },
+      "strategy": "Walk into enemies and let them hit you. Every hit triggers Reflex (120% Cold damage + 40 Armor) and Paranoia (auto-casts Chomp for 370% damage + 75% heal). Clemency's 4% leech converts to cold damage explosions through Glacial Core (25pt synergy). Frost adds cold damage equal to 10% of max HP and permanently increases max HP each trigger (18pt with Glacial Core). Flexibility on Bone Crusher splits 37% of all incoming damage over 4 seconds, smoothing burst damage while the memory is on cooldown. Bleakness adds 50% bonus damage to all enemies slowed by your cold effects. Snow on El's Sanctuary provides passive barrier and fires cold snowballs. Guidance converts excess healing to barriers. Giant scales damage with your massive HP pool (15pt with Frost). The build has no active damage rotation - it damages enemies through retaliation and healing conversion.",
+      "strengths": [
+        "Fully passive damage through retaliation and healing conversion",
+        "25pt Glacial Core + Clemency healing-to-cold loop",
+        "18pt Glacial Core + Frost infinite HP scaling",
+        "120% Cold retaliation + 40 Armor through Reflex",
+        "37% damage smoothing through Flexibility",
+        "50% bonus damage to cold-slowed enemies",
+        "Extremely tanky with heavy Life tree investment"
+      ],
+      "weaknesses": [
+        "Requires enemies to hit you for damage output",
+        "Very low mobility",
+        "Slower clear speed than offensive builds",
+        "Less effective against ranged enemies that stay at distance"
+      ]
+    },
+    {
+      "name": "Wound Detonation Berserker",
+      "concept": "Basic attack build using Essence of the Wound's 275% AoE explosions as primary damage, combined with Crimson dark explosions and Pain splash for triple AoE layering",
+      "playstyle": "Fast-attacking berserker that triggers massive AoE explosions every few attacks through wound marks, crimson blasts, and pain splash",
+      "memories": [
+        {
+          "name": "Hysteria",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Pain",
+            "Essence of Domination"
+          ],
+          "rationale": "Wound marks enemies that explode for 275% AoE after 3 attacks (currently 0 builds!), Pain adds 40% AoE splash to the explosion damage (currently 0 builds!), Domination scales crit damage infinitely"
+        },
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Fangs",
+            "Essence of Momentum"
+          ],
+          "rationale": "Crimson adds 100% Dark damage explosion every 4th attack with 22% heal per enemy, Fangs guarantees every 4th attack is a crit (18pt with Domination), Momentum reduces cooldowns per attack"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of the Giant"
+          ],
+          "rationale": "Voracity heals per attack for 5s after casting, Wind provides 33% attack speed for 5s, Giant scales damage with max health"
+        },
+        {
+          "name": "El's Sanctuary",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Protection",
+            "Essence of Guidance"
+          ],
+          "rationale": "Clemency provides 4% leech from all explosions, Protection grants 40 Armor and Unstoppable, Guidance converts excess healing to barriers"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Pulverizer (max level) - +15% Attack Speed (Vesper-specific)",
+          "Reckless Fury (max level) - -20% Max Health, +30% Attack Speed (Vesper-specific)",
+          "Hammer of Divinity (max level) - Attack Damage = 40% of Ability Power (Vesper-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Powerful Blow (max level) - +24% Critical Strike Damage (common)"
+        ],
+        "life": [
+          "Tough Skin (max level) - +140 Maximum Health (Vesper-specific)",
+          "Marvelous Muscles (max level) - +25 Max Health per level up (Vesper-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Pride Flare (max level) - El's Sanctuary grants 50% crit chance and 50% crit damage for 5s (Vesper-specific)"
+        ]
+      },
+      "strategy": "This build exploits two severely underused essences: Essence of the Wound (0 builds) and Essence of Pain (0 builds). Attack any enemy 3 times and the Wound mark explodes for 275% AoE damage. Pain adds 40% splash to that explosion, making it hit even wider. Every 4th attack triggers Crimson's 100% Dark damage explosion with 22% heal per enemy. Fangs guarantees crits that scale Domination infinitely (18pt synergy). With Wind's 33% attack speed buff plus Hurricane and Reckless Fury, you reach very high attack speed, triggering Wound explosions constantly. Every explosion leeches 4% through Clemency. The triple AoE layering (Wound + Pain + Crimson) creates overlapping explosion zones that devastate groups. Giant ensures health-scaled damage on every hit.",
+      "strengths": [
+        "275% AoE wound explosions every 3 attacks (never used before)",
+        "40% AoE splash amplifies all explosion damage (never used before)",
+        "100% Dark damage Crimson explosions every 4th attack",
+        "Infinite crit scaling via Domination + Fangs (18pt)",
+        "22% heal per enemy on Crimson explosions",
+        "Very high attack speed potential"
+      ],
+      "weaknesses": [
+        "Requires sustained melee contact",
+        "Very low mobility",
+        "Lower single-target damage than scaling builds",
+        "Relies on groups for maximum explosion value"
+      ]
+    }
+  ]
+}

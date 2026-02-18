@@ -1,0 +1,999 @@
+{
+  "character": "Shell",
+  "builds": [
+    {
+      "name": "Soul Prison Fortress",
+      "concept": "Maximum defense build using Soul Prison to prevent death while reflecting damage and converting healing to barriers",
+      "playstyle": "Immobile tank with death prevention and infinite scaling potential",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Soul Prison",
+            "Essence of Paranoia",
+            "Essence of Protection"
+          ],
+          "rationale": "Soul Prison prevents death and converts quality to healing/barriers, Paranoia auto-casts shield when damaged, Protection adds defense"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Reflex",
+            "Essence of Clemency",
+            "Glacial Core"
+          ],
+          "rationale": "Reflex unleashes cold on damage and adds armor, Clemency heals from reflected damage (feeds Glacial Core), Glacial Core converts healing to cold damage and fires ice shards"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Rigidity",
+            "Essence of Snow",
+            "Essence of the Giant"
+          ],
+          "rationale": "Rigidity provides barriers on hit (80% more with cold), Snow provides recharging barrier with snowballs, Giant adds 260 max HP and scales damage by 1% per 50 max HP (better than Guidance for a health-stacking tank)"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Aftershock",
+            "Essence of Voracity",
+            "Essence of Momentum"
+          ],
+          "rationale": "Aftershock releases delayed shockwave with armor gain, Voracity provides healing (feeds Glacial Core), Momentum reduces cooldowns"
+        }
+      ],
+      "strategy": "Repulsive Shield with Soul Prison prevents death once and converts essence quality to massive healing and barriers. Paranoia auto-casts shield when damaged. Reflex unleashes cold retaliation and adds armor. Ice Shield with Rigidity and Snow provides multiple barrier sources. The Giant replaces Guidance for 260 max HP plus 1% damage scaling per 50 max HP, which provides far better value for a tank stacking health. Bone Crusher with Aftershock adds delayed damage and armor. Clemency and Voracity healing both feed into Glacial Core's healing-to-cold conversion, creating passive offensive output from defensive actions.",
+      "strengths": [
+        "Death prevention through Soul Prison",
+        "260 extra max HP from Giant with damage scaling",
+        "Extreme survivability",
+        "Automatic defensive responses",
+        "Multiple barrier sources"
+      ],
+      "weaknesses": [
+        "Soul Prison is consumed on use",
+        "Very low mobility",
+        "Requires high essence quality for maximum effectiveness",
+        "One-time death prevention"
+      ],
+      "constellation_tree": {
+        "primary": "Life",
+        "secondary": "Imagination",
+        "focus": [
+          "Maximum health",
+          "Shield strength and reflection damage",
+          "Barrier effectiveness",
+          "Cooldown reduction"
+        ]
+      }
+    },
+    {
+      "name": "Divine Fortress",
+      "concept": "Maximum defense build that scales health and reflection damage infinitely with Divine Faith, combined with Glacial Core + Frost infinite HP loop for compounding growth",
+      "playstyle": "Immobile tank that becomes exponentially stronger with each kill, reflecting more damage as health scales",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Divine Faith",
+            "Essence of Paranoia",
+            "Essence of Protection"
+          ],
+          "rationale": "Divine Faith scales damage and health with kills, Paranoia auto-casts shield when damaged, Protection adds defense"
+        },
+        {
+          "name": "Permafrost",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Clemency"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage shards, Frost deals 10% max HP as cold damage and permanently increases max HP by 1 each trigger (Glacial Core + Frost is an 18pt infinite HP loop - Glacial Core heals, which fires cold shards, which trigger Frost for more HP), Clemency provides 4% leech feeding Glacial Core"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Guidance",
+            "Essence of Momentum",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Guidance converts healing to barriers, Momentum reduces cooldowns, Efficiency adds haste"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Predation",
+            "Essence of Wind"
+          ],
+          "rationale": "Voracity provides healing after attacks (feeds Glacial Core), Predation increases damage to bosses, Wind boosts attack speed for more Faith stacks"
+        }
+      ],
+      "strategy": "Repulsive Shield with Divine Faith scales both reflection damage and max health with each kill. Permafrost now features the Glacial Core + Frost infinite HP loop (18pt synergy): Glacial Core converts healing to cold damage shards, those shards trigger Frost which deals 10% max HP cold damage AND permanently increases max HP by 1. As max HP grows from both Faith stacks (+4 per kill) and Frost triggers, Frost's damage also increases (10% of a growing pool). Clemency's 4% leech feeds constant healing into Glacial Core. Ice Shield with Guidance converts excess healing to barriers. Bone Crusher with Voracity provides more healing fuel for the cold damage engine. Perfection replaced by Frost for infinite scaling - the Glacial Core + Frost combo far outperforms flat stats over time.",
+      "strengths": [
+        "Dual infinite scaling: Divine Faith (kills) + Frost (HP growth)",
+        "Glacial Core + Frost 18pt synergy loop",
+        "Permanent universal stat boosts from Faith",
+        "Exponential health and reflection damage growth",
+        "Automatic defensive responses through Paranoia"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Very low mobility",
+        "Weaker early game before Faith stacks and HP growth",
+        "Requires multiple legendary essences"
+      ],
+      "constellation_tree": {
+        "primary": "Life",
+        "secondary": "Imagination",
+        "focus": [
+          "Maximum health",
+          "Shield strength and reflection damage",
+          "Kill-based scaling bonuses",
+          "Cooldown reduction"
+        ]
+      }
+    },
+    {
+      "name": "Aftershock Guardian",
+      "concept": "Defense build using Essence of Aftershock to gain armor and deal delayed shockwave damage, combined with barrier generation",
+      "playstyle": "Tank that gains armor through ability casts and unleashes delayed area damage",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of Aftershock",
+            "Essence of Reflex",
+            "Essence of Rigidity"
+          ],
+          "rationale": "Aftershock releases delayed shockwave with armor gain, Reflex unleashes cold on damage, Rigidity provides barriers on hit"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Snow",
+            "Essence of Guidance",
+            "Essence of Momentum"
+          ],
+          "rationale": "Snow provides recharging barrier with snowballs, Guidance converts healing to barriers, Momentum reduces cooldowns"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Clemency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Clemency heals from damage, Voracity provides healing after attacks"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Freezing"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage, Frost scales damage with max health and permanently increases max HP (18pt synergy with Glacial Core), Freezing releases cold burst"
+        }
+      ],
+      "strategy": "Repulsive Shield with Aftershock releases delayed shockwaves that deal cold damage, stun enemies, and grant armor up to 22. Reflex adds more cold retaliation and armor. Ice Shield with Snow provides recharging barrier that fires snowballs. Bone Crusher with Paranoia automatically retaliates. Flash Freeze with Glacial Core + Frost creates the infinite HP scaling loop (18pt synergy): Frost permanently increases max HP each cold trigger, while Glacial Core converts healing to cold damage for more Frost triggers. Focus on casting abilities frequently to build armor through Aftershock while barriers from multiple sources provide additional protection. The combination creates high survivability with automatic area damage and growing health.",
+      "strengths": [
+        "High armor stacking potential",
+        "Glacial Core + Frost infinite HP scaling (18pt synergy)",
+        "Automatic area damage through shockwaves",
+        "Multiple barrier sources",
+        "Automatic retaliation through Paranoia"
+      ],
+      "weaknesses": [
+        "Requires frequent ability casts",
+        "Very low mobility",
+        "Delayed damage from shockwaves",
+        "Energy management critical"
+      ],
+      "constellation_tree": {
+        "primary": "Life",
+        "secondary": "Imagination",
+        "focus": [
+          "Maximum health",
+          "Armor bonuses",
+          "Shield strength",
+          "Cooldown reduction"
+        ]
+      }
+    },
+    {
+      "name": "Automated Damage Retaliator",
+      "concept": "Fully automated build using Essence of Paranoia and Vengeance for damage-reactive retaliation (18pt synergy), combined with Momentum for attack-based cooldown reduction",
+      "playstyle": "Passive tank that auto-retaliates on damage while basic attacks keep abilities ready",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Vengeance",
+            "Essence of Fangs"
+          ],
+          "rationale": "Paranoia auto-casts shield when taking damage, Vengeance fires 2 blades on damage AND increases this Memory's damage/healing by 34% for 5s (Paranoia + Vengeance 18pt retaliation synergy - every damage intake auto-casts a 34%-boosted Repulsive Shield while firing blades), Fangs provides guaranteed crits that reduce cooldown"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Frost",
+            "Essence of Voracity"
+          ],
+          "rationale": "Momentum reduces cooldown with each basic attack, Frost stuns enemies when dealing cold damage and permanently increases max health, Voracity restores 6 health per attack for 5 seconds after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Reflex",
+          "rationale": "Passive essence - unleashes cold retaliation automatically when taking damage (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Domination",
+          "rationale": "Passive essence - increases crit chance by 20% and scales crit damage with crits (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (doesn't need to be on a memory)"
+        }
+      ],
+      "strategy": "Repulsive Shield with Paranoia automatically casts whenever you take damage, reflecting damage back to enemies. Vengeance now fires 2 blades on every damage intake AND boosts Repulsive Shield's damage/healing by 34% for 5 seconds (18pt synergy), making each auto-cast significantly more powerful. Fangs ensures every 4th attack is a crit that reduces cooldown. Ice Shield with Momentum reduces cooldown with every basic attack, Frost stuns enemies when dealing cold damage and permanently increases max health, and Voracity provides 6 health per attack for 5 seconds after casting. Equip passive essences (Reflex, Domination, Snow, Perfection) separately for additional survivability. Simply basic attack enemies - every attack reduces cooldowns and heals you, and taking damage triggers automatic shield casts boosted by Vengeance, blade projectiles, and Reflex cold retaliation.",
+      "strengths": [
+        "Fully automated retaliation on damage with 34% damage/healing boost from Vengeance",
+        "Paranoia + Vengeance 18pt retaliation synergy",
+        "Basic attacks continuously reduce cooldowns",
+        "Minimal active memory management required",
+        "High uptime through attack-based cooldown reduction"
+      ],
+      "weaknesses": [
+        "Requires taking damage to trigger optimally",
+        "Very low mobility",
+        "Lower damage without enemy attacks",
+        "Requires Paranoia essence (legendary)"
+      ],
+      "constellation_tree": {
+        "primary": "Life",
+        "secondary": "Imagination",
+        "focus": [
+          "Maximum health",
+          "Attack speed bonuses",
+          "Basic attack damage",
+          "Shield strength and reflection damage"
+        ]
+      }
+    },
+    {
+      "name": "Maximum Damage Shield Guardian",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and Glacial Core + Frost for infinite HP growth",
+      "playstyle": "High-damage tank that scales infinitely with kills while maintaining strong survivability through healing, barriers, and permanent HP growth",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks), Domination scales crit damage with each crit, Predation increases damage to bosses by 60% and drops Orbs of Power for permanent stat increases"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Perfection provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste), Clemency provides 4% leech from all damage (feeds Glacial Core), Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Voracity",
+            "Glacial Core"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Voracity restores 6 health per attack for 5 seconds after casting (feeds Glacial Core), Glacial Core converts healing to cold damage shards (damage engine from defensive healing)"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Aftershock",
+            "Essence of Frost",
+            "Essence of Guidance"
+          ],
+          "rationale": "Aftershock releases delayed shockwave with armor gain and stun, Frost deals 10% max HP as cold damage and permanently increases max HP (18pt synergy with Glacial Core on Ice Shield - cold shards trigger Frost), Guidance converts healing to barriers"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Composure",
+          "rationale": "Passive essence - increases crit chance by 30% for 5 seconds after casting (doesn't need to be on a memory, complements Domination's crit scaling on Repulsive Shield)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Aggressive Stance (max level)",
+          "Lucky Clover (max level)",
+          "Night Time (max level)",
+          "Hurricane (max level)",
+          "Shell-specific Destruction powers (prioritize damage scaling)"
+        ],
+        "life": [
+          "Shell-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Shell-specific Imagination powers",
+          "Additional common Imagination powers for utility"
+        ],
+        "flexible": [
+          "Shell-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Repulsive Shield with Divine Faith scales reflection damage and health infinitely with each kill (up to 75 stacks = 37.5% damage/healing increase + 300 max health). Domination on Repulsive Shield scales crit damage infinitely with each crit. Predation increases boss damage by 60% and provides permanent stat increases. Bone Crusher with Perfection provides permanent universal stat boosts while Clemency provides 4% leech. Ice Shield with Paranoia auto-casts on damage while Voracity provides healing. Both Clemency and Voracity feed into Glacial Core's healing-to-cold conversion. Flash Freeze with Frost creates the 18pt infinite HP loop with Glacial Core: cold shards from Glacial Core trigger Frost for permanent HP growth, and growing HP makes Frost's 10%-of-max-HP damage hit harder. Guidance converts excess healing to barriers. Composure as a passive provides 30% crit chance for 5 seconds after casting, feeding Domination's crit scaling. Triple infinite scaling: Divine Faith (kills), Domination (crits), and Frost (permanent HP).",
+      "strengths": [
+        "Triple infinite scaling: Divine Faith, Domination crits, and Frost HP growth",
+        "Glacial Core + Frost 18pt synergy loop",
+        "Composure passive provides 30% crit chance burst for Domination scaling",
+        "Multiple healing sources (Clemency, Voracity, Guidance barriers)",
+        "60% increased boss damage through Predation",
+        "Permanent stat increases from Orbs of Power",
+        "Automatic retaliation through Paranoia",
+        "Universal stat boosts from Perfection",
+        "High survivability through shields and barriers"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Very low mobility",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Guardian",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects for maximum DPS with Wound detonations every 3 attacks",
+      "playstyle": "Spam basic attacks continuously, triggering empowered attacks, healing, Wound explosions, and cooldown reduction with every hit",
+      "memories": [
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Crimson"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (reducing cooldown by 0.7s) and launches 2 Fangs dealing 60% damage each, Crimson empowers every 4th attack with dark explosion (100% dark damage) and heals 22% per enemy hit (44% on bosses)"
+        },
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of the Wound"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Wind increases attack speed by 33% for 5 seconds, Wound applies Marks that explode for 275% AoE after 3 attacks (basic attack spam triggers this constantly, was 0-use essence)"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Frost",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Frost scales damage with max health and stuns enemies when dealing cold damage (permanent HP growth), Efficiency reduces cooldown by 26% for more frequent casts"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Guidance",
+            "Essence of Shock"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely, Guidance converts healing to barriers, Shock empowers every 4th basic attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Umbra",
+          "rationale": "Passive essence - scales damage by 42% of Crit Chance and heals from dark damage (doesn't need to be on a memory, complements Domination's crit scaling on Flash Freeze)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Purpose of My Existence (max level) - +10 Attack Damage (Shell-specific)",
+          "Dance of Death (max level) - +30% Critical Strike Damage (Shell-specific)",
+          "Merciless (max level) - +24% damage to enemies with Health <35% (Shell-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Life Neglect (max level) - -30% healing received, crits deal +30% damage over 2s (Shell-specific)",
+          "Emergency Repair (max level) - Ignore fatal damage, +3s invulnerability, -15% Max Health (once per game) (Shell-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Stone Skin (max level) - +11 Armor (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bounty (max level) - 60% chance for Platinum Coin on boss defeat (Shell-specific)",
+          "Creepy One-Eyed Doll (max level) - 50% chance to reduce Merchant prices by 70% (Shell-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Perceive, Learn, Adapt (max level) - Repulsive Shield reflects 200% damage, grants 30 Armor for 5s (Shell-specific, requires Repulsive Shield memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Bone Crusher's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Crimson explosion (100% dark damage) that heals 22% per enemy hit. Every 4th attack also triggers Shock lightning (40% light damage, bounces). Repulsive Shield now includes Essence of the Wound - every time it deals damage, it applies Marks that detonate for 275% AoE after just 3 basic attacks. With constant basic attack spam, Wound marks explode almost immediately for massive area damage (was previously unused at 0 builds). Cast Repulsive Shield frequently for Voracity healing (6 health per attack for 5 seconds) and Wind attack speed boost (33% for 5 seconds). Frost scales damage with max health and permanently grows HP. Clemency provides 4% leech from all damage. Guidance converts healing to barriers. Domination scales crit damage infinitely. Umbra as a passive adds 42% of Crit Chance as bonus damage and heals from dark damage.",
+      "strengths": [
+        "275% AoE explosions from Wound every 3 attacks (previously 0-use essence)",
+        "Extremely high attack speed potential (Wind + Hurricane)",
+        "Umbra passive scales damage with crit chance and adds dark healing",
+        "Multiple healing sources (Crimson explosions, Voracity, Clemency leech, Guidance barriers, Umbra)",
+        "Health-scaling damage through Frost with permanent HP growth",
+        "Continuous cooldown reduction through basic attacks",
+        "Multiple empowered attacks every 4th hit (Fangs crit + Crimson explosion + Shock lightning)",
+        "Infinite crit damage scaling with Domination",
+        "High survivability through Guidance barriers and Snow barrier",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Very low mobility",
+        "Positioning important for optimal explosion hits",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Projectile Inferno",
+      "concept": "Optimized build using Essence of Paranoia, Essence of Scorch, and Essence of Charcoal to create a chain reaction of projectiles that proc off each other, sending fireballs and shards everywhere",
+      "playstyle": "Tank that triggers automatic projectile spam through damage intake, creating exponential fire damage through ricochets and burn scaling",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Scorch",
+            "Essence of Charcoal"
+          ],
+          "rationale": "Paranoia auto-casts shield when taking damage, Scorch fires 3 fireballs on cast, Charcoal fires shards when hitting enemies (100% Fire damage if burning). The combo: Take damage -> Paranoia auto-casts -> Scorch fires 3 fireballs -> Fireballs hit -> Charcoal fires shards -> More projectiles everywhere!"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Eternal Flame",
+            "Embertail",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Eternal Flame applies burn stacks on Fire damage (enables Charcoal's 100% Fire damage), Embertail ricochets deal 100% Fire damage and scale 8% per burning enemy (exponential scaling), Sulfur converts all damage to Fire and increases Fire DoT by 50% (Eternal Flame + Sulfur is a 20pt synergy for full fire conversion + DoT stacking)"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Guidance",
+            "Essence of Clemency",
+            "Essence of Reflex"
+          ],
+          "rationale": "Guidance converts healing to barriers for survivability, Clemency provides 4% leech from all damage (sustain while taking damage for Paranoia), Reflex unleashes cold retaliation when taking damage (more projectiles and armor)"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Eye of the Sun",
+            "Essence of Fever",
+            "Essence of Confidence"
+          ],
+          "rationale": "Eye of the Sun rains Solar Light on burning enemies every 20s (360% Fire + 9 burn stacks), Fever infects enemies with explosions that scale with burn stacks (Eternal Flame + Fever is a 22pt chain explosion synergy), Confidence increases damage to nearby enemies by 40%"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Domination",
+          "rationale": "Increases crit chance by 20% and scales crit damage infinitely with crits"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Provides barrier of 40 that recharges and fires snowballs for additional crowd control and survivability"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Purpose of My Existence (max level) - +10 Attack Damage (Shell-specific)",
+          "Dance of Death (max level) - +30% Critical Strike Damage (Shell-specific)",
+          "Merciless (max level) - +24% damage to enemies with Health <35% (Shell-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Life Neglect (max level) - -30% healing received, crits deal +30% damage over 2s (Shell-specific)",
+          "Emergency Repair (max level) - Ignore fatal damage, +3s invulnerability, -15% Max Health (once per game) (Shell-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Stone Skin (max level) - +11 Armor (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Bounty (max level) - 60% chance for Platinum Coin on boss defeat (Shell-specific)",
+          "Creepy One-Eyed Doll (max level) - 50% chance to reduce Merchant prices by 70% (Shell-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Perceive, Learn, Adapt (max level) - Repulsive Shield reflects 200% damage, grants 30 Armor for 5s (Shell-specific, requires Repulsive Shield memory)"
+        ]
+      },
+      "strategy": "The core loop: Take damage -> Paranoia auto-casts Repulsive Shield -> Scorch fires 3 fireballs -> Fireballs hit enemies -> Charcoal fires shards (100% Fire damage if burning). Bone Crusher now has Sulfur replacing Efficiency - Sulfur converts ALL Bone Crusher damage to Fire (20pt synergy with Eternal Flame) and increases Fire DoT by 50%. Combined with Eternal Flame's existing burn scaling (+2% per burn stack) and Embertail ricochets (8% per burning enemy), the fire damage compounds exponentially. Flash Freeze features the Eternal Flame + Fever 22pt chain explosion loop: enemies infected by Fever explode after 2s for 130% Fire damage with radius and damage scaling per burn stack, and Eternal Flame ensures every fire hit applies more burns. Eye of the Sun rains massive fire bursts every 20 seconds, adding 9 burn stacks each. Simply position yourself to take damage - every hit triggers Paranoia, which fires projectiles, which apply burns, which trigger more projectiles.",
+      "strengths": [
+        "Eternal Flame + Fever 22pt chain explosion synergy",
+        "Eternal Flame + Sulfur 20pt fire conversion + DoT synergy",
+        "Exponential projectile spam through Paranoia + Scorch + Charcoal combo",
+        "Automatic triggering - just take damage and projectiles fly everywhere",
+        "Burn scaling creates exponential damage growth (Embertail + Eternal Flame + Sulfur DoT)",
+        "Multiple projectile sources (Scorch fireballs, Charcoal shards, Embertail ricochets, Fever explosions)",
+        "High survivability through shields, barriers, leech, and armor",
+        "Eye of the Sun provides massive burst damage on burning enemies"
+      ],
+      "weaknesses": [
+        "Requires taking damage to trigger optimally (Paranoia requirement)",
+        "Very low mobility (Shell's base weakness)",
+        "Requires multiple legendary/unique essences (Paranoia, Embertail, Eternal Flame, Eye of the Sun)",
+        "Burn application is critical - weaker if enemies aren't burning",
+        "Positioning important to maximize projectile hits",
+        "Early game weaker before burn stacks accumulate"
+      ]
+    },
+    {
+      "name": "Offensive Juggernaut",
+      "concept": "Aggressive Shell build using Soul Oil constellation for dark basic attacks and attack speed, combined with damage scaling and crit mechanics",
+      "playstyle": "Break the tank stereotype - become an aggressive damage dealer with dark damage basics while maintaining tankiness",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of Twilight",
+            "Essence of the Abyss",
+            "Essence of Domination"
+          ],
+          "rationale": "Twilight converts attacks to Dark and consumes stacks for damage/healing, Abyss converts all damage to Dark, Domination scales crit damage infinitely"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Umbra",
+            "Essence of Fangs",
+            "Essence of Wind"
+          ],
+          "rationale": "Umbra scales damage with crit chance and heals from dark damage, Fangs provides guaranteed crits, Wind boosts attack speed"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Clemency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Momentum reduces cooldowns with attacks, Clemency provides leech, Voracity provides healing"
+        },
+        {
+          "name": "Laceration",
+          "essences": [
+            "Essence of Dusk",
+            "Essence of the Starry Sky",
+            "Essence of Composure"
+          ],
+          "rationale": "Dusk fires dark shards on attacks for 5 seconds after casting, Starry Sky increases attack speed up to 40% with dark damage, Composure increases crit chance by 30% for 5 seconds after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify damage output"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Soul Oil (max level) - -15% Max Health, +16% Attack Speed, basic attacks deal Dark damage (Shell-specific, CRITICAL)",
+          "Purpose of My Existence (max level) - +10 Attack Damage (Shell-specific)",
+          "Dance of Death (max level) - +30% Critical Strike Damage (Shell-specific)",
+          "Merciless (max level) - +24% damage to enemies below 35% health (Shell-specific)",
+          "Corrupted Mind (max level) - +3% Dark damage per stack",
+          "Lucky Clover (max level) - +13% Critical Strike Chance"
+        ],
+        "life": [
+          "Empowered Persistence (max level) - +120 Maximum Health",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards"
+        ],
+        "flexible": []
+      },
+      "strategy": "Soul Oil transforms Shell into a dark damage dealer by converting basic attacks to Dark damage while boosting attack speed by 16%. Build dark stacks through Dusk shards and Soul Oil attacks, then consume them with Twilight for massive damage and healing. Umbra scales damage with crit chance while healing from dark damage. Fangs guarantees crits every 4th attack, scaling Domination infinitely. Starry Sky stacks attack speed up to 40% when dealing dark damage. Merciless adds 24% damage as enemies get low, synergizing with Twilight's burst. Despite being aggressive, Shell's natural tankiness through Clemency leech and dark healing keeps you alive.",
+      "strengths": [
+        "Transforms Shell from pure tank to damage dealer",
+        "Infinite crit damage scaling through Domination",
+        "Self-healing through dark damage (Umbra, Twilight)",
+        "24% execution bonus on low-health enemies",
+        "Maintains Shell's natural tankiness"
+      ],
+      "weaknesses": [
+        "-15% Max Health from Soul Oil",
+        "Requires building dark stacks for maximum damage",
+        "Lower defensive focus than traditional Shell builds",
+        "Dark-focused - less effective against dark-resistant enemies"
+      ]
+    },
+    {
+      "name": "Barrier Fortress Ultimate",
+      "concept": "Maximum barrier build using every barrier-generating essence for near-permanent damage immunity while dealing retaliation damage",
+      "playstyle": "Stack barriers so high that incoming damage becomes meaningless while reflecting damage back",
+      "memories": [
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Rigidity",
+            "Essence of Guidance",
+            "Essence of Frost"
+          ],
+          "rationale": "Rigidity provides 60 barrier on hit (more with cold), Guidance converts 40% excess healing to barrier, Frost increases cold damage with stacks"
+        },
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of Reflex",
+            "Essence of Protection",
+            "Essence of Paranoia"
+          ],
+          "rationale": "Reflex unleashes cold retaliation and adds armor, Protection adds defense, Paranoia auto-casts on damage"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Glacial Core",
+            "Essence of Clemency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (Guidance converts excess to barrier first), Clemency provides leech for healing, Voracity provides healing"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Freezing",
+            "Essence of Efficiency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Freezing applies cold stacks for Rigidity bonus, Efficiency and Momentum reduce cooldowns for more barrier uptime"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Provides barrier of 40 that recharges and fires snowballs for cold application"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats including Max Health for larger barrier pool"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Purpose of My Existence (max level) - +10 Attack Damage",
+          "Dance of Death (max level) - +30% Critical Strike Damage"
+        ],
+        "life": [
+          "Empowered Persistence (max level) - +120 Maximum Health (larger barrier capacity)",
+          "Wicked Vitality (max level) - Basic Attacks restore health (converted to barrier via Guidance)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (converted to barrier)",
+          "Common Life powers for maximum health and healing"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards"
+        ],
+        "flexible": []
+      },
+      "strategy": "Stack barriers from multiple sources: Rigidity provides 60 barrier on hit (more against cold enemies via Frost), Snow provides passive 40 barrier, Guidance converts 40% of excess healing to barriers. Apply cold stacks with Freezing and Snow to maximize Rigidity's barrier. When healing exceeds health (Clemency, Voracity, Wicked Vitality, Combat First Aid), Guidance converts the excess to barrier. Glacial Core then converts remaining healing to cold damage for offense. Paranoia auto-casts Repulsive Shield when taking damage, triggering more barrier generation. The build becomes nearly invincible once barriers stack up while dealing consistent retaliation and cold damage.",
+      "strengths": [
+        "Near-permanent barrier uptime",
+        "Multiple barrier generation sources",
+        "Damage immunity when barriers are high",
+        "Consistent cold damage through Glacial Core",
+        "Auto-defensive through Paranoia"
+      ],
+      "weaknesses": [
+        "Lower direct damage than offensive builds",
+        "Requires cold application for maximum Rigidity",
+        "Slow ramp-up for barrier stacking",
+        "Less effective against barrier-piercing attacks"
+      ]
+    },
+    {
+      "name": "Glacial Annihilator",
+      "concept": "Cold damage build exploiting the Glacial Core + Frost infinite HP scaling loop (18pt synergy) with Pain's 40% AoE splash and Reflex retaliation to become an unkillable cold damage engine that grows stronger every second",
+      "playstyle": "Stack permanent HP through Frost triggers while converting all healing into cold damage that splashes across enemy packs",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Pain"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage shards, Frost deals 10% max HP cold damage and permanently increases max HP (18pt infinite loop: healing triggers Glacial Core shards, shards trigger Frost, Frost grows max HP making future Frost hits stronger), Pain adds 40% AoE splash to ALL damage (every cold shard splashes, every Frost hit splashes - massive pack damage)"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Reflex",
+            "Essence of Rigidity",
+            "Essence of Bleakness"
+          ],
+          "rationale": "Reflex unleashes 120% Cold retaliation on damage + 40 Armor (triggers Frost and feeds Glacial Core), Rigidity provides barriers on cold hits (80% bonus from cold), Bleakness gives 50% increased damage to slowed/stunned enemies (Frost stuns, Freezing slows)"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Momentum"
+          ],
+          "rationale": "Clemency provides 4% leech from ALL damage (constant healing fuel for Glacial Core), Voracity provides 6 HP per attack for 5s (more Glacial Core fuel), Momentum reduces cooldowns with each attack"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Freezing",
+            "Essence of the Giant",
+            "Essence of Aftershock"
+          ],
+          "rationale": "Freezing releases 160% Cold burst (triggers Frost + Pain AoE splash), Giant adds 260 max HP and 1% damage per 50 max HP (massive synergy with Frost's permanent HP growth), Aftershock adds delayed shockwave with armor stacking"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive barrier + cold snowballs for constant Frost triggers and cold application"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats including Max Health to start the Frost scaling higher"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Purpose of My Existence (max level) - +10 Attack Damage (Shell-specific)",
+          "Dance of Death (max level) - +30% Critical Strike Damage (Shell-specific)",
+          "Merciless (max level) - +24% damage to enemies with Health <35% (Shell-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Emergency Repair (max level) - Ignore fatal damage, +3s invulnerability (Shell-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common, feeds Frost scaling)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (feeds Glacial Core)",
+          "Stone Skin (max level) - +11 Armor (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (feeds Glacial Core)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Perceive, Learn, Adapt (max level) - Repulsive Shield reflects 200% damage, grants 30 Armor for 5s (Shell-specific)"
+        ]
+      },
+      "strategy": "The infinite scaling engine: Every source of healing (Clemency leech, Voracity, Wicked Vitality, Combat First Aid) feeds Glacial Core, which converts 272% of healing into cold damage shards. Each cold shard triggers Frost, dealing 10% of max HP as cold damage and permanently increasing max HP by 1. Pain adds 40% AoE splash to every single damage instance - every cold shard, every Frost hit, every Reflex retaliation splashes across the pack. Giant adds 260 base max HP and scales ALL damage by 1% per 50 max HP, compounding with Frost's permanent HP growth. Reflex triggers 120% Cold retaliation + 40 Armor every time you take damage, creating additional Frost triggers and Glacial Core fuel. Bleakness gives 50% bonus damage to enemies stunned by Frost or slowed by Freezing. Against packs: Freezing applies cold burst, Frost stuns and grows HP, Pain splashes everything, Glacial Core fires shards everywhere, and each shard triggers more Frost. The build becomes exponentially stronger as max HP grows - a 1000 HP Shell deals 100 cold damage per Frost trigger, a 2000 HP Shell deals 200.",
+      "strengths": [
+        "Glacial Core + Frost 18pt infinite HP scaling loop",
+        "Pain's 40% AoE splash on ALL damage (0-use essence, massively underutilized)",
+        "Giant scales damage with growing HP pool (compounds with Frost)",
+        "50% damage bonus from Bleakness on stunned/slowed enemies",
+        "120% Cold retaliation from Reflex on every damage intake",
+        "Exponential scaling - damage grows as max HP grows permanently",
+        "Self-sustaining through Clemency/Voracity healing feeding Glacial Core",
+        "Multiple defensive layers (Rigidity barriers, Reflex armor, Aftershock armor, Snow barrier)"
+      ],
+      "weaknesses": [
+        "Slow initial ramp-up before HP scaling kicks in",
+        "Very low mobility (Shell's base weakness)",
+        "Cold-focused - less effective against cold-resistant enemies",
+        "Requires Glacial Core (unique) and multiple epic essences"
+      ]
+    },
+    {
+      "name": "Void Sentinel",
+      "concept": "Dark damage Shell build exploiting three 0-use essences: Void (150% Dark AoE on cast), Pain (40% AoE splash), and Wound (275% explosion every 3 attacks) with Laceration and Annihilation Stance for Shell's dark damage kit",
+      "playstyle": "Cast abilities to trigger Void explosions, apply Wound marks with rapid dark attacks, and watch Pain amplify every hit into devastating area damage",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Essence of the Void",
+            "Essence of Pain",
+            "Essence of Paranoia"
+          ],
+          "rationale": "Void causes next attack after cast to explode for 150% Dark AoE, Pain adds 40% AoE splash to ALL damage (including Void's explosion for double-dipping AoE), Paranoia auto-casts on damage (every auto-cast triggers Void's 150% Dark AoE explosion on next attack)"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Obsidian",
+            "Essence of Momentum"
+          ],
+          "rationale": "Wound applies Marks that explode for 275% AoE after 3 attacks, Obsidian empowers next attack for 250% Dark damage + 1s CDR, Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Twilight",
+            "Essence of Domination",
+            "Essence of Clemency"
+          ],
+          "rationale": "Twilight converts attacks to Dark and consumes stacks for damage/healing, Domination scales crit damage infinitely with each crit, Clemency provides 4% leech for sustain"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Dusk",
+            "Essence of the Starry Sky",
+            "Essence of Fangs"
+          ],
+          "rationale": "Dusk fires 2 dark shards per attack for 5s (rapid dark stack building and Wound mark application), Starry Sky increases attack speed up to 40% with dark damage, Fangs guarantees crits every 4th attack and reduces cooldown"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Soul Oil (max level) - -15% Max Health, +16% Attack Speed, basic attacks deal Dark damage (Shell-specific, enables dark build)",
+          "Purpose of My Existence (max level) - +10 Attack Damage (Shell-specific)",
+          "Dance of Death (max level) - +30% Critical Strike Damage (Shell-specific)",
+          "Merciless (max level) - +24% damage to enemies with Health <35% (Shell-specific)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Emergency Repair (max level) - Ignore fatal damage (Shell-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Perceive, Learn, Adapt (max level) - Repulsive Shield reflects 200% damage, grants 30 Armor for 5s (Shell-specific)"
+        ]
+      },
+      "strategy": "This build weaponizes three essences that currently appear in 0 builds. The core loop: Take damage -> Paranoia auto-casts Repulsive Shield -> Void arms a 150% Dark AoE on next attack -> Pain adds 40% splash to everything. Bone Crusher with Wound applies Marks on hit that explode for 275% AoE after just 3 attacks. With Soul Oil converting basic attacks to Dark damage and Dusk firing 2 dark shards per attack, you build dark stacks and apply Wound marks extremely rapidly. Obsidian empowers next attack for 250% Dark damage. Twilight consumes dark stacks for massive burst + healing. Every ability cast arms Void's 150% explosion, and Pain's 40% splash makes every single damage source hit in an area. Against packs: Cast ability -> Void AoE -> Wound marks everywhere -> 3 attacks later everything explodes for 275% -> Pain splashes all of it. Starry Sky keeps attack speed compounding up to 40% with dark damage. Fangs ensures crits every 4th attack for Domination scaling.",
+      "strengths": [
+        "Triple 0-use essence exploitation (Void 150% AoE, Pain 40% splash, Wound 275% explosion)",
+        "Paranoia auto-triggers Void's 150% Dark AoE on every damage intake",
+        "40% AoE splash on ALL damage from Pain (multiplied across every source)",
+        "275% AoE explosions from Wound marks every 3 attacks",
+        "Infinite crit damage scaling through Domination",
+        "Self-healing through Twilight dark stack consumption and Clemency leech",
+        "Shell's natural tankiness sustains aggressive dark playstyle"
+      ],
+      "weaknesses": [
+        "-15% Max Health from Soul Oil",
+        "Very low mobility (Shell's base weakness)",
+        "Dark-focused - weaker against dark-resistant enemies",
+        "Requires rapid ability cycling for maximum Void uptime",
+        "Complex rotation with multiple empowerment timers"
+      ]
+    },
+    {
+      "name": "Eternal Frost Engine",
+      "concept": "Cold damage conversion build combining Glacial Core's healing-to-cold conversion with Essence of Inversion to flip elemental damage types, plus Bleakness for 50% bonus to CC'd enemies and Snow's passive cold application",
+      "playstyle": "Convert everything to cold damage through Glacial Core while keeping enemies permanently slowed and stunned for Bleakness amplification",
+      "memories": [
+        {
+          "name": "Repulsive Shield",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Paranoia"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage shards (272% conversion), Frost deals 10% max HP cold damage, stuns enemies, and permanently increases max HP (18pt loop with Glacial Core), Paranoia auto-casts on damage for constant cold shard generation"
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Rigidity",
+            "Essence of Snow"
+          ],
+          "rationale": "Bleakness provides 50% increased damage to cold/slowed/stunned enemies (constant uptime with Frost stuns and Freezing slows), Rigidity provides barriers on cold hits (80% bonus), Snow provides passive barrier + cold snowballs for constant Frost triggers"
+        },
+        {
+          "name": "Bone Crusher",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Aftershock"
+          ],
+          "rationale": "Clemency provides 4% leech feeding Glacial Core constantly, Voracity provides 6 HP per attack feeding Glacial Core, Aftershock releases cold shockwave with stun and armor gain (triggers Frost and feeds Bleakness)"
+        },
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Freezing",
+            "Essence of Reflex",
+            "Essence of Momentum"
+          ],
+          "rationale": "Freezing releases 160% Cold burst (triggers Frost, feeds Bleakness slow), Reflex unleashes 120% Cold retaliation + 40 Armor on damage (another Frost trigger source), Momentum reduces cooldowns with each attack"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats including Max Health to accelerate Frost's 10% max HP scaling"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Purpose of My Existence (max level) - +10 Attack Damage (Shell-specific)",
+          "Merciless (max level) - +24% damage to enemies with Health <35% (Shell-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Emergency Repair (max level) - Ignore fatal damage (Shell-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (feeds Frost scaling)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (feeds Glacial Core)",
+          "Stone Skin (max level) - +11 Armor (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (feeds Glacial Core)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Perceive, Learn, Adapt (max level) - Repulsive Shield reflects 200% damage, grants 30 Armor for 5s (Shell-specific)"
+        ]
+      },
+      "strategy": "Everything feeds the cold engine. Clemency leech and Voracity healing constantly feed Glacial Core, which converts 272% of all healing to cold damage shards. Every cold shard triggers Frost for 10% max HP cold damage + permanent HP growth + stun. Frost stuns enable Bleakness's 50% damage bonus on the ENTIRE build. Paranoia auto-casts Repulsive Shield on damage, generating more cold shards. Reflex fires 120% Cold retaliation + 40 Armor on every damage intake, also triggering Frost. Freezing releases 160% Cold bursts. Aftershock's delayed shockwave stuns and grants armor. Rigidity builds barriers on every cold hit (80% bonus). Snow fires passive snowballs for additional Frost triggers. The result: enemies are permanently slowed/stunned (Bleakness always active), Glacial Core fires cold shards constantly (Clemency/Voracity/Wicked Vitality/Combat First Aid all feeding it), Frost hits grow stronger as max HP permanently increases, and Rigidity barriers keep you nearly invincible. Against bosses, the permanent HP growth means Frost's 10%-of-max-HP hit becomes devastating over time.",
+      "strengths": [
+        "Glacial Core + Frost 18pt infinite HP/damage scaling loop",
+        "50% damage bonus from Bleakness on permanently CC'd enemies",
+        "Seven cold trigger sources (Glacial Core, Frost, Reflex, Freezing, Aftershock, Snow, Rigidity)",
+        "Self-sustaining - damage dealt creates healing which creates cold damage",
+        "Permanent HP growth makes Frost hits exponentially stronger",
+        "Near-permanent barrier uptime from Rigidity on cold hits",
+        "Multiple armor sources (Reflex 40, Aftershock 22, Stone Skin 11)"
+      ],
+      "weaknesses": [
+        "Slow initial ramp-up before HP scaling and cold damage compound",
+        "Very low mobility (Shell's base weakness)",
+        "Cold-focused - weaker against cold-resistant enemies",
+        "Lower burst damage compared to fire or dark builds",
+        "Requires specific essence combination for the engine to function"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,743 @@
+{
+  "essences": [
+    {
+      "name": "Essence of Charcoal",
+      "rarity": "Common",
+      "effect": "When this Memory hits an enemy, it fires a charcoal shard, dealing 60% damage. If the target is already burning, it deals 100% Fire damage instead.",
+      "synergy_types": [
+        "fire_damage",
+        "burn"
+      ]
+    },
+    {
+      "name": "Essence of Confidence",
+      "rarity": "Common",
+      "effect": "Damage dealt by this Memory to nearby enemies is increased by 40%.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Efficiency",
+      "rarity": "Common",
+      "effect": "This Memory gains 36 Memory Haste, reducing its cooldown by 26%.",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Guidance",
+      "rarity": "Common",
+      "effect": "This Memory's healing is increased by 40%. 30% of the excess healing from this Memory is converted into a Barrier that lasts for 2 seconds.",
+      "synergy_types": [
+        "defense",
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Lethality",
+      "rarity": "Common",
+      "effect": "This Memory's damage against enemies with 70% or more Health is increased by 60%.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Love",
+      "rarity": "Common",
+      "effect": "When this Memory restores Health or grants a Barrier to an ally, their Movement Speed and Attack Speed increase by 16% for 2 seconds.The effect is reduced by 50% when applied to yourself.",
+      "synergy_types": [
+        "defense",
+        "healing",
+        "attack_speed",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Essence of Quicksilver",
+      "rarity": "Common",
+      "effect": "Casting this Memory or dealing Fire damage with it increases Movement Speed by 30%, gradually returning to normal over 2.5 seconds.",
+      "synergy_types": [
+        "fire_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Essence of Regeneration",
+      "rarity": "Common",
+      "effect": "If this Memory is cast in combat, it restores your Health by 41 over 7 seconds.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Responsibility",
+      "rarity": "Common",
+      "effect": "Every 10 seconds, this Memory's cast is empowered. 1.2 seconds after the empowered cast, it deals 400% damage divided among all enemies hit by that cast.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Sharpness",
+      "rarity": "Common",
+      "effect": "Casting this Memory fires 5 arrows that deal 90% damage to random enemies.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Shatter",
+      "rarity": "Common",
+      "effect": "Every 10 seconds, the cast of this Memory is empowered. Damage dealt to enemies by the empowered cast is increased by 40%. If it deals Light damage, it is increased by 72% instead.",
+      "synergy_types": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Essence of Sulfur",
+      "rarity": "Common",
+      "effect": "All damage dealt by this Memory is increased by 15% and converted to Fire damage. Your Fire damage over time is increased by 50%.",
+      "synergy_types": [
+        "fire_damage",
+        "damage_conversion"
+      ]
+    },
+    {
+      "name": "Essence of Talc",
+      "rarity": "Common",
+      "effect": "Every 10 seconds, the cast of this Memory is empowered. The initial damage dealt to each enemy by the empowered cast is increased by 400%.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Vengeance",
+      "rarity": "Rare",
+      "effect": "When you take any damage, fire 2 blades that deal 102% damage to nearby enemies. After taking damage, this Memory's damage and healing are increased by 34% for 5 seconds.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of the Void",
+      "rarity": "Common",
+      "effect": "After casting this Memory, your next attack within 4 seconds explodes, dealing 150% Dark Damage to the target and nearby enemies.",
+      "synergy_types": [
+        "dark_damage"
+      ]
+    },
+    {
+      "name": "Essence of Wind",
+      "rarity": "Common",
+      "effect": "Casting this Memory increases Attack Speed by 33% for 5 seconds.",
+      "synergy_types": [
+        "attack_speed"
+      ]
+    },
+    {
+      "name": "Essence of Aftershock",
+      "rarity": "Epic",
+      "effect": "Casting this Memory releases a delayed shockwave that deals 200% Cold damage to enemies around you and stuns them for 0.5 seconds.\nFor each enemy hit by this shockwave, you gain 4 Armor, up to a maximum of 22 Armor. When hitting a boss, you gain the maximum Armor. This Armor lasts until you cast this Memory again.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Blossoming",
+      "rarity": "Epic",
+      "effect": "This Memory deals 70% less damage to enemies. When it deals damage, it heals a random nearby ally for 22% of the damage dealt.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Clemency",
+      "rarity": "Epic",
+      "effect": "Restore your Health for 4% of the damage dealt by this Memory.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Crimson",
+      "rarity": "Epic",
+      "effect": "Every 4th Basic Attack becomes empowered, triggering a Crimson Explosion that deals 100% Dark Damage to enemies. The explosion radius scales with your Critical Strike Chance.\nYou restore 22% Health for each enemy hit by the explosion, increased by 100% if the target is a Boss.",
+      "synergy_types": [
+        "dark_damage",
+        "healing",
+        "critical_strike"
+      ]
+    },
+    {
+      "name": "Essence of Direness",
+      "rarity": "Epic",
+      "effect": "The lower your Health, the shorter the cooldown of this Memory. When your Health is at 30%, the cooldown is reduced by up to 55%.",
+      "synergy_types": [
+        "healing",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Domination",
+      "rarity": "Epic",
+      "effect": "Increases Critical Strike Chance by 20%. Each time you land a critical strike on an enemy, your Critical Strike Damage increases by 0.3%, stacking up to 20%. ",
+      "synergy_types": [
+        "critical_strike",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Essence of Fangs",
+      "rarity": "Epic",
+      "effect": "Every 4th basic attack is a critical strike. When you land a critical strike, this Memory's cooldown is reduced by 0.7 seconds and launches 2 Fangs at nearby enemies, each dealing 60% damage.",
+      "synergy_types": [
+        "critical_strike",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Fever",
+      "rarity": "Epic",
+      "effect": "When this Memory deals Fire damage to an enemy, it infects them with Fever. Enemies infected with Fever explode after 2 seconds, dealing 130% Fire damage to themselves and nearby enemies. For each Fire stack on the target, the explosion radius increases by 30% and explosion damage increases by 10%.",
+      "synergy_types": [
+        "fire_damage",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Essence of Flexibility",
+      "rarity": "Epic",
+      "effect": "While this Memory is on cooldown, 37% of damage taken is split over 4 seconds. This split damage is reduced by 20%.",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Insensitivity",
+      "rarity": "Epic",
+      "effect": "Casting this Memory drops a bomb for every 2m you travel over the next 3 seconds. Each bomb explodes after a brief delay, dealing 140% Fire damage to enemies.",
+      "synergy_types": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Essence of Insight",
+      "rarity": "Epic",
+      "effect": "When this Memory deals any damage to an enemy, it deals an additional 200% Light damage to up to 3 enemies and increases Memory Haste by 20 for 5 seconds. Can only trigger once every 3 seconds.",
+      "synergy_types": [
+        "light_damage",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Inversion",
+      "rarity": "Epic",
+      "effect": "This Memory's cooldown increases by 15%, but it also deals 20% more damage to enemies. Its elemental damage is inverted (Fire/Cold, Light/Dark).",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Metal",
+      "rarity": "Epic",
+      "effect": "When you kill an enemy, the cooldown of this Memory is reduced by 1 seconds.",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of the Giant",
+      "rarity": "Epic",
+      "effect": "Increases Maximum Health by 260. This Memory's damage increases by 1% for every 50 points of your Maximum Health.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Obsidian",
+      "rarity": "Epic",
+      "effect": "Casting this Memory empowers your next attack within 5 seconds. The empowered attack deals 250% Dark Damage to the target and reduces this Memory's cooldown by 1 seconds.",
+      "synergy_types": [
+        "dark_damage",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Finality",
+      "rarity": "Epic",
+      "effect": "While this Memory is not on cooldown, gain stacks of Finality every second up to 20 stacks. When stacks are present, this Memory's cast is empowered, increasing damage by 5% per stack.",
+      "synergy_types": [
+        "cooldown_reduction",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Essence of Opportunity",
+      "rarity": "Epic",
+      "effect": "Casting this Memory reduces the cooldown of your Dodge by 3 seconds. Can only trigger once every 8 seconds.",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Our Story (Completed!)",
+      "rarity": "Epic",
+      "effect": "Increases Attack Damage and Ability Power by 0, and the effects of all buffs from Distorting Rush by 0.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Our Story (Work in Progress)",
+      "rarity": "Epic",
+      "effect": "Quality increases by 50% every time you defeat 75 enemies. It becomes completed when quality reaches 500%.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Overload",
+      "rarity": "Epic",
+      "effect": "When you cast this Memory, sacrifice 20% of your current Health to empower the cast. The damage and healing dealt by the empowered cast are increased by 45%.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Pain",
+      "rarity": "Epic",
+      "effect": "All damage dealt by this Memory deals 40% Area damage around the target. This Area damage shares the elemental type with the original damage.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Predation",
+      "rarity": "Epic",
+      "effect": "This Memory deals 60% increased damage to Bosses and Hunters. Defeating a Hunter drops 1 Orbs of Power, while defeating a Boss drops 3. When you collect an Orb of Power, either Attack Damage or Ability Power permanently increases by 1 at random.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Protection",
+      "rarity": "Epic",
+      "effect": "Casting this Memory grants 40 Armor for 3 seconds, reducing damage taken and making you Unstoppable. Can only trigger once every 5 seconds.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Reflex",
+      "rarity": "Epic",
+      "effect": "When you take any damage, unleash cold toward the nearest enemy, dealing 120% Cold Damage and knocking them back, then increase your Armor by 40 for 1.5 seconds.",
+      "synergy_types": [
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Essence of Thunder",
+      "rarity": "Epic",
+      "effect": "Casting another Memory or using Dodge grants 1 Thunder stack, up to 7 times. Casting this Memory consumes all Thunder stacks, calling down lightning on nearby enemies once for each stack. Each lightning deals 117% Light damage.",
+      "synergy_types": [
+        "light_damage",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Essence of Twilight",
+      "rarity": "Epic",
+      "effect": "Your basic attacks are converted to Dark damage. When this Memory deals damage to an enemy with 3 or more Dark stacks, consumes all stacks to deal 54% damage per stack and heal for 6 per stack.",
+      "synergy_types": [
+        "dark_damage",
+        "healing",
+        "damage_conversion",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Essence of Umbra",
+      "rarity": "Epic",
+      "effect": "This memory's damage is increased by 42% of your Critical Strike Chance. If the Damage is Dark Damage, Restore 6% of the damage dealt as Health.",
+      "synergy_types": [
+        "critical_strike",
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Virtue",
+      "rarity": "Epic",
+      "effect": "The number of charges for this Memory increases by 1. Each 150% increase in quality raises the number of charges by 1.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Camilla's Gift",
+      "rarity": "Legendary",
+      "effect": "Can be sold at the shop for 0 Gold. The price increases by 0 each time you move to a next world. It breaks if your Health drops below 50% from enemy damage.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Apple of Discord",
+      "rarity": "Legendary",
+      "effect": "Each time you move through a Rift, this Memory is temporarily transformed into a different random Memory. The transformed Memory has no cooldown, but can only be cast 4 times per room, and returns to the original Memory when all casts are used.",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Divine Faith",
+      "rarity": "Legendary",
+      "effect": "Each time you kill an enemy with this Memory, gain a stack of Faith up to 75 stacks. For each stack of Faith, this Memory's damage to enemies and healing to allies increases by 0.5%, and your Maximum Health increases by 4.",
+      "synergy_types": [
+        "healing",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Embertail",
+      "rarity": "Legendary",
+      "effect": "Your attacks ricochet to deal 100% Fire damage to a nearby enemy. For each nearby enemy engulfed in flames, this Memory's damage and healing are increased by 8% and its cooldown is reduced by 8%. Your Fire damage over time is increased by 100%.",
+      "synergy_types": [
+        "healing",
+        "fire_damage",
+        "projectile",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Heart of Gold",
+      "rarity": "Legendary",
+      "effect": "Casting this Memory consumes 3% of your Gold to empower the cast. Damage and healing from the empowered cast increase by 12% for every 100 Gold you have.\n",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Metallic Crystal",
+      "rarity": "Legendary",
+      "effect": "The parts exposed to light glow with surreal colors.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Paranoia",
+      "rarity": "Legendary",
+      "effect": "When you take any damage, this Memory gains 150 Memory Haste for 6 seconds, reducing its cooldown by 60%, but it is automatically cast on nearby enemies.",
+      "synergy_types": [
+        "automation",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Perfection",
+      "rarity": "Legendary",
+      "effect": "Increases Attack Damage by 7, Ability Power by 7, Maximum Health by 35, Attack Speed by 10%, Critical Strike Chance by 6%, and Memory Haste by 10.",
+      "synergy_types": [
+        "critical_strike",
+        "healing",
+        "cooldown_reduction",
+        "attack_speed"
+      ]
+    },
+    {
+      "name": "Pure White",
+      "rarity": "Legendary",
+      "effect": "Every 10 seconds, the cast of this Memory is empowered. The empowered cast fires 3 projectiles, dealing Light damage equal to 20% of the initial damage dealt to each enemy. The number of shots increases by the number of Light stacks on each target.",
+      "synergy_types": [
+        "light_damage",
+        "scaling",
+        "projectile"
+      ]
+    },
+    {
+      "name": "Eye of the Sun",
+      "rarity": "Legendary",
+      "effect": "Every 20 seconds, this Memory's cast is empowered, raining Solar Light on all nearby enemies who are burning. Solar Light deals 360% Fire damage over 1.5 seconds and increases Burn stacks by 9. Increases your Fire damage over time by 100%.",
+      "synergy_types": [
+        "fire_damage",
+        "scaling",
+        "burn"
+      ]
+    },
+    {
+      "name": "Suppressed Arcanum",
+      "rarity": "Legendary",
+      "effect": "Casting this Memory sacrifices 5% of your current Health to create a Golden Explosion. Enemies caught in the explosion take 240% Light damage, while allies receive a Barrier of 61% that lasts 2.5 seconds. If your Health is below 60%, the Barrier amount of this Memory increases by 50%.",
+      "synergy_types": [
+        "defense",
+        "light_damage",
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of the Abyss",
+      "rarity": "Rare",
+      "effect": "Converts all Damage dealt by this memory to Dark Damage. If the target hit by this memory has 3 or more stacks of Darkness, triggers Attack Effects with a 43% chance.",
+      "synergy_types": [
+        "dark_damage",
+        "damage_conversion",
+        "scaling"
+      ]
+    },
+    {
+      "name": "Essence of Accuracy",
+      "rarity": "Rare",
+      "effect": "When this Memory deals damage to a distant enemy, it fires an additional projectile that deals 50% damage. The damage dealt by the projectile shares the elemental type with the original damage.",
+      "synergy_types": [
+        "projectile"
+      ]
+    },
+    {
+      "name": "Essence of Adventure",
+      "rarity": "Rare",
+      "effect": "Whenever you move to a new place, increase the quality of another Essence equipped to this Memory by +10% and gain 19 Gold.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of the Blade",
+      "rarity": "Rare",
+      "effect": "Each time this Memory hits an enemy, it summons blades that lacerate the target for 58% damage 3 times. Can only trigger once every 2 seconds for each enemy.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of Bleakness",
+      "rarity": "Rare",
+      "effect": "This Memory deals 50% increased damage to enemies affected by Cold, slow, root, or stun.",
+      "synergy_types": [
+        "crowd_control",
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Essence of Blood Drops",
+      "rarity": "Rare",
+      "effect": "When Health falls below 40%, sacrifice the quality of this Essence by 80% to restore 40% of your Maximum Health. Can only trigger once every 4 seconds.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of the Celestial",
+      "rarity": "Rare",
+      "effect": "Every 10 seconds, this Memory's cast is empowered. When the empowered cast hits an enemy for the first time, it drops 4 meteors that deal 130% Light damage each.",
+      "synergy_types": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Essence of Composure",
+      "rarity": "Rare",
+      "effect": "Casting this Memory increases your Critical Strike Chance by 30% for 5 seconds. This effect ends early if you take damage from enemies.",
+      "synergy_types": [
+        "critical_strike"
+      ]
+    },
+    {
+      "name": "Essence of Contempt",
+      "rarity": "Rare",
+      "effect": "This Memory deals more damage as the target's Health decreases, up to a 50% increase when their Health is at 20%.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Dusk",
+      "rarity": "Rare",
+      "effect": "Casting this Memory fires 2 Dusk shards that deal 30% Dark damage each time you attack an enemy for 5 seconds.",
+      "synergy_types": [
+        "dark_damage"
+      ]
+    },
+    {
+      "name": "Essence of Flow",
+      "rarity": "Rare",
+      "effect": "Dealing Light damage with any Memory reduces this Memory's cooldown by 6%. For Ultimate abilities, only 40% of the effect is applied. The Cooldown Reduction effect for this Memory also applies to equipped Essences.",
+      "synergy_types": [
+        "light_damage",
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of Frost",
+      "rarity": "Rare",
+      "effect": "When this Memory deals Cold damage, it deals Cold damage equal to 10% of your Maximum Health and briefly stuns enemies. Can only trigger once every 5 seconds per enemy. Each time this triggers, permanently increase your Maximum Health by 1.",
+      "synergy_types": [
+        "healing",
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Essence of Freezing",
+      "rarity": "Rare",
+      "effect": "Casting this Memory releases a burst of cold that deals 160% Cold damage to enemies. The area of effect increases with quality.",
+      "synergy_types": [
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Essence of Voracity",
+      "rarity": "Rare",
+      "effect": "For 5 seconds after casting this Memory, Attack Damage is increased by 15% and restore 6 Health per attack.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Momentum",
+      "rarity": "Rare",
+      "effect": "Each time you attack an enemy, the cooldown of this Memory is reduced by 0.4 seconds.",
+      "synergy_types": [
+        "cooldown_reduction"
+      ]
+    },
+    {
+      "name": "Essence of the Starry Sky",
+      "rarity": "Rare",
+      "effect": "Each time this Memory hits an enemy, your Attack Speed increases by 10% for 3 seconds, up to a maximum of 20%. If it deals Dark damage, it can increase up to a maximum of 40%. Attacking the enemy refreshes the duration of this effect.",
+      "synergy_types": [
+        "dark_damage",
+        "attack_speed"
+      ]
+    },
+    {
+      "name": "Essence of Panic",
+      "rarity": "Rare",
+      "effect": "Taking any damage grants this Memory 30 Memory Haste and your Movement Speed increases by 20% for 3 seconds.",
+      "synergy_types": [
+        "cooldown_reduction",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Essence of Rejuvenation",
+      "rarity": "Rare",
+      "effect": "Every 15 seconds, this Memory's cast becomes empowered. For 1.5 seconds after casting the empowered cast, restore 14% of the damage dealt as your Health.",
+      "synergy_types": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Essence of Ricochet",
+      "rarity": "Rare",
+      "effect": "The damage or healing from this Memory has a 50% chance to ricochet to another nearby target, dealing 90% damage or healing. If it's damage, it shares the elemental type with the original damage.",
+      "synergy_types": [
+        "healing",
+        "projectile"
+      ]
+    },
+    {
+      "name": "Essence of Rigidity",
+      "rarity": "Rare",
+      "effect": "When this Memory hits an enemy, gain a Barrier of 9 that lasts for 2 seconds. If it deals Cold damage, this effect is increased by 80%.",
+      "synergy_types": [
+        "defense"
+      ]
+    },
+    {
+      "name": "Essence of Scorch",
+      "rarity": "Rare",
+      "effect": "Casting this Memory fires 3 Fireballs, each dealing 47% Fire damage to nearby enemies.",
+      "synergy_types": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Essence of Shock",
+      "rarity": "Rare",
+      "effect": "Every 4th basic attack becomes empowered, unleashing Lightning that bounces between enemies, dealing 40% Light damage up to 2 times. For every 20% Critical Strike Chance, the maximum number of hits increases by 1.",
+      "synergy_types": [
+        "critical_strike",
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Essence of Snow",
+      "rarity": "Rare",
+      "effect": "Gain a Barrier of 40 that recharges if you avoid damage for 5 seconds. While the Barrier is active, periodically launch a snowball at a random nearby enemy, dealing 80% Cold damage. The larger your Barrier, the quicker it fires.",
+      "synergy_types": [
+        "defense",
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Essence of the Vortex",
+      "rarity": "Rare",
+      "effect": "Periodically fires a Fireball at a random nearby enemy, dealing 90% Fire damage. The higher the quality, the quicker it fires.",
+      "synergy_types": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Essence of Stillness",
+      "rarity": "Rare",
+      "effect": "Every 5 seconds, this memory's Cast becomes Enhanced. Upon Enhanced Cast, emit light that deals 200% Light Damage to enemies and Stuns them for 2 seconds. Higher quality increases the emission radius.",
+      "synergy_types": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Essence of Wealth",
+      "rarity": "Rare",
+      "effect": "When an enemy damaged by this Memory is killed within 2 seconds, they drop 1.7 Gold. Gold is shared among all Travelers.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Essence of the Wound",
+      "rarity": "Rare",
+      "effect": "When this Memory deals damage to an enemy, it applies a Mark. Each attack on the Mark deals 44% damage, and after 3 attacks, the Mark explodes, dealing 275% damage to all nearby enemies.",
+      "synergy_types": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Eternal Flame",
+      "rarity": "Unique",
+      "effect": "Dealing Fire damage to an enemy with this Memory inflicts the Eternal Flame curse for 5 seconds. While under Eternal Flame, any damage you deal applies 1 Burn stack to the target.\nAll damage from this Memory is increased by 2.0% for each Burn stack on that enemy.",
+      "synergy_types": [
+        "fire_damage",
+        "scaling",
+        "burn"
+      ]
+    },
+    {
+      "name": "Glacial Core",
+      "rarity": "Unique",
+      "effect": "Every 5 seconds, dealing damage with this Memory restores 3.6% of your Maximum Health. If it is Cold damage, the effect increases by 100%.\n272% of all Health restored is converted into Cold damage, firing ice shards at nearby enemies.",
+      "synergy_types": [
+        "healing",
+        "damage_conversion",
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Last Starlight",
+      "rarity": "Unique",
+      "effect": "Every 15 seconds, this Memory's Cast is Empowered. On an Empowered Cast, create a black hole at the cast location that deals 160% Light Damage per second for 5 seconds. \nIf this is not a location-targeted Memory, the black hole is created on the nearest enemy in the direction you are facing.",
+      "synergy_types": [
+        "dark_damage"
+      ]
+    },
+    {
+      "name": "Soul Prison",
+      "rarity": "Unique",
+      "effect": "When you take Fatal damage, you ignore that damage and become Invulnerable for 3 seconds, then destroy this Essence. For every 1% of this Essence's quality, you restore 3 Health, and any excess healing is converted into a Barrier.",
+      "synergy_types": [
+        "defense",
+        "healing",
+        "damage_conversion"
+      ]
+    }
+  ]
+}

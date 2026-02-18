@@ -1,0 +1,833 @@
+{
+  "character": "Yubar",
+  "builds": [
+    {
+      "name": "Thunder Conduit",
+      "concept": "Lightning-focused build using Essence of Thunder to stack lightning strikes through memory casts and dodges, with AoE splash amplifying every bolt",
+      "playstyle": "Caster that builds Thunder stacks for massive lightning barrages with heavy area splash",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Shock",
+            "Essence of Pain"
+          ],
+          "rationale": "Thunder consumes stacks for multiple lightning strikes, Shock empowers attacks with lightning, Pain adds 40% AoE splash to ALL lightning damage for devastating area coverage"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Insight",
+            "Essence of Momentum"
+          ],
+          "rationale": "Flow reduces cooldown when dealing light damage, Insight adds light damage and haste (18pt synergy with Flow), Momentum reduces cooldowns per attack"
+        },
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Voracity",
+            "Essence of Stillness"
+          ],
+          "rationale": "Efficiency reduces cooldowns, Voracity provides healing, Stillness empowers casts every 5 seconds with 200% Light damage and 2-second stun"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Glacial Core",
+            "Essence of Guidance",
+            "Essence of Frost"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage shards, Guidance converts excess healing to barriers, Frost scales cold damage with max health and permanently increases HP"
+        }
+      ],
+      "strategy": "Use Lightning Strike with Thunder to consume stacks for multiple lightning strikes. Pain causes every lightning bolt to deal 40% splash AoE, massively amplifying area damage. Cast other memories and use Flicker to build Thunder stacks up to 7. Chain Lightning with Flow and Insight creates a cooldown reduction loop from light damage. Static Discharge with Stillness provides empowered casts every 5 seconds for stun control. Frostbite with Glacial Core and Frost converts healing to cold damage scaled by max health.",
+      "strengths": [
+        "Massive lightning AoE through Pain splash on every Thunder bolt",
+        "Self-sustaining cooldown reduction cycle via Flow+Insight",
+        "Strong crowd control from Stillness stun every 5 seconds",
+        "Healing-to-damage conversion through Glacial Core + Frost scaling"
+      ],
+      "weaknesses": [
+        "Requires frequent memory casts to build stacks",
+        "Positioning dependent for optimal lightning hits",
+        "Energy management critical",
+        "Lower damage without Thunder stacks"
+      ],
+      "constellation_tree": {
+        "primary": "Imagination",
+        "secondary": "Destruction",
+        "focus": [
+          "Light damage amplification",
+          "Cooldown reduction",
+          "Memory haste bonuses",
+          "Lightning damage bonuses"
+        ]
+      }
+    },
+    {
+      "name": "Perfect Arcane Master",
+      "concept": "Universal stat-focused build using Perfection combined with cooldown reduction for maximum ability uptime and cold conversion scaling",
+      "playstyle": "Versatile caster with permanent stat boosts, high ability frequency, and health-scaling cold damage",
+      "memories": [
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Perfection",
+            "Essence of Momentum",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Perfection provides universal stat boosts, Momentum and Efficiency stack cooldown reduction (15pt synergy) for maximum Frostbite uptime"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Divine Faith",
+            "Essence of Insight",
+            "Essence of Clemency"
+          ],
+          "rationale": "Divine Faith scales with kills (18pt synergy with Perfection), Insight adds light damage and haste, Clemency provides 4% leech healing"
+        },
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Voracity",
+            "Essence of Pain"
+          ],
+          "rationale": "Flow reduces cooldown with light damage (18pt synergy with Insight), Voracity provides healing per attack, Pain adds 40% AoE splash to Static Discharge's charged light damage"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Glacial Core",
+            "Essence of Guidance",
+            "Essence of Frost"
+          ],
+          "rationale": "Glacial Core converts Beam of Light's healing output to cold damage shards, Guidance converts excess healing to barriers, Frost scales cold damage with max health"
+        }
+      ],
+      "strategy": "Perfection on Frostbite provides permanent stat boosts across all categories. Lightning Strike with Divine Faith scales damage and health with kills. Static Discharge with Flow and Pain creates AoE-amplified light damage that feeds Flow's cooldown reduction on all memories. Beam of Light channels healing to allies while Glacial Core converts that healing to cold damage shards and Frost scales it with max health. The combination of Perfection's universal stats, Divine Faith's scaling, and the Flow+Insight CDR loop creates exponential power growth.",
+      "strengths": [
+        "Permanent universal stat boosts from Perfection",
+        "Infinite scaling with Divine Faith",
+        "40% AoE splash on Static Discharge's massive charged damage",
+        "Healing-to-cold-damage conversion with health scaling"
+      ],
+      "weaknesses": [
+        "Requires Perfection essence (legendary)",
+        "Complex resource management",
+        "Positioning dependent",
+        "Weaker early game before scaling"
+      ],
+      "constellation_tree": {
+        "primary": "Imagination",
+        "secondary": "Destruction",
+        "focus": [
+          "Maximum cooldown reduction",
+          "Universal stat bonuses",
+          "Elemental damage amplification",
+          "Kill-based scaling"
+        ]
+      }
+    },
+    {
+      "name": "Finality Arcane",
+      "concept": "Build using Essence of Finality paired with Inversion on the same memory for massive empowered casts: longer cooldown means more Finality stacks plus 20% more damage",
+      "playstyle": "Strategic caster that maximizes Finality stacks and Inversion's damage amp for devastating empowered abilities",
+      "memories": [
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Finality",
+            "Essence of Inversion",
+            "Essence of Flexibility"
+          ],
+          "rationale": "Finality stacks damage while off cooldown (5% per stack up to 20), Inversion increases cooldown by 15% BUT adds 20% damage - the longer cooldown means MORE Finality stacks (~13pt combined synergy), Flexibility splits damage while on cooldown for survivability"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Metal",
+            "Essence of Opportunity",
+            "Essence of Thunder"
+          ],
+          "rationale": "Metal resets cooldown on kills for rapid recasting, Opportunity reduces dodge cooldown by 3 seconds feeding Thunder stacks, Thunder builds stacks from casts/dodges for massive lightning"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Insight",
+            "Essence of Clemency"
+          ],
+          "rationale": "Flow reduces cooldown with light damage (18pt synergy with Insight), Insight adds light damage and 20 memory haste, Clemency provides 4% leech healing"
+        },
+        {
+          "name": "Tranquility",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Voracity",
+            "Glacial Core"
+          ],
+          "rationale": "Efficiency reduces cooldowns, Voracity provides healing per attack, Glacial Core converts healing to cold damage shards"
+        }
+      ],
+      "strategy": "Frostbite with Finality+Inversion is the core combo: Inversion's 15% longer cooldown gives Finality more time to stack (approaching 20 stacks for 100% damage increase), plus Inversion itself adds 20% base damage. The empowered Frostbite deals devastating damage. Lightning Strike with Metal resets on kills for rapid recasting, and Opportunity feeds dodge cooldown reduction to build more Thunder stacks. Chain Lightning with Flow+Insight creates the CDR loop. Tranquility reduces all cooldowns by 3.5 seconds. Focus on letting Finality stack, then unleash massive empowered Frostbites while using other abilities to keep Thunder stacks high.",
+      "strengths": [
+        "Finality+Inversion on same memory creates 120%+ damage empowered casts",
+        "Metal provides instant cooldown resets on kills",
+        "Opportunity feeds Thunder stacks through frequent dodges",
+        "Flow+Insight CDR loop keeps all abilities cycling"
+      ],
+      "weaknesses": [
+        "Requires careful cooldown management for Finality timing",
+        "Lower damage without Finality stacks",
+        "Complex timing requirements between Finality windows",
+        "Vulnerable during cooldown periods if Flexibility is not active"
+      ],
+      "constellation_tree": {
+        "primary": "Imagination",
+        "secondary": "Life",
+        "focus": [
+          "Maximum cooldown reduction",
+          "Cooldown management",
+          "Damage amplification",
+          "Healing effectiveness"
+        ]
+      }
+    },
+    {
+      "name": "Automated Thunder Basic Attacker",
+      "concept": "Basic attack focused build using Essence of Thunder that builds stacks through basic attacks and Flicker, with Momentum to reduce cooldowns",
+      "playstyle": "Basic attack spammer that builds Thunder stacks and unleashes massive lightning barrages automatically",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Momentum",
+            "Essence of Fangs"
+          ],
+          "rationale": "Thunder builds stacks from casts/dodges and consumes for lightning, Momentum reduces cooldown with each basic attack, Fangs provides guaranteed crits that reduce cooldown"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Stillness",
+            "Essence of Voracity"
+          ],
+          "rationale": "Flow reduces cooldown when dealing light damage, Stillness stuns enemies for 2 seconds on empowered casts (every 5 seconds), Voracity restores 6 health per attack for 5 seconds after casting"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Shock",
+          "rationale": "Passive essence - empowers every 4th basic attack with lightning (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Domination",
+          "rationale": "Passive essence - increases crit chance by 20% and scales crit damage with crits (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (doesn't need to be on a memory)"
+        }
+      ],
+      "strategy": "Lightning Strike with Thunder builds stacks every time you cast a memory or use Flicker. Momentum reduces its cooldown with every basic attack, while Fangs ensures every 4th attack is a crit that further reduces cooldown. Chain Lightning with Stillness stuns enemies every 5 seconds on empowered casts, and Voracity provides 6 health per attack for 5 seconds after casting. Equip passive essences (Shock, Domination, Snow, Perfection) separately for additional damage and survivability. Simply spam basic attacks - each attack reduces cooldowns and heals you, and when Lightning Strike is ready, it unleashes massive lightning barrages. Use Flicker frequently to build Thunder stacks. The build requires minimal active memory usage, focusing on basic attacks while abilities trigger automatically.",
+      "strengths": [
+        "Basic attacks continuously reduce cooldowns",
+        "Massive lightning damage with full Thunder stacks",
+        "Minimal active memory management required",
+        "High uptime through attack-based cooldown reduction"
+      ],
+      "weaknesses": [
+        "Requires frequent Flicker usage to build stacks",
+        "Lower damage without Thunder stacks",
+        "Positioning important for optimal lightning hits",
+        "Requires Thunder essence (epic)"
+      ],
+      "constellation_tree": {
+        "primary": "Imagination",
+        "secondary": "Destruction",
+        "focus": [
+          "Attack speed bonuses",
+          "Basic attack damage",
+          "Cooldown reduction",
+          "Lightning damage amplification"
+        ]
+      }
+    },
+    {
+      "name": "Maximum Damage Thunder God",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and multiple healing sources for survivability",
+      "playstyle": "High-damage caster that scales infinitely with kills while maintaining strong survivability through healing and barriers",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks, 22pt synergy with Domination), Domination scales crit damage with each crit, Predation increases damage to bosses by 60% and drops Orbs of Power for permanent stat increases"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Glacial Core"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Clemency provides 4% leech from all damage (25pt synergy with Glacial Core), Glacial Core converts healing to cold damage"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Voracity",
+            "Essence of Momentum"
+          ],
+          "rationale": "Thunder builds stacks for massive lightning barrages, Voracity restores 6 health per attack for 5 seconds after casting, Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Insight",
+            "Essence of Accuracy"
+          ],
+          "rationale": "Flow reduces cooldown when dealing light damage (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste, Accuracy fires additional projectiles on distant targets for more light damage procs"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Composure",
+          "rationale": "Passive essence - increases crit chance by 30% for 5 seconds after casting (doesn't need to be on a memory, complements Domination's crit scaling on Lightning Strike)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Aggressive Stance (max level)",
+          "Lucky Clover (max level)",
+          "Night Time (max level)",
+          "Hurricane (max level)",
+          "Yubar-specific Destruction powers (prioritize damage scaling)"
+        ],
+        "life": [
+          "Yubar-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Yubar-specific Imagination powers",
+          "Additional common Imagination powers for utility"
+        ],
+        "flexible": [
+          "Yubar-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Lightning Strike with Divine Faith scales damage and health infinitely with each kill (up to 75 stacks = 37.5% damage/healing increase + 300 max health). Domination on Lightning Strike scales crit damage infinitely with each crit. Predation increases boss damage by 60% and provides permanent stat increases. Frostbite with Perfection provides permanent universal stat boosts while Clemency+Glacial Core creates the healing-to-damage conversion loop (25pt synergy). Chain Lightning with Thunder builds stacks for massive barrages while Voracity provides healing. Beam of Light with Flow+Insight creates the CDR loop (18pt synergy) and Accuracy fires extra projectiles at range for more Light damage procs feeding Flow. Composure as a passive provides 30% crit chance for 5 seconds after casting, feeding Domination's crit scaling. Focus on eliminating enemies quickly to stack Divine Faith while maintaining survivability through multiple healing sources.",
+      "strengths": [
+        "Infinite damage scaling with Divine Faith (up to 75 stacks)",
+        "Infinite crit damage scaling with Domination",
+        "Composure passive provides 30% crit chance burst for Domination scaling",
+        "Clemency+Glacial Core healing-to-damage loop (25pt synergy)",
+        "Flow+Insight CDR loop with Accuracy amplifying ranged procs",
+        "60% increased boss damage through Predation",
+        "Permanent stat increases from Orbs of Power",
+        "Universal stat boosts from Perfection"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences",
+        "Positioning important for optimal lightning hits"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Thunder God",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and lightning-triggered effects for maximum DPS with AoE splash amplification",
+      "playstyle": "Spam basic attacks continuously, triggering empowered lightning attacks, healing, and cooldown reduction with every hit",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (18pt synergy with Domination) reducing cooldown by 0.7s and launching 2 Fangs dealing 60% damage each, Shock empowers every 4th attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of Flow"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Wind increases attack speed by 33% for 5 seconds, Flow reduces cooldown when dealing light damage"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Insight",
+            "Essence of Pain"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Insight adds 200% light damage and 20 Memory Haste (18pt synergy with Flow), Pain adds 40% AoE splash to all Chain Lightning damage for massive area coverage"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Stillness",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely, Stillness provides empowered casts with light damage and stun every 5 seconds, Efficiency reduces cooldown by 26% for higher uptime"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Umbra",
+          "rationale": "Passive essence - scales damage by 42% of Crit Chance and heals from dark damage (doesn't need to be on a memory, complements Domination's crit scaling on Beam of Light)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Starry Sky Tapestry (max level) - +11 Ability Power (Yubar-specific)",
+          "Dazzling Meteor (max level) - +6 Ability Power at levels 5/10/15/20 (Yubar-specific)",
+          "Stellar Flow (max level) - +15 Memory Haste (Yubar-specific)",
+          "Eclipse (max level) - Ability Power = 45% of Attack Damage (Yubar-specific)",
+          "Night Time (max level) - +8 Ability Power (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Now You See Me (max level) - +33% Dodge travel distance (Yubar-specific)",
+          "Peek-a-boo! (max level) - Dodge cooldown -0.8s, travel distance -20% (Yubar-specific)",
+          "Stellar Trace (max level) - +1 Dodge charge, cooldown +1s (Yubar-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Dream-born (max level) - +150% Dream Dust from Shrine of Dismantling (Yubar-specific)",
+          "Cookie Baker (max level) - 1.2% chance for Star Cookie on enemy kill (Yubar-specific)",
+          "God in a Fairy Tale (max level) - -10% Max Health, +20% Dream Dust from all sources (Yubar-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Flow Reversal (max level) - Chain Lightning bounces back to Yubar, dealing 200% damage and healing 20% (Yubar-specific, requires Chain Lightning memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Lightning Strike's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Shock lightning (40% light damage, bounces up to 2 times). Chain Lightning with Pain causes every bounce to deal 40% AoE splash, dramatically increasing area coverage. Flow reduces cooldowns when dealing light damage, and Insight amplifies that with 200% Light damage procs (18pt synergy). Clemency provides 4% leech from all damage. Domination scales crit damage infinitely. Umbra as a passive adds 42% of Crit Chance as bonus damage and heals from dark damage. Simply hold down basic attack - every hit heals you, reduces cooldowns, and triggers lightning effects. Pain on Chain Lightning ensures massive area damage when it bounces between enemies.",
+      "strengths": [
+        "Extremely high attack speed potential (Wind + Hurricane)",
+        "40% AoE splash on Chain Lightning via Pain for massive area damage",
+        "Flow+Insight CDR loop (18pt synergy) for rapid ability cycling",
+        "Umbra passive scales damage with crit chance and adds dark healing",
+        "Multiple healing sources (Voracity, Clemency leech, Umbra)",
+        "Continuous cooldown reduction through basic attacks",
+        "Infinite crit damage scaling with Domination",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Positioning important for optimal lightning bounces",
+        "Lower single-target burst than ability-focused builds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Elemental Harmony Master",
+      "concept": "Multi-element build applying all 4 elemental stacks to trigger Elementalist constellation power for 24% damage boost to fully debuffed enemies",
+      "playstyle": "Apply Fire, Cold, Light, and Dark stacks to enemies, then deal massively amplified damage to fully debuffed targets",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Insight",
+            "Essence of Shock",
+            "Essence of Flow"
+          ],
+          "rationale": "Insight provides Light damage and haste (18pt synergy with Flow), Shock empowers attacks with Light lightning, Flow reduces cooldowns on Light damage - establishes Light element"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Freezing",
+            "Essence of Frost",
+            "Glacial Core"
+          ],
+          "rationale": "Freezing applies Cold stacks, Frost amplifies Cold damage with max health scaling, Glacial Core converts healing to Cold - establishes Cold element"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Twilight",
+            "Essence of Dusk",
+            "Essence of Umbra"
+          ],
+          "rationale": "Twilight converts to Dark and consumes stacks, Dusk fires Dark shards, Umbra scales damage with crit - establishes Dark element"
+        },
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Eternal Flame",
+            "Eye of the Sun",
+            "Essence of Scorch"
+          ],
+          "rationale": "Eternal Flame applies Burn curse (20pt synergy with Eye of the Sun), Eye of the Sun damages burning enemies with Solar Light, Scorch fires fireballs - establishes Fire element"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify all elemental damage"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Starry Sky Tapestry (max level) - +11 Ability Power (Yubar-specific)",
+          "Stellar Flow (max level) - +15 Memory Haste for element rotation (Yubar-specific)",
+          "Elementalist (max level) - +24% damage to enemies with ALL 4 elements (CRITICAL)",
+          "Daylight (max level) - +3% Light damage per stack",
+          "Corrupted Mind (max level) - +3% Dark damage per stack",
+          "Crimson Flame (max level) - +45% Burn damage"
+        ],
+        "life": [
+          "Empowered Persistence (max level) - +120 Maximum Health",
+          "Combat First Aid (max level) - +2.50% Max Health on kill"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards"
+        ],
+        "flexible": []
+      },
+      "strategy": "The goal is to apply all 4 elements to enemies to activate Elementalist's 24% damage bonus. Rotation: Lightning Strike for Light stacks -> Frostbite for Cold stacks -> Chain Lightning for Dark stacks -> Static Discharge for Fire/Burn stacks. Once all 4 elements are applied, ALL damage is increased by 24%. Eternal Flame + Eye of the Sun on Static Discharge creates infinite burn scaling (20pt synergy). Flow+Insight on Lightning Strike creates the CDR loop (18pt synergy). Each element also has its own damage amplifier. Against bosses, cycle through abilities to maintain all 4 elements constantly.",
+      "strengths": [
+        "24% damage bonus with all elements applied (Elementalist)",
+        "Eternal Flame + Eye of the Sun burn synergy (20pt) on fire memory",
+        "Flow+Insight CDR loop (18pt) on light memory",
+        "Excellent area control with multiple damage types",
+        "Strong sustained damage against bosses"
+      ],
+      "weaknesses": [
+        "Requires maintaining 4 different elemental debuffs",
+        "Complex rotation management",
+        "Damage reduced if elements fall off",
+        "Less burst damage than focused builds"
+      ]
+    },
+    {
+      "name": "Glass Cannon Supreme",
+      "concept": "Maximum damage mage sacrificing health for devastating Ability Power using Glass Cannon constellation, Overload, and damage amplification with Wound explosions",
+      "playstyle": "Accept fragility for overwhelming magical destruction - the ultimate high-risk, high-reward caster with massive AoE explosions",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Overload",
+            "Essence of Insight"
+          ],
+          "rationale": "Thunder for massive lightning burst, Overload sacrifices 20% health for 45% empowered damage, Insight adds 200% Light damage and 20 Memory Haste"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Stillness",
+            "Essence of Shock"
+          ],
+          "rationale": "Flow reduces cooldowns on Light damage (18pt synergy with Insight), Stillness empowers casts with 200% light damage and stun every 5 seconds, Shock adds lightning to every 4th attack"
+        },
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Momentum",
+            "Essence of Pain"
+          ],
+          "rationale": "Efficiency and Momentum minimize cooldowns (15pt synergy), Pain adds 40% AoE splash to Static Discharge's massive charged Light damage"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Fangs",
+            "Essence of the Wound"
+          ],
+          "rationale": "Domination scales crit damage infinitely (18pt synergy with Fangs), Fangs provides guaranteed crits every 4th attack, Wound marks enemies and explodes for 275% AoE damage after 3 attacks"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats including Ability Power"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Glass Cannon (max level) - +9 Attack Damage, +13 Ability Power, -15% Max Health (Yubar-specific, CRITICAL)",
+          "Starry Sky Tapestry (max level) - +11 Ability Power (Yubar-specific)",
+          "Dazzling Meteor (max level) - +6 AP per level milestone (Yubar-specific)",
+          "Stellar Flow (max level) - +15 Memory Haste (Yubar-specific)",
+          "Night Time (max level) - +8 Ability Power",
+          "Powerful Blow (max level) - +24% Critical Strike Damage"
+        ],
+        "life": [
+          "Combat First Aid (max level) - +2.50% Max Health on kill (critical for sustain)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Quick Thinking (max level) - Memory Haste increase"
+        ],
+        "flexible": []
+      },
+      "strategy": "Embrace the glass cannon philosophy. Glass Cannon constellation sacrifices 15% Max Health for massive AP. Overload further sacrifices health for 45% empowered casts. Open fights with Stillness-empowered Lightning Strike with Thunder stacks for devastating burst. Wound on Frostbite marks enemies and after 3 attacks explodes for 275% AoE damage - far better sustained damage than Lethality's opener-only bonus. Pain on Static Discharge splashes 40% of its massive charged damage to all nearby enemies. Chain abilities rapidly using Flow+Insight (18pt synergy) and Momentum+Efficiency (15pt synergy) CDR. Domination+Fangs (18pt synergy) scale crit damage infinitely.",
+      "strengths": [
+        "Extremely high Ability Power from Glass Cannon + Overload",
+        "275% AoE explosions every 3 attacks from Wound",
+        "40% AoE splash on Static Discharge from Pain",
+        "Triple CDR synergy pairs: Flow+Insight, Momentum+Efficiency, Domination+Fangs",
+        "Fast ability cycling for rapid burst rotation"
+      ],
+      "weaknesses": [
+        "Very low health pool (-15% from Glass Cannon + Overload cost)",
+        "Extremely fragile - dies to burst damage",
+        "Requires excellent positioning",
+        "Minimal sustain options"
+      ]
+    },
+    {
+      "name": "Chaos Wildcard Mage",
+      "concept": "Build centered on Apple of Discord's random memory transformation (4 free casts per room with no cooldown) combined with Pain splash, Wound explosions, and the Flow+Insight CDR engine",
+      "playstyle": "Adaptive caster who gets 4 free random ability casts per room while maintaining a core lightning+CDR engine for consistent damage",
+      "memories": [
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Apple of Discord",
+            "Essence of Pain",
+            "Essence of the Wound"
+          ],
+          "rationale": "Apple of Discord transforms this memory into a random memory with NO cooldown (4 free casts per room), Pain adds 40% AoE splash to whatever random ability you get, Wound marks enemies for 275% AoE explosions after 3 attacks"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Insight",
+            "Essence of Thunder"
+          ],
+          "rationale": "Flow reduces cooldown when dealing Light damage (18pt synergy with Insight), Insight adds 200% Light damage and 20 Memory Haste, Thunder builds stacks from casts (including Apple of Discord casts!) for massive lightning"
+        },
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Momentum",
+            "Essence of Stillness"
+          ],
+          "rationale": "Efficiency reduces cooldowns (15pt synergy with Momentum), Momentum reduces CD per attack, Stillness empowers casts every 5 seconds with 200% Light damage and stun"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Clemency",
+            "Glacial Core"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds, Clemency provides 4% leech (25pt synergy with Glacial Core), Glacial Core converts healing to cold damage shards"
+        }
+      ],
+      "strategy": "Apple of Discord is the centerpiece: every room it transforms into a random memory with NO cooldown and 4 free casts. Each cast builds Thunder stacks on Chain Lightning AND benefits from Pain's 40% AoE splash and Wound's marking for 275% explosions. This creates an explosive opening to every room. After the 4 free casts, the core engine takes over: Chain Lightning with Flow+Insight (18pt synergy) creates the CDR loop, Static Discharge with Efficiency+Momentum (15pt synergy) and Stillness provides consistent damage and crowd control, and Frostbite with Clemency+Glacial Core (25pt synergy) sustains through healing-to-damage conversion. Thunder stacks from Apple casts make the first Chain Lightning devastating.",
+      "strengths": [
+        "4 free no-cooldown casts per room from Apple of Discord",
+        "40% AoE splash on random abilities via Pain",
+        "275% AoE explosions every 3 attacks from Wound",
+        "Apple casts build Thunder stacks for free",
+        "Clemency+Glacial Core healing loop (25pt synergy)",
+        "Flow+Insight CDR engine (18pt synergy)",
+        "High adaptability - different random memory each room"
+      ],
+      "weaknesses": [
+        "Random memory each room means inconsistent opening damage type",
+        "Apple of Discord limited to 4 casts then reverts",
+        "Requires Apple of Discord (legendary, 0 builds currently use it)",
+        "No control over which memory Apple transforms into"
+      ],
+      "constellation_tree": {
+        "primary": "Imagination",
+        "secondary": "Destruction",
+        "focus": [
+          "Memory haste for faster cycling",
+          "Light damage amplification for CDR engine",
+          "Cooldown reduction stacking",
+          "Ability Power for Apple of Discord cast damage"
+        ]
+      }
+    },
+    {
+      "name": "Inferno Thunder Hybrid",
+      "concept": "Fire+Lightning hybrid exploiting the Eternal Flame+Fever chain explosion loop (22pts) alongside Thunder stacks, with Embertail ricochet spreading burns to feed Eye of the Sun",
+      "playstyle": "Dual-element devastator that spreads infinite burn stacks while building Thunder for massive lightning+fire hybrid bursts",
+      "memories": [
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Fever",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Eternal Flame applies burn curse and scales 2% per burn stack, Fever creates chain explosions that scale with fire stacks (22pt synergy with Eternal Flame), Sulfur converts to fire and adds 50% fire DoT (20pt combined with Eternal Flame's scaling)"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Embertail",
+            "Eye of the Sun"
+          ],
+          "rationale": "Thunder builds stacks for lightning barrages, Embertail ricochets 100% Fire damage to nearby enemies spreading burns (20pt synergy with Eye of the Sun AND Eternal Flame), Eye of the Sun rains Solar Light on burning enemies every 20 seconds (20pt synergy with Embertail)"
+        },
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Insight",
+            "Essence of Pain"
+          ],
+          "rationale": "Flow reduces cooldowns on Light damage (18pt synergy with Insight), Insight adds 200% Light damage and Memory Haste, Pain adds 40% AoE splash amplifying all Chain Lightning bounces"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech from all fire and lightning damage, Voracity restores health per attack, Efficiency reduces cooldown for higher Frostbite uptime"
+        }
+      ],
+      "strategy": "Static Discharge with Eternal Flame+Fever+Sulfur is the fire engine: every hit applies burn curse, Fever creates chain explosions scaling with fire stacks (22pt synergy), and Sulfur adds 50% fire DoT plus fire conversion. Lightning Strike with Embertail ricochets 100% Fire damage to nearby enemies, spreading burns everywhere for Eye of the Sun's Solar Light (20pt synergy) - every 20 seconds, Solar Light rains on ALL burning enemies for 360% Fire damage and 9 more burn stacks. Thunder stacks build from all the casting for devastating lightning bursts. Chain Lightning with Flow+Insight (18pt synergy) keeps everything cycling fast with Pain splashing AoE. The build creates a self-reinforcing fire+lightning loop where more burns = more damage = more stacks = more explosions.",
+      "strengths": [
+        "Eternal Flame+Fever chain explosion loop (22pt synergy)",
+        "Embertail+Eye of the Sun mass burn detonation (20pt synergy)",
+        "Embertail+Eternal Flame ricochet burn spread (20pt synergy)",
+        "Flow+Insight CDR engine (18pt synergy)",
+        "40% AoE splash via Pain on Chain Lightning",
+        "Infinite damage scaling through burn stacks",
+        "Two element hybrid avoids single-element resistance issues"
+      ],
+      "weaknesses": [
+        "Requires finding 3 legendary/unique essences (Eternal Flame, Embertail, Eye of the Sun)",
+        "Fire-resistant enemies reduce half the build's damage",
+        "Complex multi-element rotation management",
+        "Weaker against single targets with no spread potential"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Fire damage amplification and Burn damage bonuses",
+          "Light damage amplification for CDR loop",
+          "Cooldown reduction for rapid cycling",
+          "Crimson Flame (+45% Burn damage)"
+        ]
+      }
+    },
+    {
+      "name": "Wound Detonation Specialist",
+      "concept": "Build centered on Essence of the Wound's 275% AoE explosion combined with Essence of Pain's 40% splash and rapid attack cycling for constant detonations across the battlefield",
+      "playstyle": "Mark enemies with Wound then detonate them in rapid succession with fast-cycling abilities, creating chain AoE explosions across crowds",
+      "memories": [
+        {
+          "name": "Chain Lightning",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Pain",
+            "Essence of Flow"
+          ],
+          "rationale": "Wound marks enemies on hit, exploding for 275% AoE after 3 attacks - Chain Lightning's bouncing nature marks multiple enemies at once, Pain adds 40% AoE splash to both the bounces and the Wound explosions, Flow reduces cooldown on Light damage"
+        },
+        {
+          "name": "Lightning Strike",
+          "essences": [
+            "Essence of Thunder",
+            "Essence of Insight",
+            "Essence of Shock"
+          ],
+          "rationale": "Thunder builds stacks for multiple lightning strikes (each strike counts as an attack against Wound marks), Insight adds 200% Light damage and Memory Haste (18pt synergy with Flow), Shock empowers every 4th basic attack with lightning for more Wound mark hits"
+        },
+        {
+          "name": "Static Discharge",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Efficiency",
+            "Essence of Accuracy"
+          ],
+          "rationale": "Momentum reduces CD per basic attack (15pt synergy with Efficiency), Efficiency provides 26% CDR, Accuracy fires additional projectiles at distant enemies for more Wound mark detonations"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Clemency",
+            "Essence of Wind"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds, Clemency provides 4% leech from all explosion damage, Wind increases attack speed by 33% for faster Wound detonations"
+        }
+      ],
+      "strategy": "Chain Lightning is the primary Wound applicator - each bounce applies a Mark, and after 3 attacks on any marked enemy, it explodes for 275% AoE damage. Pain makes every Chain Lightning bounce AND every Wound explosion deal 40% additional AoE splash, creating chain reactions across crowds. Thunder stacks from frequent casting, and each lightning bolt from Thunder consumption counts as a hit against Wound marks for rapid detonation. Insight+Flow (18pt synergy) keeps Chain Lightning cycling rapidly. Accuracy on Static Discharge fires extra projectiles at range to detonate distant Wound marks. Wind's 33% attack speed boost from Frostbite accelerates basic attack-driven Wound detonations between casts. The build excels at clearing dense mob packs through cascading explosions.",
+      "strengths": [
+        "275% AoE explosions from Wound on multiple enemies simultaneously",
+        "40% AoE splash from Pain amplifies both abilities and explosions",
+        "Chain Lightning bounces apply Wound marks to 5+ enemies per cast",
+        "Thunder bolts rapidly detonate Wound marks",
+        "Flow+Insight CDR loop (18pt synergy) for rapid Chain Lightning cycling",
+        "Momentum+Efficiency CDR stacking (15pt synergy)",
+        "Exceptional mob clearing through chain detonations"
+      ],
+      "weaknesses": [
+        "Wound requires 3 attacks per mark to detonate - slower against single targets",
+        "Relies on enemy density for maximum chain explosion value",
+        "No infinite scaling mechanic (no Divine Faith/Domination)",
+        "Limited survivability compared to healing-focused builds"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Light damage amplification for Chain Lightning",
+          "Cooldown reduction for rapid ability cycling",
+          "Area damage bonuses to amplify explosions",
+          "Attack speed for faster Wound detonations"
+        ]
+      }
+    }
+  ]
+}

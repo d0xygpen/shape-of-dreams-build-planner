@@ -1,0 +1,852 @@
+{
+  "character": "Mist",
+  "builds": [
+    {
+      "name": "Twilight Assassin",
+      "concept": "Dark damage scaling build using Essence of Twilight to convert attacks and consume dark stacks for massive damage and healing",
+      "playstyle": "Melee assassin that scales damage through dark stack consumption",
+      "memories": [
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Twilight",
+            "Essence of the Abyss",
+            "Essence of Umbra"
+          ],
+          "rationale": "Twilight converts basic attacks to dark and consumes stacks, Abyss converts all damage to dark, Umbra scales damage with crit chance and heals from dark damage"
+        },
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Domination",
+            "Essence of Fangs"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Domination scales crit damage with crits, Fangs provides guaranteed crits and cooldown reduction"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Dusk",
+            "Essence of the Void",
+            "Essence of Obsidian"
+          ],
+          "rationale": "Dusk fires dark shards on attacks for stack application, Void explodes for 150% Dark AoE after casting (massive burst after Vile Strike teleport), Obsidian empowers next attack for 250% Dark damage and reduces cooldown"
+        },
+        {
+          "name": "Umbral Edge",
+          "essences": [
+            "Essence of the Starry Sky",
+            "Essence of Panic",
+            "Essence of Momentum"
+          ],
+          "rationale": "Starry Sky increases attack speed with dark damage, Panic provides haste and mobility on damage, Momentum reduces cooldowns"
+        }
+      ],
+      "strategy": "Use Shadow Walk with Twilight to convert all basic attacks to dark damage and consume dark stacks for massive damage and healing. Cutthroat with Paranoia automatically retaliates when taking damage, building crit damage through Domination. Vile Strike now teleports in, then Void explodes for 150% Dark AoE while Obsidian empowers the next attack for 250% Dark burst and CDR. Dusk adds passive dark shard application for more stack building. Umbral Edge provides sustained dark damage buff. Focus on building dark stacks through abilities, then consuming them with Twilight-enhanced attacks for exponential damage scaling.",
+      "strengths": [
+        "Exponential dark damage scaling through stack consumption",
+        "150% Dark AoE burst from Void after every Vile Strike cast",
+        "250% Dark burst + CDR from Obsidian for rapid ability cycling",
+        "Automatic retaliation through Paranoia",
+        "High critical strike potential",
+        "Self-sustaining through dark damage healing"
+      ],
+      "weaknesses": [
+        "Requires dark stack application for maximum effectiveness",
+        "Positioning dependent for optimal damage",
+        "Lower early game damage before stacks build",
+        "Requires multiple dark damage sources"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Critical strike chance and damage",
+          "Dark damage amplification",
+          "Attack speed bonuses",
+          "Cooldown reduction"
+        ]
+      }
+    },
+    {
+      "name": "Crimson Executioner",
+      "concept": "Critical strike build using Essence of Crimson for empowered attacks that trigger explosions and healing, paired with Fangs for aligned 4th-attack procs",
+      "playstyle": "High-crit assassin with explosive area damage where every 4th attack triggers multiple simultaneous effects",
+      "memories": [
+        {
+          "name": "Shadow Volley",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Fangs",
+            "Essence of Composure"
+          ],
+          "rationale": "Crimson empowers every 4th attack with dark explosion, Fangs makes every 4th attack a guaranteed crit that reduces cooldown and launches projectiles (aligned proc on same attack!), Composure increases crit chance for bigger Crimson explosion radius"
+        },
+        {
+          "name": "Stygian Rush",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Shock",
+            "Essence of Wind"
+          ],
+          "rationale": "Domination scales crit damage infinitely (fed by Fangs crits), Shock empowers every 4th attack with lightning bounces, Wind boosts attack speed for faster 4th-attack cycling"
+        },
+        {
+          "name": "Umbral Edge",
+          "essences": [
+            "Essence of Umbra",
+            "Essence of the Starry Sky",
+            "Essence of Obsidian"
+          ],
+          "rationale": "Umbra scales damage with crit chance and heals from dark damage, Starry Sky increases attack speed up to 40% with dark damage, Obsidian empowers next attack for 250% Dark burst + 1s CDR"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Quicksilver",
+            "Essence of Panic"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Quicksilver enhances mobility, Panic provides haste and mobility on damage"
+        }
+      ],
+      "strategy": "Shadow Volley with Crimson and Fangs creates a devastating 4th-attack combo: guaranteed crit + dark explosion + fang projectiles all triggering simultaneously. This aligned proc (18pt synergy) means every 4th basic attack deals explosion damage, heals 22% per enemy, launches fangs, and reduces cooldowns. Domination on Stygian Rush scales crit damage infinitely with each crit from Fangs. Umbral Edge with Obsidian adds 250% Dark burst + CDR. Shadow Walk with Paranoia provides automatic retaliation. Focus on maximizing attack speed (Wind + Starry Sky) to reach every 4th attack faster.",
+      "strengths": [
+        "Aligned 4th-attack procs (Crimson + Fangs) for massive burst every 4 hits",
+        "Infinite crit damage scaling through Domination",
+        "250% Dark burst from Obsidian on empowered attacks",
+        "High area damage through Crimson explosions",
+        "Automatic retaliation through Paranoia",
+        "Self-sustaining through dark damage healing"
+      ],
+      "weaknesses": [
+        "Requires high crit chance for optimal performance",
+        "Positioning dependent",
+        "Lower single-target burst than pure execution builds",
+        "Complex resource management"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Critical strike chance and damage",
+          "Dark damage amplification",
+          "Attack speed bonuses",
+          "Cooldown reduction"
+        ]
+      }
+    },
+    {
+      "name": "Divine Shadow Master",
+      "concept": "Scaling build using Divine Faith for infinite growth combined with dark damage specialization",
+      "playstyle": "Scaling assassin that becomes exponentially stronger with each kill",
+      "memories": [
+        {
+          "name": "Shadow Overdrive",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Fangs"
+          ],
+          "rationale": "Divine Faith scales damage and health with kills, Domination scales crit damage, Fangs provides guaranteed crits"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Perfection",
+            "Essence of Momentum",
+            "Essence of Voracity"
+          ],
+          "rationale": "Perfection provides universal stat boosts, Momentum reduces cooldowns, Voracity provides healing after attacks"
+        },
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of the Starry Sky",
+            "Essence of Umbra"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Starry Sky increases attack speed with dark damage, Umbra scales damage with crit chance"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Dusk",
+            "Essence of Obsidian",
+            "Essence of Composure"
+          ],
+          "rationale": "Dusk fires dark shards on attacks for sustained damage, Obsidian empowers next attack for 250% Dark damage + 1s CDR (replacing Efficiency for stronger burst), Composure increases crit chance"
+        }
+      ],
+      "strategy": "Shadow Overdrive with Divine Faith scales both damage and max health infinitely with each kill. Blade Storm with Perfection provides permanent universal stat boosts while hitting multiple enemies for Faith stacks. Cutthroat with Paranoia automatically retaliates when taking damage. Vile Strike now features Obsidian for a 250% Dark damage empowered attack plus 1s CDR after teleporting in, giving much stronger burst than flat Efficiency CDR. Focus on eliminating enemies quickly to stack Faith, becoming exponentially stronger. Perfection's universal stats amplify all aspects while Divine Faith provides infinite scaling.",
+      "strengths": [
+        "Infinite scaling with Divine Faith",
+        "Permanent universal stat boosts",
+        "250% Dark burst from Obsidian on Vile Strike for assassination potential",
+        "Exponential damage and health growth",
+        "Automatic retaliation through Paranoia"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Requires aggressive playstyle",
+        "Vulnerable during Shadow Overdrive cooldown"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Life",
+        "focus": [
+          "Critical strike chance and damage",
+          "Kill-based scaling bonuses",
+          "Maximum health increases",
+          "Universal stat bonuses"
+        ]
+      }
+    },
+    {
+      "name": "Automated Paranoia Retaliator",
+      "concept": "Fully automated build using Essence of Paranoia to auto-cast on damage, combined with Vengeance for damage-reactive retaliation and basic attacks to reduce cooldowns through Momentum and Fangs",
+      "playstyle": "Passive build that auto-retaliates on damage while basic attacks keep abilities ready",
+      "memories": [
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Vengeance",
+            "Essence of Fangs"
+          ],
+          "rationale": "Paranoia auto-casts Cutthroat when taking damage, Vengeance fires 2 blades on damage AND increases this Memory's damage/healing by 34% for 5s (Paranoia+Vengeance is an 18pt damage-reactive retaliation synergy), Fangs provides guaranteed crits that reduce cooldown and launch projectiles"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Voracity",
+            "Essence of Clemency"
+          ],
+          "rationale": "Momentum reduces cooldown with each basic attack for near-permanent uptime, Voracity restores 6 health per attack for 5 seconds after casting (perfect for basic attack builds), Clemency provides 4% leech from damage dealt"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Reflex",
+          "rationale": "Passive essence - unleashes cold retaliation automatically when taking damage (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Domination",
+          "rationale": "Passive essence - increases crit chance by 20% and scales crit damage with crits (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control (doesn't need to be on a memory)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (doesn't need to be on a memory)"
+        }
+      ],
+      "strategy": "Cutthroat with Paranoia automatically casts whenever you take damage, dealing massive dark damage. Vengeance now fires 2 blades on damage AND boosts Cutthroat's damage/healing by 34% for 5 seconds, creating a powerful damage-reactive retaliation loop (18pt synergy). Fangs ensures every 4th attack is a crit that further reduces cooldown and launches fangs. Shadow Walk with Momentum reduces its cooldown with every basic attack, Voracity provides 6 health per attack for 5 seconds after casting, and Clemency provides 4% leech from all damage dealt. Equip passive essences (Reflex, Domination, Snow, Perfection) separately. Simply basic attack enemies - every attack reduces cooldowns and heals you, while taking damage triggers Paranoia auto-cast, Vengeance blades, and Reflex cold retaliation simultaneously.",
+      "strengths": [
+        "Fully automated retaliation on damage with triple response (Paranoia + Vengeance + Reflex)",
+        "34% damage/healing boost from Vengeance on every damage intake",
+        "Basic attacks continuously reduce cooldowns",
+        "Minimal active memory management required",
+        "High uptime through attack-based cooldown reduction"
+      ],
+      "weaknesses": [
+        "Requires taking damage to trigger optimally",
+        "Lower damage without enemy attacks",
+        "Positioning important to maximize retaliation hits",
+        "Requires Paranoia essence (legendary)"
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Critical strike chance",
+          "Attack speed bonuses",
+          "Cooldown reduction",
+          "Basic attack damage"
+        ]
+      }
+    },
+    {
+      "name": "Maximum Damage Shadow Assassin",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and Void for 150% Dark AoE burst",
+      "playstyle": "High-damage assassin that scales infinitely with kills while maintaining strong survivability through healing and leech",
+      "memories": [
+        {
+          "name": "Shadow Overdrive",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks), Domination scales crit damage with each crit, Predation increases damage to bosses by 60% and drops Orbs of Power for permanent stat increases"
+        },
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Fangs",
+            "Essence of Crimson"
+          ],
+          "rationale": "Paranoia auto-casts on damage, Fangs provides guaranteed crits and cooldown reduction, Crimson empowers every 4th attack with dark explosion that heals 22% per enemy hit (44% on bosses)"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Perfection provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste), Clemency provides 4% leech from all damage, Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of the Void",
+            "Essence of the Starry Sky"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Void triggers 150% Dark AoE on next attack after casting Vile Strike (perfect synergy with teleport-in), Starry Sky increases attack speed up to 40% with dark damage"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Composure",
+          "rationale": "Passive essence - increases crit chance by 30% for 5 seconds after casting (doesn't need to be on a memory, complements Domination's crit scaling on Shadow Overdrive)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Aggressive Stance (max level)",
+          "Lucky Clover (max level)",
+          "Night Time (max level)",
+          "Hurricane (max level)",
+          "Mist-specific Destruction powers (prioritize damage scaling)"
+        ],
+        "life": [
+          "Mist-specific Life powers (prioritize health and healing)",
+          "Common Life powers for survivability"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards",
+          "Mist-specific Imagination powers",
+          "Additional common Imagination powers for utility"
+        ],
+        "flexible": [
+          "Mist-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Shadow Overdrive with Divine Faith scales damage and health infinitely with each kill (up to 75 stacks = 37.5% damage/healing increase + 300 max health). Domination on Shadow Overdrive scales crit damage infinitely with each crit. Predation increases boss damage by 60% and provides permanent stat increases. Cutthroat with Paranoia auto-casts on damage, Fangs ensures crits reduce cooldowns, and Crimson provides healing explosions. Blade Storm with Perfection provides permanent universal stat boosts while Clemency provides 4% leech. Vile Strike now features Essence of the Void - after teleporting in, the next attack explodes for 150% Dark AoE, a huge upgrade over Composure's conditional crit buff. Starry Sky still provides attack speed stacking with dark damage. Composure as a passive provides 30% crit chance for 5 seconds after casting, feeding Domination's crit scaling. Focus on eliminating enemies quickly to stack Divine Faith while maintaining survivability through multiple healing sources (Crimson explosions, Clemency leech, Voracity healing).",
+      "strengths": [
+        "Infinite damage scaling with Divine Faith (up to 75 stacks)",
+        "Infinite crit damage scaling with Domination",
+        "150% Dark AoE burst from Void on every Vile Strike cast",
+        "Composure passive provides 30% crit chance burst for Domination scaling",
+        "Multiple healing sources (Crimson, Clemency, Voracity)",
+        "60% increased boss damage through Predation",
+        "Permanent stat increases from Orbs of Power",
+        "Automatic retaliation through Paranoia",
+        "Universal stat boosts from Perfection"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences",
+        "Positioning important for optimal damage"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Assassin",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects for maximum DPS",
+      "playstyle": "Spam basic attacks continuously, triggering empowered attacks, healing, and cooldown reduction with every hit",
+      "memories": [
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Crimson"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (reducing cooldown by 0.7s) and launches 2 Fangs dealing 60% damage each, Crimson empowers every 4th attack with dark explosion (100% dark damage) and heals 22% per enemy hit (44% on bosses)"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of the Starry Sky"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Wind increases attack speed by 33% for 5 seconds, Starry Sky increases attack speed by 10% per hit up to 40% with dark damage (refreshes on attack)"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of the Wound",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech from all damage, Wound applies a Mark that explodes for 275% AoE after 3 attacks (perfect for basic attack spam - triggers constantly), Efficiency reduces cooldown by 26% for more frequent casts"
+        },
+        {
+          "name": "Umbral Edge",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Panic",
+            "Essence of Shock"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely, Panic provides haste and mobility on damage, Shock empowers every 4th basic attack with lightning (40% light damage, bounces up to 2 times, scales with crit chance)"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Umbra",
+          "rationale": "Passive essence - scales damage by 42% of Crit Chance and heals from dark damage (doesn't need to be on a memory, complements Domination's crit scaling on Umbral Edge)"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste)"
+        },
+        {
+          "name": "Essence of Snow",
+          "rationale": "Passive essence - provides barrier of 40 that recharges and fires snowballs for crowd control"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Astrid's Smithing (max level) - +12 Attack Damage (Mist-specific)",
+          "Strike the Weakness! (max level) - +11 Attack Damage and +20% Crit Chance for 2.5s after dash/teleport (Mist-specific)",
+          "Duelist's Focus (max level) - +35% damage to Bosses when Health >90% (Mist-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Honey-Glazed Fruit (max level) - Health Potions grant 150% Barrier of healing (Mist-specific)",
+          "Plate Pauldrons (max level) - +45 Armor (disappears for 8s on damage) (Mist-specific)",
+          "Light as a Feather (max level) - +12% Movement Speed (+50% when Health >90%) (Mist-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Noble Lineage (max level) - Start with 240 Gold, Merchant prices +10% (Mist-specific)",
+          "Cat Lover (max level) - Gain 1,200 Gold and Dream Dust when petting Cat (Mist-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "West Wind (max level) - +33% Lunge cast range (Mist-specific, requires Lunge memory)",
+          "Cutting Through Wind (max level) - Lunge deals 50% less damage but +100% cooldown reduction when Astrid's Masterpiece triggers (Mist-specific, requires Lunge memory)",
+          "Focused Strike (max level) - Lunge single target, -1.5s cooldown, +100% damage, knockback (Mist-specific, requires Lunge memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Cutthroat's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Crimson explosion (100% dark damage) that heals 22% per enemy hit. Every 4th attack also triggers Shock lightning (40% light damage, bounces). Vile Strike now includes Essence of the Wound - every time it hits an enemy, it applies a Mark that detonates for 275% AoE damage after just 3 attacks, which basic attack spam triggers constantly. Cast Shadow Walk frequently for Voracity healing (6 health per attack for 5 seconds) and Wind attack speed boost (33% for 5 seconds). Starry Sky stacks attack speed up to 40% with dark damage. Clemency provides 4% leech from all damage. Domination scales crit damage infinitely. Umbra as a passive adds 42% of Crit Chance as bonus damage and heals from dark damage. Simply hold down basic attack - every hit heals you, reduces cooldowns, applies Wound marks, and triggers multiple effects.",
+      "strengths": [
+        "Extremely high attack speed potential (Wind + Starry Sky + Hurricane)",
+        "275% AoE explosions from Wound every 3 attacks on marked targets",
+        "Umbra passive scales damage with crit chance and adds dark healing",
+        "Multiple healing sources (Crimson explosions, Voracity, Clemency leech, Umbra)",
+        "Continuous cooldown reduction through basic attacks",
+        "Multiple empowered attacks every 4th hit (Fangs crit + Crimson explosion + Shock lightning)",
+        "Infinite crit damage scaling with Domination",
+        "Minimal active memory management required",
+        "High area damage through explosions and bounces"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Positioning important for optimal explosion hits",
+        "Lower single-target burst than ability-focused builds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Crowd Control Chain Assassin",
+      "concept": "CC-focused build using Essence of Bleakness for 50% damage to CC'd enemies, Stillness for stuns, and cold effects for consistent slows",
+      "playstyle": "Control enemies with stuns and slows, then capitalize on their helplessness with massive damage bonuses",
+      "memories": [
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Stillness",
+            "Essence of Freezing"
+          ],
+          "rationale": "Bleakness provides 50% increased damage to slowed/stunned enemies, Stillness empowers casts after being still and stuns enemies, Freezing applies cold stacks that slow"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Rigidity"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage and fires ice shards (triggers Frost stuns), Frost deals cold damage equal to 10% max HP and permanently increases max HP (Glacial Core + Frost is an 18pt infinite HP scaling loop), Rigidity provides barrier on hit especially with cold damage"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Momentum reduces cooldowns for more CC uptime, Fangs provides crits, Efficiency further reduces cooldowns"
+        },
+        {
+          "name": "Blade Storm",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Wind",
+            "Essence of Voracity"
+          ],
+          "rationale": "Clemency provides leech (feeds Glacial Core's healing-to-cold conversion), Wind boosts attack speed, Voracity provides healing (also feeds Glacial Core)"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Essence of Snow",
+          "rationale": "Fires snowballs for additional cold application and crowd control"
+        },
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats to amplify damage output"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Astrid's Smithing (max level) - +12 Attack Damage",
+          "Strike the Weakness! (max level) - +11 Attack Damage and +20% Crit Chance after dash",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Aggressive Stance (max level) - +8 Attack Damage",
+          "Powerful Blow (max level) - +24% Critical Strike Damage"
+        ],
+        "life": [
+          "Light as a Feather (max level) - +12% Movement Speed for positioning",
+          "Plate Pauldrons (max level) - +45 Armor",
+          "Empowered Persistence (max level) - +120 Maximum Health",
+          "Combat First Aid (max level) - +2.50% Max Health on kill"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards"
+        ],
+        "flexible": [
+          "West Wind (max level) - +33% Lunge cast range for gap closing"
+        ]
+      },
+      "strategy": "Position carefully, then use Stillness-empowered Cutthroat to stun enemies. Apply cold stacks using Freezing for slows and Snow snowballs. Every slowed or stunned enemy takes 50% increased damage from Bleakness. Shadow Walk now features the Glacial Core + Frost infinite loop: Frost deals cold damage equal to 10% max HP and permanently increases max HP by 1 each trigger, while Glacial Core converts 272% of all healing to cold damage shards. Clemency and Voracity healing both feed into Glacial Core, creating a self-sustaining damage engine. Rigidity provides defensive barriers when dealing cold damage. The rotation is: position still, Stillness-empowered stun, cold application, Bleakness-amplified burst, repeat. Against bosses, maintain constant CC with alternating stuns and slows while dealing amplified damage.",
+      "strengths": [
+        "50% damage bonus to all CC'd enemies",
+        "Glacial Core + Frost infinite HP scaling loop (18pt synergy)",
+        "Healing from Clemency/Voracity feeds Glacial Core for constant cold damage",
+        "Consistent crowd control through stuns and slows",
+        "Defensive barriers through Rigidity",
+        "High burst potential with Stillness empowerment"
+      ],
+      "weaknesses": [
+        "Requires positioning discipline for Stillness",
+        "Less effective against CC-immune enemies",
+        "Lower sustained damage without CC uptime",
+        "Complex rotation management"
+      ]
+    },
+    {
+      "name": "Low Health Berserker",
+      "concept": "Risk-reward build using health sacrifice mechanics: Direness for low-health cooldowns, Blood Drops for emergency healing, and damage bonuses when health is low",
+      "playstyle": "Deliberately stay at low health to unlock massive damage bonuses and near-instant cooldowns",
+      "memories": [
+        {
+          "name": "Shadow Overdrive",
+          "essences": [
+            "Essence of Direness",
+            "Essence of Overload",
+            "Essence of Blood Drops"
+          ],
+          "rationale": "Direness reduces cooldowns dramatically at 30% health, Overload sacrifices health to empower casts, Blood Drops provides emergency healing when critical"
+        },
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Contempt",
+            "Essence of Domination"
+          ],
+          "rationale": "Paranoia auto-casts on damage (frequent at low health), Contempt increases damage as target health decreases, Domination scales crit damage"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Fangs",
+            "Essence of Momentum",
+            "Essence of the Wound"
+          ],
+          "rationale": "Fangs provides crits and cooldown reduction, Momentum further reduces cooldowns, Wound applies a Mark that explodes for 275% AoE after 3 attacks (constant detonations with near-instant cooldowns)"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Wind",
+            "Essence of Panic",
+            "Essence of Voracity"
+          ],
+          "rationale": "Wind boosts attack speed, Panic provides haste when taking damage, Voracity provides controlled healing to stay at optimal low-health threshold"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stats including Max Health for better low-health threshold"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Astrid's Smithing (max level) - +12 Attack Damage",
+          "Strike the Weakness! (max level) - +11 Attack Damage and +20% Crit Chance after dash",
+          "Duelist's Focus (max level) - +35% damage to Bosses (careful health management)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance",
+          "Powerful Blow (max level) - +24% Critical Strike Damage"
+        ],
+        "life": [
+          "Honey-Glazed Fruit (max level) - Health Potions grant Barrier for safe recovery",
+          "Plate Pauldrons (max level) - +45 Armor for low-health survivability",
+          "Combat First Aid (max level) - +2.50% Max Health on kill for sustain"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards"
+        ],
+        "flexible": [
+          "Focused Strike (max level) - Lunge single target, +100% damage"
+        ]
+      },
+      "strategy": "Let health drop to 30% to activate Direness's massive cooldown reduction. At low health, abilities reset almost instantly. Overload empowers each cast at the cost of more health, keeping you in the danger zone. Blood Drops provides emergency healing if you drop too low - it sacrifices quality for 40% health recovery. Paranoia auto-casts when taking damage, which happens frequently at low health. Vile Strike now includes Essence of the Wound, applying Marks that explode for 275% AoE after just 3 attacks - with near-instant cooldowns from Direness, you're casting Vile Strike constantly and detonating Wound marks everywhere. The build snowballs: low health, fast cooldowns, more damage, more kills, Combat First Aid healing maintains the sweet spot. Use Voracity healing carefully to stay at optimal low-health threshold without dying.",
+      "strengths": [
+        "Near-instant cooldowns at low health",
+        "275% AoE explosions from Wound marks with rapid Vile Strike spam",
+        "Massive damage amplification through Overload",
+        "Emergency recovery through Blood Drops",
+        "Paranoia synergy with taking damage",
+        "High skill ceiling with risk-reward gameplay"
+      ],
+      "weaknesses": [
+        "Extremely risky - one mistake can be fatal",
+        "Requires precise health management",
+        "Less effective when forced to heal",
+        "Not recommended for beginners"
+      ]
+    },
+    {
+      "name": "Inferno Assassin",
+      "concept": "Fire damage build exploiting the Eternal Flame + Fever chain explosion loop (22pt synergy) and Sulfur's full fire conversion + DoT stacking (20pt synergy) for exponential burn damage",
+      "playstyle": "Apply burn stacks through fire abilities, then watch enemies chain-explode as Fever detonations spread through packs",
+      "memories": [
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Fever",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Eternal Flame curses enemies so ALL your damage applies burn stacks and damage scales 2% per burn stack, Fever causes infected enemies to explode after 2s dealing 130% Fire damage (radius +30% and damage +10% per burn stack), Sulfur converts all Cutthroat damage to Fire and increases Fire DoT by 50%. Triple fire synergy: Cutthroat hits apply burns via Eternal Flame, Fever detonates for chain explosions, Sulfur amplifies everything"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Scorch",
+            "Essence of Charcoal",
+            "Essence of Momentum"
+          ],
+          "rationale": "Scorch fires 3 fireballs on cast for rapid burn application, Charcoal fires shards that deal 100% Fire damage to burning targets (constant proc from Eternal Flame burns), Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Pain",
+            "Embertail",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Pain deals 40% AoE splash on ALL damage (multiplies every fire hit into area damage), Embertail ricochets deal 100% Fire damage and scale 8% per burning enemy (exponential scaling in packs), Efficiency reduces cooldown for more frequent fire application"
+        },
+        {
+          "name": "Umbral Edge",
+          "essences": [
+            "Eye of the Sun",
+            "Essence of Clemency",
+            "Essence of Domination"
+          ],
+          "rationale": "Eye of the Sun rains Solar Light every 20s on burning enemies (360% Fire + 9 burn stacks, massively feeds Eternal Flame scaling), Clemency provides 4% leech from all fire damage for sustain, Domination scales crit damage"
+        }
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Fire damage amplification",
+          "Critical strike chance and damage",
+          "Cooldown reduction",
+          "Attack speed for faster burn application"
+        ]
+      },
+      "strategy": "The core loop exploits three powerful synergies: Eternal Flame + Fever (22pts) creates chain explosions that scale with burn stacks, Eternal Flame + Sulfur (20pts) converts everything to fire and amplifies DoT by 50%, and Embertail scales 8% per burning enemy. Open with Cutthroat to apply Eternal Flame curse and burns through Sulfur-converted fire damage. Fever immediately begins chain-detonating enemies. Shadow Walk fires 3 Scorch fireballs to spread burns rapidly, while Charcoal fires 100% Fire shards at burning targets. Vile Strike with Pain adds 40% AoE splash to every fire hit, while Embertail ricochets bounce between burning enemies dealing escalating damage. Every 20 seconds, Eye of the Sun rains massive fire on all burning enemies, adding 9 burn stacks each. Against packs, the chain reaction is devastating: one Fever explosion spreads burns to nearby enemies, triggering more Fever explosions, which apply more burns. Clemency keeps you alive with 4% leech on all fire damage.",
+      "strengths": [
+        "Exponential chain explosion scaling through Fever + Eternal Flame (22pt synergy)",
+        "Full fire conversion + 50% DoT amplification from Sulfur (20pt synergy with Eternal Flame)",
+        "40% AoE splash on ALL damage from Pain (0-use essence, massively underutilized)",
+        "Embertail scales 8% per burning enemy for exponential pack damage",
+        "Eye of the Sun adds 9 burn stacks every 20s for massive scaling spikes",
+        "Self-sustaining through Clemency leech on constant fire damage",
+        "Devastating against packs where chain explosions cascade"
+      ],
+      "weaknesses": [
+        "Requires burn application before reaching full damage",
+        "Less effective against single targets without nearby enemies for chain explosions",
+        "Fire-focused - less effective against fire-resistant enemies",
+        "Requires multiple legendary/unique essences (Eternal Flame, Embertail, Eye of the Sun)"
+      ]
+    },
+    {
+      "name": "Void Reaper",
+      "concept": "Dark AoE burst build exploiting three severely underused essences: Void (150% Dark AoE, 0 builds), Pain (40% AoE splash, 0 builds), and Wound (275% AoE explosion, 0 builds) for constant area detonations",
+      "playstyle": "Cast abilities rapidly to trigger Void explosions, apply Wound marks, and watch Pain amplify every hit into area devastation",
+      "memories": [
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of the Void",
+            "Essence of Pain",
+            "Essence of Obsidian"
+          ],
+          "rationale": "Void causes next attack after cast to explode for 150% Dark AoE, Pain adds 40% AoE splash to ALL damage dealt (including Void's explosion for double AoE), Obsidian empowers next attack for 250% Dark damage + 1s CDR (stacks with Void for a 400% Dark AoE burst on single attack)"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Twilight",
+            "Essence of Domination"
+          ],
+          "rationale": "Wound applies Marks that explode for 275% AoE after 3 attacks (constant in this rapid-fire build), Twilight converts attacks to Dark and consumes stacks for massive damage + healing, Domination scales crit damage infinitely"
+        },
+        {
+          "name": "Shadow Walk",
+          "essences": [
+            "Essence of Dusk",
+            "Essence of Momentum",
+            "Essence of Fangs"
+          ],
+          "rationale": "Dusk fires 2 dark shards per attack for 5s after casting (rapid dark stack application), Momentum reduces cooldown with each attack for constant Shadow Walk cycling, Fangs guarantees crits and further reduces cooldown"
+        },
+        {
+          "name": "Umbral Edge",
+          "essences": [
+            "Essence of the Starry Sky",
+            "Essence of Clemency",
+            "Essence of Umbra"
+          ],
+          "rationale": "Starry Sky increases attack speed up to 40% with dark damage, Clemency provides 4% leech for sustain, Umbra scales damage with crit chance and heals from dark damage"
+        }
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Dark damage amplification",
+          "Critical strike chance and damage",
+          "Cooldown reduction for rapid casting",
+          "Attack speed bonuses"
+        ]
+      },
+      "strategy": "This build exploits three essences with 0 current usage. The burst rotation: Cast Cutthroat (triggers Void + Obsidian), next attack deals 150% Dark AoE (Void) + 250% Dark damage (Obsidian) + 40% AoE splash on everything (Pain) = a single attack dealing ~400% Dark AoE. Then cast Vile Strike to apply Wound marks - after just 3 basic attacks the mark detonates for 275% AoE to all nearby enemies. Twilight converts all attacks to Dark damage, feeding dark stacks that get consumed for massive burst + healing. Shadow Walk with Dusk fires dark shards constantly while Momentum keeps all cooldowns cycling. The pattern: Cast Cutthroat -> devastating AoE attack -> basic attack 3 times -> Wound explodes -> Cast Vile Strike -> repeat. Every ability cast triggers Void's 150% Dark AoE on the next attack, and Pain amplifies literally every damage source by 40% AoE splash.",
+      "strengths": [
+        "Triple underused essence exploitation (Void, Pain, Wound all at 0 current builds)",
+        "400% Dark AoE burst from single empowered attacks (Void + Obsidian + Pain)",
+        "275% AoE explosions from Wound marks every 3 attacks",
+        "40% AoE splash on ALL damage sources from Pain",
+        "Self-healing through Twilight dark stack consumption and Umbra dark healing",
+        "Infinite crit scaling through Domination",
+        "Rapid ability cycling through Momentum + Fangs CDR"
+      ],
+      "weaknesses": [
+        "Requires rapid ability cycling for optimal burst",
+        "Void and Obsidian empowerments must be used within 4-5 seconds",
+        "Less effective when abilities are on cooldown",
+        "Complex rotation management for maximum AoE overlap"
+      ]
+    },
+    {
+      "name": "Dark Storm Executioner",
+      "concept": "Twilight + Dusk + Starry Sky dark stacking amplification build (16pt synergy each) combined with Crimson + Domination crit scaling (18pt synergy) for a dark damage hurricane",
+      "playstyle": "Build dark stacks through constant shard generation, consume them for massive burst, repeat with attack speed that compounds with every hit",
+      "memories": [
+        {
+          "name": "Shadow Volley",
+          "essences": [
+            "Essence of Twilight",
+            "Essence of Dusk",
+            "Essence of the Starry Sky"
+          ],
+          "rationale": "Twilight converts attacks to Dark and consumes 3+ stacks for 54% damage per stack + 6 healing per stack, Dusk fires 2 dark shards per attack for 5s (rapid stack application), Starry Sky increases attack speed up to 40% with dark damage (Twilight + Dusk + Starry Sky is a triple dark synergy worth 32pts total)"
+        },
+        {
+          "name": "Cutthroat",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Domination",
+            "Essence of Fangs"
+          ],
+          "rationale": "Crimson empowers every 4th attack with 100% Dark explosion + 22% heal per enemy (Crimson + Domination is 18pt crit scaling synergy), Domination scales crit damage infinitely, Fangs guarantees crits every 4th attack and reduces cooldown"
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of the Abyss",
+            "Essence of Obsidian",
+            "Essence of Composure"
+          ],
+          "rationale": "Abyss converts ALL Vile Strike damage to Dark (feeding Twilight stacks), Obsidian empowers next attack for 250% Dark damage + 1s CDR, Composure increases crit chance by 30% for 5s after casting"
+        },
+        {
+          "name": "Umbral Edge",
+          "essences": [
+            "Essence of Umbra",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Umbra scales damage by 42% of crit chance and heals from dark damage, Clemency provides 4% leech from all damage, Momentum reduces cooldowns with each attack"
+        }
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Imagination",
+        "focus": [
+          "Dark damage amplification",
+          "Critical strike chance and damage",
+          "Attack speed bonuses",
+          "Cooldown reduction"
+        ]
+      },
+      "strategy": "Cast Shadow Volley to activate Dusk (2 dark shards per attack for 5s) and Starry Sky (10% attack speed per hit, up to 40% with dark damage). Every basic attack is Dark (Twilight) and fires 2 additional dark shards (Dusk), building dark stacks extremely fast. Starry Sky compounds attack speed with every dark hit. When targets reach 3+ dark stacks, Twilight consumes them for 54% damage per stack + 6 healing per stack. Cutthroat with Crimson + Fangs means every 4th attack explodes for 100% Dark damage, heals 22% per enemy, guarantees a crit, and reduces cooldown. Domination scales crit damage infinitely from all these crits. Vile Strike with Abyss converts its 200% damage fully to Dark (more stacks), Obsidian adds 250% Dark burst, and Composure gives 30% crit for 5s. Umbral Edge with Umbra adds 42% of crit chance as bonus damage to everything. The result: a hurricane of dark shards, explosions, and stack consumption.",
+      "strengths": [
+        "Triple dark synergy on Shadow Volley (Twilight + Dusk + Starry Sky, ~32pts)",
+        "Crimson + Domination crit scaling (18pt synergy)",
+        "Attack speed compounds with every dark hit through Starry Sky",
+        "Massive dark stack generation through Dusk shards + Twilight conversion",
+        "Self-healing through Twilight consumption, Crimson explosions, Umbra, and Clemency",
+        "250% Dark burst from Obsidian on Vile Strike",
+        "Infinite crit damage scaling through Domination + Fangs"
+      ],
+      "weaknesses": [
+        "Requires dark stack buildup before maximum burst",
+        "Complex resource tracking (dark stacks, crit chance, ability timers)",
+        "Dark-focused - weaker against dark-resistant enemies",
+        "Requires multiple epic/legendary essences"
+      ]
+    }
+  ]
+}

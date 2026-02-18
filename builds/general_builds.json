@@ -1,0 +1,379 @@
+{
+  "character": "General (All Characters)",
+  "builds": [
+    {
+      "name": "Glacial Shield Defense",
+      "concept": "Low cooldown defensive build using Flash Freeze with cold damage essences for constant shield generation and area control, enhanced by the Glacial Core + Clemency healing-to-damage loop",
+      "playstyle": "Defensive tank that spams Flash Freeze for shields while dealing cold damage and gaining armor. Clemency leech feeds Glacial Core for constant cold shard output.",
+      "best_synergy": "Yubar (Mage with shield generation and cold damage focus) or Vesper (High health synergizes with Essence of Frost scaling)",
+      "memories": [
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Essence of Freezing",
+            "Glacial Core",
+            "Essence of Clemency"
+          ],
+          "rationale": "Freezing releases cold burst on cast (AoE scales with quality). Glacial Core converts healing to cold damage shards AND heals 3.6% max HP every 5s on damage (doubled for cold). Clemency heals 4% of ALL damage dealt - this directly feeds Glacial Core, creating a self-sustaining healing-to-damage loop (25pt synergy). Flash Freeze's cold damage + shields + Clemency leech = constant cold shard generation."
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Frost",
+            "Essence of Momentum",
+            "Essence of Aftershock"
+          ],
+          "rationale": "Frost scales cold damage with max health and stuns (permanent health scaling). Momentum reduces Ice Shield cooldown through basic attacks for more frequent barriers. Aftershock provides delayed shockwave with up to 22 Armor stacking and stun - moved here to spread defensive value across both memories."
+        }
+      ],
+      "strategy": "Flash Freeze is your primary memory with the Glacial Core + Clemency engine: deal cold damage via Freezing burst and Flash Freeze base, Clemency heals 4% of all that damage, then Glacial Core converts 272% of all healing into cold damage shards that hit nearby enemies. Those shards deal more cold damage, which Clemency heals from, creating a self-sustaining loop. Aftershock on Ice Shield grants up to 22 Armor per cast (max on bosses) and stuns. Frost permanently scales your max health every 5 seconds when dealing cold damage. Momentum reduces cooldowns through basic attacks between casts. Focus on casting Flash Freeze constantly to maintain shields and fuel the Glacial Core loop.",
+      "strengths": [
+        "Glacial Core + Clemency creates self-sustaining healing-to-damage loop (25pt synergy)",
+        "Low cooldown shield generation from Flash Freeze charges",
+        "Multiple defensive layers (shields, armor from Aftershock, healing from Clemency)",
+        "Permanent health scaling through Essence of Frost",
+        "Constant cold damage from Freezing burst + Glacial Core shards",
+        "Area control through stuns and roots",
+        "Scales well with Dream Dust (cooldown reduction + AoE scaling)",
+        "Works on any character (no character-specific memories required)"
+      ],
+      "weaknesses": [
+        "Requires frequent casting for optimal defense and loop sustain",
+        "Cold damage focused (may struggle vs cold-resistant enemies)",
+        "Requires Glacial Core (unique) and Clemency (epic)",
+        "Loop needs initial damage to start - weaker in first few casts"
+      ],
+      "constellation_tree": {
+        "primary": "Life",
+        "secondary": "Imagination",
+        "focus": [
+          "Maximum health (directly scales Frost damage and Glacial Core healing)",
+          "Shield strength",
+          "Cooldown reduction",
+          "Armor bonuses"
+        ]
+      }
+    },
+    {
+      "name": "Spinning Whirlwind Master",
+      "concept": "Maximum attack speed channel build using Spinning Whirlwind with attack effect triggers, area damage amplification, and dual infinite scaling from Divine Faith kills + Domination crits",
+      "playstyle": "Channel Spinning Whirlwind to deal massive area damage while triggering multiple attack effects every 4th swing. Divine Faith stacks with each kill for permanent scaling.",
+      "best_synergy": "Mist (high mobility for positioning), Vesper (high health for survivability while channeling), or any melee character",
+      "memories": [
+        {
+          "name": "Spinning Whirlwind",
+          "essences": [
+            "Essence of Wind",
+            "Essence of Confidence",
+            "Essence of Fangs"
+          ],
+          "rationale": "Wind increases Attack Speed by 33% for 5 seconds (makes Whirlwind swing faster, dealing more damage per second), Confidence increases damage to nearby enemies by 40% (perfect for Whirlwind's area damage), Fangs makes every 4th swing a critical strike (reduces cooldown by 0.7s and launches 2 Fangs dealing 60% damage each) - attack effects trigger at 35% effectiveness during channel"
+        },
+        {
+          "name": "Arrow Storm",
+          "essences": [
+            "Essence of the Starry Sky",
+            "Essence of Shock",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Arrow Storm increases Attack Speed by 15% and makes each attack fire 3 arrows. Starry Sky increases Attack Speed by 10% per hit (up to 20%, or 40% if Dark damage), stacking with Whirlwind's attack speed. Shock empowers every 4th attack with lightning (40% light damage, bounces) - triggers during Whirlwind channel at 35% effectiveness. Efficiency reduces cooldown by 26% for more frequent Arrow Storm casts"
+        },
+        {
+          "name": "Immolation",
+          "essences": [
+            "Essence of Crimson",
+            "Essence of Clemency",
+            "Essence of Voracity"
+          ],
+          "rationale": "Immolation creates fire aura dealing 165% Fire damage/sec to nearby enemies. Crimson empowers every 4th attack with dark explosion (100% dark damage, heals 22% per enemy hit) - triggers during Whirlwind channel at 35% effectiveness. Clemency provides 4% leech from all damage (including Whirlwind's 240% per second). Voracity restores 6 health per attack for 5 seconds after casting (triggers on each Whirlwind swing)"
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Domination",
+            "Divine Faith",
+            "Essence of Momentum"
+          ],
+          "rationale": "Frostbite empowers next 2 attacks (50% + 180% additional Cold damage, first grants barrier). Domination increases crit chance by 20% and scales crit damage infinitely (works with Fangs crits). Divine Faith provides permanent scaling: each kill grants +0.5% damage/healing and +4 max health, up to 75 stacks (+37.5% damage, +300 health). Perfection + Divine Faith = 18pt synergy (universal stat base + kill scaling). Domination + Divine Faith = 22pt synergy (dual infinite scaling). Momentum reduces cooldown with each basic attack (useful between Whirlwind channels)"
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Passive essence - provides universal stat boosts (+7 Attack Damage, +7 Ability Power, +35 Max Health, +10% Attack Speed, +6% Crit Chance, +10 Memory Haste). Creates 18pt synergy with Divine Faith (universal scaling base + infinite kill scaling)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Character-specific Destruction powers (prioritize attack speed and crit)"
+        ],
+        "life": [
+          "Character-specific Life powers (prioritize health and healing)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)",
+          "Regenerative Skin (max level) - +18% received Healing and Barrier amounts (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Character-specific Imagination powers for utility"
+        ],
+        "flexible": [
+          "Character-specific Flexible powers that modify memories",
+          "Any high-value powers from other categories"
+        ]
+      },
+      "strategy": "Cast Arrow Storm before channeling Spinning Whirlwind to stack attack speed (15% from Arrow Storm + 10-20% from Starry Sky per hit). Channel Spinning Whirlwind for 3.5 seconds - it deals 240% damage per second to nearby enemies. Wind increases attack speed by 33% for 5 seconds, making Whirlwind swing faster. Confidence increases damage to nearby enemies by 40%. Every 4th swing triggers Fangs (crit + 2 Fangs), Shock (lightning bounces), and Crimson (dark explosion + healing) at 35% effectiveness. Clemency provides 4% leech from all damage. Voracity restores 6 health per swing. Divine Faith permanently scales with each kill during Whirlwind (+0.5% damage and +4 max health per stack, up to 75). Domination scales crit damage infinitely alongside Fangs guaranteed crits - this creates dual infinite scaling (22pt synergy). Between channels, use Frostbite for empowered cold attacks with barrier, and basic attacks to reduce cooldowns through Momentum. With Perfection + Divine Faith (18pt synergy), your base stats grow permanently through the run.",
+      "strengths": [
+        "TRIPLE high-value synergy: Domination+Faith (22pt), Perfection+Faith (18pt), Domination+Fangs (18pt) = 58pt total",
+        "Extremely high attack speed potential (Wind 33% + Arrow Storm 15% + Starry Sky 10-20% + Hurricane 10.5% + Perfection 10%)",
+        "Massive area damage (240% per second x 1.4 from Confidence = 336% per second to nearby enemies)",
+        "Multiple attack effects trigger every 4th swing (Fangs crit + Shock lightning + Crimson explosion)",
+        "Dual infinite scaling: Divine Faith (+37.5% damage, +300 health at max) AND Domination crit damage",
+        "High healing through Clemency leech (4% of 240% per second) and Voracity (6 health per swing)",
+        "Cooldown reduction through Fangs crits, Momentum attacks, and Efficiency haste",
+        "Works on any character (no character-specific memories required)"
+      ],
+      "weaknesses": [
+        "Requires channeling (immobile for 3.5 seconds)",
+        "Vulnerable to interrupts and area damage while channeling",
+        "Positioning critical for maximum area damage",
+        "Requires multiple epic/legendary essences (Fangs, Domination, Clemency, Divine Faith)",
+        "Attack effects trigger at only 35% effectiveness during channel",
+        "Divine Faith needs kills to scale - weaker against single boss fights early"
+      ]
+    },
+    {
+      "name": "Glacial Clemency Engine",
+      "concept": "Maximizes the Glacial Core + Clemency healing-to-damage feedback loop across multiple cold memories, with Essence of Pain for 40% AoE splash on all damage and Essence of the Wound for explosive mark detonation",
+      "playstyle": "Cast cold abilities constantly. Every point of damage heals you (Clemency), every point of healing fires cold shards (Glacial Core), and Pain splashes 40% AoE on everything. Self-sustaining damage engine that scales with incoming healing.",
+      "best_synergy": "Vesper (high max health scales Frost and Glacial Core healing), Yubar (shield generation complements cold damage), or any character with defensive kit",
+      "memories": [
+        {
+          "name": "Flash Freeze",
+          "essences": [
+            "Glacial Core",
+            "Essence of Clemency",
+            "Essence of Pain"
+          ],
+          "rationale": "The core engine: Glacial Core converts 272% of ALL healing into cold damage shards. Clemency heals 4% of ALL damage dealt. This creates a self-sustaining loop (25pt synergy). Pain adds 40% AoE splash to ALL damage including cold shards - massively amplifies the loop by hitting more enemies. Flash Freeze's charge system and low cooldown keep the loop running constantly."
+        },
+        {
+          "name": "Glacial Stomp",
+          "essences": [
+            "Essence of Frost",
+            "Essence of Aftershock",
+            "Essence of Bleakness"
+          ],
+          "rationale": "Frost scales cold damage with max health and permanently increases health. Aftershock provides delayed cold shockwave + up to 22 Armor + stun. Bleakness increases damage by 50% to enemies affected by Cold/slow/root/stun - synergizes with Flash Freeze roots, Aftershock stuns, and Glacial Stomp's own stun. Glacial Stomp's barrier generation provides additional survivability."
+        },
+        {
+          "name": "Frostbite",
+          "essences": [
+            "Essence of Rigidity",
+            "Essence of Momentum",
+            "Essence of the Wound"
+          ],
+          "rationale": "Rigidity grants barrier on hit, increased by 80% for cold damage - Frostbite deals cold, so massive barriers. Momentum reduces cooldown through basic attacks for more frequent empowered strikes. The Wound applies marks that explode for 275% AoE damage after 3 attacks - Frostbite empowers 2 attacks + basic attack detonates the mark for massive burst. The Wound's AoE explosion feeds Clemency healing which feeds Glacial Core shards."
+        },
+        {
+          "name": "Ice Shield",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Regeneration",
+            "Essence of Snow"
+          ],
+          "rationale": "Efficiency reduces Ice Shield cooldown by 26% for more frequent barriers. Regeneration restores 41 HP over 7s on cast - directly fuels Glacial Core shards. Snow grants 40 barrier that auto-fires snowballs dealing 80% Cold damage - fires faster with larger barriers. Ice Shield's own barrier destruction deals cold AoE and heals, feeding the entire Clemency+Glacial Core loop."
+        }
+      ],
+      "constellation_tree": {
+        "primary": "Life",
+        "secondary": "Destruction",
+        "focus": [
+          "Maximum health (scales Frost damage and Glacial Core healing amount)",
+          "Healing and barrier amounts (amplifies loop throughput)",
+          "Cooldown reduction (more casts = more loop cycles)",
+          "Armor bonuses (survivability while loop is running)"
+        ]
+      },
+      "strategy": "Your damage engine is the Glacial Core + Clemency feedback loop on Flash Freeze. Every Flash Freeze cast deals cold damage via its base + Freezing burst, Clemency heals 4% of that, Glacial Core converts 272% of healing to cold shards, Pain splashes 40% AoE on ALL damage (including shards), and the AoE splash damage feeds back through Clemency. Use Glacial Stomp for AoE stun and barrier generation - Bleakness makes all your cold damage hit 50% harder on stunned/cold enemies. Frostbite provides burst damage with empowered cold attacks, and the Wound's mark detonation adds 275% AoE explosions that feed the loop. Ice Shield with Snow creates passive cold damage through barrier-powered snowballs. Regeneration on Ice Shield provides a steady stream of healing that Glacial Core converts to damage shards. Stack maximum health through Frost's permanent scaling and Life constellation to increase Glacial Core's base healing (3.6% of max HP, doubled for cold).",
+      "strengths": [
+        "Glacial Core + Clemency self-sustaining damage loop (25pt synergy)",
+        "Essence of Pain provides 40% AoE splash on ALL damage including loop shards",
+        "Essence of the Wound adds 275% AoE burst explosions (0 builds use this!)",
+        "Four cold damage memories for consistent loop fuel",
+        "Permanent health scaling through Essence of Frost",
+        "Multiple defensive layers: shields, barriers, armor, healing",
+        "Bleakness amplifies all cold damage by 50% against CC'd enemies",
+        "Snow provides passive damage between casts",
+        "Works on any character with no restrictions"
+      ],
+      "weaknesses": [
+        "Cold damage focused - weak against cold-immune enemies",
+        "Requires Glacial Core (unique) and several epics",
+        "Loop needs a few casts to ramp up initially",
+        "Lower single-target burst than dedicated DPS builds",
+        "Requires staying in combat range for maximum loop throughput"
+      ]
+    },
+    {
+      "name": "Eternal Inferno Chain Reactor",
+      "concept": "Fire damage build exploiting Eternal Flame + Essence of Fever chain explosion loop, amplified by Eye of the Sun's Solar Light on burning enemies and Embertail's fire ricochet scaling",
+      "playstyle": "Apply Eternal Flame curse, then stack burn on every enemy. Fever explosions chain between enemies, each explosion applies more burn stacks via Eternal Flame, scaling damage exponentially. Eye of the Sun rains Solar Light automatically on burning targets.",
+      "best_synergy": "Vesper (fire constellation powers, health tank for survivability) or Lacerta (Salamander Powder fire synergy, Incendiary Rounds for more fire application)",
+      "memories": [
+        {
+          "name": "Flame Jet",
+          "essences": [
+            "Eternal Flame",
+            "Essence of Fever",
+            "Essence of Sulfur"
+          ],
+          "rationale": "Flame Jet channels 336% Fire damage/sec for 2.5s - massive fire hit volume. Eternal Flame curses enemies so ALL damage applies burn stacks, and damage scales +2% per burn stack. Fever makes fire damage infect enemies - they explode after 2s for 130% Fire AoE, radius +30% and damage +10% per burn stack. Sulfur converts all damage to Fire (+15%) and doubles Fire DoT. This memory alone creates the chain: fire hit -> Eternal Flame curse -> all damage adds burn -> Fever explosion -> AoE fire -> more burn on neighbors -> bigger explosions."
+        },
+        {
+          "name": "Pillar of Flame",
+          "essences": [
+            "Eye of the Sun",
+            "Essence of Charcoal",
+            "Essence of Scorch"
+          ],
+          "rationale": "Pillar of Flame deals 250% Fire + 275% Fire over 2.4s in an area. Eye of the Sun rains Solar Light every 20s on ALL burning nearby enemies (360% Fire over 1.5s + 9 burn stacks) and doubles Fire DoT. Charcoal fires shards (60% damage, 100% Fire on burning targets). Scorch fires 3 fireballs (47% Fire each) on cast. Pillar + Eye of the Sun = automatic empowered fire AoE on burning enemies."
+        },
+        {
+          "name": "Ignite",
+          "essences": [
+            "Embertail",
+            "Essence of Insensitivity",
+            "Essence of Clemency"
+          ],
+          "rationale": "Ignite deals 115% Fire (50% more on burning, AoE on burning) with charge system. Embertail adds fire ricochet AND scales damage/healing +8% and CDR -8% per burning enemy. Insensitivity drops fire bombs while moving. Clemency heals 4% of ALL fire damage dealt - critical for survivability since this build sacrifices defense for offense. Every burning enemy makes Embertail stronger."
+        },
+        {
+          "name": "Blink",
+          "essences": [
+            "Essence of Quicksilver",
+            "Essence of Pain",
+            "Essence of the Wound"
+          ],
+          "rationale": "Blink deals 244% Fire AoE and reduces cooldown by 13% per enemy hit. Quicksilver grants 30% movement speed on fire damage. Pain adds 40% AoE splash to ALL damage - amplifies every Fever explosion, every shard, every fireball. The Wound applies marks that explode for 275% AoE after 3 attacks - with Eternal Flame's curse, this explosion applies burn stacks on all enemies hit. Blink provides mobility for repositioning between Flame Jet channels."
+        }
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Life",
+        "focus": [
+          "Burn damage bonuses (directly scales Eternal Flame and all fire DoT)",
+          "Fire damage amplification",
+          "Attack damage and ability power",
+          "Maximum health and healing (survivability for a damage-focused build)"
+        ]
+      },
+      "strategy": "Open with Flame Jet to apply Eternal Flame curse on a group - every hit now applies burn stacks. Fever infections start chain-reacting: enemies explode after 2s, hitting neighbors with fire AoE that applies MORE burn stacks (via Eternal Flame), causing MORE Fever explosions. Each explosion scales with burn stacks (+10% damage and +30% radius per stack). Drop Pillar of Flame in the chaos for Eye of the Sun to auto-trigger Solar Light on all burning enemies (+9 burn stacks each). Use Ignite for quick burst on burning targets (50% bonus) - Embertail scales +8% damage per burning enemy, so in large groups this is massive. Blink for repositioning with Pain's 40% AoE splash amplifying everything. Sulfur doubles all Fire DoT. Eye of the Sun doubles Fire DoT again. The build reaches exponential scaling in large groups as Fever chains spread burn stacks geometrically.",
+      "strengths": [
+        "Eternal Flame + Fever creates chain explosion loop (~22pt synergy)",
+        "Exponential scaling in groups: more enemies = more burns = bigger explosions = more burns",
+        "Eye of the Sun auto-triggers Solar Light + doubles Fire DoT",
+        "Embertail scales damage +8% per burning enemy (multiplicative in groups)",
+        "Sulfur doubles Fire DoT (stacks with Eye of the Sun's double)",
+        "Essence of Pain provides 40% AoE splash on all damage including explosions",
+        "Essence of the Wound adds 275% AoE marks that apply burn via Eternal Flame",
+        "Blink provides mobility and fire AoE for repositioning",
+        "Works on any character - no restrictions"
+      ],
+      "weaknesses": [
+        "Pure fire damage - completely shut down by fire immunity",
+        "Requires 2-3 seconds to ramp up chain reactions",
+        "Flame Jet channels (immobile for 2.5 seconds)",
+        "Weaker single-target (chain reactions need multiple enemies)",
+        "Requires Eternal Flame (unique), Eye of the Sun (legendary), Embertail (legendary)",
+        "No defensive abilities beyond Clemency leech and Blink mobility",
+        "Fever explosions have 2s delay - fast-dying enemies may not chain"
+      ]
+    },
+    {
+      "name": "Paranoia Reactor",
+      "concept": "Automated damage-reactive build using Essence of Paranoia for auto-casting, Essence of Vengeance for damage-on-hit-taken, and Essence of Momentum for attack-based cooldown reduction. Taking damage makes you STRONGER.",
+      "playstyle": "Deliberately take hits to fuel Paranoia auto-casts and Vengeance retaliation. Momentum keeps cooldowns low through basic attacks. The more damage you take, the more damage you deal automatically. Apple of Discord provides 4 free random memory casts per room.",
+      "best_synergy": "Vesper (high health and armor for surviving hits), Mist (Parry turns damage into offense), or any tanky character",
+      "memories": [
+        {
+          "name": "Chomp",
+          "essences": [
+            "Essence of Paranoia",
+            "Essence of Momentum",
+            "Essence of Vengeance"
+          ],
+          "rationale": "The core reactor: Paranoia auto-casts Chomp on nearby enemies when you take damage (60% CDR for 6s). Momentum reduces cooldown by 0.4s per attack for near-permanent uptime (20pt synergy with Paranoia). Vengeance fires 2 blades on damage taken AND increases Chomp's damage +34% for 5s (18pt synergy with Paranoia). Chomp deals 370% damage and heals 75% - auto-healing on demand. Every hit you take triggers: auto-Chomp (370% + heal) + Vengeance blades (102% x2) + 34% damage buff."
+        },
+        {
+          "name": "Mystic Dagger",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Mystic Dagger deals 350% damage, triggers attack effects, and reduces ALL memory cooldowns by 1s on hit. Divine Faith scales damage/healing +0.5% and max health +4 per kill (up to 75 stacks). Domination provides +20% crit chance and infinite crit damage scaling (22pt synergy with Divine Faith). Predation deals +60% to Bosses/Hunters and drops permanent stat orbs. Mystic Dagger's global CDR keeps all abilities cycling faster."
+        },
+        {
+          "name": "Vile Strike",
+          "essences": [
+            "Essence of Twilight",
+            "Essence of the Abyss",
+            "Essence of Contempt"
+          ],
+          "rationale": "Vile Strike teleports to target, deals 200% Dark damage, stuns, triggers attack effects, +50% damage below 50% HP. Twilight converts basic attacks to Dark and consumes dark stacks for 54% damage/stack + healing. Abyss converts all damage to Dark and triggers attack effects at 43% on 3+ dark stacks (20pt synergy with Twilight). Contempt increases damage up to 50% as target HP decreases. Dark stack synergy: Abyss applies stacks, Twilight detonates for massive burst + self-healing."
+        },
+        {
+          "name": "Blood Harvest",
+          "essences": [
+            "Apple of Discord",
+            "Essence of Flexibility",
+            "Essence of Overload"
+          ],
+          "rationale": "Blood Harvest marks stack infinitely on attacks, then detonate for scaling damage (+25% per stack, kills heal 20%). Apple of Discord transforms into a random Memory with NO cooldown, 4 free casts per room - massive burst potential at no cost. Flexibility splits 37% of damage taken over 4s (reduced by 20%) while Blood Harvest is on cooldown - critical survival for a build that wants to take hits. Overload sacrifices 20% HP to empower the cast (+45% damage/healing) - works with Paranoia's auto-cast philosophy of trading HP for power."
+        }
+      ],
+      "passive_essences": [
+        {
+          "name": "Perfection",
+          "rationale": "Universal stat boosts (+7 AD, +7 AP, +35 HP, +10% AS, +6% Crit, +10 Haste). Creates 18pt synergy with Divine Faith (base stats + infinite kill scaling)."
+        }
+      ],
+      "constellation_tree": {
+        "primary": "Destruction",
+        "secondary": "Life",
+        "focus": [
+          "Maximum health (survive more hits to trigger more Paranoia/Vengeance procs)",
+          "Armor (reduce incoming damage to sustainable levels)",
+          "Attack damage (scales Chomp, Mystic Dagger, Blood Harvest)",
+          "Critical strike chance and damage (feeds Domination infinite scaling)",
+          "Cooldown reduction (backup CDR for when attacks alone are not enough)"
+        ]
+      },
+      "strategy": "Enter combat and let enemies hit you. Every hit triggers three reactions simultaneously: Paranoia auto-casts Chomp for 370% damage + 75% heal, Vengeance fires 2 blades for 102% each and buffs damage by 34%, and Flexibility splits damage over time to keep you alive. Between procs, attack enemies to reduce Chomp's cooldown via Momentum (0.4s per attack). Use Mystic Dagger on cooldown for 350% damage + 1s global CDR on all memories. Divine Faith scales permanently with kills (+37.5% damage at max stacks, +300 HP) while Domination scales crit damage infinitely (22pt dual scaling synergy). Vile Strike provides burst against low-HP targets: teleport in, Abyss converts to dark, Twilight detonates dark stacks for massive damage + healing (20pt synergy). Blood Harvest marks stack on all your attacks - detonate for scaling AoE burst. Apple of Discord gives 4 free random memory casts per room for surprise burst. Overload on Blood Harvest trades HP for 45% empowered detonations. This build gets STRONGER as fights last longer through triple infinite scaling (Faith kills, Domination crits, Blood Harvest marks).",
+      "strengths": [
+        "FIVE synergy pairs: Paranoia+Momentum (20pt), Paranoia+Vengeance (18pt), Faith+Domination (22pt), Twilight+Abyss (20pt), Perfection+Faith (18pt) = 98pt total",
+        "Taking damage makes you stronger (Paranoia auto-cast + Vengeance retaliation)",
+        "Triple infinite scaling: Divine Faith kills + Domination crits + Blood Harvest stacks",
+        "Apple of Discord provides 4 free random memory casts per room (0 builds use this!)",
+        "Essence of Flexibility provides damage mitigation (0 builds use this!)",
+        "Chomp auto-heals 75% health on Paranoia proc",
+        "Vile Strike dark stack burst provides teleport + stun + massive damage",
+        "Works on any character - universal template"
+      ],
+      "weaknesses": [
+        "Requires taking damage to function - bad against low-damage chip enemies",
+        "Apple of Discord is random - unpredictable burst quality",
+        "Three legendary essences needed (Paranoia, Divine Faith, Apple of Discord) plus Perfection passive",
+        "Overload self-damage can be dangerous if Paranoia is not proccing fast enough",
+        "Dark stack synergy requires building stacks before Twilight detonation",
+        "Complex playstyle - requires understanding of multiple proc chains",
+        "Early game weaker before Divine Faith stacks accumulate"
+      ]
+    }
+  ]
+}

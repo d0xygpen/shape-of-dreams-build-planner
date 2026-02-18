@@ -1,0 +1,1306 @@
+{
+  "memories": [
+    {
+      "name": "Backstep",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Leap backward and drop 3 shock bombs at the original location, each dealing 168% damage and stunning for 1 seconds.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Beam of Light",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Channels a beam at the enemy over 1.7 seconds, dealing 507% Light damage per second and healing the nearby ally with the lowest Health percentage by 73% per second.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing"
+      ]
+    },
+    {
+      "name": "Corrosive Trails",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "For 4 seconds, leave toxic gas in your path that poisons enemies for 3 seconds, while increasing your Movement Speed by 15%. Poisoned enemies take 100% damage per second.",
+      "synergy_keywords": [
+        "mobility"
+      ]
+    },
+    {
+      "name": "Dark Bolt",
+      "rarity": "Common",
+      "type": "Projectile",
+      "effect": "Fires a dark bolt that deals 175% Dark damage to enemies and triggers attack effects. Pierces up to 2 enemies.",
+      "synergy_keywords": [
+        "dark_damage",
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Dark Spear",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Pierces enemies in front, dealing 210% Dark damage, triggering attack effects, and pulling them to the center.",
+      "synergy_keywords": [
+        "dark_damage"
+      ]
+    },
+    {
+      "name": "Flash Freeze",
+      "rarity": "Common",
+      "type": "Defensive",
+      "effect": "Unleashes Cold energy forward, dealing 130% Cold Damage to enemies and granting yourself and allies a Shield of 90% that lasts for 3 seconds. If an enemy is already affected by Cold, the Damage is increased by 100% and they are Rooted for 1.5 seconds.\n\nCharges are fully replenished all at once.",
+      "synergy_keywords": [
+        "cold_damage",
+        "shield"
+      ]
+    },
+    {
+      "name": "Glacial Stomp",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Stomps the ground around you, stunning enemies for 1.5 seconds and dealing 230% Cold damage. Gain a Barrier that lasts for 3 seconds and absorbs 60% damage for each enemy hit.",
+      "synergy_keywords": [
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Hemorrhage",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Your next attack deals 460% damage over 1.2 seconds and reduces the target's Movement Speed by 70%.",
+      "synergy_keywords": [
+        "mobility"
+      ]
+    },
+    {
+      "name": "Ice Shield",
+      "rarity": "Common",
+      "type": "Defensive",
+      "effect": "Surrounds an ally with an ice shield, granting a 130% Barrier that lasts for 3 seconds. When the Barrier is destroyed, it deals 160% Cold damage to nearby enemies and restores 60% Health to the ally for each enemy hit.",
+      "synergy_keywords": [
+        "healing",
+        "cold_damage",
+        "shield"
+      ]
+    },
+    {
+      "name": "Ice Claw",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Swing your claw forward to deal 140% Cold Damage to enemies and stun them for 0.5 seconds. You can swing once more to deal 264% Cold Damage and stun for 1 seconds.\n\nWhen your claw hits an enemy, restore 12% Health based on the damage dealt.",
+      "synergy_keywords": [
+        "healing",
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Teal Blade",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Dash forward briefly and swing the Teal Blade, dealing damage to enemies in front. Deals the greater of 200% or 200%, and triggers attack effects if your Attack Damage is higher.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Mass Protection",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Grants a Barrier of 250% to nearby allies that dissipates over 1.5 seconds.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Pew",
+      "rarity": "Common",
+      "type": "Projectile",
+      "effect": "Hold to charge a flame bullet. When fully charged, fire the bullet to deal 150%-400% Fire damage to all enemies hit, based on charge time.\n\nFiring before full charge reduces the cooldown up to 80%. Charging for 1.35 seconds maximizes the projectile's width and damage.",
+      "synergy_keywords": [
+        "ranged",
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Pressure Point",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Releases energy from the palm, dealing 180% damage and pushing back all enemies hit, stunning them for 1 seconds. If the target is Unstoppable or collides with a wall, deals an additional 504% damage.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Purgatory",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Deals 280% damage to all enemies in the target location and restores a random ally for 45% Health per enemy hit. If the target is a boss, healing is tripled.",
+      "synergy_keywords": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Sneeze",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "The Memory of a massive, refreshing sneeze. Releases a powerful sneeze forward.\nThis Memory is completely useless.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Sparkling Water Gun",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Fires a sparkling water gun. Restores 70% Health to allies hit and removes Fire stacks. Deals 1 damage to enemies hit and stuns them for 1.5 seconds. Cooldown only decreases while in combat.\n\nIf the target is an allied summon, healing is increased by 40%.",
+      "synergy_keywords": [
+        "healing",
+        "fire_damage",
+        "summon"
+      ]
+    },
+    {
+      "name": "Starfall",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Calls down 4 falling stars on nearby random enemies. Each falling star deals 70% Light damage.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Swift Slash",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Quickly dash forward and slash enemies, dealing 220% damage and triggering 50% attack effects. The first enemy hit reduces the cooldown by 40%.",
+      "synergy_keywords": [
+        "melee"
+      ]
+    },
+    {
+      "name": "Spinning Whirlwind",
+      "rarity": "Common",
+      "type": "Channel",
+      "effect": "Channels for 3.5 seconds, swinging your sword to deal 240% damage per second to nearby enemies and triggers 35% attack effects. Swings faster with higher Attack Speed.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Astrid's Masterpiece - En Garde",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "The first 3 attacks against individual enemies deal 40% additional damage and grant Mist a 47% Barrier that fades over 1.5 seconds. This effect can be triggered again on each enemy after 6 seconds.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Mist",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Astrid's Masterpiece - Priorité",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Every 5 seconds, apply a Mark to a random nearby enemy. Each attack against a Marked enemy grants 25% Movement Speed for 1.5 seconds and deals 35% additional damage.\nDamage dealt to the Mark increases by 50% with each consecutive attack. On the 6th attack, it explodes dealing 200% damage.",
+      "synergy_keywords": [
+        "mobility"
+      ],
+      "character_restriction": "Mist",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Beautiful Threat",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Your basic attacks become ranged. Casting any Memory or using Dodge grants 2 stacks of Golden Feather, up to a maximum of 6. While you have Golden Feather stacks, your Attack Speed is increased by 20%.\n\nWhen you attack an enemy with feather stacks, one stack is consumed to deal 90% damage and heal Aurena for 14%. When you heal an ally with feather stacks, one stack is consumed to additionally heal the target for 22%.",
+      "synergy_keywords": [
+        "healing",
+        "ranged"
+      ],
+      "character_restriction": "Aurena",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Circle of Life",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "On basic attack all of Nachia's Summons heal for 3% of their Maximum Health, and their summon duration increases by 0.3 seconds. 50% of any Attack Speed, Movement Speed, and Armor bonuses Nachia receives are also shared with her summons.",
+      "synergy_keywords": [
+        "healing",
+        "summon",
+        "mobility"
+      ],
+      "character_restriction": "Nachia",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Converging Stars",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Casting a Memory or using Flicker grants 10 Attack Damage for 3 seconds. During this time, your basic attacks are empowered, bouncing to up to 2 targets with 50% effectiveness.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Yubar",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Dismantling Claw",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Attacks restore 16% of your Health per enemy hit and deal 68% additional damage. Against bosses, additional damage and healing are increased by 100%.",
+      "synergy_keywords": [
+        "healing"
+      ],
+      "character_restriction": "Aurena",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Double Tap",
+      "rarity": "Common",
+      "type": "Buff",
+      "effect": "Increases Attack Damage by 5 and Critical Strike Chance by 20%. After using a Memory or Nimble Dodge, your next basic attack fires twice.",
+      "synergy_keywords": [
+        "melee",
+        "fire_damage",
+        "cold_damage"
+      ],
+      "character_restriction": "Lacerta",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Exotic Matter",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Gains 1 stack of Exotic Matter when casting a Memory or using Flicker. Your next basic attack consumes all stacks to create an explosion, dealing 125% Light damage per stack to enemies. Can hold up to 4 stacks.",
+      "synergy_keywords": [
+        "light_damage"
+      ],
+      "character_restriction": "Yubar",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Heart of the Pack",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Whenever Nachia heals herself or an ally, grants a Barrier, or applies a buff, she also grants Bond to the target. The next basic attack from a target with Bond is empowered, creating an explosion that deals 140% Light damage to enemies.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing"
+      ],
+      "character_restriction": "Nachia",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "El's Mercy",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Attack Damage is increased by 12. Every 4th basic attack becomes a critical strike and deals an additional 70% Light damage.\nEach time you attack an enemy, Attack Speed is increased by 4% for 4 seconds, up to a maximum of 24%. When Attack Speed is at the maximum, attacking an enemy restores 1% of your missing Health.",
+      "synergy_keywords": [
+        "melee",
+        "light_damage",
+        "healing"
+      ],
+      "character_restriction": "Vesper",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Prismatic Vision",
+      "rarity": "Common",
+      "type": "Buff",
+      "effect": "Increases Attack Speed by 20%. While you can't perform basic attacks yourself, a Book automatically performs basic attacks on the nearest enemy to Bismuth, dealing 70% additional damage.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Bismuth",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Resolve",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Increases Maximum Health by 80. Every 4th basic attack becomes a critical strike, knocking back enemies and stunning them for 1 seconds. When Resolve hits an enemy, Vesper restores 3% of his Maximum Health.",
+      "synergy_keywords": [
+        "melee",
+        "healing"
+      ],
+      "character_restriction": "Vesper",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Salamander Powder",
+      "rarity": "Common",
+      "type": "Buff",
+      "effect": "Every 4th basic attack becomes a critical strike and explodes, dealing 145% Area Fire damage to enemies. The explosion damage is increased by 100% against burning enemies.",
+      "synergy_keywords": [
+        "melee",
+        "fire_damage",
+        "aoe"
+      ],
+      "character_restriction": "Lacerta",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "One Step, One Kill",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Instead of receiving Attack Speed bonuses, your Attack Damage increases by 0.5 for every 1% Additional Attack Speed.\nAfter Dash or Teleport, your next Basic Attack will be a critical hit.\n\nKilling any Boss restores 200% Health.",
+      "synergy_keywords": [
+        "healing"
+      ],
+      "character_restriction": "Shell",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Anti-Gravity",
+      "rarity": "Epic",
+      "type": "Offensive",
+      "effect": "Reverses gravity in the target location, lifting all enemies within the range for 1.6 seconds. Then, slams them down, dealing 400% damage.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Blink",
+      "rarity": "Epic",
+      "type": "Offensive",
+      "effect": "Teleports a short distance and deals 244% Fire damage to nearby enemies. Cooldown is reduced by 13% for each enemy hit.",
+      "synergy_keywords": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Chain Lightning",
+      "rarity": "Epic",
+      "type": "Offensive",
+      "effect": "Casts a bouncing lightning that deals 400% Light damage to the first target and bounces up to 5 times, dealing 185% Light damage.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Clutches of Malice",
+      "rarity": "Epic",
+      "type": "Summon",
+      "effect": "Summons blood tentacles at the target location, pulling up to 4 enemies. The tentacles attach to enemies, dealing 80% damage and an additional 200% damage to pulled enemies. \nWhen this Memory is empowered, the number of enemies pulled and the area of effect increase.",
+      "synergy_keywords": [
+        "summon",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Crimson Lance",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "Throw a massive lance that deals 450% Dark damage to enemies it hits.\n\nDeals additional damage to Heroic Bosses equal to 15% of their Maximum Health, lodging the lance in them and destroying this Memory. Defeating a Heroic Boss while the lance is lodged in them grants you their Unique Memory or Essence.",
+      "synergy_keywords": [
+        "dark_damage",
+        "healing"
+      ]
+    },
+    {
+      "name": "Doomsday Meteor",
+      "rarity": "Epic",
+      "type": "Channel",
+      "effect": "Channels for 3 seconds while standing still. If successful, a massive Fireball crashes down on the target area, scattering smaller Fireballs around it. The massive Fireball deals 1,600% Fire damage to targets and Stuns them for 3 seconds, while the smaller Fireballs deal 150% Fire damage.\nAffects both allies and enemies.",
+      "synergy_keywords": [
+        "fire_damage",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Final Explosion",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "Gain 25% Movement Speed for 2 seconds, then sacrifice 40% of my maximum health to trigger a powerful explosion. Enemies caught in the explosion take 850% Light Damage and are Stunned for 2.5 seconds. If already dead or killed by the sacrifice, Explosion Damage is increased by 150%.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing",
+        "cold_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Flame Jet",
+      "rarity": "Epic",
+      "type": "Offensive",
+      "effect": "Unleashes a stream of flames for 2.5 seconds. Enemies hit by these flames take 336% Fire damage per second.",
+      "synergy_keywords": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Blood Harvest",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "Attacks leave a Mark on the enemy that can stack infinitely. Cast this Memory to detonate all Marks you've applied, dealing 100% damage and reducing Movement Speed by 60% for 1.5 seconds.\n\nThe detonation damage increases by 25% per additional stack, and if an enemy dies from this explosion, restore 20% Health.",
+      "synergy_keywords": [
+        "healing",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Justice Guillotine",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "Slam down a massive greatsword at the target enemy's location, dealing 800% damage to all nearby enemies. This damage increases by up to 2x based on your missing health and by up to 2x based on the target's missing health, for a total increase of up to 4x. The damage increase is maximized when health is at or below 30%.",
+      "synergy_keywords": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Mass Cleanse",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "Cleanses the target location, dealing 300% Light damage to enemies and granting Unstoppable to allies for 1.5 seconds while removing most debuffs. Allies are healed for 80% Health for each elemental effect removed from them.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing"
+      ]
+    },
+    {
+      "name": "Mystic Dagger",
+      "rarity": "Epic",
+      "type": "Offensive",
+      "effect": "Throws a Mystic Dagger that deals 350% damage to the first target hit and triggers attack effects. When the Dagger hits an enemy, reduces the cooldown of all Memories by 1 seconds.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Permafrost",
+      "rarity": "Epic",
+      "type": "Defensive",
+      "effect": "Gathers and unleashes extreme cold in a massive area. Allies in the area gain a 300% Shield and 100 Armor for 10 seconds. Enemies are frozen, taking 500% Cold Damage and becoming Stunned for 15 seconds. \n\nIf an enemy is already affected by Cold, this damage is increased by 100%.",
+      "synergy_keywords": [
+        "cold_damage",
+        "aoe",
+        "shield"
+      ]
+    },
+    {
+      "name": "Undo",
+      "rarity": "Epic",
+      "type": "Offensive",
+      "effect": "Reduces the cooldown of the last used Memory by 5.5 seconds. The next Memory cast within 8 seconds is empowered, dealing an additional 160% damage when it first hits an enemy.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Searing Charge",
+      "rarity": "Epic",
+      "type": "Movement",
+      "effect": "Quickly slash through enemies with a flaming sword, dealing 60% Fire damage and an additional 240% Fire damage. Damage and range scale with Movement Speed. If an enemy is killed by this damage, the cooldown is reset.",
+      "synergy_keywords": [
+        "melee",
+        "fire_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Shadow Volley",
+      "rarity": "Epic",
+      "type": "Buff",
+      "effect": "Channels for 1.3 seconds to fire 7 Shadow Volleys, each dealing 60% Dark damage to the first enemy hit.\nChannel time is reduced by your Attack Speed, and the number of projectiles increases with your Critical Strike Chance.",
+      "synergy_keywords": [
+        "dark_damage",
+        "melee",
+        "fire_damage",
+        "ranged"
+      ]
+    },
+    {
+      "name": "Cutthroat",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "After 0.5 seconds, slash forward with a blade of darkness, dealing 65% Dark damage to enemies. Enemies hit by the outer edge instead take 250% Dark damage, trigger 50% attack effects, and heal you for 8% of your missing Health for each enemy hit.\n\nFor each enemy hit by the outer edge, reduce the cooldown by 20%.",
+      "synergy_keywords": [
+        "dark_damage",
+        "healing",
+        "melee"
+      ]
+    },
+    {
+      "name": "Stygian Rush",
+      "rarity": "Epic",
+      "type": "Movement",
+      "effect": "Hold to charge darkness in your hands. When fully charged, dash forward and strike the first enemy hit and all nearby enemies. Enemies take 100%-500% Dark damage based on charge time and are stunned for 1 seconds.\nCharging for 1.2 seconds maximizes the dash's distance and damage.",
+      "synergy_keywords": [
+        "dark_damage",
+        "melee"
+      ]
+    },
+    {
+      "name": "Umbral Edge",
+      "rarity": "Epic",
+      "type": "Buff",
+      "effect": "For 7 seconds, imbues your weapon with the power of darkness, increasing Critical Strike Chance by 20% and dealing 52% additional Dark damage on attack. Melee Travelers deal 25% increased additional damage.",
+      "synergy_keywords": [
+        "dark_damage",
+        "melee"
+      ]
+    },
+    {
+      "name": "Vile Strike",
+      "rarity": "Epic",
+      "type": "Support",
+      "effect": "Briefly vanish, then reappear at the target location, slashing enemies for 200% Dark damage, stunning them for 1 seconds, and triggering attack effects. Damage is increased by 50% against enemies below 50% Health.",
+      "synergy_keywords": [
+        "dark_damage",
+        "healing",
+        "melee"
+      ]
+    },
+    {
+      "name": "Winter Dive",
+      "rarity": "Epic",
+      "type": "Movement",
+      "effect": "Leaps high into the air, enveloped in winter's power, and crashes down on the target location, dealing 340% Cold damage to all enemies and stunning them for 1.5 seconds.",
+      "synergy_keywords": [
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Blizzard",
+      "rarity": "Legendary",
+      "type": "Summon",
+      "effect": "Summons a blizzard in the target area 4 times every 0.7 seconds, dealing 180% Cold Damage to enemies and granting allies a 60% Barrier that fades over 3.5 seconds.\nCan maintain up to 10 simultaneously.",
+      "synergy_keywords": [
+        "summon",
+        "cold_damage",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Butcher's Strike",
+      "rarity": "Legendary",
+      "type": "Support",
+      "effect": "Swing a blade forward, dealing 200% damage to enemies and reducing their Movement Speed by 30% for 2 seconds.\n\nIf an enemy hit by the blade dies within 3 seconds, they drop Meat. Collecting Meat restores 25% Health and permanently increases the damage of Butcher's Strike by 1%.",
+      "synergy_keywords": [
+        "melee",
+        "healing",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Coin Explosion",
+      "rarity": "Legendary",
+      "type": "Buff",
+      "effect": "Throws a Coin at the cost of 1% of your current Gold. The Coin explodes upon hitting the first enemy, dealing 150% Light damage to enemies and stunning them for 1 seconds.\n\nAfter the explosion, there's a 50% chance for the explosion damage to permanently double, but also a 50% chance to lose all accumulated increases.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Radiant Explosion",
+      "rarity": "Legendary",
+      "type": "Offensive",
+      "effect": "Target an ally or enemy to create a Radiant Explosion at their location after 1.5 seconds. The explosion deals 400% Light damage to nearby enemies and stuns them for 1 seconds. If an enemy is killed by the explosion, the explosion repeats.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Mental Corruption",
+      "rarity": "Legendary",
+      "type": "Offensive",
+      "effect": "Corrupts the minds of the target and those around them, dealing 200% Dark damage and 60% Dark damage every 0.5 seconds until death.",
+      "synergy_keywords": [
+        "dark_damage"
+      ]
+    },
+    {
+      "name": "Arrow Storm",
+      "rarity": "Legendary",
+      "type": "Movement",
+      "effect": "For 6 seconds, increase Attack Speed by 15% and Movement Speed by 10%. During this time, each attack fires 3 arrows. Each arrow deals 35% damage, and the first arrow triggers attack effects.",
+      "synergy_keywords": [
+        "fire_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Pyrana's Fireball",
+      "rarity": "Legendary",
+      "type": "Offensive",
+      "effect": "Transform into a fast-moving Fireball for 3 seconds, gaining 50 Armor and immunity to Fire Damage. Each time you hit an enemy, deal 220% Fire Damage and extend the transformation's duration by 0.2 seconds, up to a maximum of 3 seconds.",
+      "synergy_keywords": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Spectral Bullet",
+      "rarity": "Legendary",
+      "type": "Offensive",
+      "effect": "Fires a Spectral Bullet at the target enemy, dealing 300% damage and triggering attack effects. If this damage kills an enemy, gain 5 Dream Dust.",
+      "synergy_keywords": [
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Heavy Strike",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Gain a Barrier equal to 10% of Maximum Health for 1.5 seconds and dash forward. If you collide with an enemy, the dash ends early, dealing 15% of your Maximum Health as damage to enemies and knocking them back.",
+      "synergy_keywords": [
+        "healing"
+      ],
+      "character_restriction": "Vesper",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Dreamy Waltz",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Move quickly to dodge enemy attacks.\nAfter dodging, release a dreamy wave that grants all nearby allies except yourself a Barrier equal to 8% of their Maximum Health and increases their Attack Speed by 15% for 3 seconds. Effects are increased by 100% for summons.",
+      "synergy_keywords": [
+        "healing",
+        "summon"
+      ],
+      "character_restriction": "Nachia",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Swift Steps",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Move swiftly to dodge enemy attacks.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Mist",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Feathery Dash",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Move swiftly to dodge enemy attacks.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Aurena",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Flash Step",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Move swiftly to dodge enemy attacks.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Shell",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Flicker",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Teleport quickly to dodge enemy attacks.\nCan be used even when unable to use Memories.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Yubar",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Nimble Dodge",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Move swiftly to dodge enemy attacks.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Lacerta",
+      "cannot_have_essences": true
+    },
+    {
+      "name": "Distorting Sprint",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Quickly dash a short distance to dodge enemy attacks, then increase Movement Speed by 75% and Attack Speed by 100% for 1 seconds.",
+      "synergy_keywords": [
+        "mobility"
+      ],
+      "character_restriction": "Bismuth"
+    },
+    {
+      "name": "Cruel Sun",
+      "rarity": "Common",
+      "type": "Channel",
+      "effect": "Hold the cast key to focus the sun's power into your hammer. Once fully charged, slam the ground to deal 150%-450% Fire damage to enemies and stun them for 0.5-1.5 seconds.\n\nWhile channeling, you can't move but become Unstoppable and gain 60 Armor.",
+      "synergy_keywords": [
+        "fire_damage"
+      ],
+      "character_restriction": "Vesper"
+    },
+    {
+      "name": "Discipline",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Dash toward the target and slam your hammer, dealing 125% Light damage to enemies and triggering 50% attack effects. Each time you attack an enemy, the cooldown is reduced by 8%.",
+      "synergy_keywords": [
+        "light_damage"
+      ],
+      "character_restriction": "Vesper"
+    },
+    {
+      "name": "Ether's Influence",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Launch Ether that moves forward and returns, dealing 160% Light damage to enemies. Reactivate to cause Ether to explode, dealing 180% Light damage and rooting enemies for 3 seconds.",
+      "synergy_keywords": [
+        "light_damage"
+      ],
+      "character_restriction": "Yubar"
+    },
+    {
+      "name": "Flèche",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Dash toward the target, dealing 140% damage, immediately performing a basic attack, and temporarily increasing Mist's Movement Speed. If this damage kills the target, restore 15 Health and reduce the cooldown by 15%.\n\nCharges are fully restored at once.",
+      "synergy_keywords": [
+        "healing",
+        "mobility"
+      ],
+      "character_restriction": "Mist"
+    },
+    {
+      "name": "Golden Explosion",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Create a Golden Explosion forward that deals 110% Light damage to enemies and restores 28% Health to allies. When hitting a single target, this explosion's damage or healing is increased by 100%.\n\nUpon casting, gain stacks of Wither for 3.5 seconds and sacrifice 5% of your Maximum Health. Each Wither stack increases the explosion's damage and healing by 100%, but also increases the Health sacrificed by 7% of your Maximum Health.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing",
+        "cold_damage"
+      ],
+      "character_restriction": "Aurena"
+    },
+    {
+      "name": "Hand Cannon",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Shoot a blazing bullet that pushes you backward, dealing 80% Fire damage to enemies in front. Nearby enemies that are hit instead take 180% Fire damage and are knocked back.",
+      "synergy_keywords": [
+        "fire_damage"
+      ],
+      "character_restriction": "Lacerta"
+    },
+    {
+      "name": "Incendiary Rounds",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "The next 4 basic attacks are 60% faster and deal an additional 100% Fire damage, briefly increasing Lacerta's Movement Speed.",
+      "synergy_keywords": [
+        "fire_damage",
+        "mobility"
+      ],
+      "character_restriction": "Lacerta"
+    },
+    {
+      "name": "Laceration",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Each basic attack alternates Laceration's form between Red Form and Blue Form. When this skill is cast, it unleashes a different effect depending on the current form.\n\nRed Form: Dash a short distance, slashing enemies in a narrow area for 155% Dark damage and triggering attack effects. When you hit an enemy for the first time, reduce cooldown by 35% seconds.\n\nBlue Form: Leap into the air to become briefly Invulnerable, then swing your blade to deal 200% Dark damage and trigger attack effects to all nearby enemies.",
+      "synergy_keywords": [
+        "dark_damage",
+        "melee",
+        "aoe"
+      ],
+      "character_restriction": "Shell"
+    },
+    {
+      "name": "Lunge",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Dash forward and thrust your saber toward the nearest enemy. Triggers attack effects and deals 200% damage to all enemies hit by the saber. Each time Astrid's Masterpiece triggers, reduce this Memory's cooldown by 0.5 seconds.",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Mist"
+    },
+    {
+      "name": "Moonlight Pact",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Fenrir leaps to the target location, slashing enemies for 200% damage and stunning them for 0.5 seconds. For each enemy hit, Fenrir heals for 8% of his Maximum Health. Each time Fenrir attacks, the cooldown of this ability is reduced by 1 seconds.\n\nPassive Effect: Summons Fenrir the Werewolf, who follows Nachia. Fenrir has 321 Health and 40 Armor, claws enemies for 130% damage, and triggers 50% attack effects.",
+      "synergy_keywords": [
+        "melee",
+        "healing",
+        "summon"
+      ],
+      "character_restriction": "Nachia"
+    },
+    {
+      "name": "Reduction",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Sacrifice 8% of your Maximum Health to throw thin Gold Shards forward 3 times. The Gold Shards pierce through targets, dealing 95% damage to enemies hit and healing allies for 18%.",
+      "synergy_keywords": [
+        "healing",
+        "cold_damage"
+      ],
+      "character_restriction": "Aurena"
+    },
+    {
+      "name": "Supernova",
+      "rarity": "Common",
+      "type": "Channel",
+      "effect": "Creates an expanding star at the target location that slows enemies, then channels for up to 3 seconds. You can't attack or use Memories while channeling. Reactivating Supernova detonates the star, dealing 200% Light damage to enemies. The explosion becomes more powerful with charge time, increasing damage up to 225% after 1.3 seconds.",
+      "synergy_keywords": [
+        "light_damage"
+      ],
+      "character_restriction": "Yubar"
+    },
+    {
+      "name": "Sylvan Call",
+      "rarity": "Common",
+      "type": "Support",
+      "effect": "Summon a Leaf Hound that follows Nachia at the target location, dealing 130% damage to enemies and stunning them for 0.4 seconds.\n\nThe Leaf Hound has 128 Health and 40 Armor, remains on the battlefield for up to 25 seconds, and claws enemies to deal 60% damage. You can have up to 5 Leaf Hounds summoned at once.",
+      "synergy_keywords": [
+        "healing",
+        "summon"
+      ],
+      "character_restriction": "Nachia"
+    },
+    {
+      "name": "Distorted Mind",
+      "rarity": "Common",
+      "type": "Projectile",
+      "effect": "Hold to charge a volley of psychic arrows. Release to rain 1~4 psychic arrows on nearby enemies, based on charge time. Each psychic arrow deals 200% Dark damage to enemies in a small area.",
+      "synergy_keywords": [
+        "dark_damage",
+        "aoe"
+      ],
+      "character_restriction": "Bismuth"
+    },
+    {
+      "name": "Tales of Hellfire",
+      "rarity": "Common",
+      "type": "Offensive",
+      "effect": "Creates a ring of flames around you for 3 seconds. Enemies touching the flame ring take 350% Fire damage per second.",
+      "synergy_keywords": [
+        "fire_damage"
+      ],
+      "character_restriction": "Bismuth"
+    },
+    {
+      "name": "Pure Soul",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Fires 3 soul missiles at nearby enemies. Each missile explodes, dealing 120% Light Damage to enemies and slowing their Movement Speed by 60% for 1 seconds.",
+      "synergy_keywords": [
+        "light_damage",
+        "fire_damage",
+        "mobility"
+      ],
+      "character_restriction": "Bismuth"
+    },
+    {
+      "name": "Valiant Heart",
+      "rarity": "Common",
+      "type": "Movement",
+      "effect": "Swing a magical sword at the nearest enemies, dealing 300% damage and slightly knocking them back. When the sword hits an enemy, Bismuth's Movement Speed increases by 15% for 1 seconds.",
+      "synergy_keywords": [
+        "light_damage",
+        "mobility"
+      ],
+      "character_restriction": "Bismuth"
+    },
+    {
+      "name": "Annihilation Stance",
+      "rarity": "Rare",
+      "type": "Buff",
+      "effect": "Envelop your blade with destructive Sword Energy for 10 seconds. While this is active, you cannot cast Memories, but your Attack Damage increases by 30%, your Attack Range is increased, and each basic attack fires Sword Energy that deals 400% Dark damage to enemies. You can perform 1.5 basic attacks per second while this effect is active, and this rate is not affected by other Attack Speed effects.",
+      "synergy_keywords": [
+        "dark_damage",
+        "fire_damage"
+      ],
+      "character_restriction": "Shell"
+    },
+    {
+      "name": "Baptism of the Sun",
+      "rarity": "Rare",
+      "type": "Channel",
+      "effect": "Vesper channels the sun's power, unleashing an explosion that deals 200% Fire Damage to nearby enemies and forces them to attack Vesper. Gain 15% Attack Speed for 6 seconds. During this time, Attacks deal an additional 40% Fire Damage.",
+      "synergy_keywords": [
+        "fire_damage"
+      ],
+      "character_restriction": "Vesper"
+    },
+    {
+      "name": "Black Arbalest",
+      "rarity": "Rare",
+      "type": "Buff",
+      "effect": "Fires an arbalest bolt that pierces through enemies, dealing 250% Dark damage, knocking them back, and triggering attack effects. Each time an enemy is pierced, the damage dealt to the next enemy increases by 35%.",
+      "synergy_keywords": [
+        "dark_damage",
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Bone Crusher",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Become Unstoppable and dash forward until hitting a wall. Deal 135% damage to enemies you hit and drag them along. Upon hitting a wall, unleash a shockwave that deals 420% damage and stuns for 1.5 seconds.\nGain a Barrier equal to 20% of your Maximum Health, which disappears 3 seconds after the dash ends.",
+      "synergy_keywords": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Cataclysm",
+      "rarity": "Rare",
+      "type": "Buff",
+      "effect": "Gain a Barrier of 150% and increase Ability Power by 30% for 12 seconds. During this time, Cataclysm can be reactivated up to 3 times to drop meteors at target locations. Meteors briefly stun enemies and deal 250% Light damage.",
+      "synergy_keywords": [
+        "light_damage"
+      ],
+      "character_restriction": "Yubar"
+    },
+    {
+      "name": "Chain Reaction",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Inscribe a Dismantle Sigil at the target location that lasts for 6 seconds. Enemies inside the sigil take 150% damage per second, and allies inside heal for 44% Health per second for each enemy inside. When hitting a boss, damage and healing are increased by 200%.",
+      "synergy_keywords": [
+        "healing"
+      ],
+      "character_restriction": "Aurena"
+    },
+    {
+      "name": "Chomp",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Bites the target enemy, dealing 370% damage and restoring 75% Health.",
+      "synergy_keywords": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Blade Storm",
+      "rarity": "Rare",
+      "type": "Summon",
+      "effect": "Summons a Blade Storm that lasts for 4 seconds in the target area.The Blade Storm rapidly slashes, dealing 85% or 85% damage (whichever is higher) to enemies every 0.5 seconds, and follows the nearest enemy.",
+      "synergy_keywords": [
+        "melee",
+        "summon",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Dangerous Theory",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Dash forward and empower your next basic attack. This basic attack becomes a critical strike, deals 125% additional damage, and knocks back the target.\n\nIf your current Health is below 60% when casting Dangerous Theory, the additional damage increases by 100%, the cooldown is reduced by 25%, and you restore 67% Health for each enemy hit. Against bosses, additional damage and healing increase by 100%.",
+      "synergy_keywords": [
+        "melee",
+        "healing"
+      ],
+      "character_restriction": "Aurena"
+    },
+    {
+      "name": "Flaming Whip",
+      "rarity": "Rare",
+      "type": "Movement",
+      "effect": "Swings a flaming whip, dealing 200% Fire damage to enemies in front and briefly reducing their Movement Speed.\nCasting a Memory other than Flaming Whip resets the whip's cooldown.",
+      "synergy_keywords": [
+        "fire_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Frostbite",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Your next 2 attacks are faster and empowered. The first attack deals 50% additional Cold damage and grants you a 110% Barrier that lasts for 2 seconds. The second attack deals 180% additional Cold damage.",
+      "synergy_keywords": [
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Glacial Hammer",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Slam a hammer of ice in front of you, dealing 220% Cold damage to enemies and pulling them towards your location. Enemies hit directly at the center of the hammer take 385% Cold damage instead.",
+      "synergy_keywords": [
+        "cold_damage"
+      ]
+    },
+    {
+      "name": "Great Frost Sword",
+      "rarity": "Rare",
+      "type": "Summon",
+      "effect": "Summon and swing a great frost sword, dealing 250% Cold damage to enemies in front and knocking them back. If it hits a single target, damage is increased by 350%.",
+      "synergy_keywords": [
+        "cold_damage",
+        "summon"
+      ]
+    },
+    {
+      "name": "Ignite",
+      "rarity": "Rare",
+      "type": "Buff",
+      "effect": "Deals 115% Fire damage to the target. If the target is already burning, damage is increased by 50% and deals Area damage. Charges are fully restored at once.",
+      "synergy_keywords": [
+        "fire_damage",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Immolation",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Ignite your body, sacrificing 12% of your current Health over 3.5 seconds. While burning, your Movement Speed increases by 20% and you deal 165% Fire damage per second to nearby enemies.",
+      "synergy_keywords": [
+        "healing",
+        "fire_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Battle Cry",
+      "rarity": "Rare",
+      "type": "Buff",
+      "effect": "Inspires all nearby allies for 4 seconds. Inspired allies gain a 10% increase to Attack Speed and deal 13% additional damage on attack. You receive 200% of the effect.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "Lightning Dance",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Briefly transform into an Invulnerable lightning that bounces between the target and nearby enemies, dealing 120% Light damage. Can bounce up to 4 times.\n\nAttacking reduces this Memory's cooldown by 5%.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Nature's Whisper",
+      "rarity": "Rare",
+      "type": "Summon",
+      "effect": "Command all of Nachia's summons to move to the target location or attack the target enemy. Increases Attack Speed of Nachia and all her summons by 18% for 3 seconds.",
+      "synergy_keywords": [
+        "summon"
+      ],
+      "character_restriction": "Nachia"
+    },
+    {
+      "name": "Orb of Light",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Launch an Orb of Light forward, dealing 200% Light damage to enemies. If the Orb of Light hits an enemy, a Flame of Life returns, restoring allies it touches for 25% Health for each enemy hit. If it hits a boss, healing is increased by 75%.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing"
+      ]
+    },
+    {
+      "name": "Parry",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Parry the first incoming damage from the front within 0.6 seconds, dealing damage to up to 5 enemies. Enemies hit take 360% damage, are stunned, and the Astrid's Masterpiece effect resets. Successfully parrying makes you briefly immune to all damage and reduces Parry's cooldown by 50%. ",
+      "synergy_keywords": [
+        "utility"
+      ],
+      "character_restriction": "Mist"
+    },
+    {
+      "name": "Pillar of Flame",
+      "rarity": "Rare",
+      "type": "Summon",
+      "effect": "Summons a pillar of fire at the target location, immediately dealing 250% Fire damage to all enemies within the area, then deals 275% Fire damage over 2.4 seconds.",
+      "synergy_keywords": [
+        "summon",
+        "fire_damage",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Precision Shot",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Hold the cast key to enter an aiming stance. After aiming, release to fire a penetrating round that deals 150%-800% damage to all enemies hit and stuns them for 0.5-2.5 seconds, based on how long you aimed.\nHolding the stance for 1 seconds maximizes range, stun duration, and damage.",
+      "synergy_keywords": [
+        "fire_damage"
+      ],
+      "character_restriction": "Lacerta"
+    },
+    {
+      "name": "Quick Draw",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Rapidly fire 3 piercing shots that deal 120% damage to up to 3 enemies.",
+      "synergy_keywords": [
+        "fire_damage"
+      ],
+      "character_restriction": "Lacerta"
+    },
+    {
+      "name": "Repulsive Shield",
+      "rarity": "Rare",
+      "type": "Defensive",
+      "effect": "Blocks damage from enemies in front for 1.9 seconds. Each time damage is blocked, deals 240% damage to up to 4 enemies in front.",
+      "synergy_keywords": [
+        "utility"
+      ]
+    },
+    {
+      "name": "El's Sanctuary",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Vesper blesses the surrounding ground for 10 seconds, dealing 500% Light damage to nearby enemies and granting allies a 200% Barrier that lasts for 4 seconds. Allies on the blessed ground gain 18 Armor and 20% Attack Speed.\n\nVesper himself receives 200% of the effect and becomes Unstoppable while under the effect.",
+      "synergy_keywords": [
+        "light_damage"
+      ],
+      "character_restriction": "Vesper"
+    },
+    {
+      "name": "Scattershot",
+      "rarity": "Rare",
+      "type": "Offensive",
+      "effect": "Fires 5 dark bullets that spread out in front. Each bullet deals 100% Dark damage and triggers 50% attack effects.",
+      "synergy_keywords": [
+        "dark_damage",
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Serpent's Blessing",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Grants Serpent's Blessing to Nachia and the target ally for 12 seconds. This blessing grants 55 Armor and increases Attack Speed by 25%. Whenever the blessed target performs a basic attack, they restore 2.5% of their Maximum Health, and their attack target takes 100% damage and is stunned for 0.5 seconds.\n\nIf the blessed target is a summon, it restores 25% of its Maximum Health.",
+      "synergy_keywords": [
+        "healing",
+        "summon"
+      ],
+      "character_restriction": "Nachia"
+    },
+    {
+      "name": "Shadow Overdrive",
+      "rarity": "Rare",
+      "type": "Movement",
+      "effect": "Channels for 0.7 seconds to increase Movement Speed by 30%. After channeling, launches 5 homing missiles that deal 50% Dark damage to random nearby enemies and grants you 20% increased Attack Speed for 3 seconds.",
+      "synergy_keywords": [
+        "dark_damage",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Shadow Walk",
+      "rarity": "Rare",
+      "type": "Movement",
+      "effect": "Quickly dash forward and fire 3 dark shards at nearby enemies. Each shard deals 65% Dark damage and triggers 50% attack effects.",
+      "synergy_keywords": [
+        "dark_damage",
+        "fire_damage"
+      ]
+    },
+    {
+      "name": "Lightning Strike",
+      "rarity": "Rare",
+      "type": "AoE",
+      "effect": "After a brief delay, strike the area with lightning, dealing 400% Light damage to enemies and stunning them for 1 seconds. Has a 50% chance to set enemies on fire.",
+      "synergy_keywords": [
+        "melee",
+        "light_damage",
+        "fire_damage",
+        "aoe"
+      ]
+    },
+    {
+      "name": "Static Discharge",
+      "rarity": "Rare",
+      "type": "Movement",
+      "effect": "Hold to charge up static, gaining 40 Armor. When released, detonate the static to deal 150%–780% Light Damage to enemies based on charge time, knocking them back and reducing their Movement Speed by 60% for 2 seconds. The gained Armor disappears 1 seconds after the static detonates.\n\nCharging for 1 seconds maximizes the damage and area of effect.",
+      "synergy_keywords": [
+        "light_damage",
+        "aoe",
+        "mobility"
+      ]
+    },
+    {
+      "name": "Tranquility",
+      "rarity": "Rare",
+      "type": "Movement",
+      "effect": "Yubar channels for 1 seconds to regain tranquility, becoming Invulnerable, with a 40% increase in Movement Speed, and reducing the cooldowns of all other Memories by 3.5 seconds.",
+      "synergy_keywords": [
+        "mobility"
+      ],
+      "character_restriction": "Yubar"
+    },
+    {
+      "name": "Unbreakable Determination",
+      "rarity": "Rare",
+      "type": "Support",
+      "effect": "Resets the cooldown of Swift Steps and Astrid's Masterpiece, deals 400% damage to nearby enemies, and enters the awakened state for 12 seconds.\n\nWhile awakened, gains 25% Attack Speed and each attack triggers a lightning explosion, dealing 90% damage to the target and nearby enemies. When Astrid's Masterpiece triggers during the awakened state, recovers Health equal to 4% of your missing Health.",
+      "synergy_keywords": [
+        "light_damage",
+        "healing"
+      ],
+      "character_restriction": "Mist"
+    },
+    {
+      "name": "Beam of Balance",
+      "rarity": "Unique",
+      "type": "Support",
+      "effect": "Ascend for 8 seconds, becoming Invulnerable. During this time, control a slow-moving Beam of Balance that deals 350% damage per second to enemies and heals allies for 150% per second.",
+      "synergy_keywords": [
+        "healing"
+      ]
+    },
+    {
+      "name": "Burrow",
+      "rarity": "Unique",
+      "type": "Movement",
+      "effect": "Burrow underground, becoming Invulnerable for 2.5 seconds and increasing Movement Speed by 30%. Emerging knocks up and stuns nearby enemies for 1 seconds and deals 550% damage.\nCan be recast to end the effect early.",
+      "synergy_keywords": [
+        "mobility"
+      ]
+    },
+    {
+      "name": "Her World",
+      "rarity": "Unique",
+      "type": "Offensive",
+      "effect": "Turn into a Black Hole for 7 seconds. All enemies are pulled towards the Black Hole, and enemies in contact with it take 500% Light damage per second. At the end of its duration, the Black Hole explodes, dealing 1,200% Light damage to all nearby enemies and stunning them for 2.5 seconds.\n\nIn the Black Hole state, gain 120 Armor and become immune to death.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    },
+    {
+      "name": "Hysteria",
+      "rarity": "Unique",
+      "type": "Support",
+      "effect": "Embrace intense rage for 6 seconds, during which you can't cast other Memories. During this time, unleash continuous claw slashes that deal 100% Dark damage to enemies and restore your Health for 13%. If your Health is below 40%, healing is increased by 150%. Triggers attack effects on the first target hit. Slashes faster with higher Attack Speed.",
+      "synergy_keywords": [
+        "dark_damage",
+        "healing",
+        "melee"
+      ]
+    },
+    {
+      "name": "Shout of Oblivion",
+      "rarity": "Unique",
+      "type": "Buff",
+      "effect": "Become Invulnerable briefly while channeling, then unleash a powerful cry forward, dealing 1,300% Dark damage to all enemies and stunning them for 3 seconds.\n\nThis damage increases by 25% for each current Hunt Threat Level.",
+      "synergy_keywords": [
+        "dark_damage"
+      ]
+    },
+    {
+      "name": "World Cracker",
+      "rarity": "Unique",
+      "type": "Channel",
+      "effect": "Channels a powerful beam that deals 575% Light damage per second to all enemies it touches. You can't move while channeling, but can maintain it indefinitely until canceled.",
+      "synergy_keywords": [
+        "light_damage"
+      ]
+    }
+  ]
+}

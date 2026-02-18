@@ -1,0 +1,835 @@
+{
+  "character": "Aurena",
+  "builds": [
+    {
+      "name": "Pure White Radiant",
+      "concept": "Light damage build using Pure White essence with Shock lightning and Flow CDR to create empowered casts that scale with light stacks for massive projectile and chain lightning damage",
+      "playstyle": "Light damage specialist with scaling projectile attacks and chain lightning",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Pure White",
+            "Essence of Shock",
+            "Essence of Flow"
+          ],
+          "rationale": "Pure White empowers casts every 10 seconds with projectiles scaling with light stacks (16pt synergy with Shock for light stacking), Shock empowers every 4th attack with bouncing lightning adding light stacks, Flow reduces cooldown with light damage (15pt synergy with Pure White)"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Insight",
+            "Essence of Stillness",
+            "Essence of Clemency"
+          ],
+          "rationale": "Insight adds 200% Light damage and Memory Haste (18pt synergy with Flow), Stillness provides empowered casts with light damage and 2s stun, Clemency provides 4% leech healing"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of the Celestial",
+            "Essence of Momentum",
+            "Essence of Voracity"
+          ],
+          "rationale": "Celestial empowers casts with meteors for light damage, Momentum reduces cooldowns per attack, Voracity provides healing per attack for 5s"
+        },
+        {
+          "name": "Mass Cleanse",
+          "essences": [
+            "Glacial Core",
+            "Essence of Guidance",
+            "Essence of Shatter"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (25pt with Clemency), Guidance converts healing to barriers, Shatter empowers casts with +72% light damage bonus"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Experiment and Validation (max level) - +9 Attack Damage (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Daylight (max level) - +3% Light damage per stack (common, CRITICAL for light build)",
+          "Night Time (max level) - +8 Ability Power (common)"
+        ],
+        "life": [
+          "Eel-like Agility (max level) - +25% Movement Speed for 2s on damage (Aurena-specific)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Regenerative Skin (max level) - +18% received Healing and Barrier (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Glittering Golden Antlers (max level) - +105 Gold when entering new world (Aurena-specific)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific, requires Orb of Light)"
+        ]
+      },
+      "strategy": "Orb of Light with Pure White creates empowered casts every 10 seconds that fire projectiles scaling with light stacks on enemies. Shock empowers every 4th basic attack with bouncing lightning (40% Light damage), building light stacks quickly (16pt synergy with Pure White). Flow on Orb reduces its cooldown every time you deal light damage (15pt synergy with Pure White's light focus). Beam of Light with Insight adds 200% Light damage and Memory Haste (18pt synergy with Flow), creating a triple light CDR loop. Stillness adds empowered light bursts every 5 seconds. Shatter on Mass Cleanse provides +72% light damage on empowered casts. Glacial Core converts healing to cold damage (25pt with Clemency). Total light synergy: 92+ points. Focus on applying light stacks with Shock and abilities, then Pure White's empowered casts scale exponentially.",
+      "strengths": [
+        "Exponential light damage scaling with stacks",
+        "Triple light CDR loop (Pure White + Shock + Flow + Insight)",
+        "16pt Pure White + Shock light stacking synergy",
+        "15pt Pure White + Flow light CDR synergy",
+        "18pt Insight + Flow light haste synergy",
+        "25pt Glacial Core + Clemency healing-to-cold loop"
+      ],
+      "weaknesses": [
+        "Requires light stack application",
+        "Positioning dependent",
+        "Lower damage without stacks",
+        "Complex stack management"
+      ]
+    },
+    {
+      "name": "Divine Radiant Healer",
+      "concept": "Support build that scales healing and damage infinitely with Divine Faith and Domination's dual scaling, while providing universal stat boosts",
+      "playstyle": "Scaling support that becomes more powerful with each kill through dual infinite scaling, healing allies while dealing massive damage",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales healing and damage with kills (22pt synergy with Domination for dual infinite scaling), Domination scales crit damage infinitely, Predation increases boss damage by 60%"
+        },
+        {
+          "name": "Dangerous Theory",
+          "essences": [
+            "Perfection",
+            "Essence of Guidance",
+            "Essence of Clemency"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Guidance converts healing to barriers, Clemency adds 4% damage-to-healing"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Insight",
+            "Essence of Momentum",
+            "Essence of Voracity"
+          ],
+          "rationale": "Insight enhances light damage with 200% bonus and Memory Haste, Momentum reduces cooldowns per attack, Voracity provides healing from star damage"
+        },
+        {
+          "name": "Mass Protection",
+          "essences": [
+            "Glacial Core",
+            "Essence of Protection",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (25pt synergy with Clemency), Protection adds 40 Armor and Unstoppable, Efficiency reduces cooldowns by 26%"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Resonance Effect (max level) - +14% Attack Damage and Ability Power when Health <50% (Aurena-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Glittering Golden Antlers (max level) - +105 Gold when entering new world (Aurena-specific)"
+        ],
+        "flexible": [
+          "Strong Bond (max level) - Dangerous Theory heals allies for 50% of damage dealt (Aurena-specific, requires Dangerous Theory)"
+        ]
+      },
+      "strategy": "Orb of Light with Divine Faith and Domination creates the strongest dual infinite scaling combo (22pt synergy). Faith scales both healing and damage with each kill (up to 75 stacks = 37.5% increase + 300 max health) while Domination scales crit damage infinitely. Perfection on Dangerous Theory adds 18pt synergy with Faith. Clemency provides 4% leech that Glacial Core converts to cold damage explosions (25pt synergy). Total synergy score: 83+ points. Strong Bond on Dangerous Theory heals allies for 50% of damage dealt, making it both a damage and heal ability. Focus on eliminating enemies to stack Faith while Domination crits scale infinitely. Circulating Life shares your healing with allies.",
+      "strengths": [
+        "Dual infinite scaling with Divine Faith + Domination (22pt synergy)",
+        "83+ total synergy points",
+        "Healing-to-cold-damage loop via Glacial Core + Clemency (25pt)",
+        "Permanent universal stat boosts via Perfection (18pt with Faith)",
+        "60% increased boss damage through Predation",
+        "Strong Bond heals allies for 50% of damage dealt"
+      ],
+      "weaknesses": [
+        "Requires allies for maximum effectiveness",
+        "Requires kills to scale",
+        "Positioning dependent",
+        "Weaker early game before scaling"
+      ]
+    },
+    {
+      "name": "Suppressed Arcanum Support",
+      "concept": "Build using Suppressed Arcanum to sacrifice health for powerful explosions that deal light damage and grant barriers, with Pain AoE splash for massive group damage",
+      "playstyle": "Support that sacrifices health for massive area damage with 40% AoE splash and team protection",
+      "memories": [
+        {
+          "name": "Golden Explosion",
+          "essences": [
+            "Suppressed Arcanum",
+            "Essence of Overload",
+            "Essence of Pain"
+          ],
+          "rationale": "Suppressed Arcanum sacrifices health for golden explosion with 240% Light damage, Overload sacrifices health to empower casts by 45%, Pain adds 40% AoE splash to ALL explosion damage (0 builds currently use Pain!)"
+        },
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Glacial Core",
+            "Essence of Guidance",
+            "Essence of Love"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage, Guidance converts healing to barriers, Love increases ally attack speed and movement speed"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Insight",
+            "Essence of Clemency"
+          ],
+          "rationale": "Flow reduces cooldown with light damage (18pt synergy with Insight), Insight adds 200% Light damage and haste, Clemency provides 4% leech (25pt synergy with Glacial Core)"
+        },
+        {
+          "name": "Mass Cleanse",
+          "essences": [
+            "Essence of Efficiency",
+            "Essence of Protection",
+            "Essence of Rejuvenation"
+          ],
+          "rationale": "Efficiency reduces cooldowns by 26%, Protection adds 40 Armor and Unstoppable, Rejuvenation provides empowered healing"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Resonance Effect (max level) - +14% Attack Damage and Ability Power when Health <50% (Aurena-specific)",
+          "Daylight (max level) - +3% Light damage per stack (common)",
+          "Night Time (max level) - +8 Ability Power (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific, CRITICAL)",
+          "Feather Oil (max level) - +40 Armor when Health <40% (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Second Wind (max level) - Invulnerable for 2.5s on fatal damage once (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific)"
+        ]
+      },
+      "strategy": "Golden Explosion with Suppressed Arcanum sacrifices health to create 240% Light damage explosions and grant allies barriers. Overload further empowers casts by sacrificing 20% health for 45% increased damage and healing. Essence of Pain (0 builds currently!) adds 40% AoE splash to ALL explosion damage, dramatically increasing group clear. Orb of Light with Glacial Core converts healing to cold damage (25pt synergy with Clemency on Beam). Beam of Light with Flow and Insight creates an 18pt light CDR loop. Since you sacrifice health, Resonance Effect (+14% AD/AP at <50% HP), Autophagy (+35% healing at <50% HP), and Feather Oil (+40 Armor at <40% HP) all activate naturally.",
+      "strengths": [
+        "Massive area damage through explosions + 40% Pain AoE splash",
+        "45% empowered casts through Overload health sacrifice",
+        "Natural activation of all low-health bonuses",
+        "25pt healing-to-cold loop via Glacial Core + Clemency",
+        "18pt light CDR loop via Insight + Flow",
+        "Strong team support through barriers and healing"
+      ],
+      "weaknesses": [
+        "Requires health management",
+        "Vulnerable to burst damage",
+        "Positioning dependent",
+        "Complex resource management"
+      ]
+    },
+    {
+      "name": "Automated Basic Attack Healer",
+      "concept": "Basic attack focused build with 4 full memories, using Crimson and Wound explosions for empowered attacks and massive AoE, combined with Momentum cooldown reduction",
+      "playstyle": "Basic attack spammer that triggers explosions, wound detonations, and healing while reducing cooldowns across 4 memories",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Momentum reduces cooldown with each basic attack, Fangs provides guaranteed crits that reduce cooldown (18pt with Domination), Shock empowers every 4th attack with bouncing lightning"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Stillness",
+            "Essence of Voracity"
+          ],
+          "rationale": "Flow reduces cooldown when dealing light damage (boosted by Shock lightning), Stillness stuns enemies for 2 seconds on empowered casts, Voracity restores 6 health per attack for 5 seconds"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Insight",
+            "Essence of the Wound"
+          ],
+          "rationale": "Clemency provides 4% leech, Insight adds 200% Light damage and Memory Haste (18pt with Flow), Wound marks enemies that explode for 275% AoE after 3 attacks (0 builds use this!)"
+        },
+        {
+          "name": "Dangerous Theory",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Crimson",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Domination scales crit damage infinitely (18pt with Fangs), Crimson empowers every 4th attack with 100% Dark explosion + 22% heal, Efficiency reduces cooldown by 26%"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Experiment and Validation (max level) - +9 Attack Damage (Aurena-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)"
+        ],
+        "life": [
+          "Eel-like Agility (max level) - +25% Movement Speed for 2s on damage (Aurena-specific)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Equivalent Exchange (max level) - +20 Gold per Health Potion acquired (Aurena-specific)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific)"
+        ]
+      },
+      "strategy": "Now a full 4-memory build instead of 2. Spam basic attacks to trigger Momentum CDR, guaranteed Fangs crits, Shock lightning, Crimson dark explosions, and Wound mark detonations. Every 3 attacks on the same target triggers a 275% AoE wound explosion (previously unused essence). Every 4th attack triggers both Crimson explosion (100% Dark, heals 22% per enemy) and Shock lightning (40% Light, bounces). Fangs + Domination create 18pt infinite crit scaling. Insight + Flow create 18pt light CDR loop. Dangerous Theory with Strong Bond heals allies for 50% of damage dealt. The build requires minimal active management - just hold basic attack.",
+      "strengths": [
+        "275% AoE wound explosions every 3 attacks (previously unused)",
+        "100% Dark Crimson explosions every 4th attack + 22% heal",
+        "Bouncing Shock lightning every 4th attack",
+        "Dual 18pt synergies (Fangs+Domination, Insight+Flow)",
+        "Continuous cooldown reduction through basic attacks",
+        "4 full memories instead of previous 2"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Positioning dependent for wound/crimson explosions",
+        "Lower single-target burst than scaling builds",
+        "Requires multiple epic essences"
+      ]
+    },
+    {
+      "name": "Maximum Damage Radiant Sage",
+      "concept": "Optimized damage build using Divine Faith for infinite scaling, combined with Domination for crit scaling, Predation for boss damage, and healing-to-cold conversion",
+      "playstyle": "High-damage support that scales infinitely with kills while maintaining strong survivability through healing-to-cold-damage conversion and barriers",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Divine Faith",
+            "Essence of Domination",
+            "Essence of Predation"
+          ],
+          "rationale": "Divine Faith scales damage and health infinitely with kills (up to 75 stacks), Domination scales crit damage with each crit (22pt synergy with Faith), Predation increases boss damage by 60% and drops Orbs of Power"
+        },
+        {
+          "name": "Dangerous Theory",
+          "essences": [
+            "Perfection",
+            "Essence of Clemency",
+            "Essence of Momentum"
+          ],
+          "rationale": "Perfection provides universal stat boosts (18pt synergy with Divine Faith), Clemency provides 4% leech from all damage, Momentum reduces cooldown with each basic attack"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Flow",
+            "Essence of the Celestial"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds after casting, Flow reduces cooldown when dealing light damage, Celestial empowers casts with meteors"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Guidance",
+            "Essence of Insight",
+            "Glacial Core"
+          ],
+          "rationale": "Guidance converts healing to barriers, Insight adds 200% Light damage and haste (18pt with Flow), Glacial Core converts healing to cold damage (25pt with Clemency)"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Resonance Effect (max level) - +14% Attack Damage and Ability Power when Health <50% (Aurena-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Glittering Golden Antlers (max level) - +105 Gold when entering new world (Aurena-specific)"
+        ],
+        "flexible": [
+          "Strong Bond (max level) - Dangerous Theory heals allies for 50% of damage dealt (Aurena-specific, requires Dangerous Theory)"
+        ]
+      },
+      "strategy": "Orb of Light with Divine Faith and Domination creates dual infinite scaling (22pt synergy). Faith scales damage/health with kills while Domination scales crit damage infinitely. Perfection on Dangerous Theory adds 18pt synergy with Faith. Clemency provides 4% leech that Glacial Core converts to cold damage (25pt synergy). Insight + Flow create 18pt light CDR loop. Total synergy: 101+ points. Strong Bond on Dangerous Theory heals allies for 50% of damage dealt. Focus on eliminating enemies quickly to stack Divine Faith while maintaining survivability through Clemency leech, Voracity healing, Guidance barriers, and Glacial Core cold conversion.",
+      "strengths": [
+        "Infinite damage scaling with Divine Faith (up to 75 stacks)",
+        "Infinite crit damage scaling with Domination (22pt synergy)",
+        "101+ total synergy points",
+        "Healing-to-cold loop via Glacial Core + Clemency (25pt)",
+        "Light CDR loop via Insight + Flow (18pt)",
+        "60% increased boss damage through Predation",
+        "Universal stat boosts from Perfection (18pt with Faith)",
+        "Strong Bond heals allies for 50% of damage"
+      ],
+      "weaknesses": [
+        "Requires kills to scale effectively",
+        "Weaker early game before Faith stacks",
+        "Requires multiple legendary essences",
+        "Positioning important for optimal light damage"
+      ]
+    },
+    {
+      "name": "Ultimate Basic Attack Radiant Sage",
+      "concept": "Pure basic attack build maximizing attack speed, crit chance, and attack-triggered effects for maximum DPS with wound explosions",
+      "playstyle": "Spam basic attacks continuously, triggering empowered attacks, wound detonations, healing, and cooldown reduction with every hit",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Essence of Momentum",
+            "Essence of Fangs",
+            "Essence of Shock"
+          ],
+          "rationale": "Momentum reduces cooldown by 0.4 seconds with each basic attack, Fangs makes every 4th attack a crit (reducing cooldown by 0.7s) and launches 2 Fangs, Shock empowers every 4th attack with lightning (40% light damage, bounces)"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Voracity",
+            "Essence of Wind",
+            "Essence of Flow"
+          ],
+          "rationale": "Voracity restores 6 health per attack for 5 seconds, Wind increases attack speed by 33% for 5 seconds, Flow reduces cooldown when dealing light damage (18pt with Insight)"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Insight",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Clemency provides 4% leech, Insight adds 200% Light damage and haste (18pt with Flow), Efficiency reduces cooldown by 26%"
+        },
+        {
+          "name": "Dangerous Theory",
+          "essences": [
+            "Essence of Domination",
+            "Essence of Guidance",
+            "Essence of the Celestial"
+          ],
+          "rationale": "Domination increases crit chance by 20% and scales crit damage infinitely (18pt with Fangs), Guidance converts healing to barriers, Celestial empowers casts with meteors"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Experiment and Validation (max level) - +9 Attack Damage (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Resonance Effect (max level) - +14% Attack Damage and Ability Power when Health <50% (Aurena-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Lucky Clover (max level) - +13% Critical Strike Chance (common)",
+          "Hurricane (max level) - +10.5% Attack Speed (common)"
+        ],
+        "life": [
+          "Eel-like Agility (max level) - +25% Movement Speed for 2s on damage (Aurena-specific)",
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (150% on crit) (common)",
+          "Combat First Aid (max level) - Restore 2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Equivalent Exchange (max level) - +20 Gold per Health Potion acquired (Aurena-specific)",
+          "Component Analysis (max level) - +70% resources from Gold/Dream Dust Shards (Aurena-specific)",
+          "Anguillian Hypersense (max level) - Reveal 5 random locations when entering world (Aurena-specific)",
+          "Glittering Golden Antlers (max level) - +105 Gold when entering new world (Aurena-specific)",
+          "Wealth Accumulation (max level) - +10% Gold from defeating enemies (common)"
+        ],
+        "flexible": [
+          "Strong Bond (max level) - Dangerous Theory heals allies for 50% of damage dealt (Aurena-specific, requires Dangerous Theory memory)"
+        ]
+      },
+      "strategy": "Spam basic attacks continuously. Every attack reduces Orb of Light's cooldown by 0.4 seconds through Momentum. Every 4th attack is a guaranteed crit (Fangs) that further reduces cooldown by 0.7 seconds and launches 2 Fangs. Every 4th attack also triggers Shock lightning (40% light damage, bounces). Cast Starfall frequently for Voracity healing and Wind attack speed boost (33%). Flow reduces cooldowns when dealing light damage (18pt with Insight). Clemency provides 4% leech. Domination scales crit damage infinitely (18pt with Fangs). Simply hold down basic attack - every hit heals you, reduces cooldowns, and triggers lightning effects.",
+      "strengths": [
+        "Extremely high attack speed potential (Wind + Hurricane)",
+        "Dual 18pt synergies (Fangs+Domination, Insight+Flow)",
+        "Multiple healing sources (Voracity, Clemency leech, Guidance barriers)",
+        "Continuous cooldown reduction through basic attacks",
+        "Lightning bounces scale with crit chance",
+        "Minimal active memory management required"
+      ],
+      "weaknesses": [
+        "Requires high attack speed for optimal performance",
+        "Positioning important for optimal lightning bounces",
+        "Lower single-target burst than ability-focused builds",
+        "Requires multiple epic/legendary essences"
+      ]
+    },
+    {
+      "name": "Low Health Empowered Sage",
+      "concept": "Risk-reward build using Resonance Effect and Autophagy to become massively powerful at low health, with Direness+Overload symbiosis and multiple fail-safes",
+      "playstyle": "High-risk healer that intentionally maintains low health for massive damage and healing bonuses",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Essence of Direness",
+            "Essence of Overload",
+            "Essence of Insight"
+          ],
+          "rationale": "Direness reduces cooldowns by up to 55% at low health (16pt synergy with Overload for low-HP symbiosis), Overload sacrifices 20% health to empower casts by 45%, Insight adds 200% Light damage and Memory Haste"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Blood Drops",
+            "Essence of Momentum",
+            "Essence of Voracity"
+          ],
+          "rationale": "Blood Drops restores 40% HP when below 40% (safety net), Momentum reduces cooldowns per attack, Voracity provides controlled healing"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Flow",
+            "Essence of Domination",
+            "Essence of Stillness"
+          ],
+          "rationale": "Flow reduces cooldowns on light damage (18pt synergy with Insight), Domination scales crit damage infinitely, Stillness empowers casts with light damage and 2s stun"
+        },
+        {
+          "name": "Dangerous Theory",
+          "essences": [
+            "Essence of Guidance",
+            "Essence of Efficiency",
+            "Essence of Clemency"
+          ],
+          "rationale": "Guidance converts excess healing to barriers for safety, Efficiency reduces cooldowns by 26% (15pt with Momentum), Clemency provides controlled 4% leech healing"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Resonance Effect (max level) - +14% Attack Damage and Ability Power when Health <50% (Aurena-specific, CRITICAL)",
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Daylight (max level) - +3% Light damage per stack (common)",
+          "Night Time (max level) - +8 Ability Power (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific, CRITICAL)",
+          "Feather Oil (max level) - +40 Armor when Health <40% (Aurena-specific, CRITICAL)",
+          "Eel-like Agility (max level) - +25% Movement Speed for 2s on damage (Aurena-specific)",
+          "Second Wind (max level) - Invulnerable for 2.5s on fatal damage once (common, SAFETY)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific)"
+        ]
+      },
+      "strategy": "Maintain health between 30-50% to trigger all low-health bonuses simultaneously: Resonance Effect (+14% AD/AP), Autophagy (+35% healing), Feather Oil (+40 Armor), and Direness (-55% cooldowns). Overload sacrifices 20% health to empower casts by 45%, naturally keeping you in the danger zone (16pt synergy with Direness). Blood Drops provides emergency heal at 40% HP. Guidance converts excess healing to barriers for safety. Second Wind provides fatal damage immunity once. Insight + Flow create 18pt light CDR loop. Efficiency + Momentum add 15pt cooldown stacking. Cast abilities extremely rapidly due to Direness CDR + Efficiency + Momentum + Flow.",
+      "strengths": [
+        "Massive damage and healing bonuses at low health",
+        "Up to 55% cooldown reduction through Direness",
+        "16pt Direness + Overload low-HP symbiosis",
+        "18pt Insight + Flow light CDR loop",
+        "15pt Efficiency + Momentum CDR stacking",
+        "Multiple safety mechanisms (Blood Drops, Second Wind, Feather Oil)",
+        "35% increased healing when it matters most"
+      ],
+      "weaknesses": [
+        "High-risk playstyle requires careful health management",
+        "Vulnerable to burst damage despite fail-safes",
+        "Requires maintaining specific health threshold",
+        "Less effective at full health"
+      ]
+    },
+    {
+      "name": "Cold Conversion Healer",
+      "concept": "Support build using Glacial Core to convert all healing into cold damage, with Reflex retaliation and Snow barriers for layered cold application",
+      "playstyle": "Aggressive healer that deals cold damage through healing mechanics while controlling enemies with slows and automatic cold retaliation",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Glacial Core",
+            "Essence of Frost",
+            "Essence of Freezing"
+          ],
+          "rationale": "Glacial Core converts 100% healing to cold damage, Frost adds cold damage scaling with max health and permanently increases HP (18pt synergy with Glacial Core), Freezing applies cold stacks that slow enemies"
+        },
+        {
+          "name": "Mass Cleanse",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Voracity",
+            "Essence of Reflex"
+          ],
+          "rationale": "Clemency provides 4% leech converted to cold via Glacial Core (25pt synergy), Voracity provides healing per attack, Reflex deals 120% Cold retaliation damage and grants 40 Armor when hit (previously underused)"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Momentum",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Bleakness adds 50% damage to slowed/frozen enemies (always active with cold), Momentum reduces cooldowns per attack, Efficiency reduces cooldowns by 26% (15pt with Momentum)"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Guidance",
+            "Essence of Flow",
+            "Essence of Stillness"
+          ],
+          "rationale": "Guidance converts excess healing to barriers, Flow reduces cooldowns on light damage, Stillness provides empowered casts with stun"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)",
+          "Night Time (max level) - +8 Ability Power (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common, feeds Glacial Core)",
+          "Regenerative Skin (max level) - +18% received Healing (common, amplifies cold conversion)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific)"
+        ]
+      },
+      "strategy": "Apply cold stacks using Freezing and Snow to slow enemies. Every point of healing from Clemency leech, Voracity, and Wicked Vitality gets converted to cold damage through Glacial Core (25pt synergy with Clemency). Frost adds cold damage equal to 10% max HP and permanently increases max health (18pt synergy with Glacial Core). Essence of Reflex on Mass Cleanse provides automatic 120% Cold retaliation plus 40 Armor every time you take damage, adding another cold damage source. Bleakness provides 50% damage bonus to all cold-slowed enemies - always active since your build constantly applies cold. Efficiency + Momentum stack cooldown reduction (15pt). Circulating Life shares healing with allies while Glacial Core converts your portion to cold damage.",
+      "strengths": [
+        "25pt Glacial Core + Clemency healing-to-cold loop",
+        "18pt Glacial Core + Frost infinite HP scaling",
+        "120% Cold retaliation through Reflex (previously underused)",
+        "15pt Efficiency + Momentum CDR stacking",
+        "50% damage bonus to slowed enemies always active",
+        "Still provides ally healing through Circulating Life"
+      ],
+      "weaknesses": [
+        "Healing converted means less personal sustain",
+        "Complex synergy management required",
+        "Less effective against cold-resistant enemies",
+        "Requires building cold stacks for full effectiveness"
+      ]
+    },
+    {
+      "name": "Radiant Pain Bomber",
+      "concept": "Light damage build using Pure White scaling with Pain AoE splash and Wound explosions for massive group damage that also heals allies",
+      "playstyle": "Ability spammer that creates overlapping AoE zones of light damage, wound detonations, and pain splash while healing nearby allies",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Pure White",
+            "Essence of Pain",
+            "Essence of Shock"
+          ],
+          "rationale": "Pure White fires projectiles scaling with light stacks (16pt synergy with Shock for light stacking), Pain adds 40% AoE splash to ALL projectile and ability damage (0 builds use Pain!), Shock adds bouncing lightning to build light stacks"
+        },
+        {
+          "name": "Golden Explosion",
+          "essences": [
+            "Essence of the Wound",
+            "Essence of Overload",
+            "Essence of Insight"
+          ],
+          "rationale": "Wound marks enemies that explode for 275% AoE after 3 hits (0 builds!), Overload sacrifices health for 45% empowered casts, Insight adds 200% Light damage and Memory Haste"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of the Celestial",
+            "Essence of Flow",
+            "Essence of Momentum"
+          ],
+          "rationale": "Celestial drops 4 meteors for 130% Light each on empowered casts, Flow reduces cooldowns on light damage (18pt with Insight), Momentum reduces cooldowns per attack"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Clemency",
+            "Essence of Guidance",
+            "Essence of Voracity"
+          ],
+          "rationale": "Clemency provides 4% leech from massive AoE damage, Guidance converts excess healing to barriers, Voracity heals per attack for 5s"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Resonance Effect (max level) - +14% Attack Damage and Ability Power when Health <50% (Aurena-specific)",
+          "Daylight (max level) - +3% Light damage per stack (common, CRITICAL)",
+          "Night Time (max level) - +8 Ability Power (common)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific)",
+          "Feather Oil (max level) - +40 Armor when Health <40% (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Combat First Aid (max level) - +2.50% Max Health on kill (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)",
+          "Glittering Golden Antlers (max level) - +105 Gold when entering new world (Aurena-specific)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific, requires Orb of Light)"
+        ]
+      },
+      "strategy": "This build exploits two severely underused essences: Pain (0 builds) and Wound (0 builds). Pure White fires scaling light projectiles that gain 40% AoE splash from Pain, turning each projectile into group damage. Shock builds light stacks through bouncing lightning (16pt synergy with Pure White), making each Pure White empowered cast fire more projectiles. Wound on Golden Explosion marks enemies - after 3 hits they explode for 275% AoE. Golden Explosion's own damage triggers Wound marks, and Overload empowers it by 45%. Insight adds 200% Light damage and Memory Haste (18pt with Flow), accelerating the ability rotation. Celestial adds meteor damage to Starfall. Clemency leeches 4% from all the AoE damage for sustain. Overload naturally drops health, activating Resonance Effect and Autophagy bonuses.",
+      "strengths": [
+        "40% AoE splash on ALL damage through Pain (never used before)",
+        "275% AoE wound explosions from Golden Explosion marks (never used before)",
+        "Exponential light scaling through Pure White + Shock (16pt)",
+        "18pt light CDR loop via Insight + Flow",
+        "Natural low-health bonus activation through Overload",
+        "Celestial meteor damage on Starfall"
+      ],
+      "weaknesses": [
+        "Health sacrifice through Overload requires management",
+        "Positioning dependent for maximum AoE overlap",
+        "Complex multi-ability rotation",
+        "Requires building light stacks for maximum Pure White damage"
+      ]
+    },
+    {
+      "name": "Tidal Healer Tank",
+      "concept": "Maximum survivability support using Glacial Core cold conversion, Flexibility damage smoothing, Reflex retaliation, and Snow barriers for an unkillable healer that deals damage passively",
+      "playstyle": "Stand near allies absorbing damage while cold retaliation, healing conversion, and barriers keep everyone alive and enemies frozen",
+      "memories": [
+        {
+          "name": "Orb of Light",
+          "essences": [
+            "Glacial Core",
+            "Essence of Clemency",
+            "Essence of Frost"
+          ],
+          "rationale": "Glacial Core converts healing to cold damage (25pt synergy with Clemency), Clemency provides 4% leech feeding cold explosions, Frost adds cold damage equal to 10% max HP and permanently increases HP (18pt with Glacial Core)"
+        },
+        {
+          "name": "Mass Cleanse",
+          "essences": [
+            "Essence of Flexibility",
+            "Essence of Reflex",
+            "Essence of Snow"
+          ],
+          "rationale": "Flexibility splits 37% of damage over 4 seconds while on cooldown (amazing tank passive), Reflex deals 120% Cold damage and grants 40 Armor when hit, Snow provides passive barrier + cold snowballs"
+        },
+        {
+          "name": "Beam of Light",
+          "essences": [
+            "Essence of Guidance",
+            "Essence of Rejuvenation",
+            "Essence of Voracity"
+          ],
+          "rationale": "Guidance converts excess healing to barriers, Rejuvenation empowers casts with 14% damage-to-healing, Voracity heals per attack for 5s - all feeding Glacial Core"
+        },
+        {
+          "name": "Starfall",
+          "essences": [
+            "Essence of Bleakness",
+            "Essence of Protection",
+            "Essence of Efficiency"
+          ],
+          "rationale": "Bleakness adds 50% damage to cold-slowed enemies (always active), Protection grants 40 Armor and Unstoppable, Efficiency reduces cooldowns by 26%"
+        }
+      ],
+      "constellation_tree": {
+        "destruction": [
+          "Hypothesis Formation (max level) - +15% Attack Speed (Aurena-specific)",
+          "Drawing a Conclusion (max level) - +9 Ability Power (Aurena-specific)",
+          "Aggressive Stance (max level) - +8 Attack Damage (common)"
+        ],
+        "life": [
+          "Autophagy (max level) - +35% healing given and received when Health <50% (Aurena-specific)",
+          "Feather Oil (max level) - +40 Armor when Health <40% (Aurena-specific)",
+          "Circulating Life (max level) - Heal nearby ally for 40% of your healing (Aurena-specific, CRITICAL)",
+          "Beautiful Plumage (max level) - +12 Armor (Aurena-specific)",
+          "Empowered Persistence (max level) - +120 Maximum Health (common)",
+          "Wicked Vitality (max level) - Basic Attacks restore 0.70% Max Health (common, feeds Glacial Core)",
+          "Regenerative Skin (max level) - +18% received Healing (common, amplifies cold conversion)",
+          "Stone Skin (max level) - +11 Armor (common)"
+        ],
+        "imagination": [
+          "Bizarre Spoils (max level) - 100% chance for random Essence from Mini Bosses (common)",
+          "Primordial Chaos (max level) - 20% chance for additional Chaos rewards (common)"
+        ],
+        "flexible": [
+          "Accelerating Light (max level) - Orb of Light grants 30% Attack Speed for 5s (Aurena-specific)"
+        ]
+      },
+      "strategy": "This is the most defensive Aurena build possible. Stand near allies absorbing hits. Every hit triggers Reflex (120% Cold + 40 Armor) automatically. Flexibility splits 37% of all incoming damage over 4 seconds while Mass Cleanse is on cooldown, smoothing burst damage. Snow provides passive barrier and fires cold snowballs. All healing from Clemency leech, Voracity, Rejuvenation, and Wicked Vitality converts to cold damage through Glacial Core (25pt synergy with Clemency). Frost adds cold damage equal to 10% max HP and permanently increases your HP pool (18pt with Glacial Core). Bleakness adds 50% damage to cold-slowed enemies - always active since everything you do applies cold. Protection adds 40 Armor and Unstoppable. Circulating Life shares 40% of your healing with allies. The build heals allies, applies cold to enemies, and retaliates automatically.",
+      "strengths": [
+        "Extremely hard to kill with Flexibility + Protection + Reflex + Snow",
+        "25pt Glacial Core + Clemency healing-to-cold loop",
+        "18pt Glacial Core + Frost infinite HP scaling",
+        "120% Cold retaliation through Reflex (underused essence)",
+        "37% damage smoothing through Flexibility (underused essence)",
+        "50% damage bonus to cold-slowed enemies always active",
+        "40% healing shared with allies via Circulating Life"
+      ],
+      "weaknesses": [
+        "Lower active damage than offensive builds",
+        "Requires allies to maximize support value",
+        "Slower clear speed solo",
+        "Less effective against cold-resistant enemies"
+      ]
+    }
+  ]
+}
