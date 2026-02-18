@@ -287,6 +287,8 @@ class CreateTab(ttk.Frame):
             self._schedule_update()
 
     def _update_add_btn(self):
+        if not hasattr(self, "_add_mem_btn"):
+            return
         if len(self._memory_slots) >= self.MAX_MEMORIES:
             self._add_mem_btn.configure(state="disabled")
         else:
@@ -319,7 +321,7 @@ class CreateTab(ttk.Frame):
 
         if not all_essences:
             self._syn_score_label.configure(text="Score: --")
-            self._syn_bar.update_score(0)
+            self._syn_bar.set_score(0)
             return
 
         syn_score = score_essence_set(all_essences)
@@ -329,7 +331,7 @@ class CreateTab(ttk.Frame):
             text=f"Score: {syn_score}  |  {len(synergies)} synergies found")
         # Approximate 0-100 scale (40 is max synergy component)
         bar_score = min(100, int(syn_score * 100 / 80))
-        self._syn_bar.update_score(bar_score)
+        self._syn_bar.set_score(bar_score)
 
         for s in synergies:
             pair_str = " + ".join(s["pair"])
